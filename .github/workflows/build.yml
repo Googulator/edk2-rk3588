@@ -1,4 +1,4 @@
-name: Build rk3399-edk2
+name: Build rk3588-edk2
 
 on:
   repository_dispatch:
