@@ -98,6 +98,8 @@ static const struct FLASH_INFO s_spiFlashbl[] = {
     { 0xc86017, 128, 8, 0x03, 0x02, 0x6B, 0x32, 0x20, 0xD8, 0x0D, 14, 9, 0 },
     /* GD25LQ32E */
     { 0xc86016, 128, 8, 0x03, 0x02, 0x6B, 0x32, 0x20, 0xD8, 0x0D, 13, 9, 0 },
+    /* GD25Q256E */
+    { 0xc86019, 128, 8, 0x03, 0x02, 0x6B, 0x32, 0x20, 0xD8, 0x0D, 16, 9, 0 },
 
     /* W25Q32JV */
     { 0xef4016, 128, 8, 0x03, 0x02, 0x6B, 0x32, 0x20, 0xD8, 0x0C, 13, 9, 0 },
@@ -204,7 +206,9 @@ static const struct FLASH_INFO s_spiFlashbl[] = {
     /* FM25M4AA */
     { 0xf84218, 128, 8, 0x03, 0x02, 0x6B, 0x32, 0x20, 0xD8, 0x0D, 15, 9, 0 },
 };
-
+STATIC struct HAL_FSPI_HOST *g_spi;
+STATIC struct SPI_NOR *g_nor;
+STATIC EFI_EVENT  mNorVirtualAddrChangeEvent;
 /* Support single line case
  * - id: get from SPI Nor device information
  * - capacity: initial by SPI Nor id byte
@@ -213,15 +217,6 @@ static const struct FLASH_INFO s_spiFlashbl[] = {
 static struct FLASH_INFO s_commonSpiFlash = { 0, 128, 8, 0x03, 0x02, 0x6B, 0x32, 0x20, 0xD8, 0x00, 0, 0, 0 };
 
 /********************* Private Function Definition ***************************/
-static RETURN_STATUS SNOR_SPIMemExecOp(struct SNOR_HOST *spi, struct HAL_SPI_MEM_OP *op)
-{
-    if (spi->xfer) {
-        return spi->xfer(spi, op);
-    } else {
-        return RETURN_UNSUPPORTED;
-    }
-}
-
 static RETURN_STATUS SNOR_ReadWriteReg(struct SPI_NOR *nor, struct HAL_SPI_MEM_OP *op, void *buf)
 {
     if (op->data.dir == HAL_SPI_MEM_DATA_IN) {
@@ -230,7 +225,7 @@ static RETURN_STATUS SNOR_ReadWriteReg(struct SPI_NOR *nor, struct HAL_SPI_MEM_O
         op->data.buf.out = buf;
     }
 
-    return SNOR_SPIMemExecOp(nor->spi, op);
+    return HAL_FSPI_SpiXfer(nor->spi, op);
 }
 
 static RETURN_STATUS SNOR_ReadReg(struct SPI_NOR *nor, UINT8 code, UINT8 *val, UINT32 len)
@@ -279,7 +274,7 @@ static INT32 SNOR_ReadData(struct SPI_NOR *nor, UINT32 from, UINT32 len, UINT8 *
     /* convert the dummy cycles to the number of bytes */
     op.dummy.nbytes = (nor->readDummy * op.dummy.buswidth) >> 3;
 
-    ret = SNOR_SPIMemExecOp(nor->spi, &op);
+    ret = HAL_FSPI_SpiXfer(nor->spi, &op);
     if (ret) {
         return 0;
     }
@@ -302,7 +297,7 @@ static INT32 SNOR_WriteData(struct SPI_NOR *nor, UINT32 to, UINT32 len, const UI
 
     op.data.nbytes = len < op.data.nbytes ? len : op.data.nbytes;
 
-    ret = SNOR_SPIMemExecOp(nor->spi, &op);
+    ret = HAL_FSPI_SpiXfer(nor->spi, &op);
     if (ret) {
         return 0;
     }
@@ -320,15 +315,11 @@ static RETURN_STATUS SNOR_EraseSec(struct SPI_NOR *nor, UINT32 addr)
                                                      HAL_SPI_MEM_OP_NO_DUMMY,
                                                      HAL_SPI_MEM_OP_NO_DATA);
 
-    if (nor->erase) {
-        return nor->erase(nor, addr);
-    }
-
     /*
      * Default implementation, if driver doesn't have a specialized HW
      * control
      */
-    return SNOR_SPIMemExecOp(nor->spi, &op);
+    return HAL_FSPI_SpiXfer(nor->spi, &op);
 }
 
 /*
@@ -341,15 +332,11 @@ static RETURN_STATUS SNOR_EraseBlk(struct SPI_NOR *nor, UINT32 addr)
                                                      HAL_SPI_MEM_OP_NO_DUMMY,
                                                      HAL_SPI_MEM_OP_NO_DATA);
 
-    if (nor->erase) {
-        return nor->erase(nor, addr);
-    }
-
     /*
      * Default implementation, if driver doesn't have a specialized HW
      * control
      */
-    return SNOR_SPIMemExecOp(nor->spi, &op);
+    return HAL_FSPI_SpiXfer(nor->spi, &op);
 }
 
 static RETURN_STATUS SNOR_EraseChip(struct SPI_NOR *nor, UINT32 addr)
@@ -358,16 +345,11 @@ static RETURN_STATUS SNOR_EraseChip(struct SPI_NOR *nor, UINT32 addr)
                                                      HAL_SPI_MEM_OP_NO_ADDR,
                                                      HAL_SPI_MEM_OP_NO_DUMMY,
                                                      HAL_SPI_MEM_OP_NO_DATA);
-
-    if (nor->erase) {
-        return nor->erase(nor, addr);
-    }
-
     /*
      * Default implementation, if driver doesn't have a specialized HW
      * control
      */
-    return SNOR_SPIMemExecOp(nor->spi, &op);
+    return HAL_FSPI_SpiXfer(nor->spi, &op);
 }
 
 static const struct FLASH_INFO *SNOR_GerFlashInfo(UINT8 *flashId)
@@ -386,7 +368,7 @@ static const struct FLASH_INFO *SNOR_GerFlashInfo(UINT8 *flashId)
 
 static RETURN_STATUS SNOR_WriteEnable(struct SPI_NOR *nor)
 {
-    return nor->writeReg(nor, SPINOR_OP_WREN, NULL, 0);
+    return SNOR_WriteReg(nor, SPINOR_OP_WREN, NULL, 0);
 }
 
 /*
@@ -401,7 +383,7 @@ static RETURN_STATUS SNOR_WaitBusy(struct SPI_NOR *nor, unsigned long timeout)
 
     /* DEBUG ((DEBUG_SNOR, "%s %lx\n", __func__, timeout)); */
     for (i = 0; i < timeout; i++) {
-        ret = nor->readReg(nor, SPINOR_OP_RDSR, &status, 1);
+        ret = SNOR_ReadReg(nor, SPINOR_OP_RDSR, &status, 1);
         if (ret != RETURN_SUCCESS) {
             return ret;
         }
@@ -426,7 +408,7 @@ static RETURN_STATUS SNOR_ReadStatus(struct SPI_NOR *nor, UINT32 regIndex, UINT8
         readStatCmd[1] = SPINOR_OP_RDCR;
     }
 
-    return nor->readReg(nor, readStatCmd[regIndex], status, 1);
+    return SNOR_ReadReg(nor, readStatCmd[regIndex], status, 1);
 }
 
 static RETURN_STATUS SNOR_WriteStatus(struct SPI_NOR *nor, UINT32 regIndex, UINT8 *status)
@@ -438,7 +420,7 @@ static RETURN_STATUS SNOR_WriteStatus(struct SPI_NOR *nor, UINT32 regIndex, UINT
     if (i == FEA_STATUE_MODE0) { /* Writestatus0 */
         SNOR_WriteEnable(nor);
 
-        ret = nor->writeReg(nor, WriteStatCmd[regIndex], status, 1);
+        ret = SNOR_WriteReg(nor, WriteStatCmd[regIndex], status, 1);
         if (ret) {
             DEBUG ((DEBUG_SNOR, "error while writing configuration register\n"));
 
@@ -463,7 +445,7 @@ static RETURN_STATUS SNOR_WriteStatus(struct SPI_NOR *nor, UINT32 regIndex, UINT
         }
 
         SNOR_WriteEnable(nor);
-        ret = nor->writeReg(nor, SPINOR_OP_WRSR, &status2[0], 2);
+        ret = SNOR_WriteReg(nor, SPINOR_OP_WRSR, &status2[0], 2);
         if (ret != RETURN_SUCCESS) {
             return ret;
         }
@@ -501,7 +483,7 @@ static RETURN_STATUS SNOR_EnableQE(struct SPI_NOR *nor)
 /* Enable/disable 4-byte addressing mode. */
 static RETURN_STATUS SNOR_Enter4byte(struct SPI_NOR *nor)
 {
-    return nor->writeReg(nor, SPINOR_OP_EN4B, NULL, 0);
+    return SNOR_WriteReg(nor, SPINOR_OP_EN4B, NULL, 0);
 }
 
 RETURN_STATUS SNOR_ReadSFDP(struct SPI_NOR *nor, UINT32 addr, UINT8 *data)
@@ -511,7 +493,7 @@ RETURN_STATUS SNOR_ReadSFDP(struct SPI_NOR *nor, UINT32 addr, UINT8 *data)
                                                      HAL_SPI_MEM_OP_DUMMY(1, 1),
                                                      HAL_SPI_MEM_OP_DATA_IN(1, data, 1));
 
-    return SNOR_SPIMemExecOp(nor->spi, &op);
+    return HAL_FSPI_SpiXfer(nor->spi, &op);
 }
 
 static void *SNOR_InfoAdjust(struct SPI_NOR *nor, struct FLASH_INFO *info)
@@ -552,7 +534,7 @@ RETURN_STATUS HAL_SNOR_ReadData(struct SPI_NOR *nor, UINT32 from, void *buf, UIN
 
     while (remain) {
         size = MIN(READ_MAX_IOSIZE, remain);
-        ret = nor->read(nor, from, size, pBuf);
+        ret = SNOR_ReadData(nor, from, size, pBuf);
         if (ret != (RETURN_STATUS)size) {
             DEBUG ((DEBUG_SNOR, "%s %lu ret= %ld\n", __func__, from >> 9, ret));
 
@@ -589,7 +571,7 @@ RETURN_STATUS HAL_SNOR_ProgData(struct SPI_NOR *nor, UINT32 to, void *buf, UINT3
         pageOffset = to & (nor->pageSize - 1);
         size = MIN(nor->pageSize - pageOffset, remain);
         SNOR_WriteEnable(nor);
-        ret = nor->write(nor, to, size, pBuf);
+        ret = SNOR_WriteData(nor, to, size, pBuf);
         if (ret != (RETURN_STATUS)size) {
             DEBUG ((DEBUG_SNOR, "%s %lu ret= %ld\n", __func__, to >> 9, ret));
 
@@ -615,7 +597,7 @@ RETURN_STATUS HAL_SNOR_Erase(struct SPI_NOR *nor, UINT32 addr, NOR_ERASE_TYPE er
 {
     RETURN_STATUS ret;
     INT32 timeout[] = { 400, 2000, 40000 };
-
+    return 0;
     /* DEBUG ((DEBUG_SNOR, "%s addr %lx\n", __func__, addr)); */
     if (addr >= nor->size) {
         return RETURN_DEVICE_ERROR;
@@ -668,6 +650,7 @@ RETURN_STATUS HAL_SNOR_Read(struct SPI_NOR *nor, UINT32 sec, UINT32 nSec, void *
 RETURN_STATUS HAL_SNOR_Write(struct SPI_NOR *nor, UINT32 sec, UINT32 nSec, void *pData)
 {
     RETURN_STATUS ret = RETURN_SUCCESS;
+    return 0;
 
     /* DEBUG ((DEBUG_SNOR, "%s sec 0x%08lx, nSec %lx\n", __func__, sec, nSec)); */
     ret = HAL_SNOR_ProgData(nor, sec * nor->sectorSize, pData, nSec * nor->sectorSize);
@@ -691,6 +674,7 @@ RETURN_STATUS HAL_SNOR_OverWrite(struct SPI_NOR *nor, UINT32 sec, UINT32 nSec, v
     RETURN_STATUS ret = RETURN_SUCCESS;
     UINT8 *pBuf = (UINT8 *)pData;
     UINT32 remaining = nSec;
+    return 0;
 
     /* DEBUG ((DEBUG_SNOR, "%s sec 0x%08lx, nSec %lx\n", __func__, sec, nSec)); */
     while (remaining) {
@@ -739,10 +723,10 @@ RETURN_STATUS HAL_SNOR_Init(struct SPI_NOR *nor)
 
         return RETURN_DEVICE_ERROR;
     }
-    nor->read = SNOR_ReadData;
-    nor->write = SNOR_WriteData;
-    nor->readReg = SNOR_ReadReg;
-    nor->writeReg = SNOR_WriteReg;
+    //nor->read = SNOR_ReadData;
+    //nor->write = SNOR_WriteData;
+    //nor->readReg = SNOR_ReadReg;
+    //nor->writeReg = SNOR_WriteReg;
 
     HAL_SNOR_ReadID(nor, idByte);
     DEBUG ((DEBUG_SNOR, "SPI Nor ID: %x %x %x\n", idByte[0], idByte[1], idByte[2]));
@@ -774,7 +758,7 @@ RETURN_STATUS HAL_SNOR_Init(struct SPI_NOR *nor)
     nor->readDummy = 0;
     nor->programOpcode = info->progCmd;
     nor->writeProto = SNOR_PROTO_1_1_1;
-    nor->name = "spi-nor";
+    //nor->name = "spi-nor";
     nor->sectorSize = info->sectorSize * 512;
     nor->size = 1 << (info->density + 9);
     nor->eraseSize = nor->sectorSize;
@@ -863,7 +847,7 @@ RETURN_STATUS HAL_SNOR_ReadID(struct SPI_NOR *nor, UINT8 *data)
     INT32 ret;
     UINT8 *id = data;
 
-    ret = nor->readReg(nor, SPINOR_OP_RDID, id, 3);
+    ret = SNOR_ReadReg(nor, SPINOR_OP_RDID, id, 3);
     if (ret) {
         DEBUG ((DEBUG_SNOR, "error reading JEDEC ID%x %x %x\n", id[0], id[1], id[2]));
 
@@ -909,22 +893,10 @@ RETURN_STATUS HAL_SNOR_ReadUUID(struct SPI_NOR *nor, void *buf)
                                                      HAL_SPI_MEM_OP_DUMMY(0, 1),
                                                      HAL_SPI_MEM_OP_DATA_IN(8, buf, 1));
 
-    return SNOR_SPIMemExecOp(nor->spi, &op);
+    return HAL_FSPI_SpiXfer(nor->spi, &op);
 }
 
-static struct HAL_FSPI_HOST g_fspi0Dev;
-static struct SPI_NOR g_nor;
-static struct SNOR_HOST g_spi;
 
-static RETURN_STATUS SPI_Xfer(struct SNOR_HOST *spi, struct HAL_SPI_MEM_OP *op)
-{
-    struct HAL_FSPI_HOST *host = (struct HAL_FSPI_HOST *)spi->userdata;
-
-    host->mode = spi->mode;
-    host->cs = 0;
-
-    return HAL_FSPI_SpiXfer(host, op);
-}
 
 EFI_STATUS Erase(
    IN UNI_NOR_FLASH_PROTOCOL   *This,
@@ -932,10 +904,11 @@ EFI_STATUS Erase(
    IN  UINT32                   Length
   )
 {
+#if 1
   EFI_STATUS Status;
   UINTN EraseSize;
 
-  EraseSize = g_nor.sectorSize;
+  EraseSize = g_nor->sectorSize;
 
   // Check input parameters
   if (Offset % EraseSize || Length % EraseSize) {
@@ -944,7 +917,7 @@ EFI_STATUS Erase(
   }
 
   while (Length) {
-    Status = HAL_SNOR_Erase(&g_nor, Offset, ERASE_SECTOR);
+    Status = HAL_SNOR_Erase(g_nor, Offset, ERASE_SECTOR);
     if (EFI_ERROR (Status)) {
       DEBUG((DEBUG_ERROR, "SpiFlash: Error while erase target address\n"));
       return Status;
@@ -952,8 +925,15 @@ EFI_STATUS Erase(
     Offset += EraseSize;
     Length -= EraseSize;
   }
-
+#endif
   return EFI_SUCCESS;
+}
+
+UINT32 GetSize(
+    IN UNI_NOR_FLASH_PROTOCOL   *This
+    )
+{
+  return HAL_SNOR_GetCapacity(g_nor);
 }
 
 EFI_STATUS  Write(
@@ -964,9 +944,8 @@ EFI_STATUS  Write(
   )
 {
   EFI_STATUS Status = EFI_SUCCESS;
-  DEBUG ((EFI_D_ERROR, "[%a]:[%dL]: %x!......................\n", __FUNCTION__,__LINE__,Offset));
-
-  Status = HAL_SNOR_ProgData(&g_nor, Offset, Buffer, ulLength);
+  //DEBUG ((EFI_D_ERROR, "[%a]:[%dL]: %x!......................\n", __FUNCTION__,__LINE__,Offset));
+  Status = HAL_SNOR_ProgData(g_nor, Offset, Buffer, ulLength);
   if (EFI_ERROR (Status)) {
     DEBUG((DEBUG_ERROR, "SpiFlash: Error while programming target address\n"));
   }
@@ -981,10 +960,8 @@ EFI_STATUS Read(
   )
 {
   EFI_STATUS Status = EFI_SUCCESS;
-  DEBUG ((EFI_D_ERROR, "[%a]:[%dL]: %x!......................\n", __FUNCTION__,__LINE__,Offset));
-  
-  Status = HAL_SNOR_ReadData(&g_nor, Offset, Buffer, ulLen);
-
+  //DEBUG ((EFI_D_ERROR, "[%a]:[%dL]: %x!......................\n", __FUNCTION__,__LINE__,Offset));
+  Status = HAL_SNOR_ReadData(g_nor, Offset, Buffer, ulLen);
   return Status;
 }
 
@@ -999,18 +976,19 @@ SpiFlashUpdateBlock (
   IN UINTN EraseSize
   )
 {
+
   EFI_STATUS Status;
 
   // Read backup
   if (ToUpdate != EraseSize) {
-    Status = HAL_SNOR_ReadData (&g_nor, Offset - Align, TmpBuf, EraseSize);
+    Status = HAL_SNOR_ReadData (g_nor, Offset - Align, TmpBuf, EraseSize);
       if (EFI_ERROR (Status)) {
         DEBUG((DEBUG_ERROR, "SpiFlash: Update: Error while reading old data\n"));
         return Status;
       }
   }
   // Erase entire sector
-  Status = HAL_SNOR_Erase (&g_nor, Offset, ERASE_SECTOR);
+  Status = HAL_SNOR_Erase (g_nor, Offset, ERASE_SECTOR);
   if (EFI_ERROR (Status)) {
       DEBUG((DEBUG_ERROR, "SpiFlash: Update: Error while erasing block\n"));
       return Status;
@@ -1018,7 +996,7 @@ SpiFlashUpdateBlock (
 
   if (Align) {
     memcpy(&TmpBuf[Align], Buf, ToUpdate);
-    Status = HAL_SNOR_ProgData (&g_nor, Offset - Align, TmpBuf, EraseSize);
+    Status = HAL_SNOR_ProgData (g_nor, Offset - Align, TmpBuf, EraseSize);
     if (EFI_ERROR (Status)) {
       DEBUG((DEBUG_ERROR, "SpiFlash: Update: Error while writing new data\n"));
       return Status;
@@ -1027,7 +1005,7 @@ SpiFlashUpdateBlock (
   }
 
   // Write new data
-  Status = HAL_SNOR_ProgData (&g_nor, Offset, Buf, ToUpdate);
+  Status = HAL_SNOR_ProgData (g_nor, Offset, Buf, ToUpdate);
   if (EFI_ERROR (Status)) {
       DEBUG((DEBUG_ERROR, "SpiFlash: Update: Error while writing new data\n"));
       return Status;
@@ -1035,7 +1013,7 @@ SpiFlashUpdateBlock (
 
   // Write backup
   if (ToUpdate != EraseSize) {
-    Status = HAL_SNOR_ProgData (&g_nor, Offset + ToUpdate, &TmpBuf[ToUpdate], EraseSize - ToUpdate);
+    Status = HAL_SNOR_ProgData (g_nor, Offset + ToUpdate, &TmpBuf[ToUpdate], EraseSize - ToUpdate);
     if (EFI_ERROR (Status)) {
       DEBUG((DEBUG_ERROR, "SpiFlash: Update: Error while writing backup\n"));
       return Status;
@@ -1055,10 +1033,9 @@ EFI_STATUS  Update(
   EFI_STATUS Status = EFI_SUCCESS;
   UINT64 SectorSize, ToUpdate, Align, Scale = 1;
   UINT8 *TmpBuf, *End;
+  //DEBUG ((EFI_D_ERROR, "[%a]:%x %x!......................\n", __FUNCTION__, Offset, ulLength));
 
-  DEBUG ((EFI_D_ERROR, "[%a]:%x %x!......................\n", __FUNCTION__, Offset, ulLength));
-
-  SectorSize = g_nor.sectorSize;
+  SectorSize = g_nor->sectorSize;
   Align = Offset & (SectorSize -1);
   End = Buffer + ulLength;
 
@@ -1089,6 +1066,7 @@ EFI_STATUS  Update(
 }
 
 UNI_NOR_FLASH_PROTOCOL gUniNorFlash = {
+    GetSize,
     Erase,
     Write,
     Read,
@@ -1109,22 +1087,22 @@ static RETURN_STATUS SNOR_STRESS_RANDOM_TEST(UINT32 testEndLBA)
 
     DEBUG ((EFI_D_ERROR, "---------%s %lx---------\n", __func__, testEndLBA));
     DEBUG ((EFI_D_ERROR, "---------%s---------\n", __func__));
-    for (j = 0; j < testSecCount * (UINT32)g_nor.sectorSize / 4; j++)
+    for (j = 0; j < testSecCount * (UINT32)g_nor->sectorSize / 4; j++)
       pwrite32[j] = j + (0xFFFF0000 - j);
 
     for (testCount = 0; testCount < testEndLBA;) {
         testLBA = testCount;
         pwrite32[0] = testLBA;
-        ret = HAL_SNOR_OverWrite(&g_nor, testLBA, testSecCount, pwrite32);
+        ret = HAL_SNOR_OverWrite(g_nor, testLBA, testSecCount, pwrite32);
         if (ret != testSecCount) {
             return RETURN_DEVICE_ERROR;
         }
         pread32[0] = -1;
-        ret = HAL_SNOR_Read(&g_nor, testLBA, testSecCount, pread32);
+        ret = HAL_SNOR_Read(g_nor, testLBA, testSecCount, pread32);
         if (ret != testSecCount) {
             return RETURN_DEVICE_ERROR;
         }
-        for (j = 0; j < testSecCount * (UINT32)g_nor.sectorSize / 4; j++) {
+        for (j = 0; j < testSecCount * (UINT32)g_nor->sectorSize / 4; j++) {
             if (pwrite32[j] != pread32[j]) {
                 DEBUG ((EFI_D_ERROR, 
                     "check not match:row=%lx, num=%lx, write=%lx, read=%lx %lx %lx %lx\n",
@@ -1143,6 +1121,32 @@ static RETURN_STATUS SNOR_STRESS_RANDOM_TEST(UINT32 testEndLBA)
 }
 #endif
 
+/**
+  Fixup internal data so that EFI can be call in virtual mode.
+  Call the passed in Child Notify event and convert any pointers in
+  lib to virtual mode.
+
+  @param[in]    Event   The Event that is being processed
+  @param[in]    Context Event Context
+**/
+STATIC
+VOID
+EFIAPI
+NorVirtualNotifyEvent (
+  IN EFI_EVENT        Event,
+  IN VOID             *Context
+  )
+{
+  // Convert SPI device description
+  EfiConvertPointer (0, (VOID**)&g_nor->spi->instance);
+  EfiConvertPointer (0, (VOID**)&g_nor->spi);
+  EfiConvertPointer (0, (VOID**)&g_nor->info);
+  EfiConvertPointer (0, (VOID**)&g_nor);
+
+  return;
+}
+
+
 EFI_STATUS
 EFIAPI InitializeFlash (
   IN EFI_HANDLE         ImageHandle,
@@ -1150,19 +1154,24 @@ EFIAPI InitializeFlash (
 {
   EFI_STATUS Status = RETURN_SUCCESS;
 
-  g_fspi0Dev.instance = (struct FSPI_REG *)FixedPcdGet32(FspiBaseAddr);
+  g_spi = AllocateRuntimeZeroPool (sizeof (struct HAL_FSPI_HOST));
+  g_nor = AllocateRuntimeZeroPool (sizeof (struct SPI_NOR));
+  if (g_spi == NULL || g_nor == NULL) {
+    DEBUG ((DEBUG_ERROR, "%a: Cannot allocate memory\n", __FUNCTION__));
+    return EFI_OUT_OF_RESOURCES;
+  }
+
+  memset(g_spi, 0, sizeof(struct HAL_FSPI_HOST));
+  memset(g_nor, 0, sizeof(struct SPI_NOR));
+
+  g_spi->instance = (struct FSPI_REG *)FixedPcdGet32(FspiBaseAddr);
 
   NorFspiIomux();
-
-  HAL_FSPI_Init(&g_fspi0Dev);
-  memset(&g_spi, 0, sizeof(struct SNOR_HOST));
-  memset(&g_nor, 0, sizeof(struct SPI_NOR));
-  g_nor.spi = &g_spi;
-  g_nor.spi->userdata = (void *)&g_fspi0Dev;
-  g_nor.spi->mode = HAL_SPI_MODE_3;
-  g_nor.spi->xfer = SPI_Xfer;
-  g_nor.spi->mode |= (HAL_SPI_TX_QUAD | HAL_SPI_RX_QUAD);
-  Status = HAL_SNOR_Init(&g_nor);
+  HAL_FSPI_Init(g_spi);
+  g_nor->spi = g_spi;
+  g_nor->spi->mode = HAL_SPI_MODE_3;
+  g_nor->spi->mode |= (HAL_SPI_TX_QUAD | HAL_SPI_RX_QUAD);
+  Status = HAL_SNOR_Init(g_nor);
 
   Status = gBS->InstallProtocolInterface (
                             &ImageHandle,
@@ -1174,6 +1183,26 @@ EFIAPI InitializeFlash (
     DEBUG ((EFI_D_ERROR, "[%a]:[%dL]:Install Protocol Interface %r!\n", __FUNCTION__,__LINE__,Status));
   }
 
-  return Status;
-}
+  Status = gBS->CreateEventEx (EVT_NOTIFY_SIGNAL,
+                  TPL_NOTIFY,
+                  NorVirtualNotifyEvent,
+                  NULL,
+                  &gEfiEventVirtualAddressChangeGuid,
+                  &mNorVirtualAddrChangeEvent);
+  if (EFI_ERROR (Status)) {
+    DEBUG ((DEBUG_ERROR, "%a: Failed to register VA change event\n", __FUNCTION__));
+    goto ErrorSetMemAttr;
+  }
 
+  return Status;
+ErrorSetMemAttr:
+  gBS->UninstallProtocolInterface (gImageHandle,
+         &gUniNorFlashProtocolGuid,
+         NULL);
+
+  FreePool (g_nor);
+  FreePool (g_spi);
+
+  return Status;
+  
+}

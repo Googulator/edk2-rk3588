@@ -1,0 +1,8 @@
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Drivers/DtPlatformDxe/DtPlatformDxe/DEBUG/DtPlatformHii.c:  /home/daijh/sdk/rk3588/uefi/edk2/EmbeddedPkg/Drivers/DtPlatformDxe/DtPlatformHii.vfr \
+ /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Drivers/DtPlatformDxe/DtPlatformDxe/DEBUG/DtPlatformDxeStrDefs.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/EmbeddedPkg/Drivers/DtPlatformDxe/DtPlatformDxe.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Guid/HiiPlatformSetupFormset.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/EmbeddedPkg/Include/Guid/DtPlatformFormSet.h
+
+# Updated 

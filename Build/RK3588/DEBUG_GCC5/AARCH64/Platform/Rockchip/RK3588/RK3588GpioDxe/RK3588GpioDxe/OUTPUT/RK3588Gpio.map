@@ -1,0 +1,561 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Platform/Rockchip/RK3588/RK3588GpioDxe/RK3588GpioDxe/OUTPUT/RK3588Gpio.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Platform/Rockchip/RK3588/RK3588GpioDxe/RK3588GpioDxe/OUTPUT/RK3588Gpio.lib(RK3588GpioDxe.obj)
+                              AutoGen.obj (symbol from plugin) (RK3588GpioEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              CpuDeadLoop.obj (symbol from plugin) (CpuPause)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              SetMemWrapper.obj (symbol from plugin) (InternalMemSetMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              DebugLib.obj (symbol from plugin) (AsciiStrLen)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              String.obj (symbol from plugin) (StrDecimalToUintnS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (LShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              DebugLib.obj (symbol from plugin) (AsciiVSPrint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib(SerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              SafeString.obj (symbol from plugin) (CopyGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              SafeString.obj (symbol from plugin) (ZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              SafeString.obj (symbol from plugin) (CopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib(UartLib.obj)
+                              SerialPortLib.obj (symbol from plugin) (UartInitializePort)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              UartLib.obj (symbol from plugin) (MmioRead32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              IoLibNoIo.obj (symbol from plugin) (FilterBeforeMmIoRead)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000000000       0x20 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x0000000000000000       0x2e /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000000000       0x40 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .data.__stack_chk_guard
+                0x0000000000000000        0x8 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/ccqAbiM4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqAbiM4.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc2in4Ft.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2in4Ft.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccasgEa4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccasgEa4.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccmx47xA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmx47xA.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc7Q6vbW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7Q6vbW.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccmkQNqJ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmkQNqJ.debug.temp.o
+ .debug_info    0x0000000000000000       0x96 /tmp/cc6rxpoV.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5c /tmp/cc6rxpoV.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/cc6rxpoV.debug.temp.o
+ .debug_str     0x0000000000000000      0x282 /tmp/cc6rxpoV.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc6rxpoV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6rxpoV.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccqD4uMH.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqD4uMH.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccN7sDX1.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccN7sDX1.debug.temp.o
+ .debug_info    0x0000000000000000      0x108 /tmp/ccxLoYmf.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x73 /tmp/ccxLoYmf.debug.temp.o
+ .debug_line    0x0000000000000000       0xc0 /tmp/ccxLoYmf.debug.temp.o
+ .debug_str     0x0000000000000000      0x2ce /tmp/ccxLoYmf.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccxLoYmf.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxLoYmf.debug.temp.o
+ .debug_info    0x0000000000000000       0xbb /tmp/ccM00nzA.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5e /tmp/ccM00nzA.debug.temp.o
+ .debug_line    0x0000000000000000       0xc2 /tmp/ccM00nzA.debug.temp.o
+ .debug_str     0x0000000000000000      0x2bd /tmp/ccM00nzA.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccM00nzA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccM00nzA.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccDZuz2i.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDZuz2i.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccY8pv6a.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccY8pv6a.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/cc1RvXcN.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/cc1RvXcN.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/cc1RvXcN.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/cc1RvXcN.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc1RvXcN.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1RvXcN.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/ccjO5APs.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccjO5APs.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccjO5APs.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/ccjO5APs.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccjO5APs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjO5APs.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccT8aQoq.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccT8aQoq.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccT8aQoq.debug.temp.o
+ .debug_str     0x0000000000000000      0x28e /tmp/ccT8aQoq.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccT8aQoq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccT8aQoq.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccJDAEDy.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/ccJDAEDy.debug.temp.o
+ .debug_line    0x0000000000000000       0xb1 /tmp/ccJDAEDy.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/ccJDAEDy.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccJDAEDy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJDAEDy.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/cca5jGtC.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/cca5jGtC.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/cca5jGtC.debug.temp.o
+ .debug_str     0x0000000000000000      0x28e /tmp/cca5jGtC.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cca5jGtC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cca5jGtC.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccjA8Ib7.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccjA8Ib7.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccjA8Ib7.debug.temp.o
+ .debug_str     0x0000000000000000      0x292 /tmp/ccjA8Ib7.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccjA8Ib7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjA8Ib7.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc2jALpC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2jALpC.debug.temp.o
+ .debug_info    0x0000000000000000       0xb6 /tmp/ccl7g0ps.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x86 /tmp/ccl7g0ps.debug.temp.o
+ .debug_line    0x0000000000000000      0x16c /tmp/ccl7g0ps.debug.temp.o
+ .debug_str     0x0000000000000000      0x324 /tmp/ccl7g0ps.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccl7g0ps.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccl7g0ps.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccdZx7eY.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccdZx7eY.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cctER7fo.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctER7fo.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccPHhG6W.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPHhG6W.debug.temp.o
+ .debug_info    0x0000000000000000      0x1d0 /tmp/ccD8Rj6e.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb6 /tmp/ccD8Rj6e.debug.temp.o
+ .debug_line    0x0000000000000000       0xfb /tmp/ccD8Rj6e.debug.temp.o
+ .debug_str     0x0000000000000000      0x33b /tmp/ccD8Rj6e.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccD8Rj6e.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccD8Rj6e.debug.temp.o
+ .debug_info    0x0000000000000000       0xaf /tmp/ccmH5ca3.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5e /tmp/ccmH5ca3.debug.temp.o
+ .debug_line    0x0000000000000000       0xc1 /tmp/ccmH5ca3.debug.temp.o
+ .debug_str     0x0000000000000000      0x2b5 /tmp/ccmH5ca3.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccmH5ca3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmH5ca3.debug.temp.o
+ .debug_info    0x0000000000000000       0xc6 /tmp/ccu2Hego.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x6e /tmp/ccu2Hego.debug.temp.o
+ .debug_line    0x0000000000000000       0xc1 /tmp/ccu2Hego.debug.temp.o
+ .debug_str     0x0000000000000000      0x2cd /tmp/ccu2Hego.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccu2Hego.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccu2Hego.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc8HacRn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8HacRn.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccvlosb4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvlosb4.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccKu5tBk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKu5tBk.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccRK8jZB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRK8jZB.debug.temp.o
+ .debug_info    0x0000000000000000      0x302 /tmp/ccJD7l0I.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xcd /tmp/ccJD7l0I.debug.temp.o
+ .debug_line    0x0000000000000000      0x119 /tmp/ccJD7l0I.debug.temp.o
+ .debug_str     0x0000000000000000      0x40b /tmp/ccJD7l0I.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccJD7l0I.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJD7l0I.debug.temp.o
+ .text          0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .text          0x0000000000000000      0x200 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .text          0x0000000000000000      0x218 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .text          0x0000000000000000       0x20 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+LOAD /tmp/ccqAbiM4.debug.temp.o
+LOAD /tmp/cc2in4Ft.debug.temp.o
+LOAD /tmp/ccasgEa4.debug.temp.o
+LOAD /tmp/ccmx47xA.debug.temp.o
+LOAD /tmp/cc7Q6vbW.debug.temp.o
+LOAD /tmp/ccmkQNqJ.debug.temp.o
+LOAD /tmp/cc6rxpoV.debug.temp.o
+LOAD /tmp/ccqD4uMH.debug.temp.o
+LOAD /tmp/ccN7sDX1.debug.temp.o
+LOAD /tmp/ccxLoYmf.debug.temp.o
+LOAD /tmp/ccM00nzA.debug.temp.o
+LOAD /tmp/ccDZuz2i.debug.temp.o
+LOAD /tmp/ccY8pv6a.debug.temp.o
+LOAD /tmp/cc1RvXcN.debug.temp.o
+LOAD /tmp/ccjO5APs.debug.temp.o
+LOAD /tmp/ccT8aQoq.debug.temp.o
+LOAD /tmp/ccJDAEDy.debug.temp.o
+LOAD /tmp/cca5jGtC.debug.temp.o
+LOAD /tmp/ccjA8Ib7.debug.temp.o
+LOAD /tmp/cc2jALpC.debug.temp.o
+LOAD /tmp/ccl7g0ps.debug.temp.o
+LOAD /tmp/ccdZx7eY.debug.temp.o
+LOAD /tmp/cctER7fo.debug.temp.o
+LOAD /tmp/ccPHhG6W.debug.temp.o
+LOAD /tmp/ccD8Rj6e.debug.temp.o
+LOAD /tmp/ccmH5ca3.debug.temp.o
+LOAD /tmp/ccu2Hego.debug.temp.o
+LOAD /tmp/cc8HacRn.debug.temp.o
+LOAD /tmp/ccvlosb4.debug.temp.o
+LOAD /tmp/ccKu5tBk.debug.temp.o
+LOAD /tmp/ccRK8jZB.debug.temp.o
+LOAD /tmp/ccJD7l0I.debug.temp.o
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Platform/Rockchip/RK3588/RK3588GpioDxe/RK3588GpioDxe/OUTPUT/RK3588Gpio.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000001000     0x1896
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.DebugPrintLevelEnabled.constprop.0
+                0x0000000000001000        0x8 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x0000000000001008        0x8 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x0000000000001010        0x8 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x0000000000001018       0x3c /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x0000000000001054       0x34 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000001088      0xbbc /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x0000000000001c44       0x64 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x0000000000001ca8       0x4c /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000001cf4       0x74 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x0000000000001d68       0x5c /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.MmioRead32
+                0x0000000000001dc4        0x8 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.MmioWrite32.isra.0
+                0x0000000000001dcc        0x8 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x0000000000001dd4       0xcc /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.UartWrite.constprop.0.isra.0
+                0x0000000000001ea0       0x4c /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.DebugPrint.constprop.0
+                0x0000000000001eec       0x84 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000001f70       0x54 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .text._ModuleEntryPoint
+                0x0000000000001fc4      0x138 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+                0x0000000000001fc4                _ModuleEntryPoint
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x00000000000020fc      0x197 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ *fill*         0x0000000000002293        0x1 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000002294       0x5e /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .rodata.AsciiSPrint.constprop.0.str1.1
+                0x00000000000022f2       0x18 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .rodata.DebugAssert.str1.1
+                0x000000000000230a        0xb /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000002315       0x79 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .rodata.ReadUnaligned16.str1.1
+                0x000000000000238e       0x48 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x00000000000023d6      0x165 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x000000000000253b      0x2b5 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x00000000000027f0       0x10 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x0000000000002800       0x96 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ *(.got .got.*)
+ *:AutoGen.obj(.data.g*Guid)
+
+.data           0x0000000000003000       0xb8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.gGpioDevice
+                0x0000000000003000       0x78 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .data.gPlatformGpioDevice
+                0x0000000000003078       0x18 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .data.gPlatformGpioProtocolGuid
+                0x0000000000003090       0x10 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.gBS       0x00000000000030a0        0x8 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x00000000000030a8        0x8 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .bss.gST       0x00000000000030b0        0x8 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+
+.eh_frame
+ *(.eh_frame)
+
+.rela
+ *(.rela .rela.*)
+
+.hii
+ *(.hii)
+
+.build-id
+ *(.note.gnu.build-id)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Platform/Rockchip/RK3588/RK3588GpioDxe/RK3588GpioDxe/DEBUG/RK3588Gpio.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0xb1ee
+ .debug_info    0x0000000000000000     0x146c /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .debug_info    0x000000000000146c     0x191f /tmp/ccqAbiM4.debug.temp.o
+                0x000000000000146c                DriverEntryPoint.c.6ad2c6b6
+ .debug_info    0x0000000000002d8b      0x100 /tmp/cc2in4Ft.debug.temp.o
+                0x0000000000002d8b                memcpy.c.124218b3
+ .debug_info    0x0000000000002e8b       0xb1 /tmp/ccasgEa4.debug.temp.o
+                0x0000000000002e8b                memset.c.fe78e419
+ .debug_info    0x0000000000002f3c       0xb0 /tmp/ccmx47xA.debug.temp.o
+                0x0000000000002f3c                BaseStackCheckGcc.c.4b3a57a0
+ .debug_info    0x0000000000002fec     0x1aae /tmp/cc7Q6vbW.debug.temp.o
+                0x0000000000002fec                AutoGen.c.aa1b6c79
+ .debug_info    0x0000000000004a9a     0x188a /tmp/ccmkQNqJ.debug.temp.o
+                0x0000000000004a9a                RK3588GpioDxe.c.26a8e7dc
+ .debug_info    0x0000000000006324      0x32b /tmp/ccqD4uMH.debug.temp.o
+                0x0000000000006324                DebugLib.c.b228dbcd
+ .debug_info    0x000000000000664f     0x17cd /tmp/ccN7sDX1.debug.temp.o
+                0x000000000000664f                UefiBootServicesTableLib.c.40f3e47d
+ .debug_info    0x0000000000007e1c      0x711 /tmp/ccDZuz2i.debug.temp.o
+                0x0000000000007e1c                String.c.8e83c025
+ .debug_info    0x000000000000852d      0xf83 /tmp/ccY8pv6a.debug.temp.o
+                0x000000000000852d                SafeString.c.1b674302
+ .debug_info    0x00000000000094b0      0x30e /tmp/cc2jALpC.debug.temp.o
+                0x00000000000094b0                Math64.c.df2e98ae
+ .debug_info    0x00000000000097be      0x5ad /tmp/ccdZx7eY.debug.temp.o
+                0x00000000000097be                PrintLib.c.b75a7535
+ .debug_info    0x0000000000009d6b      0x753 /tmp/cctER7fo.debug.temp.o
+                0x0000000000009d6b                PrintLibInternal.c.b254bcc3
+ .debug_info    0x000000000000a4be      0x277 /tmp/ccPHhG6W.debug.temp.o
+                0x000000000000a4be                SerialPortLib.c.bf19079b
+ .debug_info    0x000000000000a735       0xc3 /tmp/cc8HacRn.debug.temp.o
+                0x000000000000a735                DivU64x32Remainder.c.99a75392
+ .debug_info    0x000000000000a7f8      0x238 /tmp/ccvlosb4.debug.temp.o
+                0x000000000000a7f8                Unaligned.c.a40271e9
+ .debug_info    0x000000000000aa30      0x2d3 /tmp/ccKu5tBk.debug.temp.o
+                0x000000000000aa30                UartLib.c.db43ab4c
+ .debug_info    0x000000000000ad03      0x4eb /tmp/ccRK8jZB.debug.temp.o
+                0x000000000000ad03                IoLibNoIo.c.373e17b9
+
+.debug_abbrev   0x0000000000000000     0x14fd
+ .debug_abbrev  0x0000000000000000      0x1c6 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000001c6      0x1d1 /tmp/ccqAbiM4.debug.temp.o
+ .debug_abbrev  0x0000000000000397       0xa4 /tmp/cc2in4Ft.debug.temp.o
+ .debug_abbrev  0x000000000000043b       0x76 /tmp/ccasgEa4.debug.temp.o
+ .debug_abbrev  0x00000000000004b1       0x87 /tmp/ccmx47xA.debug.temp.o
+ .debug_abbrev  0x0000000000000538      0x245 /tmp/cc7Q6vbW.debug.temp.o
+ .debug_abbrev  0x000000000000077d      0x1cd /tmp/ccmkQNqJ.debug.temp.o
+ .debug_abbrev  0x000000000000094a      0x12d /tmp/ccqD4uMH.debug.temp.o
+ .debug_abbrev  0x0000000000000a77      0x1c5 /tmp/ccN7sDX1.debug.temp.o
+ .debug_abbrev  0x0000000000000c3c      0x101 /tmp/ccDZuz2i.debug.temp.o
+ .debug_abbrev  0x0000000000000d3d      0x133 /tmp/ccY8pv6a.debug.temp.o
+ .debug_abbrev  0x0000000000000e70       0xa8 /tmp/cc2jALpC.debug.temp.o
+ .debug_abbrev  0x0000000000000f18      0x106 /tmp/ccdZx7eY.debug.temp.o
+ .debug_abbrev  0x000000000000101e      0x15c /tmp/cctER7fo.debug.temp.o
+ .debug_abbrev  0x000000000000117a       0xc2 /tmp/ccPHhG6W.debug.temp.o
+ .debug_abbrev  0x000000000000123c       0x62 /tmp/cc8HacRn.debug.temp.o
+ .debug_abbrev  0x000000000000129e       0x7f /tmp/ccvlosb4.debug.temp.o
+ .debug_abbrev  0x000000000000131d       0xf8 /tmp/ccKu5tBk.debug.temp.o
+ .debug_abbrev  0x0000000000001415       0xe8 /tmp/ccRK8jZB.debug.temp.o
+
+.debug_loc      0x0000000000000000     0x350e
+ .debug_loc     0x0000000000000000     0x350e /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x170
+ .debug_aranges
+                0x0000000000000000      0x170 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000      0x2e0
+ .debug_ranges  0x0000000000000000      0x2e0 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0x2a3a
+ .debug_line    0x0000000000000000     0x1075 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+ .debug_line    0x0000000000001075      0x2de /tmp/ccqAbiM4.debug.temp.o
+ .debug_line    0x0000000000001353       0x70 /tmp/cc2in4Ft.debug.temp.o
+ .debug_line    0x00000000000013c3       0x70 /tmp/ccasgEa4.debug.temp.o
+ .debug_line    0x0000000000001433      0x144 /tmp/ccmx47xA.debug.temp.o
+ .debug_line    0x0000000000001577      0x27b /tmp/cc7Q6vbW.debug.temp.o
+ .debug_line    0x00000000000017f2      0x309 /tmp/ccmkQNqJ.debug.temp.o
+ .debug_line    0x0000000000001afb      0x192 /tmp/ccqD4uMH.debug.temp.o
+ .debug_line    0x0000000000001c8d      0x237 /tmp/ccN7sDX1.debug.temp.o
+ .debug_line    0x0000000000001ec4      0x155 /tmp/ccDZuz2i.debug.temp.o
+ .debug_line    0x0000000000002019      0x159 /tmp/ccY8pv6a.debug.temp.o
+ .debug_line    0x0000000000002172       0xad /tmp/cc2jALpC.debug.temp.o
+ .debug_line    0x000000000000221f       0xfc /tmp/ccdZx7eY.debug.temp.o
+ .debug_line    0x000000000000231b      0x192 /tmp/cctER7fo.debug.temp.o
+ .debug_line    0x00000000000024ad      0x14f /tmp/ccPHhG6W.debug.temp.o
+ .debug_line    0x00000000000025fc       0xb9 /tmp/cc8HacRn.debug.temp.o
+ .debug_line    0x00000000000026b5       0xb4 /tmp/ccvlosb4.debug.temp.o
+ .debug_line    0x0000000000002769      0x1c7 /tmp/ccKu5tBk.debug.temp.o
+ .debug_line    0x0000000000002930      0x10a /tmp/ccRK8jZB.debug.temp.o
+
+.debug_str      0x0000000000000000     0x34b1
+ .debug_str     0x0000000000000000      0x220 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o
+                                        0x232 (size before relaxing)
+ .debug_str     0x0000000000000220     0x135c /tmp/ccqAbiM4.debug.temp.o
+                                       0x1464 (size before relaxing)
+ .debug_str     0x000000000000157c      0x21d /tmp/cc2in4Ft.debug.temp.o
+                                        0x2a4 (size before relaxing)
+ .debug_str     0x0000000000001799       0x58 /tmp/ccasgEa4.debug.temp.o
+                                        0x298 (size before relaxing)
+ .debug_str     0x00000000000017f1      0x110 /tmp/ccmx47xA.debug.temp.o
+                                        0x2f2 (size before relaxing)
+ .debug_str     0x0000000000001901      0x4df /tmp/cc7Q6vbW.debug.temp.o
+                                       0x1844 (size before relaxing)
+ .debug_str     0x0000000000001de0       0xf0 /tmp/ccmkQNqJ.debug.temp.o
+                                       0x1455 (size before relaxing)
+ .debug_str     0x0000000000001ed0      0x235 /tmp/ccqD4uMH.debug.temp.o
+                                        0x4eb (size before relaxing)
+ .debug_str     0x0000000000002105      0x105 /tmp/ccN7sDX1.debug.temp.o
+                                       0x1382 (size before relaxing)
+ .debug_str     0x000000000000220a      0x35f /tmp/ccDZuz2i.debug.temp.o
+                                        0x67e (size before relaxing)
+ .debug_str     0x0000000000002569      0x2ed /tmp/ccY8pv6a.debug.temp.o
+                                        0x6ed (size before relaxing)
+ .debug_str     0x0000000000002856      0x1bb /tmp/cc2jALpC.debug.temp.o
+                                        0x407 (size before relaxing)
+ .debug_str     0x0000000000002a11      0x225 /tmp/ccdZx7eY.debug.temp.o
+                                        0x48c (size before relaxing)
+ .debug_str     0x0000000000002c36      0x22a /tmp/cctER7fo.debug.temp.o
+                                        0x687 (size before relaxing)
+ .debug_str     0x0000000000002e60      0x1fe /tmp/ccPHhG6W.debug.temp.o
+                                        0x43f (size before relaxing)
+ .debug_str     0x000000000000305e       0x60 /tmp/cc8HacRn.debug.temp.o
+                                        0x2ae (size before relaxing)
+ .debug_str     0x00000000000030be       0xe1 /tmp/ccvlosb4.debug.temp.o
+                                        0x345 (size before relaxing)
+ .debug_str     0x000000000000319f      0x123 /tmp/ccKu5tBk.debug.temp.o
+                                        0x438 (size before relaxing)
+ .debug_str     0x00000000000032c2      0x1ef /tmp/ccRK8jZB.debug.temp.o
+                                        0x3fa (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x308
+ .debug_frame   0x0000000000000000      0x308 /tmp/RK3588Gpio.dll.qEC0vK.ltrans0.ltrans.o

@@ -1,0 +1,12 @@
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Platform/Rockchip/RK3588/Library/RK3588Lib/RK3588Lib/OUTPUT/RK3588Helper.obj:  /home/daijh/sdk/rk3588/uefi/edk2-platforms/Platform/Rockchip/RK3588/Library/RK3588Lib/RK3588Helper.S \
+ /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Platform/Rockchip/RK3588/Library/RK3588Lib/RK3588Lib/DEBUG/AutoGen.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Base.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Library/PcdLib.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Include/AsmMacroIoLibV8.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Include/Library/ArmLib.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Include/Chipset/AArch64.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
+
+# Updated 

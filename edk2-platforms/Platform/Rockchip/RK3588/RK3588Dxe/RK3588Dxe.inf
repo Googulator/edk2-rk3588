@@ -32,6 +32,7 @@
   UefiDriverEntryPoint
   SpiLib
   RK806
+  CruLib
 
 [Protocols]
   gEfiDevicePathFromTextProtocolGuid

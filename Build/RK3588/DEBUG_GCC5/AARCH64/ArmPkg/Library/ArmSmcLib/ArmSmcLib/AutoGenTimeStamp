@@ -1,0 +1,3 @@
+/home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/ArmSmcLib/AArch64/ArmSmc.S
+/home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/ArmSmcLib/ArmSmcLib.inf
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmSmcLib/ArmSmcLib/DEBUG/AutoGen.h

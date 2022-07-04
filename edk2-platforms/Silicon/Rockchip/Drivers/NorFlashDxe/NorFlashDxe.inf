@@ -41,8 +41,15 @@
   FspiLib
   RockchipPlatfromLib
 
-[Guids]
+  HobLib
+  UefiRuntimeLib
+  BaseMemoryLib
+  DevicePathLib
+  MemoryAllocationLib
+  UefiRuntimeServicesTableLib
 
+[Guids]
+  gEfiEventVirtualAddressChangeGuid
 [Protocols]
   gUniNorFlashProtocolGuid
 

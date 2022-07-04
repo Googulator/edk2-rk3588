@@ -11,8 +11,11 @@
 #include <Library/PcdLib.h>
 #include <Library/RockchipPlatfromLib.h>
 #include <Library/CacheMaintenanceLib.h>
+#include <Library/TimerLib.h>
+#include <string.h>
 
 #define CONFIG_MMC_SDHCI_SDMA
+#define word32   *(volatile unsigned int *)(long)
 
 //#define SDHCI_MAX_RETRY_COUNT (1000 * 20)
 
@@ -47,6 +50,8 @@
 #define MMCHS_ARG         (mMmcHsBase + 0x8)
 
 #define MMCHS_CMD         (mMmcHsBase + 0xC)
+#define MMCHS_CMD16       (mMmcHsBase + 0xE)
+
 #define BCE_ENABLE        BIT1
 #define DDIR_READ         BIT4
 #define DDIR_WRITE        (0x0UL << 4)
@@ -132,6 +137,11 @@
 #define SRC               BIT25
 #define SRD               BIT26
 
+#define MMCHS_RESET       (mMmcHsBase + 0x2F)
+#define RST_ALL           0x01
+#define RST_CMD           0x02
+#define RST_DATA          0x04
+
 #define MMCHS_INT_STAT    (mMmcHsBase + 0x30)
 #define CC                BIT0
 #define TC                BIT1
@@ -178,7 +188,8 @@
 #define DEB_EN            BIT22
 #define CERR_EN           BIT28
 #define BADA_EN           BIT29
-#define ALL_EN            0xFFFFFFFF
+#define ALL_EN            0x27f003b //0xFFFFFFFF
+#define ALL_MASK          0xFFFFFFFF
 
 #define MMCHS_ISE         (mMmcHsBase + 0x38)
 #define CC_SIGEN          BIT0
@@ -204,7 +215,11 @@
 #define SDHCI_CTRL_UHS_SDR50            0x0002
 #define SDHCI_CTRL_UHS_SDR104           0x0003
 #define SDHCI_CTRL_UHS_DDR50            0x0004
-#define SDHCI_CTRL_HS400                0x0005
+
+#define SDHCI_CTRL_EMMC_SDR50           0x0001
+#define SDHCI_CTRL_EMMC_HS200           0x0003
+#define SDHCI_CTRL_EMMC_HS400           0x0007
+
 #define SDHCI_CTRL_VDD_180              0x0008
 #define SDHCI_CTRL_DRV_TYPE_MASK        0x0030
 #define SDHCI_CTRL_DRV_TYPE_B           0x0000
@@ -510,7 +525,7 @@ PollRegisterWithMask (
   while (RetryCount < MAX_RETRY_COUNT) {
     if ((MmioRead32 (Register) & Mask) != ExpectedValue) {
       RetryCount++;
-      gBS->Stall (STALL_AFTER_RETRY_US);
+      MicroSecondDelay(2);
     } else {
       break;
     }
@@ -639,8 +654,23 @@ SdhciTransferData(
   do {
     stat = MmioRead32(MMCHS_INT_STAT);
     if (stat & SDHCI_INT_ERROR) {
-       DEBUG ((DEBUG_ERROR, "%a Error detected in status(0x%X)!\n", __FUNCTION__, stat));
-       return EFI_DEVICE_ERROR;
+      //UINT32 i, *Buffer;
+      DEBUG ((DEBUG_ERROR, "+++++%a Error detected in status(0x%X)!\n", __FUNCTION__, stat));
+      #if 0
+      IomemShow("emmc regs", (unsigned long)mMmcHsBase, 0, 0x3E);
+      IomemShow("PHY regs", (unsigned long)(mMmcHsBase+0x800), 0, 0x13);
+      Buffer = (UINT32*)data->buffer;
+      for (i = 0; i < 128*data->blocks; i++) {
+        if (0xCCCCCCCC == Buffer[i]) {
+          break;
+        }
+      }
+      
+      DEBUG ((DEBUG_ERROR, "Buffer[%u]:0x%x, 0x%x\n", i-2, Buffer[i-2], Buffer[i-1]));
+      DEBUG ((DEBUG_ERROR, "blocks:%u Trans size:%u, blks:%u\n", data->blocks, i*4, i/128));
+      IomemShow("last buf", (unsigned long)&Buffer[i], 0, 0x1FF);
+      #endif
+      return EFI_DEVICE_ERROR;
     }
     if (!transfer_done && (stat & rdy)) {
       if (!(MmioRead32(MMCHS_PRES_STATE) & mask))
@@ -667,7 +697,7 @@ SdhciTransferData(
 #endif
 
     if (timeout-- > 0)
-      gBS->Stall (STALL_AFTER_RETRY_US);
+      MicroSecondDelay(5);
     else {
       DEBUG ((DEBUG_ERROR, "%a Transfer data timeout\n", __FUNCTION__));
       return EFI_TIMEOUT;
@@ -694,16 +724,18 @@ SdhciSendCommand (
   DEBUG ((DEBUG_MMCHOST_SD, "PSTATE:0x%x 0x%x\n", MmioRead32(MMCHS_PRES_STATE), MmioRead32(MMCHS_INT_STAT)));
   //IomemShow("SDHCI", mMmcHsBase, 0, 0xFF);
 
+  MmioWrite16 (MMCHS_TRANS_MODE, (MmcCmd&0xffff));
   // Set command argument register
   MmioWrite32 (MMCHS_ARG, Argument);
-  
+
+  //DEBUG ((DEBUG_ERROR, "MmcCmd:0x%x\n",  (MmcCmd>>16)));
   // Send the command
-  MmioWrite32 (MMCHS_CMD, MmcCmd);
+  MmioWrite16 (MMCHS_CMD16, (MmcCmd>>16));
 
   // Check for the command status.
   while (RetryCount < MAX_RETRY_COUNT) {
     MmcStatus = MmioRead32(MMCHS_INT_STAT);
-  
+
     // Read status of command response
     if ((MmcStatus & ERRI) != 0) {
       // CMD5 (CMD_IO_SEND_OP_COND) is only valid for SDIO
@@ -714,23 +746,21 @@ SdhciSendCommand (
       MmioRead32 (MMCHS_PRES_STATE), MmcStatus, CmdSendOKMask));
 
       SdhciSoftReset(SRC);
-  
+
       Status = EFI_DEVICE_ERROR;
       goto Exit;
     }
-  
+
     // Check if command is completed.
     if ((MmcStatus & CmdSendOKMask) == CmdSendOKMask) {
       SdMmioWrite32 (MMCHS_INT_STAT, CmdSendOKMask);
       break;
     }
-  
+
     RetryCount++;
-    gBS->Stall (STALL_AFTER_RETRY_US);
+    MicroSecondDelay(1);
   }
-  
-  gBS->Stall (STALL_AFTER_SEND_CMD_US);
-  
+
   if (RetryCount == MAX_RETRY_COUNT) {
     DEBUG ((DEBUG_ERROR, "%a(%u): MMC_CMD%u completion TIMEOUT PresState 0x%x MmcStatus 0x%x,0x%x\n",
            __FUNCTION__, __LINE__, MMC_CMD_NUM (MmcCmd),
@@ -884,21 +914,22 @@ MMCSendCommand (
 
   // Clear Interrupt Status Register, but not the Card Inserted bit
   // to avoid messing with card detection logic.
-  SdMmioWrite32 (MMCHS_INT_STAT, ALL_EN & ~(CARD_INS));
+  SdMmioWrite32 (MMCHS_INT_STAT, ALL_MASK);
 
   //DEBUG ((DEBUG_ERROR, "MMC_CMD%u REG:0x%x 0x%x\n", MMC_CMD_NUM(MmcCmd), MmcCmd, Argument));
   if (IsDATCmd) {
     //DEBUG ((DEBUG_ERROR, "MMC_CMD%u Data Cmd\n", MMC_CMD_NUM(MmcCmd)));
     mMmcDataCommand = MmcCmd;
     mMmcDataArgument = Argument;
-    Status = EFI_SUCCESS;
-    goto Exit;
+    LastExecutedCommand = MmcCmd;
+    return EFI_SUCCESS;
   }
   // Set command argument register
   SdMmioWrite32 (MMCHS_ARG, Argument);
 
   // Send the command
   SdMmioWrite32 (MMCHS_CMD, MmcCmd);
+  //DEBUG ((DEBUG_ERROR, "MmcCmd:0x%x, 0x%x\n",  (MmcCmd>>16), Argument));
 
   // Check for the command status.
   while (RetryCount < MAX_RETRY_COUNT) {
@@ -929,10 +960,10 @@ MMCSendCommand (
     }
 
     RetryCount++;
-    gBS->Stall (STALL_AFTER_RETRY_US);
+    MicroSecondDelay(1);
   }
 
-  gBS->Stall (STALL_AFTER_SEND_CMD_US);
+  MicroSecondDelay(1);
 
   if (RetryCount == MAX_RETRY_COUNT) {
     DEBUG ((DEBUG_ERROR, "%a(%u): MMC_CMD%u completion TIMEOUT PresState 0x%x MmcStatus 0x%x,0x%x\n",
@@ -977,11 +1008,11 @@ MMCNotifyState (
       DEBUG ((DEBUG_MMCHOST_SD, "MMCHost: CAP %X CAPH %X\n", MmioRead32(MMCHS_CAPA),MmioRead32(MMCHS_CUR_CAPA)));
 
       // Lets switch to card detect test mode.
-      SdMmioOr32 (MMCHS_HCTL, BIT7|BIT6);
+      //SdMmioOr32 (MMCHS_HCTL, BIT7|BIT6);
 
       // set card voltage
       SdMmioAnd32 (MMCHS_HCTL, ~SDBP_ON);
-      SdMmioAndThenOr32 (MMCHS_HCTL, (UINT32) ~SDBP_MASK, SDVS_3_3_V);
+      SdMmioAndThenOr32 (MMCHS_HCTL, (UINT32) ~SDBP_MASK, SDVS_1_8_V);
       SdMmioOr32 (MMCHS_HCTL, SDBP_ON);
 
       DEBUG ((DEBUG_MMCHOST_SD, "MMCHost: AC12 %X HCTL %X\n", MmioRead32(MMCHS_AC12),MmioRead32(MMCHS_HCTL)));
@@ -1106,7 +1137,8 @@ MMCReadBlockData (
   UINT32 cmd = 0;
   UINTN StartAddr = (UINTN)Buffer;
 
-  DEBUG ((DEBUG_MMCHOST_SD, "%a(%u): LBA: 0x%x, Length: 0x%x, Buffer: 0x%x)\n", __FUNCTION__, __LINE__, Lba, Length, Buffer));
+  DEBUG ((DEBUG_MMCHOST_SD, "%a(%u): LBA: 0x%x, Length: 0x%x, Buffer: 0x%x)\n",
+    __FUNCTION__, __LINE__, Lba, Length, Buffer));
 
   if (Buffer == NULL) {
     DEBUG ((DEBUG_ERROR, "%a(%u): NULL Buffer\n", __FUNCTION__, __LINE__));
@@ -1130,14 +1162,17 @@ MMCReadBlockData (
   }
 
   data->flags = MMC_DATA_READ;
-  data->blocks = (UINT32)((Length + data->blocksize - 1) / data->blocksize);
+  data->blocks = (UINT32)((Length) / data->blocksize);
   data->buffer = (UINT8 *)Buffer;
+  //memset(Buffer, 0xCC, Length);
+
   MmioWrite16 (MMCHS_BLK_SIZE, SDHCI_MAKE_BLKSZ(SDHCI_DEFAULT_BOUNDARY_ARG, data->blocksize));
   MmioWrite16 (MMCHS_BLK_COUNT, (UINT16)data->blocks);
 
   Mode = SDHCI_TRNS_BLK_CNT_EN | SDHCI_TRNS_READ;
   if (data->blocks > 1)
-    Mode |= SDHCI_TRNS_MULTI;
+    Mode |= (SDHCI_TRNS_MULTI /*| SDHCI_TRNS_ACMD12*/);
+
 #ifdef CONFIG_MMC_SDHCI_SDMA
   MmioWrite32 (MMCHS_DMA_ADDRESS, (UINT32)StartAddr);
   Mode |= SDHCI_TRNS_DMA;
@@ -1157,9 +1192,10 @@ MMCReadBlockData (
     goto Exit;
   }
 
+  MicroSecondDelay(1);
 Exit:
   //stat = MmioRead32(MMCHS_INT_STAT);
-  MmioWrite32 (MMCHS_INT_STAT, ALL_EN & ~(CARD_INS));
+  MmioWrite32 (MMCHS_INT_STAT, ALL_MASK);
   SdhciSoftReset(SRC | SRD);
   return Status;
 }
@@ -1178,7 +1214,7 @@ MMCWriteBlockData (
   UINT32 cmd = 0;
   UINTN StartAddr = (UINTN)Buffer;
 
-  DEBUG ((DEBUG_VERBOSE, "%a(%u): LBA: 0x%x, Length: 0x%x, Buffer: 0x%x)\n",
+  DEBUG ((DEBUG_MMCHOST_SD, "%a(%u): LBA: 0x%x, Length: 0x%x, Buffer: 0x%x)\n",
     __FUNCTION__, __LINE__, Lba, Length, Buffer));
 
   if (Buffer == NULL) {
@@ -1225,9 +1261,10 @@ MMCWriteBlockData (
     goto Exit;
   }
 
+  MicroSecondDelay(1);
 Exit:
   //stat = MmioRead32(MMCHS_INT_STAT);
-  MmioWrite32 (MMCHS_INT_STAT, ALL_EN & ~(CARD_INS));
+  MmioWrite32 (MMCHS_INT_STAT, ALL_MASK);
   SdhciSoftReset(SRC | SRD);
   return Status;
 }
@@ -1255,14 +1292,22 @@ MMCSetIos (
 
     switch (TimingMode) {
     case EMMCHS52DDR1V2:
-    case EMMCHS52DDR1V8: 
+    case EMMCHS52DDR1V8:
     case EMMCHS52:
-      Ctrl |= HIGH_SPEED_EN;
-      Ctrl2 |= (SDHCI_CTRL_VDD_180 | SDHCI_CTRL_DRV_TYPE_A | SDHCI_CTRL_UHS_SDR50);
+      //Ctrl |= HIGH_SPEED_EN;
+      Ctrl &= ~HIGH_SPEED_EN;
+      Ctrl2 |= (SDHCI_CTRL_VDD_180 | SDHCI_CTRL_DRV_TYPE_A | SDHCI_CTRL_EMMC_SDR50);
       break;
+    case EMMCBACKWARD:
     case EMMCHS26:
       Ctrl &= ~HIGH_SPEED_EN;
       break;
+    case EMMCHS400DDR1V8:
+    case EMMCHS400DDR1V2:
+      Ctrl |= HIGH_SPEED_EN;
+      Ctrl2 |= (SDHCI_CTRL_VDD_180 | SDHCI_CTRL_DRV_TYPE_A | SDHCI_CTRL_EMMC_HS400);
+      break;
+
     default:
       return EFI_UNSUPPORTED;
     }
@@ -1326,6 +1371,21 @@ MMCInitialize (
   DEBUG ((DEBUG_MMCHOST_SD, "RkSdhciHost: MMCInitialize()\n"));
 
   mMmcHsBase = PcdGet32 (PcdSdhciDxeBaseAddress);
+  SdhciEmmcDxeIoMux();
+
+  #if 0
+  word32(mMmcHsBase + 0x800) = (0x1 << 1);
+  MicroSecondDelay(10);
+  word32(mMmcHsBase + 0x800) = 0;
+
+  word32(0xFD7C0000 + 0x0A7C) = ((0x1FUL << 4) << 16) | (0x1F << 4);
+  MicroSecondDelay(10);
+  word32(0xFD7C0000 + 0x0A7C) = ((0x1FUL << 4) << 16) | (0 << 4);
+
+  word32(0xFD5FD000 + 0x40) = 0xFFFF6666;
+  word32(0xFD5FD000 + 0x58) = 0xFFFF6666;
+  word32(0xFD5FD000 + 0x5C) = 0xFFFF6666;
+  #endif
 
   Status = gBS->InstallMultipleProtocolInterfaces (
                   &Handle,

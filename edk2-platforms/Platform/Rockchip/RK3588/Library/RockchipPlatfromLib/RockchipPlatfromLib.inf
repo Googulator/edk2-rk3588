@@ -26,11 +26,11 @@
   IoLib
   MemoryAllocationLib
   SerialPortLib
-#  CruLib
+  CruLib
 
 [Sources.common]
   RockchipPlatfromLib.c
-#  RK3568CruLib.c
+  RK3588CruLib.c
   RockchipSdhci.c
 
 [Sources.AARCH64]

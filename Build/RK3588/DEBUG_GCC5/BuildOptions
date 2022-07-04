@@ -1,0 +1,4 @@
+gCommandLineDefines: {'ARCH': 'AARCH64'}
+BuildOptionPcd: []
+Active Platform: /home/daijh/sdk/rk3588/uefi/edk2-platforms/Platform/Rockchip/RK3588/RK3588.dsc
+Flash Image Definition: /home/daijh/sdk/rk3588/uefi/edk2-platforms/Platform/Rockchip/RK3588/RK3588.fdf

@@ -332,10 +332,10 @@ FspiLib|Silicon/Rockchip/Library/FspiLib/FspiLib.inf
   #
   #gRockchipTokenSpaceGuid.PcdSpiMemoryBase|0xF9000000
   #gRockchipTokenSpaceGuid.PcdSpiMemoryMapped|TRUE
-  gRockchipTokenSpaceGuid.PcdSpiVariableOffset|0x3C0000
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageVariableSize|0x00010000
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwWorkingSize|0x00010000
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwSpareSize|0x00010000
+  #gRockchipTokenSpaceGuid.PcdSpiVariableOffset|0x3C0000
+  #gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageVariableSize|0x00010000
+  #gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwWorkingSize|0x00010000
+  #gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwSpareSize|0x00010000
 
 [PcdsDynamicHii.common.DEFAULT]
   gEfiMdePkgTokenSpaceGuid.PcdPlatformBootTimeOut|L"Timeout"|gEfiGlobalVariableGuid|0x0|10 # Variable: L"Timeout"

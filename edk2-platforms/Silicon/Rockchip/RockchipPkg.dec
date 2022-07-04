@@ -30,6 +30,8 @@
   #gRockchipInstalledAcpiProtocolGuid = {0x31505f6a, 0xe496, 0x4c7e, {0xba, 0xbb, 0x71, 0x7b, 0xe2, 0xc4, 0xb4, 0x59}}
   #gRockchipSasConfigProtocolGuid = {0x3A236669, 0x6666, 0x4d04, {0xb2, 0x83, 0x7, 0x9f, 0x3c, 0xc4, 0x71, 0x66}}
   gRockchipI2cDemoProtocolGuid    = { 0x71954bda, 0x60d3, 0x4ef8, { 0x8e, 0x3c, 0x0e, 0x33, 0x9f, 0x3b, 0xc2, 0x2b }}
+  gRockchipCrtcProtocolGuid = {0xC128406A, 0x99D9, 0x11EC, {0x99, 0x27, 0xF4, 0x2A, 0x7D, 0xCB, 0x92, 0x5D}}
+  gRockchipConnectorProtocolGuid = {0x50439CB6, 0x9B85, 0x11EC, {0x95, 0x73, 0xF4, 0x2A, 0x7D, 0xCB, 0x92, 0x5D}}
 
 [Guids]
   gRockchipTokenSpaceGuid = {0xc620b83a, 0x3175, 0x11ec, {0x95, 0xb4, 0xf4, 0x2a, 0x7d, 0xcb, 0x92, 0x5d}}
@@ -62,6 +64,17 @@
   gRockchipTokenSpaceGuid.PcdPcieSmmuBaseAddress|0|UINT64|0x00000046
   gRockchipTokenSpaceGuid.PcdAlgSmmuBaseAddress|0|UINT64|0x00000048
   gRockchipTokenSpaceGuid.PcdM3SmmuBaseAddress|0|UINT64|0x00000049
+
+  gRockchipTokenSpaceGuid.PcdPcieRootPortApbBaseAddress|0|UINT64|0x10000050
+  gRockchipTokenSpaceGuid.PcdPcieRootPortDbiBaseAddress|0|UINT64|0x10000051
+  gRockchipTokenSpaceGuid.PcdPcieRootPortCfgBaseAddress|0|UINT64|0x10000052
+  gRockchipTokenSpaceGuid.PcdPcieRootPortCfgSize|0|UINT64|0x10000053
+  gRockchipTokenSpaceGuid.PcdPcieRootPortIoBaseAddress|0|UINT32|0x10000054
+  gRockchipTokenSpaceGuid.PcdPcieRootPortIoSize|0|UINT32|0x10000055
+  gRockchipTokenSpaceGuid.PcdPcieRootPortMemBaseAddress|0|UINT32|0x10000056
+  gRockchipTokenSpaceGuid.PcdPcieRootPortMemSize|0|UINT32|0x10000057
+  gRockchipTokenSpaceGuid.PcdPcieRootPortMemBaseAddress64|0|UINT64|0x10000058
+  gRockchipTokenSpaceGuid.PcdPcieRootPortMemSize64|0|UINT64|0x10000059
 
   gRockchipTokenSpaceGuid.PcdSysControlBaseAddress|0|UINT64|0x01000023
   gRockchipTokenSpaceGuid.PcdCpldBaseAddress|0|UINT64|0x01000024
@@ -101,7 +114,7 @@
 
   gRockchipTokenSpaceGuid.PcdShellFile|{ 0x83, 0xA5, 0x04, 0x7C, 0x3E, 0x9E, 0x1C, 0x4F, 0xAD, 0x65, 0xE0, 0x52, 0x68, 0xD0, 0xB4, 0xD1 }|VOID*|0x30006554
 
-  gRockchipTokenSpaceGuid.PcdSdhciDxeBaseAddress|0x0|UINT32|0x00000005
+  gRockchipTokenSpaceGuid.PcdSdhciDxeBaseAddress|0x0|UINT32|0x40000035
 
   #FDT File Address
   gRockchipTokenSpaceGuid.FdtFileAddress|0x0|UINT64|0x40000005
@@ -292,6 +305,14 @@
   gRockchipTokenSpaceGuid.PcdOhciSize|0|UINT32|0x50000065
   gRockchipTokenSpaceGuid.FspiBaseAddr|0|UINT32|0x21200003
   gRockchipTokenSpaceGuid.PcdSpiVariableOffset|0|UINT32|0x21200004
+
+  gRockchipTokenSpaceGuid.PcdNvStorageVariableBase|0|UINT32|0x21200005
+  gRockchipTokenSpaceGuid.PcdNvStorageFtwWorkingBase|0|UINT32|0x21200006
+  gRockchipTokenSpaceGuid.PcdNvStorageFtwSpareBase|0|UINT32|0x21200007
+
+  gRockchipTokenSpaceGuid.PcdLcdPixelFormat|0|UINT32|0x32000001
+  gRockchipTokenSpaceGuid.PcdLcdDdrFrameBufferSize|0|UINT64|0x32000002
+  gRockchipTokenSpaceGuid.PcdLcdDdrFrameBufferBase|0|UINT64|0x32000003
 
 [PcdsFeatureFlag]
   gRockchipTokenSpaceGuid.PcdIsItsSupported|FALSE|BOOLEAN|0x00000065

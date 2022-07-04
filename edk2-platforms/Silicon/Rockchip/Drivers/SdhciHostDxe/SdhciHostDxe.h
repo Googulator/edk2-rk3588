@@ -26,7 +26,7 @@
 #include <Protocol/DevicePath.h>
 #include <Protocol/MmcHost.h>
 
-#define MAX_RETRY_COUNT (1000 * 20)
+#define MAX_RETRY_COUNT (1000 * 1000)
 
 #define STALL_AFTER_SEND_CMD_US (200) // in microseconds
 #define STALL_AFTER_REC_RESP_US (50)

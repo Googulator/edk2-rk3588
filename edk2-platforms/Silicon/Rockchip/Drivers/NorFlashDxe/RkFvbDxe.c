@@ -22,7 +22,6 @@
 
 STATIC EFI_EVENT     mFvbVirtualAddrChangeEvent;
 STATIC FVB_DEVICE    *mFvbDevice;
-
 STATIC CONST FVB_DEVICE mRkFvbFlashInstanceTemplate = {
   NULL, // SpiFlashProtocol ... NEED TO BE FILLED
   NULL, // Handle ... NEED TO BE FILLED
@@ -697,7 +696,7 @@ FvbWrite (
     DEBUG ((DEBUG_ERROR, "%a: Failed to write to Spi device\n", __FUNCTION__));
     return Status;
   }
-#if 0
+
   // Update shadow buffer
   if (!FlashInstance->IsMemoryMapped) {
     DataOffset = GET_DATA_OFFSET (FlashInstance->RegionBaseAddress + Offset,
@@ -706,7 +705,7 @@ FvbWrite (
 
     CopyMem ((UINTN *)DataOffset, Buffer, *NumBytes);
   }
-#endif
+
   return EFI_SUCCESS;
 }
 
@@ -878,7 +877,7 @@ FvbVirtualNotifyEvent (
   )
 {
   // Convert SPI memory mapped region
-  //EfiConvertPointer (0x0, (VOID**)&mFvbDevice->RegionBaseAddress);
+  EfiConvertPointer (0x0, (VOID**)&mFvbDevice->RegionBaseAddress);
 
   // Convert SPI device description
   //EfiConvertPointer (0x0, (VOID**)&mFvbDevice->SpiDevice.Info);
@@ -889,6 +888,7 @@ FvbVirtualNotifyEvent (
   EfiConvertPointer (0x0, (VOID**)&mFvbDevice->SpiFlashProtocol->Erase);
   EfiConvertPointer (0x0, (VOID**)&mFvbDevice->SpiFlashProtocol->Write);
   EfiConvertPointer (0x0, (VOID**)&mFvbDevice->SpiFlashProtocol->Read);
+  EfiConvertPointer (0x0, (VOID**)&mFvbDevice->SpiFlashProtocol->GetSize);
   EfiConvertPointer (0x0, (VOID**)&mFvbDevice->SpiFlashProtocol);
 
   return;
@@ -957,7 +957,7 @@ FvbConfigureFlashInstance (
     DEBUG ((DEBUG_ERROR, "%a: Cannot locate SpiFlash protocol\n", __FUNCTION__));
     return Status;
   }
-
+  FlashInstance->Size = FlashInstance->SpiFlashProtocol->GetSize(FlashInstance->SpiFlashProtocol);
   // Fill remaining flash description
   VariableSize = PcdGet32 (PcdFlashNvStorageVariableSize);
   FtwWorkingSize = PcdGet32 (PcdFlashNvStorageFtwWorkingSize);
@@ -965,7 +965,7 @@ FvbConfigureFlashInstance (
 
   FlashInstance->IsMemoryMapped = 0;//PcdGetBool (PcdSpiMemoryMapped);
   FlashInstance->FvbSize = VariableSize + FtwWorkingSize + FtwSpareSize;
-  FlashInstance->FvbOffset = PcdGet32 (PcdSpiVariableOffset);
+  FlashInstance->FvbOffset = PcdGet32 (PcdNvStorageVariableBase);
 
   FlashInstance->Media.MediaId = 0;
   FlashInstance->Media.BlockSize = SIZE_4KB;//FlashInstance->SpiDevice.Info->SectorSize;
@@ -1089,28 +1089,6 @@ RkFvbEntryPoint (
   // Declare the Non-Volatile storage as EFI_MEMORY_RUNTIME
   //
   RegionBaseAddress = mFvbDevice->RegionBaseAddress;
-#if 0
-  if (mFvbDevice->IsMemoryMapped) {
-    RuntimeMmioRegionSize = mFvbDevice->FvbSize;
-    Status = gDS->AddMemorySpace (EfiGcdMemoryTypeMemoryMappedIo,
-                    RegionBaseAddress,
-                    RuntimeMmioRegionSize,
-                    EFI_MEMORY_UC | EFI_MEMORY_RUNTIME);
-    if (EFI_ERROR (Status)) {
-      DEBUG ((DEBUG_ERROR, "%a: Failed to add memory space\n", __FUNCTION__));
-      goto ErrorAddSpace;
-    }
-
-
-    Status = gDS->SetMemorySpaceAttributes (RegionBaseAddress,
-                    RuntimeMmioRegionSize,
-                    EFI_MEMORY_UC | EFI_MEMORY_RUNTIME);
-    if (EFI_ERROR (Status)) {
-     DEBUG ((DEBUG_ERROR, "%a: Failed to set memory attributes\n", __FUNCTION__));
-      goto ErrorSetMemAttr;
-    }
-  }
-#endif
   //
   // Register for the virtual address change event
   //

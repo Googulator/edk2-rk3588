@@ -1,0 +1,8 @@
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiDevicePathLib/DevicePathFromText.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiDevicePathLib/DevicePathToText.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiDevicePathLib/DevicePathUtilities.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiDevicePathLib/DevicePathUtilitiesDxeSmm.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.inf
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/DEBUG/AutoGen.h

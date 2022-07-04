@@ -1,0 +1,13 @@
+
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Drivers/ASIX/Bus/Usb/UsbNetworking/Ax88772c/Ax88772c/OUTPUT/SimpleNetwork.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Drivers/ASIX/Bus/Usb/UsbNetworking/Ax88772c/Ax88772c/OUTPUT/AutoGen.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Drivers/ASIX/Bus/Usb/UsbNetworking/Ax88772c/Ax88772c/OUTPUT/Ax88772.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Drivers/ASIX/Bus/Usb/UsbNetworking/Ax88772c/Ax88772c/OUTPUT/DriverBinding.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Drivers/ASIX/Bus/Usb/UsbNetworking/Ax88772c/Ax88772c/OUTPUT/ComponentName.obj.deps
+
+               

@@ -19,14 +19,14 @@
 #
 ################################################################################
 
-[FD.BL33_AP_UEFI]
-BaseAddress   = 0x00200000|gArmTokenSpaceGuid.PcdFdBaseAddress  # The base address of the Firmware in NOR Flash.
-Size          = 0x000F0000|gArmTokenSpaceGuid.PcdFdSize         # The size in bytes of the FLASH Device
+[FD.NOR_FLASH_IMAGE]
+BaseAddress   = 0x00000000|gArmTokenSpaceGuid.PcdFdBaseAddress  # The base address of the Firmware in NOR Flash.
+Size          = 0x00800000|gArmTokenSpaceGuid.PcdFdSize         # The size in bytes of the FLASH Device
 ErasePolarity = 1
 
 # This one is tricky, it must be: BlockSize * NumBlocks = Size
 BlockSize     = 0x00001000
-NumBlocks     = 0xF0
+NumBlocks     = 0x800
 
 ################################################################################
 #
@@ -43,11 +43,21 @@ NumBlocks     = 0xF0
 # RegionType <FV, DATA, or FILE>
 #
 ################################################################################
-
-0x00000000|0x000F0000
+0x00200000|0x000F0000
 gArmTokenSpaceGuid.PcdFvBaseAddress|gArmTokenSpaceGuid.PcdFvSize
-FV = FVMAIN_COMPACT
+FV = BL33_AP_UEFI
 
+# NV_VARIABLE_STORE
+0x007C0000|0x0000F000
+gRockchipTokenSpaceGuid.PcdNvStorageVariableBase|gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageVariableSize
+
+# NV_FTW_WORKING header
+0x007CF000|0x00001000
+gRockchipTokenSpaceGuid.PcdNvStorageFtwWorkingBase|gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwWorkingSize
+
+# NV_FTW_WORKING data
+0x007D0000|0x00010000
+gRockchipTokenSpaceGuid.PcdNvStorageFtwSpareBase|gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwSpareSize
 
 ################################################################################
 #
@@ -102,6 +112,10 @@ READ_LOCK_STATUS   = TRUE
   # Multiple Console IO support
   #
   INF MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf
+  INF MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf
+!ifdef $(ROCKCHIP_VOPEN)
+  INF MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
+!endif
   INF MdeModulePkg/Universal/Console/TerminalDxe/TerminalDxe.inf
   INF MdeModulePkg/Universal/SerialDxe/SerialDxe.inf
 
@@ -117,8 +131,13 @@ READ_LOCK_STATUS   = TRUE
 !ifdef $(ROCKCHIP_ACPIEN)
   INF MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
   INF RuleOverride = ACPITABLE Platform/Rockchip/RK3588/AcpiTables/AcpiTables.inf
+!else
+  # DTB
+  INF EmbeddedPkg/Drivers/DtPlatformDxe/DtPlatformDxe.inf
+  FILE FREEFORM = 25462CDA-221F-47DF-AC1D-259CFAA4E326 {
+    SECTION RAW = Platform/Rockchip/DeviceTree/rk3588.dtb
+  }
 !endif
-
   #
   # GPIO
   #
@@ -137,7 +156,22 @@ READ_LOCK_STATUS   = TRUE
   #
   INF EmbeddedPkg/Drivers/VirtualKeyboardDxe/VirtualKeyboardDxe.inf
 
+  #
+  # Display Support
+  #
+!ifdef $(ROCKCHIP_VOPEN)
+  INF Silicon/Rockchip/Drivers/Vop2Dxe/Vop2Dxe.inf
+  INF Silicon/Rockchip/Drivers/LcdGraphicsOutputDxe/LcdGraphicsOutputDxe.inf
+  INF Platform/Rockchip/RK3588/LogoDxe/LogoDxe.inf
+  INF Platform/Rockchip/RK3588/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
+!endif
   INF Platform/Rockchip/RK3588/RK3588Dxe/RK3588Dxe.inf
+
+  #
+  # SMBIOS Support
+  #
+  INF Platform/Rockchip/RK3588/PlatformSmbiosDxe/PlatformSmbiosDxe.inf
+  INF MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
 
   #
   # USB Ehci Controller
@@ -184,6 +218,27 @@ READ_LOCK_STATUS   = TRUE
   #
   INF EmbeddedPkg/Application/AndroidFastboot/AndroidFastbootApp.inf
 
+  !ifdef $(ROCKCHIP_PCIE30)
+
+  #PCIe
+  INF Silicon/Rockchip/Drivers/PciPlatform/PcieInitDxe.inf
+
+  # Required by PCI
+  INF ArmPkg/Drivers/ArmPciCpuIo2Dxe/ArmPciCpuIo2Dxe.inf
+
+  # PCI Support
+  INF MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe.inf
+  INF MdeModulePkg/Bus/Pci/PciHostBridgeDxe/PciHostBridgeDxe.inf
+  INF MdeModulePkg/Bus/Pci/NvmExpressDxe/NvmExpressDxe.inf
+  #INF MdeModulePkg/Bus/Pci/NvmExpressPei/NvmExpressPei.inf
+
+   #INF MdeModulePkg/Bus/Pci/EhciDxe/EhciDxe.inf
+  #INF MdeModulePkg/Bus/Usb/UsbKbDxe/UsbKbDxe.inf
+  # INF MdeModulePkg/Bus/Pci/EhciDxe/XhciDxe.inf
+    INF MdeModulePkg/Bus/Pci/NonDiscoverablePciDeviceDxe/NonDiscoverablePciDeviceDxe.inf
+     INF MdeModulePkg/Bus/Pci/SataControllerDxe/SataControllerDxe.inf
+     INF MdeModulePkg/Bus/Ata/AtaAtapiPassThru/AtaAtapiPassThru.inf
+!endif
   #
   # Android Boot applications
   #
@@ -246,7 +301,7 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
   INF MdeModulePkg/Application/UiApp/UiApp.inf
 
-[FV.FVMAIN_COMPACT]
+[FV.BL33_AP_UEFI]
 FvAlignment        = 8
 ERASE_POLARITY     = 1
 MEMORY_MAPPED      = TRUE

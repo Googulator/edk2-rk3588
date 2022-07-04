@@ -65,7 +65,7 @@ enum SPI_NOR_PROTOCOL {
 #define SPINOR_OP_READ_SFDP  0x5A /**< Read SPI Nor SFDP */
 
 struct SPI_NOR {
-    struct SNOR_HOST *spi;
+    struct HAL_FSPI_HOST *spi;
     const struct FLASH_INFO *info;
     UINT32 pageSize;
     UINT8 addrWidth;
@@ -75,20 +75,10 @@ struct SPI_NOR {
     UINT8 readDummy;
     UINT8 programOpcode;
 
-    RETURN_STATUS (*readReg)(struct SPI_NOR *nor, UINT8 opcode, UINT8 *buf, UINT32 len);
-    RETURN_STATUS (*writeReg)(struct SPI_NOR *nor, UINT8 opcode, UINT8 *buf, UINT32 len);
-
-    INT32 (*read)(struct SPI_NOR *nor, UINT32 from,
-                    UINT32 len, UINT8 *read_buf);
-    INT32 (*write)(struct SPI_NOR *nor, UINT32 to,
-                     UINT32 len, const UINT8 *write_buf);
-    RETURN_STATUS (*erase)(struct SPI_NOR *nor, UINT32 offs);
-
     enum SPI_NOR_PROTOCOL readProto;
     enum SPI_NOR_PROTOCOL writeProto;
     UINT8 cmdBuf[SPI_NOR_MAX_CMD_SIZE];
 
-    const char *name;
     UINT32 size;
     UINT32 sectorSize;
     UINT32 eraseSize;
@@ -99,16 +89,6 @@ typedef enum {
     ERASE_BLOCK64K,
     ERASE_CHIP
 } NOR_ERASE_TYPE;
-
-struct SNOR_HOST {
-    UINT32 speed;
-    UINT32 mode;
-    UINT8 flags;
-    UINT32 xipMem; /**< XIP data mapped memory */
-    UINT32 xipMemCode; /**< XIP code mapped memory */
-    RETURN_STATUS (*xfer)(struct SNOR_HOST *spi, struct HAL_SPI_MEM_OP *op);
-    void *userdata;
-};
 
 RETURN_STATUS HAL_SNOR_Init(struct SPI_NOR *nor);
 RETURN_STATUS HAL_SNOR_DeInit(struct SPI_NOR *nor);

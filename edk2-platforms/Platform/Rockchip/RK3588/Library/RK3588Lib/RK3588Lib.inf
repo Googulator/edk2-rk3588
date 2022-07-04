@@ -18,6 +18,7 @@
   EmbeddedPkg/EmbeddedPkg.dec
   MdePkg/MdePkg.dec
   MdeModulePkg/MdeModulePkg.dec
+  Silicon/Rockchip/RockchipPkg.dec
   Platform/Rockchip/RK3588/RK3588.dec
   Silicon/Rockchip/RK3588/RK3588.dec
 
@@ -40,3 +41,5 @@
   gArmTokenSpaceGuid.PcdArmPrimaryCoreMask
   gArmTokenSpaceGuid.PcdSystemMemoryBase
   gArmTokenSpaceGuid.PcdSystemMemorySize
+  gRockchipTokenSpaceGuid.PcdLcdDdrFrameBufferSize
+  gRockchipTokenSpaceGuid.PcdLcdDdrFrameBufferBase

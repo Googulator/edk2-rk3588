@@ -13,6 +13,8 @@
 #include "DwEmmc.h"
 #include "Mmc.h"
 
+#define CONFIG_MMC_HS400ES
+
 typedef union {
   UINT32 Raw;
   OCR    Ocr;
@@ -37,6 +39,7 @@ typedef union {
 #define EMMC_BUS_WIDTH_8BIT     2
 #define EMMC_BUS_WIDTH_DDR_4BIT 5
 #define EMMC_BUS_WIDTH_DDR_8BIT 6
+#define EMMC_BUS_WIDTH_STROBE   (1 << 7) /* Enhanced strobe mode */
 
 #define EMMC_SWITCH_ERROR       (1 << 7)
 
@@ -114,7 +117,7 @@ EmmcSetEXTCSD (
 
   Host  = MmcHostInstance->MmcHost;
   Argument = EMMC_CMD6_ARG_ACCESS(3) | EMMC_CMD6_ARG_INDEX(ExtCmdIndex) |
-             EMMC_CMD6_ARG_VALUE(Value) | EMMC_CMD6_ARG_CMD_SET(1);
+             EMMC_CMD6_ARG_VALUE(Value) /*| EMMC_CMD6_ARG_CMD_SET(1)*/;
   Status = Host->SendCommand (Host, MMC_CMD6, Argument);
   if (EFI_ERROR (Status)) {
     DEBUG ((EFI_D_ERROR, "EmmcSetEXTCSD(): Failed to send CMD6, Status=%r.\n", Status));
@@ -128,7 +131,57 @@ EmmcSetEXTCSD (
       return Status;
     }
   } while (State == EMMC_PRG_STATE);
+
   return EFI_SUCCESS;
+}
+
+EFI_STATUS
+EFIAPI
+EmmcSelectHs400es(
+	IN MMC_HOST_INSTANCE	 *MmcHostInstance
+)
+{
+  EFI_MMC_HOST_PROTOCOL *Host;
+  EFI_STATUS Status;
+  UINT32 Value;
+
+  Host  = MmcHostInstance->MmcHost;
+  /* Switch to 8-bit since HS400es only support 8-bit bus width */
+  Status = EmmcSetEXTCSD (MmcHostInstance, EXTCSD_BUS_WIDTH, EMMC_BUS_WIDTH_8BIT);
+  if (EFI_ERROR (Status)) {
+    DEBUG ((DEBUG_ERROR, "EmmcSelectHs400es(): Failed to set EXTCSD bus width, Status:%r\n", Status));
+  }
+
+  Status = EmmcSetEXTCSD (MmcHostInstance, EXTCSD_HS_TIMING, EMMC_TIMING_HS);
+  if (EFI_ERROR (Status)) {
+    DEBUG ((DEBUG_ERROR, "EmmcSelectHs400es(): Failed to switch hs mode, Status:%r.\n", Status));
+    return Status;
+  }
+
+  Status = Host->SetIos (Host, 0, 8, EMMCHS52);
+  if (EFI_ERROR (Status)) {
+    DEBUG ((DEBUG_ERROR, "EmmcSelectHs400es(): Failed to SetIos HS400 mode, Status:%r.\n", Status));
+  }
+
+  Value = EMMC_BUS_WIDTH_DDR_8BIT | EMMC_BUS_WIDTH_STROBE;
+  Status = EmmcSetEXTCSD (MmcHostInstance, EXTCSD_BUS_WIDTH, Value);
+  if (EFI_ERROR (Status)) {
+    DEBUG ((DEBUG_ERROR, "EmmcSelectHs400es(): Failed to set EXTCSD bus width, Status:%r\n", Status));
+  }
+
+  Value = EMMC_TIMING_HS400;
+  Status = EmmcSetEXTCSD (MmcHostInstance, EXTCSD_HS_TIMING, Value);
+  if (EFI_ERROR (Status)) {
+    DEBUG ((DEBUG_ERROR, "EmmcSelectHs400es(): Failed to switch HS400 mode, Status:%r.\n", Status));
+    return Status;
+  }
+
+  Status = Host->SetIos (Host, 200000000, 8, EMMCHS400DDR1V8);
+  if (EFI_ERROR (Status)) {
+    DEBUG ((DEBUG_ERROR, "EmmcSelectHs400es(): Failed to SetIos HS400 mode, Status:%r.\n", Status));
+  }
+
+  return Status;
 }
 
 STATIC
@@ -187,6 +240,14 @@ EmmcIdentificationMode (
   Status = Host->SendCommand (Host, MMC_CMD7, RCA);
   if (EFI_ERROR (Status)) {
     DEBUG ((EFI_D_ERROR, "EmmcIdentificationMode(): Card selection error, Status=%r.\n", Status));
+  }
+
+  // Set Block Length
+  Status = Host->SendCommand (Host, MMC_CMD16, EMMC_CARD_SIZE);
+  if (EFI_ERROR (Status)) {
+    DEBUG((EFI_D_ERROR, "EmmcIdentificationMode(): BlockSize: %d and Error = %r\n",
+                        EMMC_CARD_SIZE, Status));
+    return Status;
   }
 
   if (MMC_HOST_HAS_SETIOS(Host)) {
@@ -270,6 +331,16 @@ InitializeEmmcDevice (
   if (!MMC_HOST_HAS_SETIOS(Host)) {
     return EFI_SUCCESS;
   }
+
+#ifdef  CONFIG_MMC_HS400ES
+  if (ECSDData->RESERVED_11 & 0x1) {//check support HS400ES
+    Status = EmmcSelectHs400es(MmcHostInstance);
+    if (!EFI_ERROR (Status)) {
+      //DEBUG ((DEBUG_ERROR, "EMMC Enalbe HS400ES OK!\n"));
+      return Status;
+    }
+  }
+#endif
   Status = EmmcSetEXTCSD (MmcHostInstance, EXTCSD_HS_TIMING, EMMC_TIMING_HS);
   if (EFI_ERROR (Status)) {
     DEBUG ((DEBUG_ERROR, "InitializeEmmcDevice(): Failed to switch high speed mode, Status:%r.\n", Status));
@@ -780,16 +851,17 @@ InitializeMmcDevice (
     return Status;
   }
 
-  // Set Block Length
-  Status = MmcHost->SendCommand (MmcHost, MMC_CMD16, MmcHostInstance->BlockIo.Media->BlockSize);
-  if (EFI_ERROR (Status)) {
-    DEBUG((EFI_D_ERROR, "InitializeMmcDevice(MMC_CMD16): Error MmcHostInstance->BlockIo.Media->BlockSize: %d and Error = %r\n",
-                        MmcHostInstance->BlockIo.Media->BlockSize, Status));
-    return Status;
-  }
 
   // Block Count (not used). Could return an error for SD card
   if (MmcHostInstance->CardInfo.CardType == MMC_CARD) {
+    // Set Block Length
+    Status = MmcHost->SendCommand (MmcHost, MMC_CMD16, MmcHostInstance->BlockIo.Media->BlockSize);
+    if (EFI_ERROR (Status)) {
+      DEBUG((EFI_D_ERROR, "InitializeMmcDevice(MMC_CMD16): Error MmcHostInstance->BlockIo.Media->BlockSize: %d and Error = %r\n",
+                          MmcHostInstance->BlockIo.Media->BlockSize, Status));
+      return Status;
+    }
+
     Status = MmcHost->SendCommand (MmcHost, MMC_CMD23, BlockCount);
     if (EFI_ERROR (Status)) {
       DEBUG((EFI_D_ERROR, "InitializeMmcDevice(MMC_CMD23): Error, Status=%r\n", Status));

@@ -1,0 +1,43 @@
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDebug1CommandsLib/UefiShellDebug1CommandsLib/OUTPUT/Compress.obj:  /home/daijh/sdk/rk3588/uefi/edk2/ShellPkg/Library/UefiShellDebug1CommandsLib/Compress.c \
+ /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDebug1CommandsLib/UefiShellDebug1CommandsLib/DEBUG/AutoGen.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Uefi.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Base.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Uefi/UefiSpec.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Guid/WinCertificate.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Protocol/DevicePath.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Guid/PcAnsi.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/IndustryStandard/Acpi60.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/IndustryStandard/Acpi51.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/IndustryStandard/Acpi50.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/IndustryStandard/Acpi40.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/IndustryStandard/Acpi30.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/IndustryStandard/Acpi20.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/IndustryStandard/Acpi10.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Protocol/SimpleTextIn.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Protocol/SimpleTextOut.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Uefi/UefiPxe.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Uefi/UefiGpt.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Library/PcdLib.h \
+ /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDebug1CommandsLib/UefiShellDebug1CommandsLib/DEBUG/UefiShellDebug1CommandsLibStrDefs.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Library/MemoryAllocationLib.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Library/DebugLib.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/ShellPkg/Include/Library/ShellLib.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Guid/FileInfo.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Protocol/SimpleFileSystem.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Protocol/LoadedImage.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/ShellPkg/Include/Protocol/EfiShellInterface.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/ShellPkg/Include/Protocol/EfiShellEnvironment2.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Protocol/Shell.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Protocol/ShellParameters.h \
+ /home/daijh/sdk/rk3588/uefi/edk2/ShellPkg/Library/UefiShellDebug1CommandsLib/Compress.h
+
+# Updated 

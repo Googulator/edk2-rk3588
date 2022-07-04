@@ -165,7 +165,7 @@ UartInitializePort (
 {
   UINT32 Lcr, Rate;
 
-  do {} while ((MmioRead32(UartBase + UART_USR) & UART_IS_BUSY));
+  //do {} while ((MmioRead32(UartBase + UART_USR) & UART_IS_BUSY));
 
   // UART reset, rx fifo & tx fifo reset
   MmioWrite32(UartBase + UART_SRR, UART_RESET | RCVR_FIFO_REST | XMIT_FIFO_RESET);

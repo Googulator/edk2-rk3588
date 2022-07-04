@@ -28,6 +28,9 @@ VOID
 EFIAPI
 DwEmmcDxeIoMux ();
 
+void
+EFIAPI
+SdhciEmmcDxeIoMux();
 
 VOID
 EFIAPI
@@ -68,5 +71,17 @@ Usb2PhySuspend (void);
 void
 EFIAPI
 Usb2PhyResume (void);
+
+void
+EFIAPI
+Pcie30IoInit(void);
+
+void
+EFIAPI
+Pcie30PowerEn(void);
+
+void
+EFIAPI
+Pcie30PeReset(BOOLEAN enable);
 
 #endif

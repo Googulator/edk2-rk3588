@@ -39,9 +39,21 @@ void DebugPrintHex(void *buf, UINT32 width, UINT32 len)
   DebugPrint(DEBUG_ERROR, "\n","");
 }
 
-void DwEmmcDxeIoMux(void)
+void
+EFIAPI
+DwEmmcDxeIoMux(void)
 {
   /* sdmmc0 iomux */
+}
+
+void
+EFIAPI
+SdhciEmmcDxeIoMux(void)
+{
+  /* sdmmc0 iomux */
+  BUS_IOC->GPIO2A_IOMUX_SEL_L = (0xFFFFUL << 16) | (0x1111); //EMMC_CMD,EMMC_CLKOUT,EMMC_DATASTROBE,EMMC_RSTN
+  BUS_IOC->GPIO2D_IOMUX_SEL_L = (0xFFFFUL << 16) | (0x1111); //EMMC_D0,EMMC_D1,EMMC_D2,EMMC_D3
+  BUS_IOC->GPIO2D_IOMUX_SEL_H = (0xFFFFUL << 16) | (0x1111); //EMMC_D4,EMMC_D5,EMMC_D6,EMMC_D7
 }
 
 #define NS_CRU_BASE         0xFD7C0000
@@ -159,3 +171,34 @@ Usb2PhyResume (void)
   MmioWrite32(0xfd7f0a10, 0x07000700);
   MmioWrite32(0xfd7f0a10, 0x07000000);
 }
+
+
+void
+EFIAPI
+Pcie30IoInit(void)
+{
+    /* Set reset and power IO to gpio output mode */
+    MmioWrite32(0xFD5F808C, 0xf << (8 + 16)); /* gpio4b6 to gpio mode -> reset */
+    MmioWrite32(0xFEC50008, 0x40004000); /* output */ 
+
+    MmioWrite32(0xFD5F8070, 0xf << (12 + 16)); /* gpio3c3 to gpio mode -> power */
+    MmioWrite32(0xFEC4000c, 0x80008); /* output */
+}
+
+void
+EFIAPI
+Pcie30PowerEn(void)
+{
+    MmioWrite32(0xFEC40004, 0x80008); /* output high to enable power */
+}
+
+void
+EFIAPI
+Pcie30PeReset(BOOLEAN enable)
+{
+    if(enable)
+        MmioWrite32(0xFEC50000, 0x40000000); /* output low */
+    else
+        MmioWrite32(0xFEC50000, 0x40004000); /* output high */ 
+}
+

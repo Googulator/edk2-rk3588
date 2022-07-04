@@ -1,0 +1,5 @@
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BasePeCoffLib/BasePeCoffLib.inf
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/DEBUG/AutoGen.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BasePeCoffLib/BasePeCoff.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BasePeCoffLib/PeCoffLoaderEx.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BasePeCoffLib/BasePeCoffLibInternals.h

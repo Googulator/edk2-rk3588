@@ -9,6 +9,7 @@
 **/
 
 #include "NvmExpress.h"
+#include <Library/CacheMaintenanceLib.h>
 
 /**
   Dump the execution status from a given completion queue entry.
@@ -302,6 +303,8 @@ NvmeCreatePrpList (
     PhysicalAddr += EFI_PAGE_SIZE;
   }
 
+  WriteBackDataCacheRange ((UINT64 *)PrpListBase, Bytes);
+
   return (VOID*)(UINTN)PrpListPhyAddr;
 
 EXIT:
@@ -512,6 +515,10 @@ NvmExpressPassThru (
 
   Private     = NVME_CONTROLLER_PRIVATE_DATA_FROM_PASS_THRU (This);
 
+  //hack all cache problem
+  WriteBackDataCacheRange (Sq, sizeof(NVME_SQ));
+  WriteBackDataCacheRange (Packet, sizeof(EFI_NVM_EXPRESS_PASS_THRU_COMMAND_PACKET));
+  WriteBackDataCacheRange (Private, sizeof(NVME_CONTROLLER_PRIVATE_DATA));
   //
   // Check NamespaceId is valid or not.
   //
@@ -707,7 +714,11 @@ NvmExpressPassThru (
   } else {
     Private->SqTdbl[QueueId].Sqt ^= 1;
   }
+
+  WriteBackDataCacheRange (Sq, sizeof(NVME_SQ));
+
   Data = ReadUnaligned32 ((UINT32*)&Private->SqTdbl[QueueId]);
+  WriteBackDataCacheRange (&Data, sizeof(UINT32));
   Status = PciIo->Mem.Write (
                PciIo,
                EfiPciIoWidthUint32,
@@ -741,6 +752,7 @@ NvmExpressPassThru (
     AsyncRequest->MapPrpList    = MapPrpList;
     AsyncRequest->PrpListNo     = PrpListNo;
     AsyncRequest->PrpListHost   = PrpListHost;
+	WriteBackDataCacheRange (AsyncRequest, sizeof(NVME_PASS_THRU_ASYNC_REQ));
 
     OldTpl = gBS->RaiseTPL (TPL_NOTIFY);
     InsertTailList (&Private->AsyncPassThruQueue, &AsyncRequest->Link);
@@ -770,8 +782,13 @@ NvmExpressPassThru (
   // Wait for completion queue to get filled in.
   //
   Status = EFI_TIMEOUT;
+
   while (EFI_ERROR (gBS->CheckEvent (TimerEvent))) {
+    InvalidateDataCacheRange(Cq, sizeof(NVME_CQ));
+    InvalidateDataCacheRange(Packet->TransferBuffer, Packet->TransferLength);
     if (Cq->Pt != Private->Pt[QueueId]) {
+      InvalidateDataCacheRange(Packet->TransferBuffer, Packet->TransferLength);
+	  InvalidateDataCacheRange(Cq, sizeof(NVME_CQ));
       Status = EFI_SUCCESS;
       break;
     }
@@ -795,6 +812,7 @@ NvmExpressPassThru (
     //
     // Copy the Respose Queue entry for this command to the callers response buffer
     //
+    InvalidateDataCacheRange(Private, sizeof(NVME_CONTROLLER_PRIVATE_DATA));
     CopyMem(Packet->NvmeCompletion, Cq, sizeof(EFI_NVM_EXPRESS_COMPLETION));
   } else {
     //

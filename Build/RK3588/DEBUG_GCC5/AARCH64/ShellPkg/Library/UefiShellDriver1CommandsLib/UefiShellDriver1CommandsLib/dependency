@@ -1,0 +1,29 @@
+
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/AutoGen.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/DrvCfg.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/Drivers.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/Dh.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/Devices.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/Connect.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/Unload.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/DrvDiag.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/DevTree.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/Reconnect.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/OpenInfo.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/UefiShellDriver1CommandsLib.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib/OUTPUT/Disconnect.obj.deps
+
+               

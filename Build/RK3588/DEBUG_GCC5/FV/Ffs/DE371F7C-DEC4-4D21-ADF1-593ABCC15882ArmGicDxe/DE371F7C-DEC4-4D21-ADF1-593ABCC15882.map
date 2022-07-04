@@ -1,0 +1,1142 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/ArmGicDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/ArmGicDxe.lib(ArmGicDxe.obj)
+                              AutoGen.obj (symbol from plugin) (InterruptDxeInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/ArmGicDxe.lib(ArmGicV2Dxe.obj)
+                              ArmGicDxe.obj (symbol from plugin) (GicV2DxeInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/ArmGicDxe.lib(ArmGicV3Dxe.obj)
+                              ArmGicDxe.obj (symbol from plugin) (GicV3DxeInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/ArmGicDxe.lib(ArmGicCommonDxe.obj)
+                              ArmGicV2Dxe.obj (symbol from plugin) (mGicNumInterrupts)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              CpuDeadLoop.obj (symbol from plugin) (CpuPause)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoHighLevel.obj)
+                              ArmGicV3Dxe.obj (symbol from plugin) (MmioOr32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              IoHighLevel.obj (symbol from plugin) (IoRead8)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                              ArmGicV3Dxe.obj (symbol from plugin) (ArmReadMpidr)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicLib.obj)
+                              ArmGicV2Dxe.obj (symbol from plugin) (ArmGicGetMaxNumInterrupts)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicNonSecLib.obj)
+                              ArmGicV2Dxe.obj (symbol from plugin) (ArmGicEnableDistributor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV2Lib.obj)
+                              ArmGicV2Dxe.obj (symbol from plugin) (ArmGicV2AcknowledgeInterrupt)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV2NonSecLib.obj)
+                              ArmGicLib.obj (symbol from plugin) (ArmGicV2EnableInterruptInterface)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+                              ArmGicV3Dxe.obj (symbol from plugin) (ArmGicV3EnableInterruptInterface)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmGicArchLib/ArmGicArchLib/OUTPUT/ArmGicArchLib.lib(ArmGicArchLib.obj)
+                              AutoGen.obj (symbol from plugin) (ArmGicArchLibInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              ArmGicCommonDxe.obj (symbol from plugin) (AllocateZeroPool)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              UefiLib.obj (symbol from plugin) (CompareGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              MemoryAllocationLib.obj (symbol from plugin) (ZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              MemoryAllocationLib.obj (symbol from plugin) (CopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              IoHighLevel.obj (symbol from plugin) (BitFieldRead8)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              UefiLib.obj (symbol from plugin) (StrSize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              UefiLib.obj (symbol from plugin) (ReadUnaligned24)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              BitField.obj (symbol from plugin) (RShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              BitField.obj (symbol from plugin) (LShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              String.obj (symbol from plugin) (StrDecimalToUintnS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              IoLibNoIo.obj (symbol from plugin) (FilterBeforeMmIoRead)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib(SerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              DebugLib.obj (symbol from plugin) (AsciiVSPrint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Lib.obj)
+                              ArmGicArchLib.obj (symbol from plugin) (ArmHasGicSystemRegisters)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                              AArch64Lib.obj (symbol from plugin) (ArmGetInterruptState)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                              AArch64Lib.obj (symbol from plugin) (ArmEnableInterrupts)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiLib.obj (symbol from plugin) (DevicePathType)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib(UartLib.obj)
+                              SerialPortLib.obj (symbol from plugin) (UartInitializePort)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000000000       0x20 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x0000000000000000       0x2e /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000000000       0x40 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .data.__stack_chk_guard
+                0x0000000000000000        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/cchtTIWa.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cchtTIWa.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccrz8wby.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrz8wby.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc8vdcZ4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8vdcZ4.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccYS98My.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYS98My.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccYADYOq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYADYOq.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccvm0f0V.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvm0f0V.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc9cbQW2.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9cbQW2.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccAQx9ST.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAQx9ST.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccTFcInZ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTFcInZ.debug.temp.o
+ .debug_info    0x0000000000000000       0x96 /tmp/ccbVh4Py.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5c /tmp/ccbVh4Py.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccbVh4Py.debug.temp.o
+ .debug_str     0x0000000000000000      0x282 /tmp/ccbVh4Py.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccbVh4Py.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbVh4Py.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccWQHGjQ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWQHGjQ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccxU4XtY.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxU4XtY.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccuxXEed.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuxXEed.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccTWnxzW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTWnxzW.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccXd5Jpi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXd5Jpi.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc1ZfdYq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1ZfdYq.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccBSa4dL.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBSa4dL.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccVi2MQW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVi2MQW.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccHxDYvT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHxDYvT.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cccSjSWL.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccSjSWL.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cccr7U28.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccr7U28.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc4deny2.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4deny2.debug.temp.o
+ .debug_info    0x0000000000000000      0x1d0 /tmp/cchLM3Tw.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb6 /tmp/cchLM3Tw.debug.temp.o
+ .debug_line    0x0000000000000000       0xfb /tmp/cchLM3Tw.debug.temp.o
+ .debug_str     0x0000000000000000      0x33b /tmp/cchLM3Tw.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cchLM3Tw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cchLM3Tw.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc1ZcqHB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1ZcqHB.debug.temp.o
+ .debug_info    0x0000000000000000      0x108 /tmp/cciuekpC.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x73 /tmp/cciuekpC.debug.temp.o
+ .debug_line    0x0000000000000000       0xc0 /tmp/cciuekpC.debug.temp.o
+ .debug_str     0x0000000000000000      0x2ce /tmp/cciuekpC.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cciuekpC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciuekpC.debug.temp.o
+ .debug_info    0x0000000000000000       0xc6 /tmp/ccD7VP1A.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x6e /tmp/ccD7VP1A.debug.temp.o
+ .debug_line    0x0000000000000000       0xc1 /tmp/ccD7VP1A.debug.temp.o
+ .debug_str     0x0000000000000000      0x2cd /tmp/ccD7VP1A.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccD7VP1A.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccD7VP1A.debug.temp.o
+ .debug_info    0x0000000000000000       0xbb /tmp/ccYy7pQb.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5e /tmp/ccYy7pQb.debug.temp.o
+ .debug_line    0x0000000000000000       0xc2 /tmp/ccYy7pQb.debug.temp.o
+ .debug_str     0x0000000000000000      0x2bd /tmp/ccYy7pQb.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccYy7pQb.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYy7pQb.debug.temp.o
+ .debug_info    0x0000000000000000      0x795 /tmp/ccSc5IOl.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x9f /tmp/ccSc5IOl.debug.temp.o
+ .debug_line    0x0000000000000000       0xaf /tmp/ccSc5IOl.debug.temp.o
+ .debug_str     0x0000000000000000      0x48b /tmp/ccSc5IOl.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccSc5IOl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSc5IOl.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccCtXmFR.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCtXmFR.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccrbyRKQ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrbyRKQ.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccKNKYQa.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccKNKYQa.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccKNKYQa.debug.temp.o
+ .debug_str     0x0000000000000000      0x28e /tmp/ccKNKYQa.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccKNKYQa.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKNKYQa.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/cca0v5Xk.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/cca0v5Xk.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/cca0v5Xk.debug.temp.o
+ .debug_str     0x0000000000000000      0x28e /tmp/cca0v5Xk.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cca0v5Xk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cca0v5Xk.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cchej0oh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cchej0oh.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccBeI21u.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBeI21u.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccH9tgel.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/ccH9tgel.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccH9tgel.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/ccH9tgel.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccH9tgel.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccH9tgel.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/ccBNMWyK.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccBNMWyK.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccBNMWyK.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/ccBNMWyK.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccBNMWyK.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBNMWyK.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/cciadkuq.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/cciadkuq.debug.temp.o
+ .debug_line    0x0000000000000000       0xb1 /tmp/cciadkuq.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/cciadkuq.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cciadkuq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciadkuq.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccKxYYuV.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccKxYYuV.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccKxYYuV.debug.temp.o
+ .debug_str     0x0000000000000000      0x292 /tmp/ccKxYYuV.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccKxYYuV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKxYYuV.debug.temp.o
+ .debug_info    0x0000000000000000      0x302 /tmp/ccwpAs3y.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xcd /tmp/ccwpAs3y.debug.temp.o
+ .debug_line    0x0000000000000000      0x119 /tmp/ccwpAs3y.debug.temp.o
+ .debug_str     0x0000000000000000      0x40b /tmp/ccwpAs3y.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccwpAs3y.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwpAs3y.debug.temp.o
+ .debug_info    0x0000000000000000       0xb6 /tmp/ccB8Cyik.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x86 /tmp/ccB8Cyik.debug.temp.o
+ .debug_line    0x0000000000000000      0x16c /tmp/ccB8Cyik.debug.temp.o
+ .debug_str     0x0000000000000000      0x324 /tmp/ccB8Cyik.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccB8Cyik.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccB8Cyik.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccUeV1cg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUeV1cg.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc9lz6vj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9lz6vj.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccSO154b.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSO154b.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccxbsl4U.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxbsl4U.debug.temp.o
+ .debug_info    0x0000000000000000      0x5bc /tmp/ccMZKfaS.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x162 /tmp/ccMZKfaS.debug.temp.o
+ .debug_line    0x0000000000000000      0x1d6 /tmp/ccMZKfaS.debug.temp.o
+ .debug_str     0x0000000000000000      0x660 /tmp/ccMZKfaS.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccMZKfaS.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMZKfaS.debug.temp.o
+ .debug_info    0x0000000000000000      0xec3 /tmp/cczWTMQg.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x189 /tmp/cczWTMQg.debug.temp.o
+ .debug_line    0x0000000000000000      0x20c /tmp/cczWTMQg.debug.temp.o
+ .debug_str     0x0000000000000000      0xd0c /tmp/cczWTMQg.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cczWTMQg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczWTMQg.debug.temp.o
+ .debug_info    0x0000000000000000      0x305 /tmp/ccdIWCio.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xd2 /tmp/ccdIWCio.debug.temp.o
+ .debug_line    0x0000000000000000      0x10b /tmp/ccdIWCio.debug.temp.o
+ .debug_str     0x0000000000000000      0x47b /tmp/ccdIWCio.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccdIWCio.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccdIWCio.debug.temp.o
+ .debug_info    0x0000000000000000     0x2675 /tmp/cc52V2tV.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x231 /tmp/cc52V2tV.debug.temp.o
+ .debug_line    0x0000000000000000      0x2c3 /tmp/cc52V2tV.debug.temp.o
+ .debug_str     0x0000000000000000     0x13cf /tmp/cc52V2tV.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc52V2tV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc52V2tV.debug.temp.o
+ .debug_info    0x0000000000000000     0x2ef9 /tmp/ccEWPT3d.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x20d /tmp/ccEWPT3d.debug.temp.o
+ .debug_line    0x0000000000000000      0x2b7 /tmp/ccEWPT3d.debug.temp.o
+ .debug_str     0x0000000000000000     0x1cf4 /tmp/ccEWPT3d.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccEWPT3d.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEWPT3d.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/cc3XxEPz.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/cc3XxEPz.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/cc3XxEPz.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/cc3XxEPz.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc3XxEPz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3XxEPz.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQ8RyBV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQ8RyBV.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccjum54w.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjum54w.debug.temp.o
+ .text          0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .text          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanInvalidateDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCache
+                0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableMmu
+                0x0000000000000000       0x88 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableMmu
+                0x0000000000000000       0x74 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableCachesAndMmu
+                0x0000000000000000       0x6c /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmMmuEnabled
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableDataCache
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableDataCache
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableInstructionCache
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableInstructionCache
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableAlignmentCheck
+                0x0000000000000000       0x58 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableAlignmentCheck
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableStackAlignmentCheck
+                0x0000000000000000       0x58 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableStackAlignmentCheck
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableBranchPrediction
+                0x0000000000000000        0x4 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableBranchPrediction
+                0x0000000000000000        0x4 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.AArch64AllDataCachesOperation
+                0x0000000000000000       0xa8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDataMemoryBarrier
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDataSynchronizationBarrier
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInstructionSynchronizationBarrier
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteVBar
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadVBar
+                0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableVFP
+                0x0000000000000000       0x64 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCallWFI
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdAA64Mmfr2
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadTpidrurw
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteTpidrurw
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmIsArchTimerImplemented
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteHcr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadHcr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCurrentEL
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCntHctl
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteCntHctl
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .text          0x0000000000000000      0x218 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .text          0x0000000000000000       0x20 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadMidr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmCacheInfo
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetInterruptState
+                0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetFiqState
+                0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCpacr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteAuxCr
+                0x0000000000000000       0x28 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadAuxCr
+                0x0000000000000000       0x28 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetTTBR0
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetTTBR0BaseAddress
+                0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetTCR
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetTCR
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetMAIR
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetMAIR
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmUpdateTranslationTableEntry
+                0x0000000000000000       0x54 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmInvalidateTlb
+                0x0000000000000000       0x38 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCptr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteScr
+                0x0000000000000000        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteMVBar
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmCallWFE
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmCallSEV
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadCpuActlr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCpuActlr
+                0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadSctlr
+                0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteSctlr
+                0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetPhysicalAddressBits
+                0x0000000000000000       0x24 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmIsMpCore
+                0x0000000000000000       0x14 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableAsynchronousAbort
+                0x0000000000000000        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableAsynchronousAbort
+                0x0000000000000000        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableIrq
+                0x0000000000000000        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableIrq
+                0x0000000000000000        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableFiq
+                0x0000000000000000        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableFiq
+                0x0000000000000000        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableInterrupts
+                0x0000000000000000        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableInterrupts
+                0x0000000000000000        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableAllExceptions
+                0x0000000000000000        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ReadCCSIDR
+                0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ReadCLIDR
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+LOAD /tmp/cchtTIWa.debug.temp.o
+LOAD /tmp/ccrz8wby.debug.temp.o
+LOAD /tmp/cc8vdcZ4.debug.temp.o
+LOAD /tmp/ccYS98My.debug.temp.o
+LOAD /tmp/ccYADYOq.debug.temp.o
+LOAD /tmp/ccvm0f0V.debug.temp.o
+LOAD /tmp/cc9cbQW2.debug.temp.o
+LOAD /tmp/ccAQx9ST.debug.temp.o
+LOAD /tmp/ccTFcInZ.debug.temp.o
+LOAD /tmp/ccbVh4Py.debug.temp.o
+LOAD /tmp/ccWQHGjQ.debug.temp.o
+LOAD /tmp/ccxU4XtY.debug.temp.o
+LOAD /tmp/ccuxXEed.debug.temp.o
+LOAD /tmp/ccTWnxzW.debug.temp.o
+LOAD /tmp/ccXd5Jpi.debug.temp.o
+LOAD /tmp/cc1ZfdYq.debug.temp.o
+LOAD /tmp/ccBSa4dL.debug.temp.o
+LOAD /tmp/ccVi2MQW.debug.temp.o
+LOAD /tmp/ccHxDYvT.debug.temp.o
+LOAD /tmp/cccSjSWL.debug.temp.o
+LOAD /tmp/cccr7U28.debug.temp.o
+LOAD /tmp/cc4deny2.debug.temp.o
+LOAD /tmp/cchLM3Tw.debug.temp.o
+LOAD /tmp/cc1ZcqHB.debug.temp.o
+LOAD /tmp/cciuekpC.debug.temp.o
+LOAD /tmp/ccD7VP1A.debug.temp.o
+LOAD /tmp/ccYy7pQb.debug.temp.o
+LOAD /tmp/ccSc5IOl.debug.temp.o
+LOAD /tmp/ccCtXmFR.debug.temp.o
+LOAD /tmp/ccrbyRKQ.debug.temp.o
+LOAD /tmp/ccKNKYQa.debug.temp.o
+LOAD /tmp/cca0v5Xk.debug.temp.o
+LOAD /tmp/cchej0oh.debug.temp.o
+LOAD /tmp/ccBeI21u.debug.temp.o
+LOAD /tmp/ccH9tgel.debug.temp.o
+LOAD /tmp/ccBNMWyK.debug.temp.o
+LOAD /tmp/cciadkuq.debug.temp.o
+LOAD /tmp/ccKxYYuV.debug.temp.o
+LOAD /tmp/ccwpAs3y.debug.temp.o
+LOAD /tmp/ccB8Cyik.debug.temp.o
+LOAD /tmp/ccUeV1cg.debug.temp.o
+LOAD /tmp/cc9lz6vj.debug.temp.o
+LOAD /tmp/ccSO154b.debug.temp.o
+LOAD /tmp/ccxbsl4U.debug.temp.o
+LOAD /tmp/ccMZKfaS.debug.temp.o
+LOAD /tmp/cczWTMQg.debug.temp.o
+LOAD /tmp/ccdIWCio.debug.temp.o
+LOAD /tmp/cc52V2tV.debug.temp.o
+LOAD /tmp/ccEWPT3d.debug.temp.o
+LOAD /tmp/cc3XxEPz.debug.temp.o
+LOAD /tmp/ccQ8RyBV.debug.temp.o
+LOAD /tmp/ccjum54w.debug.temp.o
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/ArmGicDxe.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmGicArchLib/ArmGicArchLib/OUTPUT/ArmGicArchLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000001000     0x3576
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.DebugPrintLevelEnabled.constprop.0
+                0x0000000000001000        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x0000000000001008        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x0000000000001010        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicGetSupportedArchRevision
+                0x0000000000001018        0xc /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x0000000000001024       0x3c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x0000000000001060       0x34 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicArchLibInitialize
+                0x0000000000001094       0x48 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x00000000000010dc       0x54 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000001130      0xbbc /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x0000000000001cec       0x64 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x0000000000001d50       0x4c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV3EndOfInterrupt
+                0x0000000000001d9c       0x58 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicGetDistributorIcfgBaseAndBit
+                0x0000000000001df4       0x70 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.RegisterInterruptSource
+                0x0000000000001e64       0x94 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.MmioRead32
+                0x0000000000001ef8       0x40 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV2GetTriggerType
+                0x0000000000001f38       0x60 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV3GetTriggerType
+                0x0000000000001f98        0x4 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicGetMaxNumInterrupts
+                0x0000000000001f9c       0x30 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicV2AcknowledgeInterrupt
+                0x0000000000001fcc       0x1c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000001fe8       0x74 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x000000000000205c       0x74 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x00000000000020d0       0x5c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.MmioWrite64.isra.0
+                0x000000000000212c       0x44 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.MmioWrite32.isra.0
+                0x0000000000002170       0x44 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x00000000000021b4       0xdc /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicDisableDistributor
+                0x0000000000002290        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicV2EndOfInterrupt
+                0x0000000000002298        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV2EndOfInterrupt
+                0x00000000000022a0       0x5c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicV2DisableInterruptInterface
+                0x00000000000022fc       0x2c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.UartWrite.constprop.0.isra.0
+                0x0000000000002328       0x54 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.DebugPrint.constprop.0
+                0x000000000000237c       0x84 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV2IrqInterruptHandler
+                0x0000000000002400       0xac /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV3IrqInterruptHandler
+                0x00000000000024ac       0xa4 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.CpuArchEventProtocolNotify
+                0x0000000000002550       0xf8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.InstallAndRegisterInterruptService
+                0x0000000000002648      0x1fc /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicGetCpuRedistributorBase
+                0x0000000000002844      0x10c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicDisableInterrupt
+                0x0000000000002950       0x78 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV2DisableInterruptSource
+                0x00000000000029c8       0x64 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV2ExitBootServicesEvent
+                0x0000000000002a2c       0xb4 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV3DisableInterruptSource
+                0x0000000000002ae0       0x68 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV3ExitBootServicesEvent
+                0x0000000000002b48       0x5c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicIsInterruptEnabled
+                0x0000000000002ba4       0x98 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV2GetInterruptSourceState
+                0x0000000000002c3c       0x74 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV3GetInterruptSourceState
+                0x0000000000002cb0       0x78 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicEnableInterrupt
+                0x0000000000002d28       0xb0 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV2EnableInterruptSource
+                0x0000000000002dd8       0x64 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV3EnableInterruptSource
+                0x0000000000002e3c       0x68 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicEnableInterruptInterface
+                0x0000000000002ea4       0x64 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.MmioAndThenOr32.isra.0
+                0x0000000000002f08       0x3c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV2SetTriggerType
+                0x0000000000002f44      0x100 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.GicV3SetTriggerType
+                0x0000000000003044      0x100 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicSetInterruptPriority.constprop.0
+                0x0000000000003144       0x8c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.MmioOr32.isra.0
+                0x00000000000031d0       0x2c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text.ArmGicEnableDistributor
+                0x00000000000031fc       0x48 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .text._ModuleEntryPoint
+                0x0000000000003244      0x474 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+                0x0000000000003244                _ModuleEntryPoint
+ .text.ArmReadMpidr
+                0x00000000000036b8        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x00000000000036b8                ArmReadMpidr
+ .text.ArmReadIdAA64Pfr0
+                0x00000000000036c0        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x00000000000036c0                ArmReadIdAA64Pfr0
+ .text.ArmGicV3GetControlSystemRegisterEnable
+                0x00000000000036c8       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+                0x00000000000036c8                ArmGicV3GetControlSystemRegisterEnable
+ .text.ArmGicV3SetControlSystemRegisterEnable
+                0x00000000000036f8       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+                0x00000000000036f8                ArmGicV3SetControlSystemRegisterEnable
+ .text.ArmGicV3EnableInterruptInterface
+                0x000000000000372c        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+                0x000000000000372c                ArmGicV3EnableInterruptInterface
+ .text.ArmGicV3DisableInterruptInterface
+                0x0000000000003738        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+                0x0000000000003738                ArmGicV3DisableInterruptInterface
+ .text.ArmGicV3EndOfInterrupt
+                0x0000000000003744        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+                0x0000000000003744                ArmGicV3EndOfInterrupt
+ .text.ArmGicV3AcknowledgeInterrupt
+                0x000000000000374c        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+                0x000000000000374c                ArmGicV3AcknowledgeInterrupt
+ .text.ArmGicV3SetPriorityMask
+                0x0000000000003754        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+                0x0000000000003754                ArmGicV3SetPriorityMask
+ .text.ArmGicV3SetBinaryPointer
+                0x000000000000375c        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib(ArmGicV3.obj)
+                0x000000000000375c                ArmGicV3SetBinaryPointer
+ *fill*         0x0000000000003764        0xc 
+ .text          0x0000000000003770      0x200 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000003770                InternalMemSetMem16
+                0x000000000000377c                InternalMemSetMem32
+                0x0000000000003788                InternalMemSetMem64
+                0x0000000000003794                InternalMemZeroMem
+                0x000000000000379c                InternalMemSetMem
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x0000000000003970      0x197 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ *fill*         0x0000000000003b07        0x1 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000003b08       0x5e /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.AsciiSPrint.constprop.0.str1.1
+                0x0000000000003b66       0x18 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.DebugAssert.str1.1
+                0x0000000000003b7e        0xa /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.GicV3EndOfInterrupt.str1.1
+                0x0000000000003b88       0x5d /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.GicGetDistributorIcfgBaseAndBit.str1.1
+                0x0000000000003be5       0x64 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.MmioRead32.str1.1
+                0x0000000000003c49       0x62 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x0000000000003cab       0x8b /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000003d36       0x79 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.ReadUnaligned16.str1.1
+                0x0000000000003daf       0x48 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.MmioWrite64.isra.0.str1.1
+                0x0000000000003df7       0x13 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.GicV2EndOfInterrupt.str1.1
+                0x0000000000003e0a       0x4b /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.GicV2IrqInterruptHandler.str1.1
+                0x0000000000003e55       0x1e /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.CpuArchEventProtocolNotify.str1.1
+                0x0000000000003e73       0x2a /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.InstallAndRegisterInterruptService.str1.1
+                0x0000000000003e9d       0x77 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.GicGetCpuRedistributorBase.str1.1
+                0x0000000000003f14       0xbc /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.GicV2SetTriggerType.str1.1
+                0x0000000000003fd0       0x24 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x0000000000003ff4      0x20c /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.0
+                0x0000000000004200       0x1b /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x000000000000421b      0x2b5 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x00000000000044d0       0x10 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x00000000000044e0       0x96 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ *(.got .got.*)
+ *:AutoGen.obj(.data.g*Guid)
+
+.iplt           0x0000000000004578        0x0
+ .iplt          0x0000000000004578        0x0 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+
+.data           0x0000000000005000      0x158
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.gEfiCpuArchProtocolGuid
+                0x0000000000005000       0x10 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .data.gHardwareInterrupt2ProtocolGuid
+                0x0000000000005010       0x10 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .data.gHardwareInterrupt2V2Protocol
+                0x0000000000005020       0x38 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .data.gHardwareInterrupt2V3Protocol
+                0x0000000000005058       0x38 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .data.gHardwareInterruptProtocolGuid
+                0x0000000000005090       0x10 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .data.gHardwareInterruptV2Protocol
+                0x00000000000050a0       0x28 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .data.gHardwareInterruptV3Protocol
+                0x00000000000050c8       0x28 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.EfiExitBootServicesEvent
+                0x00000000000050f0        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.gBS       0x00000000000050f8        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.gHardwareInterruptHandle
+                0x0000000000005100        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x0000000000005108        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000005110        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.gRegisteredInterruptHandlers
+                0x0000000000005118        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.gST       0x0000000000005120        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.mCpuArchProtocolNotifyEventRegistration
+                0x0000000000005128        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.mGicArchRevision
+                0x0000000000005130        0x4 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.mGicDistributorBase.lto_priv.0
+                0x0000000000005134        0x4 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.mGicDistributorBase.lto_priv.1
+                0x0000000000005138        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.mGicInterruptInterfaceBase
+                0x0000000000005140        0x4 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ *fill*         0x0000000000005144        0x4 
+ .bss.mGicNumInterrupts
+                0x0000000000005148        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .bss.mGicRedistributorsBase
+                0x0000000000005150        0x8 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+
+.igot.plt       0x0000000000005158        0x0
+ .igot.plt      0x0000000000005158        0x0 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x0000000000005158        0x0
+ *(.rela .rela.*)
+ .rela.iplt     0x0000000000005158        0x0 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+
+.hii
+ *(.hii)
+
+.build-id
+ *(.note.gnu.build-id)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/DEBUG/ArmGicDxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x1d940
+ .debug_info    0x0000000000000000     0x398a /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .debug_info    0x000000000000398a     0x191f /tmp/cchtTIWa.debug.temp.o
+                0x000000000000398a                DriverEntryPoint.c.6ad2c6b6
+ .debug_info    0x00000000000052a9      0x100 /tmp/ccrz8wby.debug.temp.o
+                0x00000000000052a9                memcpy.c.124218b3
+ .debug_info    0x00000000000053a9       0xb1 /tmp/cc8vdcZ4.debug.temp.o
+                0x00000000000053a9                memset.c.fe78e419
+ .debug_info    0x000000000000545a       0xb0 /tmp/ccYS98My.debug.temp.o
+                0x000000000000545a                BaseStackCheckGcc.c.4b3a57a0
+ .debug_info    0x000000000000550a     0x1dea /tmp/ccYADYOq.debug.temp.o
+                0x000000000000550a                AutoGen.c.783a0a0d
+ .debug_info    0x00000000000072f4     0x17d1 /tmp/ccvm0f0V.debug.temp.o
+                0x00000000000072f4                ArmGicDxe.c.5c72f049
+ .debug_info    0x0000000000008ac5     0x3492 /tmp/cc9cbQW2.debug.temp.o
+                0x0000000000008ac5                ArmGicV2Dxe.c.6a5db28b
+ .debug_info    0x000000000000bf57     0x3484 /tmp/ccAQx9ST.debug.temp.o
+                0x000000000000bf57                ArmGicV3Dxe.c.e844a383
+ .debug_info    0x000000000000f3db     0x2cba /tmp/ccTFcInZ.debug.temp.o
+                0x000000000000f3db                ArmGicCommonDxe.c.88891299
+ .debug_info    0x0000000000012095      0xff7 /tmp/ccWQHGjQ.debug.temp.o
+                0x0000000000012095                IoHighLevel.c.e8f96964
+ .debug_info    0x000000000001308c      0x4eb /tmp/ccxU4XtY.debug.temp.o
+                0x000000000001308c                IoLibNoIo.c.373e17b9
+ .debug_info    0x0000000000013577      0x32b /tmp/ccuxXEed.debug.temp.o
+                0x0000000000013577                DebugLib.c.b228dbcd
+ .debug_info    0x00000000000138a2      0x48e /tmp/ccTWnxzW.debug.temp.o
+                0x00000000000138a2                ArmGicLib.c.4cd25b3f
+ .debug_info    0x0000000000013d30       0xc4 /tmp/ccXd5Jpi.debug.temp.o
+                0x0000000000013d30                ArmGicNonSecLib.c.f3f284fe
+ .debug_info    0x0000000000013df4       0xba /tmp/cc1ZfdYq.debug.temp.o
+                0x0000000000013df4                ArmGicV2Lib.c.a2623cae
+ .debug_info    0x0000000000013eae       0xaa /tmp/ccBSa4dL.debug.temp.o
+                0x0000000000013eae                ArmGicV2NonSecLib.c.c4e57022
+ .debug_info    0x0000000000013f58       0xf5 /tmp/ccVi2MQW.debug.temp.o
+                0x0000000000013f58                ArmGicArchLib.c.33061136
+ .debug_info    0x000000000001404d     0x17cd /tmp/ccHxDYvT.debug.temp.o
+                0x000000000001404d                UefiBootServicesTableLib.c.40f3e47d
+ .debug_info    0x000000000001581a     0x13a8 /tmp/cccSjSWL.debug.temp.o
+                0x000000000001581a                MemoryAllocationLib.c.3e4a7161
+ .debug_info    0x0000000000016bc2     0x179e /tmp/cccr7U28.debug.temp.o
+                0x0000000000016bc2                UefiRuntimeServicesTableLib.c.90bd0d28
+ .debug_info    0x0000000000018360     0x2543 /tmp/cc4deny2.debug.temp.o
+                0x0000000000018360                UefiLib.c.33a327e5
+ .debug_info    0x000000000001a8a3       0xaf /tmp/cc1ZcqHB.debug.temp.o
+                0x000000000001a8a3                ZeroMemWrapper.c.0fd9aaec
+ .debug_info    0x000000000001a952      0x711 /tmp/ccCtXmFR.debug.temp.o
+                0x000000000001a952                String.c.8e83c025
+ .debug_info    0x000000000001b063      0x238 /tmp/ccrbyRKQ.debug.temp.o
+                0x000000000001b063                Unaligned.c.a40271e9
+ .debug_info    0x000000000001b29b      0xf83 /tmp/cchej0oh.debug.temp.o
+                0x000000000001b29b                SafeString.c.1b674302
+ .debug_info    0x000000000001c21e      0x30e /tmp/ccBeI21u.debug.temp.o
+                0x000000000001c21e                Math64.c.df2e98ae
+ .debug_info    0x000000000001c52c      0x277 /tmp/ccUeV1cg.debug.temp.o
+                0x000000000001c52c                SerialPortLib.c.bf19079b
+ .debug_info    0x000000000001c7a3      0x5ad /tmp/cc9lz6vj.debug.temp.o
+                0x000000000001c7a3                PrintLib.c.b75a7535
+ .debug_info    0x000000000001cd50      0x753 /tmp/ccSO154b.debug.temp.o
+                0x000000000001cd50                PrintLibInternal.c.b254bcc3
+ .debug_info    0x000000000001d4a3      0x107 /tmp/ccxbsl4U.debug.temp.o
+                0x000000000001d4a3                AArch64Lib.c.ecad0a2f
+ .debug_info    0x000000000001d5aa       0xc3 /tmp/ccQ8RyBV.debug.temp.o
+                0x000000000001d5aa                DivU64x32Remainder.c.99a75392
+ .debug_info    0x000000000001d66d      0x2d3 /tmp/ccjum54w.debug.temp.o
+                0x000000000001d66d                UartLib.c.db43ab4c
+
+.debug_abbrev   0x0000000000000000     0x2842
+ .debug_abbrev  0x0000000000000000      0x2f6 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000002f6      0x1d1 /tmp/cchtTIWa.debug.temp.o
+ .debug_abbrev  0x00000000000004c7       0xa4 /tmp/ccrz8wby.debug.temp.o
+ .debug_abbrev  0x000000000000056b       0x76 /tmp/cc8vdcZ4.debug.temp.o
+ .debug_abbrev  0x00000000000005e1       0x87 /tmp/ccYS98My.debug.temp.o
+ .debug_abbrev  0x0000000000000668      0x245 /tmp/ccYADYOq.debug.temp.o
+ .debug_abbrev  0x00000000000008ad      0x196 /tmp/ccvm0f0V.debug.temp.o
+ .debug_abbrev  0x0000000000000a43      0x29d /tmp/cc9cbQW2.debug.temp.o
+ .debug_abbrev  0x0000000000000ce0      0x29f /tmp/ccAQx9ST.debug.temp.o
+ .debug_abbrev  0x0000000000000f7f      0x27a /tmp/ccTFcInZ.debug.temp.o
+ .debug_abbrev  0x00000000000011f9       0x90 /tmp/ccWQHGjQ.debug.temp.o
+ .debug_abbrev  0x0000000000001289       0xe8 /tmp/ccxU4XtY.debug.temp.o
+ .debug_abbrev  0x0000000000001371      0x12d /tmp/ccuxXEed.debug.temp.o
+ .debug_abbrev  0x000000000000149e      0x133 /tmp/ccTWnxzW.debug.temp.o
+ .debug_abbrev  0x00000000000015d1       0x80 /tmp/ccXd5Jpi.debug.temp.o
+ .debug_abbrev  0x0000000000001651       0x6a /tmp/cc1ZfdYq.debug.temp.o
+ .debug_abbrev  0x00000000000016bb       0x68 /tmp/ccBSa4dL.debug.temp.o
+ .debug_abbrev  0x0000000000001723       0xa2 /tmp/ccVi2MQW.debug.temp.o
+ .debug_abbrev  0x00000000000017c5      0x1c5 /tmp/ccHxDYvT.debug.temp.o
+ .debug_abbrev  0x000000000000198a      0x1e4 /tmp/cccSjSWL.debug.temp.o
+ .debug_abbrev  0x0000000000001b6e      0x198 /tmp/cccr7U28.debug.temp.o
+ .debug_abbrev  0x0000000000001d06      0x24f /tmp/cc4deny2.debug.temp.o
+ .debug_abbrev  0x0000000000001f55       0x5e /tmp/cc1ZcqHB.debug.temp.o
+ .debug_abbrev  0x0000000000001fb3      0x101 /tmp/ccCtXmFR.debug.temp.o
+ .debug_abbrev  0x00000000000020b4       0x7f /tmp/ccrbyRKQ.debug.temp.o
+ .debug_abbrev  0x0000000000002133      0x133 /tmp/cchej0oh.debug.temp.o
+ .debug_abbrev  0x0000000000002266       0xa8 /tmp/ccBeI21u.debug.temp.o
+ .debug_abbrev  0x000000000000230e       0xc2 /tmp/ccUeV1cg.debug.temp.o
+ .debug_abbrev  0x00000000000023d0      0x106 /tmp/cc9lz6vj.debug.temp.o
+ .debug_abbrev  0x00000000000024d6      0x15c /tmp/ccSO154b.debug.temp.o
+ .debug_abbrev  0x0000000000002632       0xb6 /tmp/ccxbsl4U.debug.temp.o
+ .debug_abbrev  0x00000000000026e8       0x62 /tmp/ccQ8RyBV.debug.temp.o
+ .debug_abbrev  0x000000000000274a       0xf8 /tmp/ccjum54w.debug.temp.o
+
+.debug_loc      0x0000000000000000     0x6bdb
+ .debug_loc     0x0000000000000000     0x6bdb /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x3c0
+ .debug_aranges
+                0x0000000000000000      0x3c0 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000      0x930
+ .debug_ranges  0x0000000000000000      0x930 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0x5797
+ .debug_line    0x0000000000000000     0x269f /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+ .debug_line    0x000000000000269f      0x2de /tmp/cchtTIWa.debug.temp.o
+ .debug_line    0x000000000000297d       0x70 /tmp/ccrz8wby.debug.temp.o
+ .debug_line    0x00000000000029ed       0x70 /tmp/cc8vdcZ4.debug.temp.o
+ .debug_line    0x0000000000002a5d      0x144 /tmp/ccYS98My.debug.temp.o
+ .debug_line    0x0000000000002ba1      0x2a7 /tmp/ccYADYOq.debug.temp.o
+ .debug_line    0x0000000000002e48      0x20b /tmp/ccvm0f0V.debug.temp.o
+ .debug_line    0x0000000000003053      0x352 /tmp/cc9cbQW2.debug.temp.o
+ .debug_line    0x00000000000033a5      0x352 /tmp/ccAQx9ST.debug.temp.o
+ .debug_line    0x00000000000036f7      0x2fd /tmp/ccTFcInZ.debug.temp.o
+ .debug_line    0x00000000000039f4       0xbd /tmp/ccWQHGjQ.debug.temp.o
+ .debug_line    0x0000000000003ab1      0x10a /tmp/ccxU4XtY.debug.temp.o
+ .debug_line    0x0000000000003bbb      0x192 /tmp/ccuxXEed.debug.temp.o
+ .debug_line    0x0000000000003d4d      0x1a3 /tmp/ccTWnxzW.debug.temp.o
+ .debug_line    0x0000000000003ef0      0x100 /tmp/ccXd5Jpi.debug.temp.o
+ .debug_line    0x0000000000003ff0       0xb7 /tmp/cc1ZfdYq.debug.temp.o
+ .debug_line    0x00000000000040a7       0xbd /tmp/ccBSa4dL.debug.temp.o
+ .debug_line    0x0000000000004164      0x13f /tmp/ccVi2MQW.debug.temp.o
+ .debug_line    0x00000000000042a3      0x237 /tmp/ccHxDYvT.debug.temp.o
+ .debug_line    0x00000000000044da      0x20c /tmp/cccSjSWL.debug.temp.o
+ .debug_line    0x00000000000046e6      0x1e7 /tmp/cccr7U28.debug.temp.o
+ .debug_line    0x00000000000048cd      0x2d5 /tmp/cc4deny2.debug.temp.o
+ .debug_line    0x0000000000004ba2       0xc1 /tmp/cc1ZcqHB.debug.temp.o
+ .debug_line    0x0000000000004c63      0x155 /tmp/ccCtXmFR.debug.temp.o
+ .debug_line    0x0000000000004db8       0xb4 /tmp/ccrbyRKQ.debug.temp.o
+ .debug_line    0x0000000000004e6c      0x159 /tmp/cchej0oh.debug.temp.o
+ .debug_line    0x0000000000004fc5       0xad /tmp/ccBeI21u.debug.temp.o
+ .debug_line    0x0000000000005072      0x14f /tmp/ccUeV1cg.debug.temp.o
+ .debug_line    0x00000000000051c1       0xfc /tmp/cc9lz6vj.debug.temp.o
+ .debug_line    0x00000000000052bd      0x192 /tmp/ccSO154b.debug.temp.o
+ .debug_line    0x000000000000544f       0xc8 /tmp/ccxbsl4U.debug.temp.o
+ .debug_line    0x0000000000005517       0xb9 /tmp/ccQ8RyBV.debug.temp.o
+ .debug_line    0x00000000000055d0      0x1c7 /tmp/ccjum54w.debug.temp.o
+
+.debug_str      0x0000000000000000     0x5e59
+ .debug_str     0x0000000000000000      0x333 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o
+                                        0x345 (size before relaxing)
+ .debug_str     0x0000000000000333     0x133b /tmp/cchtTIWa.debug.temp.o
+                                       0x1464 (size before relaxing)
+ .debug_str     0x000000000000166e      0x21d /tmp/ccrz8wby.debug.temp.o
+                                        0x2a4 (size before relaxing)
+ .debug_str     0x000000000000188b       0x58 /tmp/cc8vdcZ4.debug.temp.o
+                                        0x298 (size before relaxing)
+ .debug_str     0x00000000000018e3      0x110 /tmp/ccYS98My.debug.temp.o
+                                        0x2f2 (size before relaxing)
+ .debug_str     0x00000000000019f3      0x9f0 /tmp/ccYADYOq.debug.temp.o
+                                       0x1d40 (size before relaxing)
+ .debug_str     0x00000000000023e3       0xa0 /tmp/ccvm0f0V.debug.temp.o
+                                       0x1373 (size before relaxing)
+ .debug_str     0x0000000000002483      0x8e4 /tmp/cc9cbQW2.debug.temp.o
+                                       0x1d4e (size before relaxing)
+ .debug_str     0x0000000000002d67      0x165 /tmp/ccAQx9ST.debug.temp.o
+                                       0x1d63 (size before relaxing)
+ .debug_str     0x0000000000002ecc      0x377 /tmp/ccTFcInZ.debug.temp.o
+                                       0x1898 (size before relaxing)
+ .debug_str     0x0000000000003243      0x4b9 /tmp/ccWQHGjQ.debug.temp.o
+                                        0x6af (size before relaxing)
+ .debug_str     0x00000000000036fc      0x17e /tmp/ccxU4XtY.debug.temp.o
+                                        0x3fa (size before relaxing)
+ .debug_str     0x000000000000387a      0x235 /tmp/ccuxXEed.debug.temp.o
+                                        0x4eb (size before relaxing)
+ .debug_str     0x0000000000003aaf      0x279 /tmp/ccTWnxzW.debug.temp.o
+                                        0x559 (size before relaxing)
+ .debug_str     0x0000000000003d28       0x61 /tmp/ccXd5Jpi.debug.temp.o
+                                        0x2ec (size before relaxing)
+ .debug_str     0x0000000000003d89       0x7f /tmp/cc1ZfdYq.debug.temp.o
+                                        0x2cb (size before relaxing)
+ .debug_str     0x0000000000003e08       0x94 /tmp/ccBSa4dL.debug.temp.o
+                                        0x2d7 (size before relaxing)
+ .debug_str     0x0000000000003e9c      0x109 /tmp/ccVi2MQW.debug.temp.o
+                                        0x333 (size before relaxing)
+ .debug_str     0x0000000000003fa5      0x105 /tmp/ccHxDYvT.debug.temp.o
+                                       0x1382 (size before relaxing)
+ .debug_str     0x00000000000040aa      0x308 /tmp/cccSjSWL.debug.temp.o
+                                        0xf74 (size before relaxing)
+ .debug_str     0x00000000000043b2      0x114 /tmp/cccr7U28.debug.temp.o
+                                       0x1384 (size before relaxing)
+ .debug_str     0x00000000000044c6      0x6cd /tmp/cc4deny2.debug.temp.o
+                                       0x1b28 (size before relaxing)
+ .debug_str     0x0000000000004b93       0xc8 /tmp/cc1ZcqHB.debug.temp.o
+                                        0x2b5 (size before relaxing)
+ .debug_str     0x0000000000004c5b      0x358 /tmp/ccCtXmFR.debug.temp.o
+                                        0x67e (size before relaxing)
+ .debug_str     0x0000000000004fb3       0xf8 /tmp/ccrbyRKQ.debug.temp.o
+                                        0x345 (size before relaxing)
+ .debug_str     0x00000000000050ab      0x2e0 /tmp/cchej0oh.debug.temp.o
+                                        0x6ed (size before relaxing)
+ .debug_str     0x000000000000538b      0x1a4 /tmp/ccBeI21u.debug.temp.o
+                                        0x407 (size before relaxing)
+ .debug_str     0x000000000000552f      0x1fe /tmp/ccUeV1cg.debug.temp.o
+                                        0x43f (size before relaxing)
+ .debug_str     0x000000000000572d      0x225 /tmp/cc9lz6vj.debug.temp.o
+                                        0x48c (size before relaxing)
+ .debug_str     0x0000000000005952      0x225 /tmp/ccSO154b.debug.temp.o
+                                        0x687 (size before relaxing)
+ .debug_str     0x0000000000005b77      0x15f /tmp/ccxbsl4U.debug.temp.o
+                                        0x349 (size before relaxing)
+ .debug_str     0x0000000000005cd6       0x60 /tmp/ccQ8RyBV.debug.temp.o
+                                        0x2ae (size before relaxing)
+ .debug_str     0x0000000000005d36      0x123 /tmp/ccjum54w.debug.temp.o
+                                        0x438 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0xa40
+ .debug_frame   0x0000000000000000      0xa40 /tmp/ArmGicDxe.dll.diynqn.ltrans0.ltrans.o

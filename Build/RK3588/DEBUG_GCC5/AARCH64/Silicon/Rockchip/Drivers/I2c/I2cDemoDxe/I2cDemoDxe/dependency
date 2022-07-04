@@ -1,0 +1,7 @@
+
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Drivers/I2c/I2cDemoDxe/I2cDemoDxe/OUTPUT/AutoGen.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Drivers/I2c/I2cDemoDxe/I2cDemoDxe/OUTPUT/I2cDemoDxe.obj.deps
+
+               

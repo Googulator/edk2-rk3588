@@ -40,7 +40,7 @@
   AcpiLib|EmbeddedPkg/Library/AcpiLib/AcpiLib.inf
   ArmPlatformLib|Platform/Rockchip/RK3588/Library/RK3588Lib/RK3588Lib.inf
   RockchipPlatfromLib|Platform/Rockchip/RK3588/Library/RockchipPlatfromLib/RockchipPlatfromLib.inf
-# CruLib|Silicon/Rockchip/Library/CruLib/CruLib.inf
+  CruLib|Silicon/Rockchip/Library/CruLib/CruLib.inf
 
   DmaLib|EmbeddedPkg/Library/NonCoherentDmaLib/NonCoherentDmaLib.inf
 
@@ -63,6 +63,13 @@
   # USB Requirements
   UefiUsbLib|MdePkg/Library/UefiUsbLib/UefiUsbLib.inf
 
+  # PCIe
+  PciSegmentLib|MdePkg/Library/BasePciSegmentLibPci/BasePciSegmentLibPci.inf
+  PciHostBridgeLib|Silicon/Rockchip/Library/PciHostBridgeLib/PciHostBridgeLib.inf
+  PciExpressLib|Silicon/Rockchip/Library/PciExpressLib/PciExpressLib.inf
+  PciLib|MdePkg/Library/BasePciLibPciExpress/BasePciLibPciExpress.inf
+
+
   # VariableRuntimeDxe Requirements
   SynchronizationLib|MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib.inf
   AuthVariableLib|MdeModulePkg/Library/AuthVariableLibNull/AuthVariableLibNull.inf
@@ -70,6 +77,11 @@
   VarCheckLib|MdeModulePkg/Library/VarCheckLib/VarCheckLib.inf
 
   AndroidBootImgLib|edk2/EmbeddedPkg/Library/AndroidBootImgLib/AndroidBootImgLib.inf
+
+  RockchipDisplayLib|Silicon/Rockchip/Library/DisplayLib/RockchipDisplayLib.inf
+  # to delete
+  AnalogixDpLib|Silicon/Rockchip/Library/DisplayLib/AnalogixDpLib.inf
+
 [LibraryClasses.common.SEC]
   PrePiLib|EmbeddedPkg/Library/PrePiLib/PrePiLib.inf
   ExtractGuidedSectionLib|EmbeddedPkg/Library/PrePiExtractGuidedSectionLib/PrePiExtractGuidedSectionLib.inf
@@ -78,6 +90,10 @@
   MemoryInitPeiLib|ArmPlatformPkg/MemoryInitPei/MemoryInitPeiLib.inf
   PlatformPeiLib|ArmPlatformPkg/PlatformPei/PlatformPeiLib.inf
   PrePiHobListPointerLib|ArmPlatformPkg/Library/PrePiHobListPointerLib/PrePiHobListPointerLib.inf
+
+[LibraryClasses.common.DXE_RUNTIME_DRIVER]
+  RockchipPlatfromLib|Platform/Rockchip/RK3588/Library/RockchipPlatfromLib/RockchipPlatfromLib.inf
+
 [BuildOptions]
   GCC:*_*_*_PLATFORM_FLAGS = -I$(WORKSPACE)/Silicon/Rockchip/RK3588/Include -I$(WORKSPACE)/Platform/Rockchip/RK3588/Include -I$(WORKSPACE)/Silicon/Rockchip/Include
 
@@ -90,7 +106,7 @@
 [PcdsFeatureFlag.common]
   #  If TRUE, Graphics Output Protocol will be installed on virtual handle created by ConsplitterDxe.
   #  It could be set FALSE to save size.
-  gEfiMdeModulePkgTokenSpaceGuid.PcdConOutGopSupport|FALSE
+  gEfiMdeModulePkgTokenSpaceGuid.PcdConOutGopSupport|TRUE
 
 [PcdsFixedAtBuild.common]
   gEfiMdePkgTokenSpaceGuid.PcdDefaultTerminalType|4
@@ -163,6 +179,22 @@
   # SDHCI controller
   #
   gRockchipTokenSpaceGuid.PcdSdhciDxeBaseAddress|0xfe2e0000
+
+  #
+  # PCIe controller
+  #
+  gRockchipTokenSpaceGuid.PcdPcieRootPortApbBaseAddress|0xfe150000
+  gRockchipTokenSpaceGuid.PcdPcieRootPortDbiBaseAddress|0xf5000000
+  gRockchipTokenSpaceGuid.PcdPcieRootPortCfgBaseAddress|0xf0000000
+  gRockchipTokenSpaceGuid.PcdPcieRootPortCfgSize|0x100000
+  gRockchipTokenSpaceGuid.PcdPcieRootPortIoBaseAddress|0xf0100000
+  gRockchipTokenSpaceGuid.PcdPcieRootPortIoSize|0x100000
+  gRockchipTokenSpaceGuid.PcdPcieRootPortMemBaseAddress|0xf0200000
+  gRockchipTokenSpaceGuid.PcdPcieRootPortMemSize|0xe00000
+  gRockchipTokenSpaceGuid.PcdPcieRootPortMemBaseAddress64|0x900000000
+  gRockchipTokenSpaceGuid.PcdPcieRootPortMemSize64|0x40000000
+
+
   #
   #
   # Fastboot
@@ -189,22 +221,37 @@
   #
   gRK3588TokenSpaceGuid.PcdAndroidBootDevicePath|L"\\EFI\\BOOT\\GRUBAA64.EFI"
   gRK3588TokenSpaceGuid.PcdSdBootDevicePath|L"VenHw(0D51905B-B77E-452A-A2C0-ECA0CC8D514A,00E023F70000000000)/SD(0x0)"
-  gEmbeddedTokenSpaceGuid.PcdAndroidBootDevicePath|L"VenHw(100C2CFA-B586-4198-9B4C-1683D195B1DA)/HD(3,GPT,7A3F0000-0000-446A-8000-702F00006273,0x8000,0x20000)"
-
+  gEmbeddedTokenSpaceGuid.PcdAndroidBootDevicePath|L"VenHw(100C2CFA-B586-4198-9B4C-1683D195B1DA)/HD(3,GPT,7A3F0000-0000-446A-8000-702F00006273,0x8000,0x40000)"
   #
   # Make VariableRuntimeDxe work at emulated non-volatile variable mode.
   #
   gEfiMdeModulePkgTokenSpaceGuid.PcdEmuVariableNvModeEnable|TRUE
 
-[PcdsDynamicDefault.common]
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageVariableBase64|0x803C0000
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwSpareBase64|0x803E0000
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwWorkingBase64|0x803D0000
-
 # ACPI Enable
 !ifdef $(ROCKCHIP_ACPIEN)
   gRK3588TokenSpaceGuid.AcpiEnable|TRUE
 !endif
+
+  #
+  # Display
+  #
+  gRockchipTokenSpaceGuid.PcdLcdPixelFormat|0x00000001
+  gRockchipTokenSpaceGuid.PcdLcdDdrFrameBufferSize|0x10000000
+  gRockchipTokenSpaceGuid.PcdLcdDdrFrameBufferBase|0x40000000
+
+[PcdsDynamicDefault.common]
+  gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageVariableBase64|0x007C0000
+  gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwSpareBase64|0x007CF000
+  gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwWorkingBase64|0x007D0000
+
+  #
+  # Display
+  #
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|0x600
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|0x800
+  gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|0
+  gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|0
+
 ################################################################################
 #
 # Components Section - list of all EDK II Modules needed by this Platform
@@ -245,7 +292,27 @@
   MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf
   MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf
   MdeModulePkg/Universal/Console/TerminalDxe/TerminalDxe.inf
+  MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
   MdeModulePkg/Universal/SerialDxe/SerialDxe.inf
+
+  #PCIe
+  Silicon/Rockchip/Library/PciExpressLib/PciExpressLib.inf
+  Silicon/Rockchip/Library/PciHostBridgeLib/PciHostBridgeLib.inf
+  Silicon/Rockchip/Drivers/PciPlatform/PcieInitDxe.inf
+  ArmPkg/Drivers/ArmPciCpuIo2Dxe/ArmPciCpuIo2Dxe.inf
+
+  MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe.inf
+  MdeModulePkg/Bus/Pci/PciHostBridgeDxe/PciHostBridgeDxe.inf
+  MdeModulePkg/Bus/Pci/NvmExpressDxe/NvmExpressDxe.inf
+  #MdeModulePkg/Bus/Pci/NvmExpressPei/NvmExpressPei.inf
+  #INF MdeModulePkg/Bus/Pci/EhciDxe/XhciDxe.inf
+  MdeModulePkg/Bus/Ata/AtaAtapiPassThru/AtaAtapiPassThru.inf
+  MdeModulePkg/Bus/Pci/SataControllerDxe/SataControllerDxe.inf
+
+    MdeModulePkg/Bus/Pci/NonDiscoverablePciDeviceDxe/NonDiscoverablePciDeviceDxe.inf
+#  MdeModulePkg/Bus/Pci/EhciDxe/EhciDxe.inf
+#  MdeModulePkg/Bus/Usb/UsbKbDxe/UsbKbDxe.inf
+  
 
   MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
   MdeModulePkg/Universal/FaultTolerantWriteDxe/FaultTolerantWriteDxe.inf
@@ -257,14 +324,25 @@
 
   MdeModulePkg/Universal/PCD/Dxe/Pcd.inf
 
+  Silicon/Rockchip/Drivers/Vop2Dxe/Vop2Dxe.inf
+  Silicon/Rockchip/Drivers/LcdGraphicsOutputDxe/LcdGraphicsOutputDxe.inf
+
+  Platform/Rockchip/RK3588/LogoDxe/LogoDxe.inf
+  Platform/Rockchip/RK3588/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
+
   #
   # ACPI Support
   #
 !ifdef $(ROCKCHIP_ACPIEN)
   MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
   Platform/Rockchip/RK3588/AcpiTables/AcpiTables.inf
+!else
+  # DTB
+  EmbeddedPkg/Drivers/DtPlatformDxe/DtPlatformDxe.inf {
+  <LibraryClasses>
+    DtPlatformDtbLoaderLib|EmbeddedPkg/Library/DxeDtPlatformDtbLoaderLibDefault/DxeDtPlatformDtbLoaderLibDefault.inf
+  }
 !endif
-
   #
   # GPIO
   #
@@ -306,6 +384,11 @@
   #
   # Silicon/Rockchip/Library/SpiLib/SpiTest.inf
 
+  #
+  # SMBIOS Support
+  #
+  Platform/Rockchip/RK3588/PlatformSmbiosDxe/PlatformSmbiosDxe.inf
+  MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
   #
   # USB Ohci Controller
   #

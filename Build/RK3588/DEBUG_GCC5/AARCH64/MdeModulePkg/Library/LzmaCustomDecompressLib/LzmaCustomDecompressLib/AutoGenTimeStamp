@@ -1,0 +1,16 @@
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaDecompress.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/Precomp.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzmaDec.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/GuidedSectionExtraction.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/CpuArch.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/Compiler.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaDecompressLibInternal.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/7zTypes.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzHash.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzFind.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/UefiLzma.h
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/DEBUG/AutoGen.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib.inf
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzFind.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzmaDec.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/7zVersion.h

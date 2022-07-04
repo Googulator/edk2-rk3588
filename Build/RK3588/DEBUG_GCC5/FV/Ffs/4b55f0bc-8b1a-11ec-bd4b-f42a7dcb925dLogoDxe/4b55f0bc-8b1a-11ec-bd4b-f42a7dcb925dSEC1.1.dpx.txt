@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_DXE_DEPEX -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/4b55f0bc-8b1a-11ec-bd4b-f42a7dcb925dLogoDxe/4b55f0bc-8b1a-11ec-bd4b-f42a7dcb925dSEC1.1.dpx /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Platform/Rockchip/RK3588/LogoDxe/LogoDxe/OUTPUT/LogoDxe.depex

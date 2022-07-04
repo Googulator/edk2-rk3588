@@ -1,0 +1,11 @@
+
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Drivers/DtPlatformDxe/DtPlatformDxe/OUTPUT/AutoGen.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Drivers/DtPlatformDxe/DtPlatformDxe/OUTPUT/DtPlatformDxe.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Drivers/DtPlatformDxe/DtPlatformDxe/OUTPUT/DtPlatformHii.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Drivers/DtPlatformDxe/DtPlatformDxe/DEBUG/DtPlatformHii.c.deps
+
+               

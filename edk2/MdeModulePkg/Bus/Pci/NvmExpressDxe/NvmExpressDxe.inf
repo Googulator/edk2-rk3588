@@ -43,8 +43,11 @@
 
 [Packages]
   MdePkg/MdePkg.dec
+  EmbeddedPkg/EmbeddedPkg.dec
 
 [LibraryClasses]
+  ArmLib
+  CacheMaintenanceLib
   BaseMemoryLib
   BaseLib
   DebugLib

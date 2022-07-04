@@ -1,0 +1,849 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/OUTPUT/UefiApplicationEntryPoint.lib(ApplicationEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Application/AndroidFastboot/AndroidFastbootApp/OUTPUT/AndroidFastbootApp.lib(AutoGen.obj)
+                              ApplicationEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Application/AndroidFastboot/AndroidFastbootApp/OUTPUT/AndroidFastbootApp.lib(AndroidFastbootApp.obj)
+                              AutoGen.obj (symbol from plugin) (FastbootAppEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Application/AndroidFastboot/AndroidFastbootApp/OUTPUT/AndroidFastbootApp.lib(BootAndroidBootImg.obj)
+                              AndroidFastbootApp.obj (symbol from plugin) (BootAndroidBootImg)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Application/AndroidFastboot/AndroidFastbootApp/OUTPUT/AndroidFastbootApp.lib(AndroidBootImg.obj)
+                              BootAndroidBootImg.obj (symbol from plugin) (ParseAndroidBootImg)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              AndroidFastbootApp.obj (symbol from plugin) (ZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              AndroidFastbootApp.obj (symbol from plugin) (CopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              CopyMemWrapper.obj (symbol from plugin) (InternalMemCopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              AndroidFastbootApp.obj (symbol from plugin) (AsciiStrnCpyS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              BootAndroidBootImg.obj (symbol from plugin) (StrSize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              CpuDeadLoop.obj (symbol from plugin) (CpuPause)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (LShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              AndroidFastbootApp.obj (symbol from plugin) (UnicodeSPrint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              AndroidFastbootApp.obj (symbol from plugin) (AllocatePool)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              BootAndroidBootImg.obj (symbol from plugin) (CatSPrint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib(DxeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (DxeServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              SafeString.obj (symbol from plugin) (CopyGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib(SerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiLib.obj (symbol from plugin) (DevicePathType)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib(UartLib.obj)
+                              SerialPortLib.obj (symbol from plugin) (UartInitializePort)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              UartLib.obj (symbol from plugin) (MmioRead32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              IoLibNoIo.obj (symbol from plugin) (FilterBeforeMmIoRead)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x0000000000000000       0x2e /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000000000       0x40 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .data.__stack_chk_guard
+                0x0000000000000000        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/ccUL0p1m.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUL0p1m.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccbUa5Dw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbUa5Dw.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccrrPit1.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrrPit1.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccI9QTmm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccI9QTmm.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccVIgWIo.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVIgWIo.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc8bWvK9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8bWvK9.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccXZcLkH.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXZcLkH.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccta4Pvx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccta4Pvx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccTQ8F4n.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTQ8F4n.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccVb3ZnZ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVb3ZnZ.debug.temp.o
+ .debug_info    0x0000000000000000       0x96 /tmp/ccWQ5x2r.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5c /tmp/ccWQ5x2r.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccWQ5x2r.debug.temp.o
+ .debug_str     0x0000000000000000      0x282 /tmp/ccWQ5x2r.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccWQ5x2r.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWQ5x2r.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccuvRrTh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuvRrTh.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccnZ0Oa3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccnZ0Oa3.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccwUO5bG.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/ccwUO5bG.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccwUO5bG.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/ccwUO5bG.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccwUO5bG.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwUO5bG.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/ccn7cTgE.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccn7cTgE.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccn7cTgE.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/ccn7cTgE.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccn7cTgE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccn7cTgE.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccTuZpCy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTuZpCy.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccrOQTk2.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/ccrOQTk2.debug.temp.o
+ .debug_line    0x0000000000000000       0xb1 /tmp/ccrOQTk2.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/ccrOQTk2.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccrOQTk2.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrOQTk2.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccLekdkA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLekdkA.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccqAJLRc.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccqAJLRc.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccqAJLRc.debug.temp.o
+ .debug_str     0x0000000000000000      0x292 /tmp/ccqAJLRc.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccqAJLRc.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqAJLRc.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccTm3pdX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTm3pdX.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc8GCkvM.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8GCkvM.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccXSgKXv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXSgKXv.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccBefVVg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBefVVg.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccyKMMmo.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccyKMMmo.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc2UBgj4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2UBgj4.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccaAQlz8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccaAQlz8.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccOECLRZ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOECLRZ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc90yBsq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc90yBsq.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccXbjCZx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXbjCZx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc50WG7k.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc50WG7k.debug.temp.o
+ .debug_info    0x0000000000000000      0x108 /tmp/ccwZCuLx.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x73 /tmp/ccwZCuLx.debug.temp.o
+ .debug_line    0x0000000000000000       0xc0 /tmp/ccwZCuLx.debug.temp.o
+ .debug_str     0x0000000000000000      0x2ce /tmp/ccwZCuLx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccwZCuLx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwZCuLx.debug.temp.o
+ .debug_info    0x0000000000000000       0xbb /tmp/ccPGwSAt.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5e /tmp/ccPGwSAt.debug.temp.o
+ .debug_line    0x0000000000000000       0xc2 /tmp/ccPGwSAt.debug.temp.o
+ .debug_str     0x0000000000000000      0x2bd /tmp/ccPGwSAt.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccPGwSAt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPGwSAt.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccRYtQai.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRYtQai.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccOHqH3I.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOHqH3I.debug.temp.o
+ .debug_info    0x0000000000000000       0xb6 /tmp/cc91Hj8h.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x86 /tmp/cc91Hj8h.debug.temp.o
+ .debug_line    0x0000000000000000      0x16c /tmp/cc91Hj8h.debug.temp.o
+ .debug_str     0x0000000000000000      0x324 /tmp/cc91Hj8h.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc91Hj8h.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc91Hj8h.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccmVrYB1.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmVrYB1.debug.temp.o
+ .debug_info    0x0000000000000000      0x5bc /tmp/cc6O0o4x.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x162 /tmp/cc6O0o4x.debug.temp.o
+ .debug_line    0x0000000000000000      0x1d6 /tmp/cc6O0o4x.debug.temp.o
+ .debug_str     0x0000000000000000      0x660 /tmp/cc6O0o4x.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc6O0o4x.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6O0o4x.debug.temp.o
+ .debug_info    0x0000000000000000      0xec3 /tmp/cclsuYWJ.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x189 /tmp/cclsuYWJ.debug.temp.o
+ .debug_line    0x0000000000000000      0x20c /tmp/cclsuYWJ.debug.temp.o
+ .debug_str     0x0000000000000000      0xd0c /tmp/cclsuYWJ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cclsuYWJ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclsuYWJ.debug.temp.o
+ .debug_info    0x0000000000000000      0x305 /tmp/ccqM5ujH.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xd2 /tmp/ccqM5ujH.debug.temp.o
+ .debug_line    0x0000000000000000      0x10b /tmp/ccqM5ujH.debug.temp.o
+ .debug_str     0x0000000000000000      0x47b /tmp/ccqM5ujH.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccqM5ujH.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqM5ujH.debug.temp.o
+ .debug_info    0x0000000000000000     0x2675 /tmp/ccicyOAL.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x231 /tmp/ccicyOAL.debug.temp.o
+ .debug_line    0x0000000000000000      0x2c3 /tmp/ccicyOAL.debug.temp.o
+ .debug_str     0x0000000000000000     0x13cf /tmp/ccicyOAL.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccicyOAL.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccicyOAL.debug.temp.o
+ .debug_info    0x0000000000000000     0x2ef9 /tmp/ccCybixx.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x20d /tmp/ccCybixx.debug.temp.o
+ .debug_line    0x0000000000000000      0x2b7 /tmp/ccCybixx.debug.temp.o
+ .debug_str     0x0000000000000000     0x1cf4 /tmp/ccCybixx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccCybixx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCybixx.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/ccDIJ7FA.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccDIJ7FA.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccDIJ7FA.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/ccDIJ7FA.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccDIJ7FA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDIJ7FA.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccf8F1Fn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccf8F1Fn.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccDQBED9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDQBED9.debug.temp.o
+ .debug_info    0x0000000000000000      0x302 /tmp/ccax25Ew.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xcd /tmp/ccax25Ew.debug.temp.o
+ .debug_line    0x0000000000000000      0x119 /tmp/ccax25Ew.debug.temp.o
+ .debug_str     0x0000000000000000      0x40b /tmp/ccax25Ew.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccax25Ew.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccax25Ew.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .text          0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+LOAD /tmp/ccUL0p1m.debug.temp.o
+LOAD /tmp/ccbUa5Dw.debug.temp.o
+LOAD /tmp/ccrrPit1.debug.temp.o
+LOAD /tmp/ccI9QTmm.debug.temp.o
+LOAD /tmp/ccVIgWIo.debug.temp.o
+LOAD /tmp/cc8bWvK9.debug.temp.o
+LOAD /tmp/ccXZcLkH.debug.temp.o
+LOAD /tmp/ccta4Pvx.debug.temp.o
+LOAD /tmp/ccTQ8F4n.debug.temp.o
+LOAD /tmp/ccVb3ZnZ.debug.temp.o
+LOAD /tmp/ccWQ5x2r.debug.temp.o
+LOAD /tmp/ccuvRrTh.debug.temp.o
+LOAD /tmp/ccnZ0Oa3.debug.temp.o
+LOAD /tmp/ccwUO5bG.debug.temp.o
+LOAD /tmp/ccn7cTgE.debug.temp.o
+LOAD /tmp/ccTuZpCy.debug.temp.o
+LOAD /tmp/ccrOQTk2.debug.temp.o
+LOAD /tmp/ccLekdkA.debug.temp.o
+LOAD /tmp/ccqAJLRc.debug.temp.o
+LOAD /tmp/ccTm3pdX.debug.temp.o
+LOAD /tmp/cc8GCkvM.debug.temp.o
+LOAD /tmp/ccXSgKXv.debug.temp.o
+LOAD /tmp/ccBefVVg.debug.temp.o
+LOAD /tmp/ccyKMMmo.debug.temp.o
+LOAD /tmp/cc2UBgj4.debug.temp.o
+LOAD /tmp/ccaAQlz8.debug.temp.o
+LOAD /tmp/ccOECLRZ.debug.temp.o
+LOAD /tmp/cc90yBsq.debug.temp.o
+LOAD /tmp/ccXbjCZx.debug.temp.o
+LOAD /tmp/cc50WG7k.debug.temp.o
+LOAD /tmp/ccwZCuLx.debug.temp.o
+LOAD /tmp/ccPGwSAt.debug.temp.o
+LOAD /tmp/ccRYtQai.debug.temp.o
+LOAD /tmp/ccOHqH3I.debug.temp.o
+LOAD /tmp/cc91Hj8h.debug.temp.o
+LOAD /tmp/ccmVrYB1.debug.temp.o
+LOAD /tmp/cc6O0o4x.debug.temp.o
+LOAD /tmp/cclsuYWJ.debug.temp.o
+LOAD /tmp/ccqM5ujH.debug.temp.o
+LOAD /tmp/ccicyOAL.debug.temp.o
+LOAD /tmp/ccCybixx.debug.temp.o
+LOAD /tmp/ccDIJ7FA.debug.temp.o
+LOAD /tmp/ccf8F1Fn.debug.temp.o
+LOAD /tmp/ccDQBED9.debug.temp.o
+LOAD /tmp/ccax25Ew.debug.temp.o
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Application/AndroidFastboot/AndroidFastbootApp/OUTPUT/AndroidFastbootApp.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/OUTPUT/UefiApplicationEntryPoint.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000001000     0x5004
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.FatalErrorNotify
+                0x0000000000001000       0x40 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.DebugPrintLevelEnabled
+                0x0000000000001040        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.HandleOemCommand
+                0x0000000000001048       0x98 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x00000000000010e0        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x00000000000010e8       0x3c /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x0000000000001124       0x34 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x0000000000001158        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000001160       0x38 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000001198       0x54 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x00000000000011ec      0xe88 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.AsciiSPrint
+                0x0000000000002074       0x60 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x00000000000020d4       0x4c /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x0000000000002120       0x70 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.StrLen   0x0000000000002190       0xa4 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.StrSize  0x0000000000002234       0x1c /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000002250       0x90 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x00000000000022e0       0xa8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.UnicodeVSPrint
+                0x0000000000002388       0x74 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.UnicodeSPrint.constprop.0
+                0x00000000000023fc       0x54 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x0000000000002450       0x5c /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.MmioRead32
+                0x00000000000024ac        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.MmioWrite32.isra.0
+                0x00000000000024b4        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x00000000000024bc       0xcc /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.UartWrite.constprop.0.isra.0
+                0x0000000000002588       0x4c /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.DebugPrint
+                0x00000000000025d4       0x98 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.AsciiStrHexToUint64
+                0x000000000000266c      0x194 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.FreePool
+                0x0000000000002800       0x7c /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.StrCpyS.constprop.0.isra.0
+                0x000000000000287c      0x208 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.AsciiStrnCpyS.isra.0
+                0x0000000000002a84      0x178 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.SPrintLength
+                0x0000000000002bfc       0x40 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.CatVSPrint
+                0x0000000000002c3c      0x104 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.CatSPrint
+                0x0000000000002d40       0x74 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.BootAndroidBootImg.constprop.0
+                0x0000000000002db4      0x2bc /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.CompareGuid.constprop.0
+                0x0000000000003070       0x44 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.ZeroMem.constprop.0.isra.0
+                0x00000000000030b4       0x48 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.CopyMem.isra.0
+                0x00000000000030fc       0xa4 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.AcceptData
+                0x00000000000031a0      0x11c /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text.DataReady
+                0x00000000000032bc      0x82c /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .text._ModuleEntryPoint
+                0x0000000000003ae8      0x6bc /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+                0x0000000000003ae8                _ModuleEntryPoint
+ .text.memcpy   0x00000000000041a4       0x20 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+                0x00000000000041a4                memcpy
+ *fill*         0x00000000000041c4        0xc 
+ .text          0x00000000000041d0      0x200 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x00000000000041d0                InternalMemSetMem16
+                0x00000000000041dc                InternalMemSetMem32
+                0x00000000000041e8                InternalMemSetMem64
+                0x00000000000041f4                InternalMemZeroMem
+                0x00000000000041fc                InternalMemSetMem
+ .text          0x00000000000043d0      0x218 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000000453c                InternalMemCopyMem
+ *fill*         0x00000000000045e8       0x18 
+ .text          0x0000000000004600       0x20 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x0000000000004600                InternalMemCompareGuid
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.FatalErrorNotify.str2.2
+                0x0000000000004620       0x62 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.HandleOemCommand.str1.1
+                0x0000000000004682       0x4c /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x00000000000046ce      0x2a7 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ *fill*         0x0000000000004975        0x3 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000004978       0x5e /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.DebugAssert.str1.1
+                0x00000000000049d6       0x2b /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x0000000000004a01       0x68 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.StrLen.str1.1
+                0x0000000000004a69       0x92 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000004afb       0x38 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.AsciiStrnCmp.str1.1
+                0x0000000000004b33       0x37 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.UnicodeVSPrint.str1.1
+                0x0000000000004b6a       0x70 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.ReadUnaligned16.str1.1
+                0x0000000000004bda       0x48 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.AsciiStrHexToUint64.str1.1
+                0x0000000000004c22       0x81 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.FreePool.str1.1
+                0x0000000000004ca3       0x93 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.StrCpyS.constprop.0.isra.0.str1.1
+                0x0000000000004d36      0x105 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.AsciiStrnCpyS.isra.0.str1.1
+                0x0000000000004e3b       0x77 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.CatVSPrint.str1.1
+                0x0000000000004eb2       0x6d /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.BootAndroidBootImg.constprop.0.str1.1
+                0x0000000000004f1f      0x139 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.BootAndroidBootImg.constprop.0.str2.2
+                0x0000000000005058       0x2a /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.CompareGuid.constprop.0.str1.1
+                0x0000000000005082       0x6b /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.ZeroMem.constprop.0.isra.0.str1.1
+                0x00000000000050ed       0x8b /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.CopyMem.isra.0.str1.1
+                0x0000000000005178       0xd6 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.AcceptData.str2.2
+                0x000000000000524e       0x46 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+                                         0x4c (size before relaxing)
+ .rodata.DataReady.str1.1
+                0x0000000000005294      0x314 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+                                        0x328 (size before relaxing)
+ .rodata.DataReady.str2.2
+                0x00000000000055a8      0x25c /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x0000000000005804      0x3e6 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str2.2
+                0x0000000000005bea       0x94 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.14
+                0x0000000000005c7e        0xe /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.27
+                0x0000000000005c8c        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.8
+                0x0000000000005c94       0x15 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x0000000000005ca9      0x2b5 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x0000000000005f5e       0x10 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x0000000000005f6e       0x96 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ *(.got .got.*)
+ *:AutoGen.obj(.data.g*Guid)
+
+.iplt           0x0000000000006004        0x0
+ .iplt          0x0000000000006004        0x0 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+
+.data           0x0000000000007000       0xd8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.gAndroidFastbootPlatformProtocolGuid
+                0x0000000000007000       0x10 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .data.gAndroidFastbootTransportProtocolGuid
+                0x0000000000007010       0x10 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .data.gEfiDxeServicesTableGuid
+                0x0000000000007020       0x10 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .data.gEfiLoadedImageProtocolGuid
+                0x0000000000007030       0x10 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .data.gEfiSimpleTextInProtocolGuid
+                0x0000000000007040       0x10 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .data.gEfiSimpleTextOutProtocolGuid
+                0x0000000000007050       0x10 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.Count.0   0x0000000000007060        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000007068        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.gDS       0x0000000000007070        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x0000000000007078        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000007080        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.gST       0x0000000000007088        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.mBytesReceivedSoFar
+                0x0000000000007090        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.mDataBuffer
+                0x0000000000007098        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.mFatalSendErrorEvent
+                0x00000000000070a0        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.mFinishedEvent
+                0x00000000000070a8        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.mNumDataBytes
+                0x00000000000070b0        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.mPlatform
+                0x00000000000070b8        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.mState    0x00000000000070c0        0x4 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ *fill*         0x00000000000070c4        0x4 
+ .bss.mTextOut  0x00000000000070c8        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .bss.mTransport
+                0x00000000000070d0        0x8 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+
+.igot.plt       0x00000000000070d8        0x0
+ .igot.plt      0x00000000000070d8        0x0 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x00000000000070d8        0x0
+ *(.rela .rela.*)
+ .rela.iplt     0x00000000000070d8        0x0 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+
+.hii
+ *(.hii)
+
+.build-id
+ *(.note.gnu.build-id)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Application/AndroidFastboot/AndroidFastbootApp/DEBUG/AndroidFastbootApp.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x19646
+ .debug_info    0x0000000000000000     0x3e86 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .debug_info    0x0000000000003e86     0x1815 /tmp/ccUL0p1m.debug.temp.o
+                0x0000000000003e86                ApplicationEntryPoint.c.bec7860d
+ .debug_info    0x000000000000569b      0x100 /tmp/ccbUa5Dw.debug.temp.o
+                0x000000000000569b                memcpy.c.124218b3
+ .debug_info    0x000000000000579b       0xb1 /tmp/ccrrPit1.debug.temp.o
+                0x000000000000579b                memset.c.fe78e419
+ .debug_info    0x000000000000584c       0xb0 /tmp/ccI9QTmm.debug.temp.o
+                0x000000000000584c                BaseStackCheckGcc.c.4b3a57a0
+ .debug_info    0x00000000000058fc     0x1d7c /tmp/ccVIgWIo.debug.temp.o
+                0x00000000000058fc                AutoGen.c.cc8c973e
+ .debug_info    0x0000000000007678     0x1d18 /tmp/cc8bWvK9.debug.temp.o
+                0x0000000000007678                AndroidFastbootApp.c.cb943d0d
+ .debug_info    0x0000000000009390     0x1a35 /tmp/ccXZcLkH.debug.temp.o
+                0x0000000000009390                BootAndroidBootImg.c.0f6a4d22
+ .debug_info    0x000000000000adc5      0x267 /tmp/ccta4Pvx.debug.temp.o
+                0x000000000000adc5                AndroidBootImg.c.511f6ff0
+ .debug_info    0x000000000000b02c       0xaf /tmp/ccTQ8F4n.debug.temp.o
+                0x000000000000b02c                ZeroMemWrapper.c.0fd9aaec
+ .debug_info    0x000000000000b0db       0xc6 /tmp/ccVb3ZnZ.debug.temp.o
+                0x000000000000b0db                CopyMemWrapper.c.5220106c
+ .debug_info    0x000000000000b1a1      0xf83 /tmp/ccuvRrTh.debug.temp.o
+                0x000000000000b1a1                SafeString.c.1b674302
+ .debug_info    0x000000000000c124      0x711 /tmp/ccnZ0Oa3.debug.temp.o
+                0x000000000000c124                String.c.8e83c025
+ .debug_info    0x000000000000c835       0xad /tmp/ccTuZpCy.debug.temp.o
+                0x000000000000c835                RShiftU64.c.13f7cf48
+ .debug_info    0x000000000000c8e2       0xad /tmp/ccLekdkA.debug.temp.o
+                0x000000000000c8e2                LShiftU64.c.d5f1ff37
+ .debug_info    0x000000000000c98f      0x30e /tmp/ccTm3pdX.debug.temp.o
+                0x000000000000c98f                Math64.c.df2e98ae
+ .debug_info    0x000000000000cc9d      0x5ad /tmp/cc8GCkvM.debug.temp.o
+                0x000000000000cc9d                PrintLib.c.b75a7535
+ .debug_info    0x000000000000d24a      0x753 /tmp/ccXSgKXv.debug.temp.o
+                0x000000000000d24a                PrintLibInternal.c.b254bcc3
+ .debug_info    0x000000000000d99d      0x32b /tmp/ccBefVVg.debug.temp.o
+                0x000000000000d99d                DebugLib.c.b228dbcd
+ .debug_info    0x000000000000dcc8     0x17cd /tmp/ccyKMMmo.debug.temp.o
+                0x000000000000dcc8                UefiBootServicesTableLib.c.40f3e47d
+ .debug_info    0x000000000000f495     0x13a8 /tmp/cc2UBgj4.debug.temp.o
+                0x000000000000f495                MemoryAllocationLib.c.3e4a7161
+ .debug_info    0x000000000001083d     0x179e /tmp/ccaAQlz8.debug.temp.o
+                0x000000000001083d                UefiRuntimeServicesTableLib.c.90bd0d28
+ .debug_info    0x0000000000011fdb     0x2509 /tmp/ccOECLRZ.debug.temp.o
+                0x0000000000011fdb                UefiLibPrint.c.728e56a7
+ .debug_info    0x00000000000144e4     0x2543 /tmp/cc90yBsq.debug.temp.o
+                0x00000000000144e4                UefiLib.c.33a327e5
+ .debug_info    0x0000000000016a27     0x1d1f /tmp/ccXbjCZx.debug.temp.o
+                0x0000000000016a27                DxeServicesTableLib.c.e0fa1909
+ .debug_info    0x0000000000018746      0x1d0 /tmp/cc50WG7k.debug.temp.o
+                0x0000000000018746                MemLibGuid.c.0abd8b36
+ .debug_info    0x0000000000018916       0xc3 /tmp/ccRYtQai.debug.temp.o
+                0x0000000000018916                DivU64x32Remainder.c.99a75392
+ .debug_info    0x00000000000189d9      0x238 /tmp/ccOHqH3I.debug.temp.o
+                0x00000000000189d9                Unaligned.c.a40271e9
+ .debug_info    0x0000000000018c11      0x277 /tmp/ccmVrYB1.debug.temp.o
+                0x0000000000018c11                SerialPortLib.c.bf19079b
+ .debug_info    0x0000000000018e88      0x2d3 /tmp/ccf8F1Fn.debug.temp.o
+                0x0000000000018e88                UartLib.c.db43ab4c
+ .debug_info    0x000000000001915b      0x4eb /tmp/ccDQBED9.debug.temp.o
+                0x000000000001915b                IoLibNoIo.c.373e17b9
+
+.debug_abbrev   0x0000000000000000     0x257b
+ .debug_abbrev  0x0000000000000000      0x2a9 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000002a9      0x1e4 /tmp/ccUL0p1m.debug.temp.o
+ .debug_abbrev  0x000000000000048d       0xa4 /tmp/ccbUa5Dw.debug.temp.o
+ .debug_abbrev  0x0000000000000531       0x76 /tmp/ccrrPit1.debug.temp.o
+ .debug_abbrev  0x00000000000005a7       0x87 /tmp/ccI9QTmm.debug.temp.o
+ .debug_abbrev  0x000000000000062e      0x245 /tmp/ccVIgWIo.debug.temp.o
+ .debug_abbrev  0x0000000000000873      0x23f /tmp/cc8bWvK9.debug.temp.o
+ .debug_abbrev  0x0000000000000ab2      0x1f8 /tmp/ccXZcLkH.debug.temp.o
+ .debug_abbrev  0x0000000000000caa       0xd3 /tmp/ccta4Pvx.debug.temp.o
+ .debug_abbrev  0x0000000000000d7d       0x5e /tmp/ccTQ8F4n.debug.temp.o
+ .debug_abbrev  0x0000000000000ddb       0x6e /tmp/ccVb3ZnZ.debug.temp.o
+ .debug_abbrev  0x0000000000000e49      0x133 /tmp/ccuvRrTh.debug.temp.o
+ .debug_abbrev  0x0000000000000f7c      0x101 /tmp/ccnZ0Oa3.debug.temp.o
+ .debug_abbrev  0x000000000000107d       0x57 /tmp/ccTuZpCy.debug.temp.o
+ .debug_abbrev  0x00000000000010d4       0x57 /tmp/ccLekdkA.debug.temp.o
+ .debug_abbrev  0x000000000000112b       0xa8 /tmp/ccTm3pdX.debug.temp.o
+ .debug_abbrev  0x00000000000011d3      0x106 /tmp/cc8GCkvM.debug.temp.o
+ .debug_abbrev  0x00000000000012d9      0x15c /tmp/ccXSgKXv.debug.temp.o
+ .debug_abbrev  0x0000000000001435      0x12d /tmp/ccBefVVg.debug.temp.o
+ .debug_abbrev  0x0000000000001562      0x1c5 /tmp/ccyKMMmo.debug.temp.o
+ .debug_abbrev  0x0000000000001727      0x1e4 /tmp/cc2UBgj4.debug.temp.o
+ .debug_abbrev  0x000000000000190b      0x198 /tmp/ccaAQlz8.debug.temp.o
+ .debug_abbrev  0x0000000000001aa3      0x27e /tmp/ccOECLRZ.debug.temp.o
+ .debug_abbrev  0x0000000000001d21      0x24f /tmp/cc90yBsq.debug.temp.o
+ .debug_abbrev  0x0000000000001f70      0x1d2 /tmp/ccXbjCZx.debug.temp.o
+ .debug_abbrev  0x0000000000002142       0xb6 /tmp/cc50WG7k.debug.temp.o
+ .debug_abbrev  0x00000000000021f8       0x62 /tmp/ccRYtQai.debug.temp.o
+ .debug_abbrev  0x000000000000225a       0x7f /tmp/ccOHqH3I.debug.temp.o
+ .debug_abbrev  0x00000000000022d9       0xc2 /tmp/ccmVrYB1.debug.temp.o
+ .debug_abbrev  0x000000000000239b       0xf8 /tmp/ccf8F1Fn.debug.temp.o
+ .debug_abbrev  0x0000000000002493       0xe8 /tmp/ccDQBED9.debug.temp.o
+
+.debug_loc      0x0000000000000000     0x6a2e
+ .debug_loc     0x0000000000000000     0x6a2e /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x2c0
+ .debug_aranges
+                0x0000000000000000      0x2c0 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000      0xa80
+ .debug_ranges  0x0000000000000000      0xa80 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0x54b2
+ .debug_line    0x0000000000000000     0x25ea /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+ .debug_line    0x00000000000025ea      0x254 /tmp/ccUL0p1m.debug.temp.o
+ .debug_line    0x000000000000283e       0x70 /tmp/ccbUa5Dw.debug.temp.o
+ .debug_line    0x00000000000028ae       0x70 /tmp/ccrrPit1.debug.temp.o
+ .debug_line    0x000000000000291e      0x144 /tmp/ccI9QTmm.debug.temp.o
+ .debug_line    0x0000000000002a62      0x2c7 /tmp/ccVIgWIo.debug.temp.o
+ .debug_line    0x0000000000002d29      0x355 /tmp/cc8bWvK9.debug.temp.o
+ .debug_line    0x000000000000307e      0x2d0 /tmp/ccXZcLkH.debug.temp.o
+ .debug_line    0x000000000000334e      0x19b /tmp/ccta4Pvx.debug.temp.o
+ .debug_line    0x00000000000034e9       0xc1 /tmp/ccTQ8F4n.debug.temp.o
+ .debug_line    0x00000000000035aa       0xc1 /tmp/ccVb3ZnZ.debug.temp.o
+ .debug_line    0x000000000000366b      0x159 /tmp/ccuvRrTh.debug.temp.o
+ .debug_line    0x00000000000037c4      0x155 /tmp/ccnZ0Oa3.debug.temp.o
+ .debug_line    0x0000000000003919       0xb0 /tmp/ccTuZpCy.debug.temp.o
+ .debug_line    0x00000000000039c9       0xb0 /tmp/ccLekdkA.debug.temp.o
+ .debug_line    0x0000000000003a79       0xad /tmp/ccTm3pdX.debug.temp.o
+ .debug_line    0x0000000000003b26       0xfc /tmp/cc8GCkvM.debug.temp.o
+ .debug_line    0x0000000000003c22      0x192 /tmp/ccXSgKXv.debug.temp.o
+ .debug_line    0x0000000000003db4      0x192 /tmp/ccBefVVg.debug.temp.o
+ .debug_line    0x0000000000003f46      0x237 /tmp/ccyKMMmo.debug.temp.o
+ .debug_line    0x000000000000417d      0x20c /tmp/cc2UBgj4.debug.temp.o
+ .debug_line    0x0000000000004389      0x1e7 /tmp/ccaAQlz8.debug.temp.o
+ .debug_line    0x0000000000004570      0x2f6 /tmp/ccOECLRZ.debug.temp.o
+ .debug_line    0x0000000000004866      0x2d5 /tmp/cc90yBsq.debug.temp.o
+ .debug_line    0x0000000000004b3b      0x2ef /tmp/ccXbjCZx.debug.temp.o
+ .debug_line    0x0000000000004e2a       0xfb /tmp/cc50WG7k.debug.temp.o
+ .debug_line    0x0000000000004f25       0xb9 /tmp/ccRYtQai.debug.temp.o
+ .debug_line    0x0000000000004fde       0xb4 /tmp/ccOHqH3I.debug.temp.o
+ .debug_line    0x0000000000005092      0x14f /tmp/ccmVrYB1.debug.temp.o
+ .debug_line    0x00000000000051e1      0x1c7 /tmp/ccf8F1Fn.debug.temp.o
+ .debug_line    0x00000000000053a8      0x10a /tmp/ccDQBED9.debug.temp.o
+
+.debug_str      0x0000000000000000     0x5967
+ .debug_str     0x0000000000000000      0x274 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o
+                                        0x28d (size before relaxing)
+ .debug_str     0x0000000000000274     0x124a /tmp/ccUL0p1m.debug.temp.o
+                                       0x1394 (size before relaxing)
+ .debug_str     0x00000000000014be      0x21d /tmp/ccbUa5Dw.debug.temp.o
+                                        0x2a4 (size before relaxing)
+ .debug_str     0x00000000000016db       0x58 /tmp/ccrrPit1.debug.temp.o
+                                        0x298 (size before relaxing)
+ .debug_str     0x0000000000001733      0x110 /tmp/ccI9QTmm.debug.temp.o
+                                        0x2f2 (size before relaxing)
+ .debug_str     0x0000000000001843      0x98c /tmp/ccVIgWIo.debug.temp.o
+                                       0x1ccf (size before relaxing)
+ .debug_str     0x00000000000021cf      0x395 /tmp/cc8bWvK9.debug.temp.o
+                                       0x1789 (size before relaxing)
+ .debug_str     0x0000000000002564      0x1ec /tmp/ccXZcLkH.debug.temp.o
+                                       0x1552 (size before relaxing)
+ .debug_str     0x0000000000002750      0x11a /tmp/ccta4Pvx.debug.temp.o
+                                        0x3ba (size before relaxing)
+ .debug_str     0x000000000000286a       0xc8 /tmp/ccTQ8F4n.debug.temp.o
+                                        0x2b5 (size before relaxing)
+ .debug_str     0x0000000000002932       0x74 /tmp/ccVb3ZnZ.debug.temp.o
+                                        0x2cd (size before relaxing)
+ .debug_str     0x00000000000029a6      0x35b /tmp/ccuvRrTh.debug.temp.o
+                                        0x6ed (size before relaxing)
+ .debug_str     0x0000000000002d01      0x2f1 /tmp/ccnZ0Oa3.debug.temp.o
+                                        0x67e (size before relaxing)
+ .debug_str     0x0000000000002ff2       0x4c /tmp/ccTuZpCy.debug.temp.o
+                                        0x28e (size before relaxing)
+ .debug_str     0x000000000000303e       0x44 /tmp/ccLekdkA.debug.temp.o
+                                        0x28e (size before relaxing)
+ .debug_str     0x0000000000003082      0x1b3 /tmp/ccTm3pdX.debug.temp.o
+                                        0x407 (size before relaxing)
+ .debug_str     0x0000000000003235      0x269 /tmp/cc8GCkvM.debug.temp.o
+                                        0x48c (size before relaxing)
+ .debug_str     0x000000000000349e      0x246 /tmp/ccXSgKXv.debug.temp.o
+                                        0x687 (size before relaxing)
+ .debug_str     0x00000000000036e4      0x1cf /tmp/ccBefVVg.debug.temp.o
+                                        0x4eb (size before relaxing)
+ .debug_str     0x00000000000038b3      0x105 /tmp/ccyKMMmo.debug.temp.o
+                                       0x1382 (size before relaxing)
+ .debug_str     0x00000000000039b8      0x312 /tmp/cc2UBgj4.debug.temp.o
+                                        0xf74 (size before relaxing)
+ .debug_str     0x0000000000003cca      0x114 /tmp/ccaAQlz8.debug.temp.o
+                                       0x1384 (size before relaxing)
+ .debug_str     0x0000000000003dde      0x7da /tmp/ccOECLRZ.debug.temp.o
+                                       0x1c5a (size before relaxing)
+ .debug_str     0x00000000000045b8      0x67c /tmp/cc90yBsq.debug.temp.o
+                                       0x1b28 (size before relaxing)
+ .debug_str     0x0000000000004c34      0x641 /tmp/ccXbjCZx.debug.temp.o
+                                       0x1903 (size before relaxing)
+ .debug_str     0x0000000000005275       0xa1 /tmp/cc50WG7k.debug.temp.o
+                                        0x33b (size before relaxing)
+ .debug_str     0x0000000000005316       0x60 /tmp/ccRYtQai.debug.temp.o
+                                        0x2ae (size before relaxing)
+ .debug_str     0x0000000000005376       0xe1 /tmp/ccOHqH3I.debug.temp.o
+                                        0x345 (size before relaxing)
+ .debug_str     0x0000000000005457      0x1fe /tmp/ccmVrYB1.debug.temp.o
+                                        0x43f (size before relaxing)
+ .debug_str     0x0000000000005655      0x123 /tmp/ccf8F1Fn.debug.temp.o
+                                        0x438 (size before relaxing)
+ .debug_str     0x0000000000005778      0x1ef /tmp/ccDQBED9.debug.temp.o
+                                        0x3fa (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x748
+ .debug_frame   0x0000000000000000      0x748 /tmp/AndroidFastbootApp.dll.PeA3oR.ltrans0.ltrans.o

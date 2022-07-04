@@ -1,0 +1,35 @@
+
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Output.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Config2Impl.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/AutoGen.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Route.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Driver.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Common.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Impl.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Config2.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Icmp.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Igmp.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/ComponentName.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Config2Nv.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Input.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Option.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4If.obj.deps
+
+-include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/DEBUG/Ip4Config2.c.deps
+
+               

@@ -1,0 +1,12 @@
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/DEBUG/AutoGen.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Base.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Library/PcdLib.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseLib/AArch64/CpuBreakpoint.S
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseLib/AArch64/DisableInterrupts.S
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseLib/AArch64/EnableInterrupts.S
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseLib/AArch64/GetInterruptsState.S
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseLib/AArch64/MemoryFence.S
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseLib/AArch64/SetJumpLongJump.S
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseLib/AArch64/SpeculationBarrier.S
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseLib/AArch64/SwitchStack.S

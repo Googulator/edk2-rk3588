@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/eaf89ad8-92e1-11ec-b51d-f42a7dcb925dLcdGraphicsOutputDxe/eaf89ad8-92e1-11ec-b51d-f42a7dcb925dSEC2.1.pe32 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Drivers/LcdGraphicsOutputDxe/LcdGraphicsOutputDxe/OUTPUT/LcdGraphicsOutputDxe.efi

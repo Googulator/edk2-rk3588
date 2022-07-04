@@ -1,0 +1,903 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbMouseAbsolutePointerDxe/UsbMouseAbsolutePointerDxe/OUTPUT/UsbMouseAbsolutePointerDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbMouseAbsolutePointerDxe/UsbMouseAbsolutePointerDxe/OUTPUT/UsbMouseAbsolutePointerDxe.lib(UsbMouseAbsolutePointer.obj)
+                              AutoGen.obj (symbol from plugin) (USBMouseAbsolutePointerDriverBindingEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbMouseAbsolutePointerDxe/UsbMouseAbsolutePointerDxe/OUTPUT/UsbMouseAbsolutePointerDxe.lib(ComponentName.obj)
+                              UsbMouseAbsolutePointer.obj (symbol from plugin) (gUsbMouseAbsolutePointerComponentName)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbMouseAbsolutePointerDxe/UsbMouseAbsolutePointerDxe/OUTPUT/UsbMouseAbsolutePointerDxe.lib(MouseHid.obj)
+                              UsbMouseAbsolutePointer.obj (symbol from plugin) (ParseMouseReportDescriptor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              UsbMouseAbsolutePointer.obj (symbol from plugin) (DivU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              MouseHid.obj (symbol from plugin) (BitFieldRead8)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              DivU64x32.obj (symbol from plugin) (InternalMathDivU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              CpuDeadLoop.obj (symbol from plugin) (CpuPause)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              Math64.obj (symbol from plugin) (SwapBytes32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SwapBytes32.obj (symbol from plugin) (SwapBytes16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              BitField.obj (symbol from plugin) (RShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              BitField.obj (symbol from plugin) (LShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              UsbMouseAbsolutePointer.obj (symbol from plugin) (ZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              UsbMouseAbsolutePointer.obj (symbol from plugin) (CopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              CopyMemWrapper.obj (symbol from plugin) (InternalMemCopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              UsbMouseAbsolutePointer.obj (symbol from plugin) (AllocateZeroPool)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              UsbMouseAbsolutePointer.obj (symbol from plugin) (EfiLibInstallDriverBindingComponentName2)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib/OUTPUT/DxeReportStatusCodeLib.lib(ReportStatusCodeLib.obj)
+                              UsbMouseAbsolutePointer.obj (symbol from plugin) (ReportProgressCodeEnabled)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiUsbLib/UefiUsbLib/OUTPUT/UefiUsbLib.lib(Hid.obj)
+                              UsbMouseAbsolutePointer.obj (symbol from plugin) (UsbGetReportDescriptor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiUsbLib/UefiUsbLib/OUTPUT/UefiUsbLib.lib(UsbDxeLib.obj)
+                              UsbMouseAbsolutePointer.obj (symbol from plugin) (UsbGetDescriptor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              UefiLib.obj (symbol from plugin) (StrSize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              UefiLib.obj (symbol from plugin) (ReadUnaligned24)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              String.obj (symbol from plugin) (StrDecimalToUintnS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              ReportStatusCodeLib.obj (symbol from plugin) (CopyGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              DebugLib.obj (symbol from plugin) (AsciiVSPrint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib(SerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiLib.obj (symbol from plugin) (DevicePathType)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              ReportStatusCodeLib.obj (symbol from plugin) (GetDevicePathSize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib(UartLib.obj)
+                              SerialPortLib.obj (symbol from plugin) (UartInitializePort)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              UartLib.obj (symbol from plugin) (MmioRead32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              IoLibNoIo.obj (symbol from plugin) (FilterBeforeMmIoRead)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000000000       0x20 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x0000000000000000       0x2e /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000000000       0x40 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data.__stack_chk_guard
+                0x0000000000000000        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/cctiloUm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctiloUm.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cctCKnN8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctCKnN8.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccRpGnsU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRpGnsU.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccNAVp3O.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNAVp3O.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccENeuNt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccENeuNt.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccGCdBWv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGCdBWv.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccfz7n0z.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfz7n0z.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccgqXbFz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccgqXbFz.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccNG3zu9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNG3zu9.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccszdSGw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccszdSGw.debug.temp.o
+ .debug_info    0x0000000000000000       0x96 /tmp/ccrghG11.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5c /tmp/ccrghG11.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccrghG11.debug.temp.o
+ .debug_str     0x0000000000000000      0x282 /tmp/ccrghG11.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccrghG11.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrghG11.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccK80Tkc.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccK80Tkc.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccYFy8ko.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/ccYFy8ko.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccYFy8ko.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/ccYFy8ko.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccYFy8ko.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYFy8ko.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/ccTRdgB4.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccTRdgB4.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccTRdgB4.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/ccTRdgB4.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccTRdgB4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTRdgB4.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccks8fYJ.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccks8fYJ.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccks8fYJ.debug.temp.o
+ .debug_str     0x0000000000000000      0x28e /tmp/ccks8fYJ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccks8fYJ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccks8fYJ.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccVQ0qbP.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccVQ0qbP.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccVQ0qbP.debug.temp.o
+ .debug_str     0x0000000000000000      0x28e /tmp/ccVQ0qbP.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccVQ0qbP.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVQ0qbP.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccUxTxAp.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUxTxAp.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccesDmQT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccesDmQT.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cckoZh6d.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckoZh6d.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQOAzCd.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQOAzCd.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQJkTJa.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQJkTJa.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccjqLYVs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjqLYVs.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccPNWLKI.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPNWLKI.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccquhnfR.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccquhnfR.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccEqEALu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEqEALu.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccp624mV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccp624mV.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc7uvwx8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7uvwx8.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cci3ckRg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cci3ckRg.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccFB89fD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFB89fD.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccHV37BO.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHV37BO.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/cczLYVYu.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/cczLYVYu.debug.temp.o
+ .debug_line    0x0000000000000000       0xb1 /tmp/cczLYVYu.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/cczLYVYu.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cczLYVYu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczLYVYu.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccizjKzZ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccizjKzZ.debug.temp.o
+ .debug_info    0x0000000000000000      0x108 /tmp/ccquEhC1.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x73 /tmp/ccquEhC1.debug.temp.o
+ .debug_line    0x0000000000000000       0xc0 /tmp/ccquEhC1.debug.temp.o
+ .debug_str     0x0000000000000000      0x2ce /tmp/ccquEhC1.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccquEhC1.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccquEhC1.debug.temp.o
+ .debug_info    0x0000000000000000       0xbb /tmp/ccG5SzG7.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5e /tmp/ccG5SzG7.debug.temp.o
+ .debug_line    0x0000000000000000       0xc2 /tmp/ccG5SzG7.debug.temp.o
+ .debug_str     0x0000000000000000      0x2bd /tmp/ccG5SzG7.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccG5SzG7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccG5SzG7.debug.temp.o
+ .debug_info    0x0000000000000000       0xb6 /tmp/ccoWWydt.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x86 /tmp/ccoWWydt.debug.temp.o
+ .debug_line    0x0000000000000000      0x16c /tmp/ccoWWydt.debug.temp.o
+ .debug_str     0x0000000000000000      0x324 /tmp/ccoWWydt.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccoWWydt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoWWydt.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc972Qu2.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc972Qu2.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccAr43Ed.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAr43Ed.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccr6CBC3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccr6CBC3.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccHmMUqp.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHmMUqp.debug.temp.o
+ .debug_info    0x0000000000000000      0xec3 /tmp/cciqnfwJ.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x189 /tmp/cciqnfwJ.debug.temp.o
+ .debug_line    0x0000000000000000      0x20c /tmp/cciqnfwJ.debug.temp.o
+ .debug_str     0x0000000000000000      0xd0c /tmp/cciqnfwJ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cciqnfwJ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciqnfwJ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccJXaruZ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJXaruZ.debug.temp.o
+ .debug_info    0x0000000000000000     0x2675 /tmp/ccIK1DtZ.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x231 /tmp/ccIK1DtZ.debug.temp.o
+ .debug_line    0x0000000000000000      0x2c3 /tmp/ccIK1DtZ.debug.temp.o
+ .debug_str     0x0000000000000000     0x13cf /tmp/ccIK1DtZ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccIK1DtZ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIK1DtZ.debug.temp.o
+ .debug_info    0x0000000000000000     0x2ef9 /tmp/ccuZKUsw.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x20d /tmp/ccuZKUsw.debug.temp.o
+ .debug_line    0x0000000000000000      0x2b7 /tmp/ccuZKUsw.debug.temp.o
+ .debug_str     0x0000000000000000     0x1cf4 /tmp/ccuZKUsw.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccuZKUsw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuZKUsw.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/ccDLABWn.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccDLABWn.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccDLABWn.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/ccDLABWn.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccDLABWn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDLABWn.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc9O6C2o.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9O6C2o.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQUqurn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQUqurn.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc8sDPnk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8sDPnk.debug.temp.o
+ .debug_info    0x0000000000000000      0x302 /tmp/ccfLXNBx.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xcd /tmp/ccfLXNBx.debug.temp.o
+ .debug_line    0x0000000000000000      0x119 /tmp/ccfLXNBx.debug.temp.o
+ .debug_str     0x0000000000000000      0x40b /tmp/ccfLXNBx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccfLXNBx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfLXNBx.debug.temp.o
+ .text          0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .text          0x0000000000000000       0x20 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+LOAD /tmp/cctiloUm.debug.temp.o
+LOAD /tmp/cctCKnN8.debug.temp.o
+LOAD /tmp/ccRpGnsU.debug.temp.o
+LOAD /tmp/ccNAVp3O.debug.temp.o
+LOAD /tmp/ccENeuNt.debug.temp.o
+LOAD /tmp/ccGCdBWv.debug.temp.o
+LOAD /tmp/ccfz7n0z.debug.temp.o
+LOAD /tmp/ccgqXbFz.debug.temp.o
+LOAD /tmp/ccNG3zu9.debug.temp.o
+LOAD /tmp/ccszdSGw.debug.temp.o
+LOAD /tmp/ccrghG11.debug.temp.o
+LOAD /tmp/ccK80Tkc.debug.temp.o
+LOAD /tmp/ccYFy8ko.debug.temp.o
+LOAD /tmp/ccTRdgB4.debug.temp.o
+LOAD /tmp/ccks8fYJ.debug.temp.o
+LOAD /tmp/ccVQ0qbP.debug.temp.o
+LOAD /tmp/ccUxTxAp.debug.temp.o
+LOAD /tmp/ccesDmQT.debug.temp.o
+LOAD /tmp/cckoZh6d.debug.temp.o
+LOAD /tmp/ccQOAzCd.debug.temp.o
+LOAD /tmp/ccQJkTJa.debug.temp.o
+LOAD /tmp/ccjqLYVs.debug.temp.o
+LOAD /tmp/ccPNWLKI.debug.temp.o
+LOAD /tmp/ccquhnfR.debug.temp.o
+LOAD /tmp/ccEqEALu.debug.temp.o
+LOAD /tmp/ccp624mV.debug.temp.o
+LOAD /tmp/cc7uvwx8.debug.temp.o
+LOAD /tmp/cci3ckRg.debug.temp.o
+LOAD /tmp/ccFB89fD.debug.temp.o
+LOAD /tmp/ccHV37BO.debug.temp.o
+LOAD /tmp/cczLYVYu.debug.temp.o
+LOAD /tmp/ccizjKzZ.debug.temp.o
+LOAD /tmp/ccquEhC1.debug.temp.o
+LOAD /tmp/ccG5SzG7.debug.temp.o
+LOAD /tmp/ccoWWydt.debug.temp.o
+LOAD /tmp/cc972Qu2.debug.temp.o
+LOAD /tmp/ccAr43Ed.debug.temp.o
+LOAD /tmp/ccr6CBC3.debug.temp.o
+LOAD /tmp/ccHmMUqp.debug.temp.o
+LOAD /tmp/cciqnfwJ.debug.temp.o
+LOAD /tmp/ccJXaruZ.debug.temp.o
+LOAD /tmp/ccIK1DtZ.debug.temp.o
+LOAD /tmp/ccuZKUsw.debug.temp.o
+LOAD /tmp/ccDLABWn.debug.temp.o
+LOAD /tmp/cc9O6C2o.debug.temp.o
+LOAD /tmp/ccQUqurn.debug.temp.o
+LOAD /tmp/cc8sDPnk.debug.temp.o
+LOAD /tmp/ccfLXNBx.debug.temp.o
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbMouseAbsolutePointerDxe/UsbMouseAbsolutePointerDxe/OUTPUT/UsbMouseAbsolutePointerDxe.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib/OUTPUT/DxeReportStatusCodeLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiUsbLib/UefiUsbLib/OUTPUT/UefiUsbLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000001000     0x441d
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.DebugPrintLevelEnabled.constprop.0
+                0x0000000000001000        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.USBMouseAbsolutePointerDriverBindingSupported
+                0x0000000000001008       0xd0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.USBMouseRecoveryHandler
+                0x00000000000010d8       0x2c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.UsbMouseAbsolutePointerWaitForInput
+                0x0000000000001104       0x20 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x0000000000001124        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x000000000000112c        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.ReportErrorCodeEnabled
+                0x0000000000001134        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.ReportDebugCodeEnabled
+                0x000000000000113c        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x0000000000001144       0x3c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x0000000000001180       0x34 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.InternalAllocatePool.constprop.0
+                0x00000000000011b4       0x38 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.InternalReportStatusCode.constprop.0.isra.0
+                0x00000000000011ec       0xe0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.DivU64x32.constprop.0
+                0x00000000000012cc        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x00000000000012d4       0x54 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000001328      0xbbc /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x0000000000001ee4       0x64 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x0000000000001f48       0x4c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.BitFieldRead8
+                0x0000000000001f94       0x60 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000001ff4       0x74 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.AllocateZeroPool
+                0x0000000000002068       0x34 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.CopyMem  0x000000000000209c       0xa4 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.GetMouseAbsolutePointerState
+                0x0000000000002140       0x9c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.GetNextHidItem
+                0x00000000000021dc      0x16c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.AllocateCopyPool
+                0x0000000000002348       0x74 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x00000000000023bc       0x90 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.AsciiStrSize
+                0x000000000000244c       0x18 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000002464       0xd4 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.IsLanguageSupported
+                0x0000000000002538       0x88 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x00000000000025c0       0x5c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.ReadUnaligned24
+                0x000000000000261c       0x4c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.LookupUnicodeString2
+                0x0000000000002668      0x100 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.UsbMouseAbsolutePointerComponentNameGetDriverName
+                0x0000000000002768       0x2c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.UsbMouseAbsolutePointerComponentNameGetControllerName
+                0x0000000000002794      0x154 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.DevicePathType
+                0x00000000000028e8       0x48 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.DevicePathSubType
+                0x0000000000002930       0x48 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.DevicePathNodeLength
+                0x0000000000002978       0x50 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.NextDevicePathNode
+                0x00000000000029c8       0x50 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.IsDevicePathEnd
+                0x0000000000002a18       0x94 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.MmioRead32
+                0x0000000000002aac        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.StrSize.constprop.0
+                0x0000000000002ab4       0x7c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.MmioWrite32.isra.0
+                0x0000000000002b30        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x0000000000002b38       0xcc /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.UartWrite.constprop.0.isra.0
+                0x0000000000002c04       0x4c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.DebugPrint.constprop.0
+                0x0000000000002c50       0x84 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.FreePool
+                0x0000000000002cd4       0x78 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.AddUnicodeString2.part.0.constprop.0.isra.0
+                0x0000000000002d4c      0x18c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.CopyGuid.isra.0
+                0x0000000000002ed8       0x48 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.ReportStatusCodeEx.constprop.0.isra.0
+                0x0000000000002f20      0x184 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.ReportStatusCodeWithDevicePath.isra.0
+                0x00000000000030a4      0x188 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.USBMouseAbsolutePointerDriverBindingStart
+                0x000000000000322c      0x760 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.UsbMouseAbsolutePointerReset
+                0x000000000000398c       0x98 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.OnMouseInterruptComplete
+                0x0000000000003a24      0x230 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text.USBMouseAbsolutePointerDriverBindingStop
+                0x0000000000003c54      0x17c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .text._ModuleEntryPoint
+                0x0000000000003dd0      0x1f0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+                0x0000000000003dd0                _ModuleEntryPoint
+ .text          0x0000000000003fc0      0x200 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000003fc0                InternalMemSetMem16
+                0x0000000000003fcc                InternalMemSetMem32
+                0x0000000000003fd8                InternalMemSetMem64
+                0x0000000000003fe4                InternalMemZeroMem
+                0x0000000000003fec                InternalMemSetMem
+ .text          0x00000000000041c0      0x218 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000000432c                InternalMemCopyMem
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x00000000000043d8      0x180 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+                                        0x197 (size before relaxing)
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000004558       0x5e /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.AsciiSPrint.constprop.0.str1.1
+                0x00000000000045b6       0x18 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.DebugAssert.str1.1
+                0x00000000000045ce       0x1b /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.BitFieldRead8.str1.1
+                0x00000000000045e9       0x56 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x000000000000463f       0x8b /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x00000000000046ca       0xd6 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.GetMouseAbsolutePointerState.str1.1
+                0x00000000000047a0       0x80 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.GetNextHidItem
+                0x0000000000004820        0x4 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.AllocateCopyPool.str1.1
+                0x0000000000004824       0x9d /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x00000000000048c1       0x90 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.AsciiStrnCmp.str1.1
+                0x0000000000004951       0x70 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.ReadUnaligned16.str1.1
+                0x00000000000049c1       0x48 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.UsbMouseAbsolutePointerComponentNameGetControllerName.str1.1
+                0x0000000000004a09       0x61 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.DevicePathType.str1.1
+                0x0000000000004a6a       0x6d /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ *fill*         0x0000000000004ad7        0x1 
+ .rodata.StrSize.constprop.0.str2.2
+                0x0000000000004ad8       0x46 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.StrSize.constprop.0.str1.1
+                0x0000000000004b1e       0x3a /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.FreePool.str1.1
+                0x0000000000004b58       0x35 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.CopyGuid.isra.0.str1.1
+                0x0000000000004b8d       0x70 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.ReportStatusCodeEx.constprop.0.isra.0.str1.1
+                0x0000000000004bfd       0xdd /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.ReportStatusCodeWithDevicePath.isra.0.str1.1
+                0x0000000000004cda       0x4e /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.USBMouseAbsolutePointerDriverBindingStart.str1.1
+                0x0000000000004d28       0xaf /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+                                         0xb2 (size before relaxing)
+ .rodata.OnMouseInterruptComplete.str1.1
+                0x0000000000004dd7       0x5d /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x0000000000004e34      0x243 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x0000000000005077        0x7 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.str2.2
+                0x000000000000507e       0x44 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x00000000000050c2      0x2b5 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x0000000000005377       0x10 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x0000000000005387       0x96 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ *(.got .got.*)
+ *:AutoGen.obj(.data.g*Guid)
+
+.iplt           0x0000000000005420        0x0
+ .iplt          0x0000000000005420        0x0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+
+.data           0x0000000000006000      0x118
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.gEfiAbsolutePointerProtocolGuid
+                0x0000000000006000       0x10 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data.gEfiCallerIdGuid
+                0x0000000000006010       0x10 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x0000000000006020       0x10 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data.gEfiDriverBindingProtocolGuid
+                0x0000000000006030       0x10 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data.gEfiStatusCodeRuntimeProtocolGuid
+                0x0000000000006040       0x10 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data.gEfiStatusCodeSpecificDataGuid
+                0x0000000000006050       0x10 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data.gEfiUsbIoProtocolGuid
+                0x0000000000006060       0x10 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data.gUsbMouseAbsolutePointerComponentName
+                0x0000000000006070       0x18 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data.gUsbMouseAbsolutePointerComponentName2
+                0x0000000000006088       0x18 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data.gUsbMouseAbsolutePointerDriverBinding
+                0x00000000000060a0       0x30 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .data.mUsbMouseAbsolutePointerDriverNameTable
+                0x00000000000060d0       0x20 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.gBS       0x00000000000060f0        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x00000000000060f8        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000006100        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .bss.gST       0x0000000000006108        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .bss.mReportStatusCodeLibStatusCodeProtocol
+                0x0000000000006110        0x8 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+
+.igot.plt       0x0000000000006118        0x0
+ .igot.plt      0x0000000000006118        0x0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x0000000000006118        0x0
+ *(.rela .rela.*)
+ .rela.iplt     0x0000000000006118        0x0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+
+.hii
+ *(.hii)
+
+.build-id
+ *(.note.gnu.build-id)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbMouseAbsolutePointerDxe/UsbMouseAbsolutePointerDxe/DEBUG/UsbMouseAbsolutePointerDxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x1cf2a
+ .debug_info    0x0000000000000000     0x43c2 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .debug_info    0x00000000000043c2     0x191f /tmp/cctiloUm.debug.temp.o
+                0x00000000000043c2                DriverEntryPoint.c.6ad2c6b6
+ .debug_info    0x0000000000005ce1      0x100 /tmp/cctCKnN8.debug.temp.o
+                0x0000000000005ce1                memcpy.c.124218b3
+ .debug_info    0x0000000000005de1       0xb1 /tmp/ccRpGnsU.debug.temp.o
+                0x0000000000005de1                memset.c.fe78e419
+ .debug_info    0x0000000000005e92       0xb0 /tmp/ccNAVp3O.debug.temp.o
+                0x0000000000005e92                BaseStackCheckGcc.c.4b3a57a0
+ .debug_info    0x0000000000005f42     0x1dc7 /tmp/ccENeuNt.debug.temp.o
+                0x0000000000005f42                AutoGen.c.68373516
+ .debug_info    0x0000000000007d09     0x2961 /tmp/ccGCdBWv.debug.temp.o
+                0x0000000000007d09                UsbMouseAbsolutePointer.c.c2cb2e52
+ .debug_info    0x000000000000a66a     0x1b3b /tmp/ccfz7n0z.debug.temp.o
+                0x000000000000a66a                ComponentName.c.2f60c808
+ .debug_info    0x000000000000c1a5      0xc90 /tmp/ccgqXbFz.debug.temp.o
+                0x000000000000c1a5                MouseHid.c.fe429ddd
+ .debug_info    0x000000000000ce35       0xad /tmp/ccNG3zu9.debug.temp.o
+                0x000000000000ce35                DivU64x32.c.e876f75d
+ .debug_info    0x000000000000cee2      0x795 /tmp/ccszdSGw.debug.temp.o
+                0x000000000000cee2                BitField.c.1948e155
+ .debug_info    0x000000000000d677      0x30e /tmp/ccK80Tkc.debug.temp.o
+                0x000000000000d677                Math64.c.df2e98ae
+ .debug_info    0x000000000000d985       0xaf /tmp/ccUxTxAp.debug.temp.o
+                0x000000000000d985                ZeroMemWrapper.c.0fd9aaec
+ .debug_info    0x000000000000da34       0xc6 /tmp/ccesDmQT.debug.temp.o
+                0x000000000000da34                CopyMemWrapper.c.5220106c
+ .debug_info    0x000000000000dafa      0x32b /tmp/cckoZh6d.debug.temp.o
+                0x000000000000dafa                DebugLib.c.b228dbcd
+ .debug_info    0x000000000000de25     0x17cd /tmp/ccQOAzCd.debug.temp.o
+                0x000000000000de25                UefiBootServicesTableLib.c.40f3e47d
+ .debug_info    0x000000000000f5f2     0x13a8 /tmp/ccQJkTJa.debug.temp.o
+                0x000000000000f5f2                MemoryAllocationLib.c.3e4a7161
+ .debug_info    0x000000000001099a     0x179e /tmp/ccjqLYVs.debug.temp.o
+                0x000000000001099a                UefiRuntimeServicesTableLib.c.90bd0d28
+ .debug_info    0x0000000000012138     0x20e5 /tmp/ccPNWLKI.debug.temp.o
+                0x0000000000012138                UefiDriverModel.c.d7d7932b
+ .debug_info    0x000000000001421d     0x2543 /tmp/ccquhnfR.debug.temp.o
+                0x000000000001421d                UefiLib.c.33a327e5
+ .debug_info    0x0000000000016760     0x1416 /tmp/ccEqEALu.debug.temp.o
+                0x0000000000016760                ReportStatusCodeLib.c.98cc311d
+ .debug_info    0x0000000000017b76      0xc6f /tmp/ccp624mV.debug.temp.o
+                0x0000000000017b76                Hid.c.bba09445
+ .debug_info    0x00000000000187e5      0xbf0 /tmp/cc7uvwx8.debug.temp.o
+                0x00000000000187e5                UsbDxeLib.c.d5e92f61
+ .debug_info    0x00000000000193d5      0x711 /tmp/cci3ckRg.debug.temp.o
+                0x00000000000193d5                String.c.8e83c025
+ .debug_info    0x0000000000019ae6      0x238 /tmp/ccFB89fD.debug.temp.o
+                0x0000000000019ae6                Unaligned.c.a40271e9
+ .debug_info    0x0000000000019d1e      0xf83 /tmp/ccHV37BO.debug.temp.o
+                0x0000000000019d1e                SafeString.c.1b674302
+ .debug_info    0x000000000001aca1      0x1d0 /tmp/ccizjKzZ.debug.temp.o
+                0x000000000001aca1                MemLibGuid.c.0abd8b36
+ .debug_info    0x000000000001ae71      0x5ad /tmp/cc972Qu2.debug.temp.o
+                0x000000000001ae71                PrintLib.c.b75a7535
+ .debug_info    0x000000000001b41e      0x753 /tmp/ccAr43Ed.debug.temp.o
+                0x000000000001b41e                PrintLibInternal.c.b254bcc3
+ .debug_info    0x000000000001bb71      0x277 /tmp/ccr6CBC3.debug.temp.o
+                0x000000000001bb71                SerialPortLib.c.bf19079b
+ .debug_info    0x000000000001bde8      0x5bc /tmp/ccHmMUqp.debug.temp.o
+                0x000000000001bde8                DevicePathUtilities.c.b90c247c
+ .debug_info    0x000000000001c3a4      0x305 /tmp/ccJXaruZ.debug.temp.o
+                0x000000000001c3a4                UefiDevicePathLib.c.bbabffea
+ .debug_info    0x000000000001c6a9       0xc3 /tmp/cc9O6C2o.debug.temp.o
+                0x000000000001c6a9                DivU64x32Remainder.c.99a75392
+ .debug_info    0x000000000001c76c      0x2d3 /tmp/ccQUqurn.debug.temp.o
+                0x000000000001c76c                UartLib.c.db43ab4c
+ .debug_info    0x000000000001ca3f      0x4eb /tmp/cc8sDPnk.debug.temp.o
+                0x000000000001ca3f                IoLibNoIo.c.373e17b9
+
+.debug_abbrev   0x0000000000000000     0x2b33
+ .debug_abbrev  0x0000000000000000      0x297 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000297      0x1d1 /tmp/cctiloUm.debug.temp.o
+ .debug_abbrev  0x0000000000000468       0xa4 /tmp/cctCKnN8.debug.temp.o
+ .debug_abbrev  0x000000000000050c       0x76 /tmp/ccRpGnsU.debug.temp.o
+ .debug_abbrev  0x0000000000000582       0x87 /tmp/ccNAVp3O.debug.temp.o
+ .debug_abbrev  0x0000000000000609      0x245 /tmp/ccENeuNt.debug.temp.o
+ .debug_abbrev  0x000000000000084e      0x25c /tmp/ccGCdBWv.debug.temp.o
+ .debug_abbrev  0x0000000000000aaa      0x1de /tmp/ccfz7n0z.debug.temp.o
+ .debug_abbrev  0x0000000000000c88      0x17e /tmp/ccgqXbFz.debug.temp.o
+ .debug_abbrev  0x0000000000000e06       0x57 /tmp/ccNG3zu9.debug.temp.o
+ .debug_abbrev  0x0000000000000e5d       0x9f /tmp/ccszdSGw.debug.temp.o
+ .debug_abbrev  0x0000000000000efc       0xa8 /tmp/ccK80Tkc.debug.temp.o
+ .debug_abbrev  0x0000000000000fa4       0x5e /tmp/ccUxTxAp.debug.temp.o
+ .debug_abbrev  0x0000000000001002       0x6e /tmp/ccesDmQT.debug.temp.o
+ .debug_abbrev  0x0000000000001070      0x12d /tmp/cckoZh6d.debug.temp.o
+ .debug_abbrev  0x000000000000119d      0x1c5 /tmp/ccQOAzCd.debug.temp.o
+ .debug_abbrev  0x0000000000001362      0x1e4 /tmp/ccQJkTJa.debug.temp.o
+ .debug_abbrev  0x0000000000001546      0x198 /tmp/ccjqLYVs.debug.temp.o
+ .debug_abbrev  0x00000000000016de      0x204 /tmp/ccPNWLKI.debug.temp.o
+ .debug_abbrev  0x00000000000018e2      0x24f /tmp/ccquhnfR.debug.temp.o
+ .debug_abbrev  0x0000000000001b31      0x240 /tmp/ccEqEALu.debug.temp.o
+ .debug_abbrev  0x0000000000001d71      0x15f /tmp/ccp624mV.debug.temp.o
+ .debug_abbrev  0x0000000000001ed0      0x160 /tmp/cc7uvwx8.debug.temp.o
+ .debug_abbrev  0x0000000000002030      0x101 /tmp/cci3ckRg.debug.temp.o
+ .debug_abbrev  0x0000000000002131       0x7f /tmp/ccFB89fD.debug.temp.o
+ .debug_abbrev  0x00000000000021b0      0x133 /tmp/ccHV37BO.debug.temp.o
+ .debug_abbrev  0x00000000000022e3       0xb6 /tmp/ccizjKzZ.debug.temp.o
+ .debug_abbrev  0x0000000000002399      0x106 /tmp/cc972Qu2.debug.temp.o
+ .debug_abbrev  0x000000000000249f      0x15c /tmp/ccAr43Ed.debug.temp.o
+ .debug_abbrev  0x00000000000025fb       0xc2 /tmp/ccr6CBC3.debug.temp.o
+ .debug_abbrev  0x00000000000026bd      0x162 /tmp/ccHmMUqp.debug.temp.o
+ .debug_abbrev  0x000000000000281f       0xd2 /tmp/ccJXaruZ.debug.temp.o
+ .debug_abbrev  0x00000000000028f1       0x62 /tmp/cc9O6C2o.debug.temp.o
+ .debug_abbrev  0x0000000000002953       0xf8 /tmp/ccQUqurn.debug.temp.o
+ .debug_abbrev  0x0000000000002a4b       0xe8 /tmp/cc8sDPnk.debug.temp.o
+
+.debug_loc      0x0000000000000000     0x883b
+ .debug_loc     0x0000000000000000     0x883b /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x3c0
+ .debug_aranges
+                0x0000000000000000      0x3c0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000      0xca0
+ .debug_ranges  0x0000000000000000      0xca0 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0x66ee
+ .debug_line    0x0000000000000000     0x2d8b /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+ .debug_line    0x0000000000002d8b      0x2de /tmp/cctiloUm.debug.temp.o
+ .debug_line    0x0000000000003069       0x70 /tmp/cctCKnN8.debug.temp.o
+ .debug_line    0x00000000000030d9       0x70 /tmp/ccRpGnsU.debug.temp.o
+ .debug_line    0x0000000000003149      0x144 /tmp/ccNAVp3O.debug.temp.o
+ .debug_line    0x000000000000328d      0x2d2 /tmp/ccENeuNt.debug.temp.o
+ .debug_line    0x000000000000355f      0x3a6 /tmp/ccGCdBWv.debug.temp.o
+ .debug_line    0x0000000000003905      0x377 /tmp/ccfz7n0z.debug.temp.o
+ .debug_line    0x0000000000003c7c      0x25e /tmp/ccgqXbFz.debug.temp.o
+ .debug_line    0x0000000000003eda       0xb0 /tmp/ccNG3zu9.debug.temp.o
+ .debug_line    0x0000000000003f8a       0xaf /tmp/ccszdSGw.debug.temp.o
+ .debug_line    0x0000000000004039       0xad /tmp/ccK80Tkc.debug.temp.o
+ .debug_line    0x00000000000040e6       0xc1 /tmp/ccUxTxAp.debug.temp.o
+ .debug_line    0x00000000000041a7       0xc1 /tmp/ccesDmQT.debug.temp.o
+ .debug_line    0x0000000000004268      0x192 /tmp/cckoZh6d.debug.temp.o
+ .debug_line    0x00000000000043fa      0x237 /tmp/ccQOAzCd.debug.temp.o
+ .debug_line    0x0000000000004631      0x20c /tmp/ccQJkTJa.debug.temp.o
+ .debug_line    0x000000000000483d      0x1e7 /tmp/ccjqLYVs.debug.temp.o
+ .debug_line    0x0000000000004a24      0x327 /tmp/ccPNWLKI.debug.temp.o
+ .debug_line    0x0000000000004d4b      0x2d5 /tmp/ccquhnfR.debug.temp.o
+ .debug_line    0x0000000000005020      0x3c3 /tmp/ccEqEALu.debug.temp.o
+ .debug_line    0x00000000000053e3      0x230 /tmp/ccp624mV.debug.temp.o
+ .debug_line    0x0000000000005613      0x236 /tmp/cc7uvwx8.debug.temp.o
+ .debug_line    0x0000000000005849      0x155 /tmp/cci3ckRg.debug.temp.o
+ .debug_line    0x000000000000599e       0xb4 /tmp/ccFB89fD.debug.temp.o
+ .debug_line    0x0000000000005a52      0x159 /tmp/ccHV37BO.debug.temp.o
+ .debug_line    0x0000000000005bab       0xfb /tmp/ccizjKzZ.debug.temp.o
+ .debug_line    0x0000000000005ca6       0xfc /tmp/cc972Qu2.debug.temp.o
+ .debug_line    0x0000000000005da2      0x192 /tmp/ccAr43Ed.debug.temp.o
+ .debug_line    0x0000000000005f34      0x14f /tmp/ccr6CBC3.debug.temp.o
+ .debug_line    0x0000000000006083      0x1d6 /tmp/ccHmMUqp.debug.temp.o
+ .debug_line    0x0000000000006259      0x10b /tmp/ccJXaruZ.debug.temp.o
+ .debug_line    0x0000000000006364       0xb9 /tmp/cc9O6C2o.debug.temp.o
+ .debug_line    0x000000000000641d      0x1c7 /tmp/ccQUqurn.debug.temp.o
+ .debug_line    0x00000000000065e4      0x10a /tmp/cc8sDPnk.debug.temp.o
+
+.debug_str      0x0000000000000000     0x69b5
+ .debug_str     0x0000000000000000      0x25c /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o
+                                        0x26e (size before relaxing)
+ .debug_str     0x000000000000025c     0x131f /tmp/cctiloUm.debug.temp.o
+                                       0x1464 (size before relaxing)
+ .debug_str     0x000000000000157b      0x21d /tmp/cctCKnN8.debug.temp.o
+                                        0x2a4 (size before relaxing)
+ .debug_str     0x0000000000001798       0x58 /tmp/ccRpGnsU.debug.temp.o
+                                        0x298 (size before relaxing)
+ .debug_str     0x00000000000017f0      0x110 /tmp/ccNAVp3O.debug.temp.o
+                                        0x2f2 (size before relaxing)
+ .debug_str     0x0000000000001900      0x9f9 /tmp/ccENeuNt.debug.temp.o
+                                       0x1d74 (size before relaxing)
+ .debug_str     0x00000000000022f9      0xf7c /tmp/ccGCdBWv.debug.temp.o
+                                       0x2502 (size before relaxing)
+ .debug_str     0x0000000000003275       0xff /tmp/ccfz7n0z.debug.temp.o
+                                       0x190e (size before relaxing)
+ .debug_str     0x0000000000003374      0x125 /tmp/ccgqXbFz.debug.temp.o
+                                        0xcc2 (size before relaxing)
+ .debug_str     0x0000000000003499       0xb0 /tmp/ccNG3zu9.debug.temp.o
+                                        0x292 (size before relaxing)
+ .debug_str     0x0000000000003549      0x239 /tmp/ccszdSGw.debug.temp.o
+                                        0x48b (size before relaxing)
+ .debug_str     0x0000000000003782      0x1a2 /tmp/ccK80Tkc.debug.temp.o
+                                        0x407 (size before relaxing)
+ .debug_str     0x0000000000003924       0xc8 /tmp/ccUxTxAp.debug.temp.o
+                                        0x2b5 (size before relaxing)
+ .debug_str     0x00000000000039ec       0x74 /tmp/ccesDmQT.debug.temp.o
+                                        0x2cd (size before relaxing)
+ .debug_str     0x0000000000003a60      0x224 /tmp/cckoZh6d.debug.temp.o
+                                        0x4eb (size before relaxing)
+ .debug_str     0x0000000000003c84      0x105 /tmp/ccQOAzCd.debug.temp.o
+                                       0x1382 (size before relaxing)
+ .debug_str     0x0000000000003d89      0x312 /tmp/ccQJkTJa.debug.temp.o
+                                        0xf74 (size before relaxing)
+ .debug_str     0x000000000000409b      0x114 /tmp/ccjqLYVs.debug.temp.o
+                                       0x1384 (size before relaxing)
+ .debug_str     0x00000000000041af      0x5ae /tmp/ccPNWLKI.debug.temp.o
+                                       0x1c7b (size before relaxing)
+ .debug_str     0x000000000000475d      0x635 /tmp/ccquhnfR.debug.temp.o
+                                       0x1b28 (size before relaxing)
+ .debug_str     0x0000000000004d92      0x3e2 /tmp/ccEqEALu.debug.temp.o
+                                       0x116d (size before relaxing)
+ .debug_str     0x0000000000005174      0x184 /tmp/ccp624mV.debug.temp.o
+                                        0xd04 (size before relaxing)
+ .debug_str     0x00000000000052f8      0x134 /tmp/cc7uvwx8.debug.temp.o
+                                        0xcb4 (size before relaxing)
+ .debug_str     0x000000000000542c      0x2fd /tmp/cci3ckRg.debug.temp.o
+                                        0x67e (size before relaxing)
+ .debug_str     0x0000000000005729       0xe1 /tmp/ccFB89fD.debug.temp.o
+                                        0x345 (size before relaxing)
+ .debug_str     0x000000000000580a      0x2e8 /tmp/ccHV37BO.debug.temp.o
+                                        0x6ed (size before relaxing)
+ .debug_str     0x0000000000005af2       0xad /tmp/ccizjKzZ.debug.temp.o
+                                        0x33b (size before relaxing)
+ .debug_str     0x0000000000005b9f      0x225 /tmp/cc972Qu2.debug.temp.o
+                                        0x48c (size before relaxing)
+ .debug_str     0x0000000000005dc4      0x22a /tmp/ccAr43Ed.debug.temp.o
+                                        0x687 (size before relaxing)
+ .debug_str     0x0000000000005fee      0x1fe /tmp/ccr6CBC3.debug.temp.o
+                                        0x43f (size before relaxing)
+ .debug_str     0x00000000000061ec      0x368 /tmp/ccHmMUqp.debug.temp.o
+                                        0x660 (size before relaxing)
+ .debug_str     0x0000000000006554       0xef /tmp/ccJXaruZ.debug.temp.o
+                                        0x47b (size before relaxing)
+ .debug_str     0x0000000000006643       0x60 /tmp/cc9O6C2o.debug.temp.o
+                                        0x2ae (size before relaxing)
+ .debug_str     0x00000000000066a3      0x123 /tmp/ccQUqurn.debug.temp.o
+                                        0x438 (size before relaxing)
+ .debug_str     0x00000000000067c6      0x1ef /tmp/cc8sDPnk.debug.temp.o
+                                        0x3fa (size before relaxing)
+
+.debug_frame    0x0000000000000000      0xa60
+ .debug_frame   0x0000000000000000      0xa60 /tmp/UsbMouseAbsolutePointerDxe.dll.q8my3U.ltrans0.ltrans.o

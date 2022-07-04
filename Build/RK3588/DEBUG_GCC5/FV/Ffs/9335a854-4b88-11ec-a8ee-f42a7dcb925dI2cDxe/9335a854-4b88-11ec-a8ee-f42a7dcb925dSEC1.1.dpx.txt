@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_DXE_DEPEX -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/9335a854-4b88-11ec-a8ee-f42a7dcb925dI2cDxe/9335a854-4b88-11ec-a8ee-f42a7dcb925dSEC1.1.dpx /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Drivers/I2c/I2cDxe/I2cDxe/OUTPUT/I2cDxe.depex

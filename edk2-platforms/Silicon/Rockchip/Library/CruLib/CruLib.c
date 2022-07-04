@@ -57,10 +57,21 @@
 #define PLL_FRAC_SHIFT     0
 #define PLL_FRAC_MASK      0xffffff << PLL_FRAC_SHIFT
 
+#define PLLCON0_M_SHIFT		0
+#define PLLCON0_M_MASK		0x3ff << PLLCON0_M_SHIFT
+#define PLLCON1_P_SHIFT		0
+#define PLLCON1_P_MASK		0x3f << PLLCON1_P_SHIFT
+#define PLLCON1_S_SHIFT		6
+#define PLLCON1_S_MASK		0x7 << PLLCON1_S_SHIFT
+#define PLLCON2_K_SHIFT		0
+#define PLLCON2_K_MASK		0xffff << PLLCON2_K_SHIFT
+#define PLLCON1_PWRDOWN		BIT(13)
+#define PLLCON6_LOCK_STATUS	BIT(15)
+
 #define MIN_FOUTVCO_FREQ (800 * MHZ)
 #define MAX_FOUTVCO_FREQ (2000 * MHZ)
 #define MIN_FOUT_FREQ    (24 * MHZ)
-#define MAX_FOUT_FREQ    (1400 * MHZ)
+#define MAX_FOUT_FREQ    (1600 * MHZ)
 
 #define EXPONENT_OF_FRAC_PLL              24
 #define RK_PLL_MODE_SLOW                  0
@@ -392,6 +403,129 @@ HAL_Status HAL_CRU_SetPllFreq(struct PLL_SETUP *pSetup, uint32_t rate)
 
     /* Force PLL into normal mode */
     WRITE_REG_MASK_WE(*(pSetup->modeOffset), pSetup->modeMask, RK_PLL_MODE_NORMAL << pSetup->modeShift);
+
+    return HAL_OK;
+}
+
+/**
+ * @brief Get pll v1 freq(RK3588).
+ * @param  *pSetup: struct PLL_SETUP struct,Contains PLL register parameters
+ * @return pll rate.
+ * How to calculate the PLL:
+ *     Formulas also embedded within the fractional PLL Verilog model:
+ *     If K = 0 (DSM is disabled, "integer mode")
+ *     FOUTVCO = FREF / P * M
+ *     FOUT = FOUTVCO / 2^S
+ *     If K > 0 (DSM is enabled, "fractional mode")
+ *     FOUTVCO = (FREF / P) * (M + K / 65536)
+ *     FOUT = FOUTVCO / 2^S
+ */
+uint32_t HAL_CRU_GetPllV1Freq(struct PLL_SETUP *pSetup)
+{
+    uint32_t m, p, s, k;
+    uint64_t rate = PLL_INPUT_OSC_RATE;
+    uint32_t mode = 0;
+
+    if (pSetup->modeMask)
+        mode = PLL_GET_PLLMODE(READ_REG(*(pSetup->modeOffset)), pSetup->modeShift,
+                           pSetup->modeMask);
+    else
+        mode = RK_PLL_MODE_NORMAL;
+
+    switch (mode) {
+    case RK_PLL_MODE_SLOW:
+        rate = PLL_INPUT_OSC_RATE;
+        break;
+    case RK_PLL_MODE_NORMAL:
+        m = (READ_REG(*(pSetup->conOffset0)) & PLLCON0_M_MASK) >> PLLCON0_M_SHIFT;
+        p = (READ_REG(*(pSetup->conOffset1)) & PLLCON1_P_MASK) >> PLLCON1_P_SHIFT;
+        s = (READ_REG(*(pSetup->conOffset1)) & PLLCON1_S_MASK) >> PLLCON1_S_SHIFT;
+        k = (READ_REG(*(pSetup->conOffset2)) & PLLCON2_K_MASK) >> PLLCON2_K_SHIFT;
+
+        rate *= m;
+        rate = rate / p;
+        if (k) {
+            /* fractional mode */
+            uint64_t frac = PLL_INPUT_OSC_RATE / p;
+
+            frac *= k;
+            frac = frac / 65536;
+            rate += frac;
+        }
+	rate = rate >> s;
+
+        break;
+    case RK_PLL_MODE_DEEP:
+    default:
+        rate = 32768;
+        break;
+    }
+
+    return rate;
+}
+
+/**
+ * @brief Set pll v1 freq(RK3588).
+ * @param  *pSetup: struct PLL_SETUP struct,Contains PLL register parameters
+ * @param  rate: pll set rate
+ * @return HAL_Status.
+ * How to calculate the PLL:
+ *     Force PLL into slow mode
+ *     Pll Power down
+ *     Pll Config M, P, S, K
+ *     Pll Power up
+ *     Waiting for pll lock
+ *     Force PLL into normal mode
+ */
+HAL_Status HAL_CRU_SetPllV1Freq(struct PLL_SETUP *pSetup, uint32_t rate)
+{
+    const struct PLL_CONFIG *pConfig;
+    int delay = 24000000;
+
+    if (rate == HAL_CRU_GetPllV1Freq(pSetup)) {
+        return HAL_OK;
+    } else if (rate < MIN_FOUT_FREQ) {
+        return HAL_INVAL;
+    } else if (rate > MAX_FOUT_FREQ) {
+        return HAL_INVAL;
+    }
+
+    pConfig = CRU_PllGetSettings(pSetup, rate);
+    if (!pConfig) {
+        return HAL_ERROR;
+    }
+
+    /* Force PLL into slow mode to ensure output stable clock */
+    if (pSetup->modeMask)
+        WRITE_REG_MASK_WE(*(pSetup->modeOffset), pSetup->modeMask, RK_PLL_MODE_SLOW << pSetup->modeShift);
+
+    /* Pll Power down */
+    WRITE_REG_MASK_WE(*(pSetup->conOffset1), PWRDOWN_MASK, 1 << PWRDOWN_SHIT);
+
+    /* Pll Config */
+    WRITE_REG_MASK_WE(*(pSetup->conOffset0), PLLCON0_M_MASK, pConfig->m << PLLCON0_M_SHIFT);
+    WRITE_REG_MASK_WE(*(pSetup->conOffset1), PLLCON1_P_MASK, pConfig->p << PLLCON1_P_SHIFT);
+    WRITE_REG_MASK_WE(*(pSetup->conOffset1), PLLCON1_S_MASK, pConfig->s << PLLCON1_S_SHIFT);
+    if (pConfig->k)
+        WRITE_REG_MASK_WE(*(pSetup->conOffset2), PLLCON2_K_MASK, pConfig->k << PLLCON2_K_SHIFT);
+
+    /* Pll Power up */
+    WRITE_REG_MASK_WE(*(pSetup->conOffset1), PWRDOWN_MASK, 0 << PWRDOWN_SHIT);
+
+    /* Waiting for pll lock */
+    while (delay > 0) {
+        if (READ_REG(*(pSetup->conOffset6)) & (1 << pSetup->lockShift)) {
+            break;
+        }
+        delay--;
+    }
+    if (delay == 0) {
+        return HAL_TIMEOUT;
+    }
+
+    /* Force PLL into normal mode */
+    if (pSetup->modeMask)
+        WRITE_REG_MASK_WE(*(pSetup->modeOffset), pSetup->modeMask, RK_PLL_MODE_NORMAL << pSetup->modeShift);
 
     return HAL_OK;
 }

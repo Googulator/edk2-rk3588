@@ -22,8 +22,11 @@
 #define DDR_ATTRIBUTES_CACHED           ARM_MEMORY_REGION_ATTRIBUTE_WRITE_BACK
 #define DDR_ATTRIBUTES_UNCACHED         ARM_MEMORY_REGION_ATTRIBUTE_UNCACHED_UNBUFFERED
 
-#define RK3588_EXTRA_SYSTEM_MEMORY_BASE  0x40000000
-#define RK3588_EXTRA_SYSTEM_MEMORY_SIZE  0xB0000000
+#define RK3588_EXTRA_SYSTEM_MEMORY_BASE  (FixedPcdGet64(PcdLcdDdrFrameBufferBase) + FixedPcdGet64(PcdLcdDdrFrameBufferSize))
+#define RK3588_EXTRA_SYSTEM_MEMORY_SIZE  0xA0000000
+
+#define RK3588_DISPLAY_FB_BASE           (FixedPcdGet64(PcdLcdDdrFrameBufferBase))
+#define RK3588_DISPLAY_FB_SIZE           (FixedPcdGet64(PcdLcdDdrFrameBufferSize))
 
 STATIC struct RK3588ReservedMemory {
   EFI_PHYSICAL_ADDRESS         Offset;
@@ -166,7 +169,30 @@ ArmPlatformGetVirtualMemoryMap (
   VirtualMemoryTable[Index].PhysicalBase    = RK3588_PERIPH_BASE;
   VirtualMemoryTable[Index].VirtualBase     = RK3588_PERIPH_BASE;
   VirtualMemoryTable[Index].Length          = RK3588_PERIPH_SZ;
-  VirtualMemoryTable[Index].Attributes      = ARM_MEMORY_REGION_ATTRIBUTE_DEVICE;
+  VirtualMemoryTable[Index].Attributes      = ARM_MEMORY_REGION_ATTRIBUTE_NONSECURE_DEVICE;
+#if 1
+   BuildResourceDescriptorHob (
+    EFI_RESOURCE_SYSTEM_MEMORY,
+    EFI_RESOURCE_ATTRIBUTE_PRESENT |
+    EFI_RESOURCE_ATTRIBUTE_INITIALIZED |
+    EFI_RESOURCE_ATTRIBUTE_UNCACHEABLE |
+    EFI_RESOURCE_ATTRIBUTE_TESTED,
+    0xFE2B0000,
+    0x00100000
+  );
+
+  BuildMemoryAllocationHob (
+    0xFE2B0000,
+    0x00100000,
+    EfiRuntimeServicesData
+  );
+#endif
+
+  //PCIe 64 BAR space
+  VirtualMemoryTable[++Index].PhysicalBase    = 0x940000000;
+  VirtualMemoryTable[Index].VirtualBase     = 0x940000000;
+  VirtualMemoryTable[Index].Length          = 0x100000000 + 0x1400000;
+  VirtualMemoryTable[Index].Attributes      = ARM_MEMORY_REGION_ATTRIBUTE_NONSECURE_DEVICE;
 
   // DDR - predefined 1GB size
   VirtualMemoryTable[++Index].PhysicalBase  = PcdGet64 (PcdSystemMemoryBase);
@@ -179,6 +205,15 @@ ArmPlatformGetVirtualMemoryMap (
     VirtualMemoryTable[++Index].PhysicalBase = RK3588_EXTRA_SYSTEM_MEMORY_BASE;
     VirtualMemoryTable[Index].VirtualBase    = RK3588_EXTRA_SYSTEM_MEMORY_BASE;
     VirtualMemoryTable[Index].Length         = RK3588_EXTRA_SYSTEM_MEMORY_SIZE;
+    VirtualMemoryTable[Index].Attributes     = CacheAttributes;
+  }
+
+  // display framebuffer reserved memory
+  CacheAttributes = DDR_ATTRIBUTES_UNCACHED;
+  if (AdditionalMemorySize >= SIZE_1GB) {
+    VirtualMemoryTable[++Index].PhysicalBase = RK3588_DISPLAY_FB_BASE;
+    VirtualMemoryTable[Index].VirtualBase    = RK3588_DISPLAY_FB_BASE;
+    VirtualMemoryTable[Index].Length         = RK3588_DISPLAY_FB_SIZE;
     VirtualMemoryTable[Index].Attributes     = CacheAttributes;
   }
 

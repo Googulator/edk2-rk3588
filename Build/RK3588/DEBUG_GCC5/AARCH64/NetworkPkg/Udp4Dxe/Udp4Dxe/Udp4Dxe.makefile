@@ -1,0 +1,1 @@
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Udp4Dxe/Udp4Dxe/GNUmakefile

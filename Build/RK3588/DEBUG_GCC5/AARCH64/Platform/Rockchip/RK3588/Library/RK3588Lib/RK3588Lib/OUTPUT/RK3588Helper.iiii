@@ -1,0 +1,43 @@
+
+# Copyright (c) 2014-2017, Linaro Limited. All rights reserved.
+
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+
+
+
+
+
+
+.global ArmPlatformPeiBootAction ; .section ".text.ArmPlatformPeiBootAction", "ax" ; .type ArmPlatformPeiBootAction, %function ; ArmPlatformPeiBootAction:
+  ret
+
+
+
+
+
+
+.global ArmPlatformGetCorePosition ; .section ".text.ArmPlatformGetCorePosition", "ax" ; .type ArmPlatformGetCorePosition, %function ; ArmPlatformGetCorePosition:
+  and x1, x0, #0xFF
+  and x0, x0, #(0xFF << 8)
+  add x0, x1, x0, LSR #6
+  ret
+
+
+
+
+
+.global ArmPlatformGetPrimaryCoreMpId ; .section ".text.ArmPlatformGetPrimaryCoreMpId", "ax" ; .type ArmPlatformGetPrimaryCoreMpId, %function ; ArmPlatformGetPrimaryCoreMpId:
+  movz w0, (0) >> 16, lsl #16 ; movk w0, (0) & 0xffff
+  ret
+
+
+
+
+
+.global ArmPlatformIsPrimaryCore ; .section ".text.ArmPlatformIsPrimaryCore", "ax" ; .type ArmPlatformIsPrimaryCore, %function ; ArmPlatformIsPrimaryCore:
+  movz w1, (0xF03) >> 16, lsl #16 ; movk w1, (0xF03) & 0xffff
+  and x0, x0, x1
+  movz w1, (0) >> 16, lsl #16 ; movk w1, (0) & 0xffff
+  cmp w0, w1
+  cset x0, eq
+  ret

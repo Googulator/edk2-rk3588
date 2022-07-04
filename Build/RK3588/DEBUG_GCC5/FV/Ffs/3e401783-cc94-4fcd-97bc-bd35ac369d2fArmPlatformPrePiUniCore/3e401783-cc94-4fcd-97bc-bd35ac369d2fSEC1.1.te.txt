@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_TE -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/3e401783-cc94-4fcd-97bc-bd35ac369d2fArmPlatformPrePiUniCore/3e401783-cc94-4fcd-97bc-bd35ac369d2fSEC1.1.te /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/3e401783-cc94-4fcd-97bc-bd35ac369d2fArmPlatformPrePiUniCore/3e401783-cc94-4fcd-97bc-bd35ac369d2fTe.raw

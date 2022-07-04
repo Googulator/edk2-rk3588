@@ -1,0 +1,1734 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/PeiCoreEntryPoint/PeiCoreEntryPoint/OUTPUT/PeiCoreEntryPoint.lib(PeiCoreEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(AutoGen.obj)
+                              PeiCoreEntryPoint.obj (symbol from plugin) (ProcessModuleEntryPointList)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(PeiMain.obj)
+                              AutoGen.obj (symbol from plugin) (PeiCore)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(MemoryServices.obj)
+                              PeiMain.obj (symbol from plugin) (InitializeMemoryServices)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(Image.obj)
+                              PeiMain.obj (symbol from plugin) (PeiLoadImage)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(Hob.obj)
+                              PeiMain.obj (symbol from plugin) (PeiGetHobList)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(FwVol.obj)
+                              PeiMain.obj (symbol from plugin) (PeiFfsFindSectionData)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(Dispatcher.obj)
+                              PeiMain.obj (symbol from plugin) (EvacuateTempRam)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(Dependency.obj)
+                              FwVol.obj (symbol from plugin) (PeimDispatchReadiness)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(BootMode.obj)
+                              PeiMain.obj (symbol from plugin) (PeiGetBootMode)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(CpuIo.obj)
+                              PeiMain.obj (symbol from plugin) (gPeiDefaultCpuIoPpi)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(PciCfg2.obj)
+                              PeiMain.obj (symbol from plugin) (gPeiDefaultPciCfg2Ppi)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(StatusCode.obj)
+                              PeiMain.obj (symbol from plugin) (PeiReportStatusCode)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(Security.obj)
+                              PeiMain.obj (symbol from plugin) (InitializeSecurityServices)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(Reset.obj)
+                              PeiMain.obj (symbol from plugin) (PeiResetSystem2)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib(Ppi.obj)
+                              PeiMain.obj (symbol from plugin) (ConvertPpiPointers)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/PeiServicesTablePointerLib/PeiServicesTablePointerLib/OUTPUT/PeiServicesTablePointerLib.lib(PeiServicesTablePointer.obj)
+                              PeiMain.obj (symbol from plugin) (SetPeiServicesTablePointer)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/PeiMemoryAllocationLib/PeiMemoryAllocationLib/OUTPUT/PeiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              Dispatcher.obj (symbol from plugin) (AllocatePages)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              FwVol.obj (symbol from plugin) (CalculateSum8)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              Dispatcher.obj (symbol from plugin) (SwitchStack)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              Dispatcher.obj (symbol from plugin) (RShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              MemoryServices.obj (symbol from plugin) (LShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              PeiCoreEntryPoint.obj (symbol from plugin) (CpuDeadLoop)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(InternalSwitchStack.obj)
+                              SwitchStack.obj (symbol from plugin) (InternalSwitchStack)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              FwVol.obj (symbol from plugin) (ReadUnaligned16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              InternalSwitchStack.obj (symbol from plugin) (InternalSwitchStackAsm)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              Math64.obj (symbol from plugin) (SwapBytes32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SwapBytes32.obj (symbol from plugin) (SwapBytes16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/PeiHobLib/PeiHobLib/OUTPUT/PeiHobLib.lib(HobLib.obj)
+                              MemoryServices.obj (symbol from plugin) (GetHobList)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/PeiServicesLib/PeiServicesLib/OUTPUT/PeiServicesLib.lib(PeiServicesLib.obj)
+                              PeiMain.obj (symbol from plugin) (PeiServicesInstallPpi)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+                              PeiMain.obj (symbol from plugin) (ZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+                              PeiMain.obj (symbol from plugin) (SetMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+                              PeiMain.obj (symbol from plugin) (CopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                              FwVol.obj (symbol from plugin) (CopyGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+                              CopyMemWrapper.obj (symbol from plugin) (InternalMemCopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+                              SetMemWrapper.obj (symbol from plugin) (InternalMemSetMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmArchTimerLib/ArmArchTimerLib/OUTPUT/ArmArchTimerLib.lib(ArmArchTimerLib.obj)
+                              AutoGen.obj (symbol from plugin) (TimerConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib(PeCoffGetEntryPoint.obj)
+                              Ppi.obj (symbol from plugin) (PeCoffLoaderGetEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/PeiReportStatusCodeLib/PeiReportStatusCodeLib/OUTPUT/PeiReportStatusCodeLib.lib(ReportStatusCodeLib.obj)
+                              PeiMain.obj (symbol from plugin) (ReportProgressCodeEnabled)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/PeiPerformanceLib/PeiPerformanceLib/OUTPUT/PeiPerformanceLib.lib(PeiPerformanceLib.obj)
+                              PeiMain.obj (symbol from plugin) (LogPerformanceMeasurement)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib(ArmCacheMaintenanceLib.obj)
+                              Image.obj (symbol from plugin) (InvalidateInstructionCacheRange)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib(BasePeCoff.obj)
+                              Image.obj (symbol from plugin) (PeCoffLoaderGetImageInfo)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib(PeCoffLoaderEx.obj)
+                              BasePeCoff.obj (symbol from plugin) (PeCoffLoaderRelocateImageEx)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLib.obj)
+                              ArmCacheMaintenanceLib.obj (symbol from plugin) (ArmDataCacheLineLength)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                              ArmLib.obj (symbol from plugin) (ArmCacheInfo)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                              ArmCacheMaintenanceLib.obj (symbol from plugin) (ArmInvalidateDataCacheEntryByMVA)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              ArmArchTimerLib.obj (symbol from plugin) (MultU64x64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              ArmArchTimerLib.obj (symbol from plugin) (DivU64x32Remainder)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              ArmArchTimerLib.obj (symbol from plugin) (DivU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              PeiPerformanceLib.obj (symbol from plugin) (AsciiStrnCpyS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              SafeString.obj (symbol from plugin) (InternalIsDecimalDigitCharacter)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              DebugLib.obj (symbol from plugin) (AsciiVSPrint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib(SerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmGenericTimerPhyCounterLib/ArmGenericTimerPhyCounterLib/OUTPUT/ArmGenericTimerPhyCounterLib.lib(ArmGenericTimerPhyCounterLib.obj)
+                              ArmArchTimerLib.obj (symbol from plugin) (ArmGenericTimerGetTimerFreq)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/OemHookStatusCodeLibNull/OemHookStatusCodeLibNull/OUTPUT/OemHookStatusCodeLibNull.lib(OemHookStatusCodeLibNull.obj)
+                              ReportStatusCodeLib.obj (symbol from plugin) (OemHookStatusCodeInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/DebugPeCoffExtraActionLib/DebugPeCoffExtraActionLib/OUTPUT/DebugUnixPeCoffExtraActionLib.lib(DebugPeCoffExtraActionLib.obj)
+                              BasePeCoff.obj (symbol from plugin) (PeCoffLoaderRelocateImageExtraAction)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+                              ArmGenericTimerPhyCounterLib.obj (symbol from plugin) (ArmReadCntFrq)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib(UartLib.obj)
+                              SerialPortLib.obj (symbol from plugin) (UartInitializePort)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              UartLib.obj (symbol from plugin) (MmioRead32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              IoLibNoIo.obj (symbol from plugin) (FilterBeforeMmIoRead)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiLoadFixAddressIsMemoryRangeAvailable
+                0x0000000000000000       0x6c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiGetPe32Data
+                0x0000000000000000       0x50 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000000000       0x20 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x0000000000000000       0x2e /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000000000       0x40 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.ConvertPpiPointersFv.str1.1
+                0x0000000000000000       0x9e /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.ConvertPpiPointersFv
+                0x0000000000000000      0x2ec /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.DumpPpiList.part.0.str1.1
+                0x0000000000000000       0x7a /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.DumpPpiList.part.0
+                0x0000000000000000      0x198 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.ConvertStatusCodeCallbacks.str1.1
+                0x0000000000000000       0x37 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.ConvertStatusCodeCallbacks
+                0x0000000000000000      0x114 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.MigratePeimsInFv.part.0.str1.1
+                0x0000000000000000       0xb5 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.MigratePeimsInFv.part.0
+                0x0000000000000000      0x310 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .bss._gPcd_BinaryPatch_PcdLoadFixAddressBootTimeCodePageNumber
+                0x0000000000000000        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .bss._gPcd_BinaryPatch_PcdLoadFixAddressPeiCodePageNumber
+                0x0000000000000000        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .bss._gPcd_BinaryPatch_PcdLoadFixAddressRuntimeCodePageNumber
+                0x0000000000000000        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gStatusCodeCallbackGuid
+                0x0000000000000000       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x0000000000000000        0x1 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdEdkiiFpdtStringRecordEnableOnly
+                0x0000000000000000        0x1 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+                0x0000000000000000        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdLoadModuleAtFixAddressEnable
+                0x0000000000000000        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdPerformanceLibraryPropertyMask
+                0x0000000000000000        0x1 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask
+                0x0000000000000000        0x1 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .rodata.ConvertFvHob.constprop.0.str1.1
+                0x0000000000000000       0x1b /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.ConvertFvHob.constprop.0
+                0x0000000000000000       0x94 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.BuildResourceDescriptorHob.constprop.0
+                0x0000000000000000       0x5c /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.ReportStatusCodeEx.constprop.0.isra.0
+                0x0000000000000000       0x6c /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.ReportStatusCodeWithExtendedData.constprop.0.isra.0
+                0x0000000000000000        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .data.__stack_chk_guard
+                0x0000000000000000        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .data.gEfiStatusCodeSpecificDataGuid
+                0x0000000000000000       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/ccwubsTt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwubsTt.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc9pHo1U.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9pHo1U.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccCVqwNr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCVqwNr.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccIbfPMa.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIbfPMa.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cct7USLx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cct7USLx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccrSZd1w.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrSZd1w.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQrAoZV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQrAoZV.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccZ17wiu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZ17wiu.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccl04vLo.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccl04vLo.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccKrSY3I.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKrSY3I.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccvzJeVZ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvzJeVZ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccKP94n8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKP94n8.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc9W3qbv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9W3qbv.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccelDG0s.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccelDG0s.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccDNR66k.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDNR66k.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccOsZ4gc.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOsZ4gc.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccO2EfQ6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccO2EfQ6.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccO4wpPo.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccO4wpPo.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccndJK3L.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccndJK3L.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccnUGuUH.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccnUGuUH.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cctY1LyU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctY1LyU.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccb2DmZY.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccb2DmZY.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccL4QI05.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccL4QI05.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccCZhUcU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCZhUcU.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc277Tso.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc277Tso.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccWS2ip9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWS2ip9.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc3Wx2Mb.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3Wx2Mb.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc4CzuSE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4CzuSE.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccxOZHRZ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxOZHRZ.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccG9SYXb.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/ccG9SYXb.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccG9SYXb.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/ccG9SYXb.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccG9SYXb.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccG9SYXb.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/ccEsVyHI.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccEsVyHI.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccEsVyHI.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/ccEsVyHI.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccEsVyHI.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEsVyHI.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccRTbfwF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRTbfwF.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc1aK33z.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1aK33z.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc4rLXDD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4rLXDD.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccqfbF76.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqfbF76.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccdavCzc.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccdavCzc.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccSmGZwc.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSmGZwc.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccZEY32w.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZEY32w.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc2CPulp.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2CPulp.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccSEXr8x.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSEXr8x.debug.temp.o
+ .debug_info    0x0000000000000000       0xbb /tmp/ccBFdSW6.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5e /tmp/ccBFdSW6.debug.temp.o
+ .debug_line    0x0000000000000000       0xbc /tmp/ccBFdSW6.debug.temp.o
+ .debug_str     0x0000000000000000      0x2ab /tmp/ccBFdSW6.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccBFdSW6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBFdSW6.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccoBEurU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoBEurU.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccHWP9Fd.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHWP9Fd.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccruyEp0.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccruyEp0.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQpuKNT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQpuKNT.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccxm6mAE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxm6mAE.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccIMU6Oo.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIMU6Oo.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccNkHTPR.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNkHTPR.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccGj2Y3w.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGj2Y3w.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccIaACMr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIaACMr.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cccjumZQ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccjumZQ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc9Ew6TD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9Ew6TD.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cceywwsi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cceywwsi.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cctOIbcI.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctOIbcI.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccbeMToA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbeMToA.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccC6O6C9.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/ccC6O6C9.debug.temp.o
+ .debug_line    0x0000000000000000       0xb1 /tmp/ccC6O6C9.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/ccC6O6C9.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccC6O6C9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccC6O6C9.debug.temp.o
+ .debug_info    0x0000000000000000       0xb6 /tmp/ccbExwjW.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x86 /tmp/ccbExwjW.debug.temp.o
+ .debug_line    0x0000000000000000      0x16c /tmp/ccbExwjW.debug.temp.o
+ .debug_str     0x0000000000000000      0x324 /tmp/ccbExwjW.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccbExwjW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbExwjW.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccAq92kj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAq92kj.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccjgeA1g.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjgeA1g.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQp8bT3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQp8bT3.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cca0xqSc.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cca0xqSc.debug.temp.o
+ .debug_info    0x0000000000000000      0x1d9 /tmp/ccG6JOsB.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb6 /tmp/ccG6JOsB.debug.temp.o
+ .debug_line    0x0000000000000000      0x19c /tmp/ccG6JOsB.debug.temp.o
+ .debug_str     0x0000000000000000      0x39b /tmp/ccG6JOsB.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccG6JOsB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccG6JOsB.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc7Ua9Bp.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7Ua9Bp.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccLi6sdh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLi6sdh.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccwKGnUS.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwKGnUS.debug.temp.o
+ .debug_info    0x0000000000000000      0x302 /tmp/ccqKVp52.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xcd /tmp/ccqKVp52.debug.temp.o
+ .debug_line    0x0000000000000000      0x119 /tmp/ccqKVp52.debug.temp.o
+ .debug_str     0x0000000000000000      0x40b /tmp/ccqKVp52.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccqKVp52.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqKVp52.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .text          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadMidr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetInterruptState
+                0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetFiqState
+                0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCpacr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteAuxCr
+                0x0000000000000000       0x28 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadAuxCr
+                0x0000000000000000       0x28 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetTTBR0
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetTTBR0BaseAddress
+                0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetTCR
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetTCR
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetMAIR
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetMAIR
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmUpdateTranslationTableEntry
+                0x0000000000000000       0x54 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmInvalidateTlb
+                0x0000000000000000       0x38 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCptr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteScr
+                0x0000000000000000        0xc /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteMVBar
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmCallWFE
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmCallSEV
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadCpuActlr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCpuActlr
+                0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadSctlr
+                0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteSctlr
+                0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetPhysicalAddressBits
+                0x0000000000000000       0x24 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanInvalidateDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCache
+                0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableMmu
+                0x0000000000000000       0x88 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableMmu
+                0x0000000000000000       0x74 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableCachesAndMmu
+                0x0000000000000000       0x6c /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmMmuEnabled
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableDataCache
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableDataCache
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableInstructionCache
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableInstructionCache
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableAlignmentCheck
+                0x0000000000000000       0x58 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableAlignmentCheck
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableStackAlignmentCheck
+                0x0000000000000000       0x58 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableStackAlignmentCheck
+                0x0000000000000000       0x68 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableBranchPrediction
+                0x0000000000000000        0x4 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableBranchPrediction
+                0x0000000000000000        0x4 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.AArch64AllDataCachesOperation
+                0x0000000000000000       0xa8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDataMemoryBarrier
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteVBar
+                0x0000000000000000       0x34 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadVBar
+                0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableVFP
+                0x0000000000000000       0x64 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCallWFI
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdAA64Mmfr2
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadMpidr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdAA64Pfr0
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteHcr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadHcr
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCurrentEL
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCntHctl
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteCntHctl
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntFrq
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntkCtl
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntkCtl
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntpTval
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntpTval
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntpCtl
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntpCtl
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvTval
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvTval
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvCtl
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvCtl
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvCt
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntpCval
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntpCval
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvCval
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvCval
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvOff
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvOff
+                0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+LOAD /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+LOAD /tmp/ccwubsTt.debug.temp.o
+LOAD /tmp/cc9pHo1U.debug.temp.o
+LOAD /tmp/ccCVqwNr.debug.temp.o
+LOAD /tmp/ccIbfPMa.debug.temp.o
+LOAD /tmp/cct7USLx.debug.temp.o
+LOAD /tmp/ccrSZd1w.debug.temp.o
+LOAD /tmp/ccQrAoZV.debug.temp.o
+LOAD /tmp/ccZ17wiu.debug.temp.o
+LOAD /tmp/ccl04vLo.debug.temp.o
+LOAD /tmp/ccKrSY3I.debug.temp.o
+LOAD /tmp/ccvzJeVZ.debug.temp.o
+LOAD /tmp/ccKP94n8.debug.temp.o
+LOAD /tmp/cc9W3qbv.debug.temp.o
+LOAD /tmp/ccelDG0s.debug.temp.o
+LOAD /tmp/ccDNR66k.debug.temp.o
+LOAD /tmp/ccOsZ4gc.debug.temp.o
+LOAD /tmp/ccO2EfQ6.debug.temp.o
+LOAD /tmp/ccO4wpPo.debug.temp.o
+LOAD /tmp/ccndJK3L.debug.temp.o
+LOAD /tmp/ccnUGuUH.debug.temp.o
+LOAD /tmp/cctY1LyU.debug.temp.o
+LOAD /tmp/ccb2DmZY.debug.temp.o
+LOAD /tmp/ccL4QI05.debug.temp.o
+LOAD /tmp/ccCZhUcU.debug.temp.o
+LOAD /tmp/cc277Tso.debug.temp.o
+LOAD /tmp/ccWS2ip9.debug.temp.o
+LOAD /tmp/cc3Wx2Mb.debug.temp.o
+LOAD /tmp/cc4CzuSE.debug.temp.o
+LOAD /tmp/ccxOZHRZ.debug.temp.o
+LOAD /tmp/ccG9SYXb.debug.temp.o
+LOAD /tmp/ccEsVyHI.debug.temp.o
+LOAD /tmp/ccRTbfwF.debug.temp.o
+LOAD /tmp/cc1aK33z.debug.temp.o
+LOAD /tmp/cc4rLXDD.debug.temp.o
+LOAD /tmp/ccqfbF76.debug.temp.o
+LOAD /tmp/ccdavCzc.debug.temp.o
+LOAD /tmp/ccSmGZwc.debug.temp.o
+LOAD /tmp/ccZEY32w.debug.temp.o
+LOAD /tmp/cc2CPulp.debug.temp.o
+LOAD /tmp/ccSEXr8x.debug.temp.o
+LOAD /tmp/ccBFdSW6.debug.temp.o
+LOAD /tmp/ccoBEurU.debug.temp.o
+LOAD /tmp/ccHWP9Fd.debug.temp.o
+LOAD /tmp/ccruyEp0.debug.temp.o
+LOAD /tmp/ccQpuKNT.debug.temp.o
+LOAD /tmp/ccxm6mAE.debug.temp.o
+LOAD /tmp/ccIMU6Oo.debug.temp.o
+LOAD /tmp/ccNkHTPR.debug.temp.o
+LOAD /tmp/ccGj2Y3w.debug.temp.o
+LOAD /tmp/ccIaACMr.debug.temp.o
+LOAD /tmp/cccjumZQ.debug.temp.o
+LOAD /tmp/cc9Ew6TD.debug.temp.o
+LOAD /tmp/cceywwsi.debug.temp.o
+LOAD /tmp/cctOIbcI.debug.temp.o
+LOAD /tmp/ccbeMToA.debug.temp.o
+LOAD /tmp/ccC6O6C9.debug.temp.o
+LOAD /tmp/ccbExwjW.debug.temp.o
+LOAD /tmp/ccAq92kj.debug.temp.o
+LOAD /tmp/ccjgeA1g.debug.temp.o
+LOAD /tmp/ccQp8bT3.debug.temp.o
+LOAD /tmp/cca0xqSc.debug.temp.o
+LOAD /tmp/ccG6JOsB.debug.temp.o
+LOAD /tmp/cc7Ua9Bp.debug.temp.o
+LOAD /tmp/ccLi6sdh.debug.temp.o
+LOAD /tmp/ccwKGnUS.debug.temp.o
+LOAD /tmp/ccqKVp52.debug.temp.o
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/OUTPUT/PeiCore.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/PeiPcdLib/PeiPcdLib/OUTPUT/PeiPcdLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/PeiServicesTablePointerLib/PeiServicesTablePointerLib/OUTPUT/PeiServicesTablePointerLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/PeiMemoryAllocationLib/PeiMemoryAllocationLib/OUTPUT/PeiMemoryAllocationLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/PeiHobLib/PeiHobLib/OUTPUT/PeiHobLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/PeiServicesLib/PeiServicesLib/OUTPUT/PeiServicesLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmGenericTimerPhyCounterLib/ArmGenericTimerPhyCounterLib/OUTPUT/ArmGenericTimerPhyCounterLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/OemHookStatusCodeLibNull/OemHookStatusCodeLibNull/OUTPUT/OemHookStatusCodeLibNull.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmArchTimerLib/ArmArchTimerLib/OUTPUT/ArmArchTimerLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/DebugPeCoffExtraActionLib/DebugPeCoffExtraActionLib/OUTPUT/DebugUnixPeCoffExtraActionLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/PeiReportStatusCodeLib/PeiReportStatusCodeLib/OUTPUT/PeiReportStatusCodeLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/PeiPerformanceLib/PeiPerformanceLib/OUTPUT/PeiPerformanceLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/PeiCoreEntryPoint/PeiCoreEntryPoint/OUTPUT/PeiCoreEntryPoint.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240     0xbc86
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.PeiDefaultMemRead
+                0x0000000000000240        0xc /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultMemWrite
+                0x000000000000024c        0xc /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultIoRead
+                0x0000000000000258        0xc /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultIoWrite
+                0x0000000000000264        0xc /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultIoRead8
+                0x0000000000000270        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultIoRead16
+                0x0000000000000278        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultIoRead32
+                0x0000000000000280        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultIoRead64
+                0x0000000000000288        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultIoWrite8
+                0x0000000000000290        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultIoWrite16
+                0x0000000000000294        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultIoWrite32
+                0x0000000000000298        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultIoWrite64
+                0x000000000000029c        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultMemRead8
+                0x00000000000002a0        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultMemRead16
+                0x00000000000002a8        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultMemRead32
+                0x00000000000002b0        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultMemRead64
+                0x00000000000002b8        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultMemWrite8
+                0x00000000000002c0        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultMemWrite16
+                0x00000000000002c4        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultMemWrite32
+                0x00000000000002c8        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultMemWrite64
+                0x00000000000002cc        0x4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultPciCfg2Read
+                0x00000000000002d0        0xc /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultPciCfg2Write
+                0x00000000000002dc        0xc /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiDefaultPciCfg2Modify
+                0x00000000000002e8        0xc /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.VerifyPeim
+                0x00000000000002f4       0x68 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.ConvertPointer
+                0x000000000000035c       0x30 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.ConvertPointerInRanges
+                0x000000000000038c       0x90 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.ConvertSinglePpiPointer
+                0x000000000000041c       0x44 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.LogPerformanceMeasurementEnabled
+                0x0000000000000460        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeCoffLoaderImageAddress
+                0x0000000000000468       0x30 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiServicesInstallPpi
+                0x0000000000000498       0x30 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiServicesReInstallPpi
+                0x00000000000004c8       0x38 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiServicesNotifyPpi
+                0x0000000000000500       0x30 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiLoadImageLoadImageWrapper
+                0x0000000000000530       0x54 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFvPpiFindFileByType
+                0x0000000000000584       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.CpuDeadLoop
+                0x0000000000000594       0x24 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.AllocatePool
+                0x00000000000005b8       0x40 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x00000000000005b8                AllocatePool
+ .text.PeiServicesLocatePpi
+                0x00000000000005f8       0x50 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x00000000000005f8                PeiServicesLocatePpi
+ .text.PeiReportStatusCode
+                0x0000000000000648       0x8c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiServicesAllocatePages
+                0x00000000000006d4       0x48 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x00000000000006d4                PeiServicesAllocatePages
+ .text.DebugPrintEnabled
+                0x000000000000071c        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000071c                DebugPrintEnabled
+ .text.ReportErrorCodeEnabled
+                0x0000000000000724        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000000724                ReportErrorCodeEnabled
+ .text.ReportDebugCodeEnabled
+                0x000000000000072c        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000072c                ReportDebugCodeEnabled
+ .text.PeiResetSystem2
+                0x0000000000000734       0x8c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiResetSystem
+                0x00000000000007c0       0x88 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeCoffLoaderGetImageInfo
+                0x0000000000000848      0x7e4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000000848                PeCoffLoaderGetImageInfo
+ .text.AsciiStrnLenS
+                0x000000000000102c       0x3c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000102c                AsciiStrnLenS
+ .text.AsciiStrLen
+                0x0000000000001068       0x90 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000001068                AsciiStrLen
+ .text.DebugAssert
+                0x00000000000010f8       0x4c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x00000000000010f8                DebugAssert
+ .text.PeiGetHobList
+                0x0000000000001144       0x74 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.FileHandleToVolume
+                0x00000000000011b8       0xe0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFindSectionData
+                0x0000000000001298       0x6c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFindSectionData3
+                0x0000000000001304       0xac /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsGetFileInfo
+                0x00000000000013b0       0x6c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsGetFileInfo2
+                0x000000000000141c       0x90 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFindNextVolume
+                0x00000000000014ac       0xac /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFvPpiFindFileByName
+                0x0000000000001558      0x130 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.FvHandleToCoreHandle
+                0x0000000000001688       0x94 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFindNextFile
+                0x000000000000171c       0x6c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFindFileByName
+                0x0000000000001788       0x70 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsGetVolumeInfo
+                0x00000000000017f8       0x6c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiRegisterForShadow
+                0x0000000000001864       0xa8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiGetBootMode
+                0x000000000000190c       0x78 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiSetBootMode
+                0x0000000000001984       0x64 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.SecurityPpiNotifyCallback
+                0x00000000000019e8       0x68 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiLocatePpi
+                0x0000000000001a50      0x104 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.CalculateSum8
+                0x0000000000001b54       0x68 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000001b54                CalculateSum8
+ .text.LShiftU64
+                0x0000000000001bbc        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000001bbc                LShiftU64
+ .text.InternalMemSetMem
+                0x0000000000001bc4      0x110 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x0000000000001cd4       0x5c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000001cd4                ReadUnaligned16
+ .text.ReadUnaligned32
+                0x0000000000001d30       0x50 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000001d30                ReadUnaligned32
+ .text.ReadUnaligned64
+                0x0000000000001d80       0x5c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000001d80                ReadUnaligned64
+ .text.CompareGuid
+                0x0000000000001ddc       0x5c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000001ddc                CompareGuid
+ .text.GetNextHob
+                0x0000000000001e38       0x68 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.GetNextGuidHob
+                0x0000000000001ea0       0x50 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000001ea0                GetNextGuidHob
+ .text.InternalPeiCreateHob
+                0x0000000000001ef0       0x6c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000001ef0                InternalPeiCreateHob
+ .text.BuildGuidHob
+                0x0000000000001f5c       0x6c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000001f5c                BuildGuidHob
+ .text.ZeroMem  0x0000000000001fc8       0x78 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000001fc8                ZeroMem
+ .text.AllocateZeroPool
+                0x0000000000002040       0x34 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.SetMem   0x0000000000002074       0x68 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.CopyMem.part.0
+                0x00000000000020dc      0x260 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x00000000000020dc                CopyMem.part.0
+ .text.CopyMem  0x000000000000233c        0xc /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000233c                CopyMem
+ .text.PeiImageRead
+                0x0000000000002348       0x34 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000002348                PeiImageRead
+ .text.PeiFfsFvPpiGetVolumeInfo
+                0x000000000000237c       0xb0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.DebugPrint
+                0x000000000000242c       0x94 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000242c                DebugPrint
+ .text.PeiInstallPeiMemory
+                0x00000000000024c0       0xd8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.MigrateMemoryPages
+                0x0000000000002598      0x118 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiAllocatePool
+                0x00000000000026b0       0xac /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiCreateHob
+                0x000000000000275c      0x100 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFvPpiProcessVolume
+                0x000000000000285c       0x54 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFvPpiGetFileInfo
+                0x00000000000028b0      0x224 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFvPpiGetFileInfo2
+                0x0000000000002ad4       0x7c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.ProcessNotify
+                0x0000000000002b50      0x130 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.InternalPeiInstallPpi
+                0x0000000000002c80      0x19c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiInstallPpi
+                0x0000000000002e1c        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiReInstallPpi
+                0x0000000000002e24      0x118 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.InternalPeiNotifyPpi
+                0x0000000000002f3c      0x228 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiNotifyPpi
+                0x0000000000003164        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.ProcessDispatchNotifyList
+                0x000000000000316c       0x88 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.GetHobList
+                0x00000000000031f4       0x84 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x00000000000031f4                GetHobList
+ .text.ProcessSection
+                0x0000000000003278      0x548 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFvPpiFindSectionByType2
+                0x00000000000037c0      0x1c8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFfsFvPpiFindSectionByType
+                0x0000000000003988       0x24 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.GetFirstHob
+                0x00000000000039ac       0x28 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.InternalBuildMemoryAllocationHob
+                0x00000000000039d4       0xd0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.UpdateOrSplitMemoryAllocationHob
+                0x0000000000003aa4       0x70 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiAllocatePages
+                0x0000000000003b14      0x34c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeiFreePages
+                0x0000000000003e60      0x1ac /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.InternalCheckFvAlignment
+                0x000000000000400c       0x6c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.InternalPeiServicesInstallFvInfoPpi
+                0x0000000000004078      0x1c8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.ProcessFvFile
+                0x0000000000004240      0x634 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.FirmwareVolumeInfoPpiNotifyCallback
+                0x0000000000004874      0x420 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.ThirdPartyFvPpiNotifyCallback
+                0x0000000000004c94      0x2f4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.PeCoffLoaderGetMachineType
+                0x0000000000004f88       0x84 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000004f88                PeCoffLoaderGetMachineType
+ .text.PeCoffLoaderGetPdbPointer
+                0x000000000000500c      0x1ac /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000500c                PeCoffLoaderGetPdbPointer
+ .text.PeCoffLoaderRelocateImage
+                0x00000000000051b8      0x2c4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x00000000000051b8                PeCoffLoaderRelocateImage
+ .text.PeCoffLoaderLoadImage
+                0x000000000000547c      0x538 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000547c                PeCoffLoaderLoadImage
+ .text.PeiCore  0x00000000000059b4     0x1698 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text._ModuleEntryPoint
+                0x000000000000704c       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000704c                _ModuleEntryPoint
+ .text.PeiCoreEntry
+                0x000000000000705c       0x14 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000705c                PeiCoreEntry
+ .text.PeiCheckAndSwitchStack
+                0x0000000000007070      0x514 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .text.CopyStringIntoPerfRecordAndUpdateLength
+                0x0000000000007584      0x214 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x0000000000007584                CopyStringIntoPerfRecordAndUpdateLength
+ .text.BasePrintLibFillBuffer
+                0x0000000000007798       0x34 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.MmioRead32
+                0x00000000000077cc        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.MmioWrite32.isra.0
+                0x00000000000077d4        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.WriteUnaligned16.isra.0
+                0x00000000000077dc       0x4c /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.WriteUnaligned32.isra.0
+                0x0000000000007828       0x50 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.WriteUnaligned64.isra.0
+                0x0000000000007878       0x50 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.IsPpiInstalled.constprop.0
+                0x00000000000078c8       0x4c /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.InternalReportStatusCode.constprop.0.isra.0
+                0x0000000000007914       0x94 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.PeCoffLoaderRelocateImageExtraAction
+                0x00000000000079a8      0x16c /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x00000000000079a8                PeCoffLoaderRelocateImageExtraAction
+ .text.FindFileEx.constprop.0
+                0x0000000000007b14      0x4d8 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x0000000000007b14                FindFileEx.constprop.0
+ .text.ProcessLibraryConstructorList.constprop.0
+                0x0000000000007fec      0x12c /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x0000000000007fec                ProcessLibraryConstructorList.constprop.0
+ .text.PeiServicesFfsFindSectionData3.constprop.0
+                0x0000000000008118       0x54 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x0000000000008118                PeiServicesFfsFindSectionData3.constprop.0
+ .text.AllocateCopyPool.constprop.0
+                0x000000000000816c       0x60 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x000000000000816c                AllocateCopyPool.constprop.0
+ .text.SwitchStack.constprop.0
+                0x00000000000081cc       0xa0 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x00000000000081cc                SwitchStack.constprop.0
+ .text.PeiLoadImage.constprop.0
+                0x000000000000826c      0x174 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x000000000000826c                PeiLoadImage.constprop.0
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x00000000000083e0      0xba4 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x00000000000083e0                BasePrintLibSPrintMarker.constprop.0
+ .text.AsciiSPrint.constprop.0
+                0x0000000000008f84       0x64 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x0000000000008f84                AsciiSPrint.constprop.0
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000008fe8       0x54 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .text.UartWrite.constprop.0.isra.0
+                0x000000000000903c       0x4c /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x000000000000903c                UartWrite.constprop.0.isra.0
+ .text.LogPerformanceMeasurement.constprop.0.isra.0
+                0x0000000000009088      0x348 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x0000000000009088                LogPerformanceMeasurement.constprop.0.isra.0
+ .text.InvalidateInstructionCacheRange.isra.0
+                0x00000000000093d0       0x9c /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x00000000000093d0                InvalidateInstructionCacheRange.isra.0
+ .text.PeiLoadImageLoadImage.constprop.0
+                0x000000000000946c      0x464 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x000000000000946c                PeiLoadImageLoadImage.constprop.0
+ .text.ReportStatusCode.isra.0
+                0x00000000000098d0       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x00000000000098d0                ReportStatusCode.isra.0
+ .text.CopyGuid.isra.0
+                0x00000000000098e0       0x44 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x00000000000098e0                CopyGuid.isra.0
+ .text.PeimDispatchReadiness.isra.0
+                0x0000000000009924      0x284 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                0x0000000000009924                PeimDispatchReadiness.isra.0
+ *fill*         0x0000000000009ba8       0x18 
+ .text          0x0000000000009bc0       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                0x0000000000009bc0                InternalSwitchStackAsm
+                0x0000000000009bd8                CpuPause
+ .text.ArmCacheInfo
+                0x0000000000009bf0        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000009bf0                ArmCacheInfo
+ .text.ArmCleanDataCacheEntryToPoUByMVA
+                0x0000000000009bf8        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000009bf8                ArmCleanDataCacheEntryToPoUByMVA
+ .text.ArmInvalidateInstructionCacheEntryToPoUByMVA
+                0x0000000000009c00        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000009c00                ArmInvalidateInstructionCacheEntryToPoUByMVA
+ .text.ArmDataSynchronizationBarrier
+                0x0000000000009c08        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000009c08                ArmDataSynchronizationBarrier
+ .text.ArmInstructionSynchronizationBarrier
+                0x0000000000009c10        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000009c10                ArmInstructionSynchronizationBarrier
+ .text.ArmReadTpidrurw
+                0x0000000000009c18        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000009c18                ArmReadTpidrurw
+ .text.ArmWriteTpidrurw
+                0x0000000000009c20        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000009c20                ArmWriteTpidrurw
+ .text.ArmIsArchTimerImplemented
+                0x0000000000009c28        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000009c28                ArmIsArchTimerImplemented
+ .text.ArmReadCntFrq
+                0x0000000000009c30        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+                0x0000000000009c30                ArmReadCntFrq
+ .text.ArmReadCntPct
+                0x0000000000009c38        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+                0x0000000000009c38                ArmReadCntPct
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000009c40       0x90 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.DebugAssert.str1.1
+                0x0000000000009cd0       0x20 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiGetHobList.str1.1
+                0x0000000000009cf0       0x56 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.FileHandleToVolume.str1.1
+                0x0000000000009d46       0x45 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiRegisterForShadow.str1.1
+                0x0000000000009d8b       0x4f /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiGetBootMode.str1.1
+                0x0000000000009dda       0x4b /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.SecurityPpiNotifyCallback.str1.1
+                0x0000000000009e25       0x4b /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiLocatePpi.str1.1
+                0x0000000000009e70       0x41 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.CalculateSum8.str1.1
+                0x0000000000009eb1       0x7c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.ReadUnaligned16.str1.1
+                0x0000000000009f2d       0x5f /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.GetNextHob.str1.1
+                0x0000000000009f8c       0x5c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.InternalPeiCreateHob.str1.1
+                0x0000000000009fe8       0x5c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                                         0x14 (size before relaxing)
+ .rodata.BuildGuidHob.str1.1
+                0x0000000000009fe8       0x34 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x000000000000a01c       0x85 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.SetMem.str1.1
+                0x000000000000a0a1       0x86 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.CopyMem.part.0.str1.1
+                0x000000000000a127       0xd0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiInstallPeiMemory.str1.1
+                0x000000000000a1f7       0xd2 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.MigrateMemoryPages.str1.1
+                0x000000000000a2c9       0x82 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiAllocatePool.str1.1
+                0x000000000000a34b       0x35 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiCreateHob.str1.1
+                0x000000000000a380       0x5e /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiFfsFvPpiProcessVolume.str1.1
+                0x000000000000a3de       0x5e /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                                         0x19 (size before relaxing)
+ .rodata.PeiFfsFvPpiGetFileInfo.str1.1
+                0x000000000000a3de       0x93 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.ProcessNotify.str1.1
+                0x000000000000a471       0x33 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.InternalPeiInstallPpi.str1.1
+                0x000000000000a4a4       0x45 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiReInstallPpi.str1.1
+                0x000000000000a4e9       0x13 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.InternalPeiNotifyPpi.str1.1
+                0x000000000000a4fc       0x34 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.GetHobList.str1.1
+                0x000000000000a530       0x18 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.ProcessSection.str1.1
+                0x000000000000a548       0x9d /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiFfsFvPpiFindSectionByType2.str1.1
+                0x000000000000a5e5       0x59 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.InternalBuildMemoryAllocationHob.str1.1
+                0x000000000000a63e       0x4e /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiAllocatePages.str1.1
+                0x000000000000a68c       0xd5 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.InternalCheckFvAlignment.str1.1
+                0x000000000000a761       0x48 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.InternalPeiServicesInstallFvInfoPpi.str1.1
+                0x000000000000a7a9       0xd4 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.ProcessFvFile.str1.1
+                0x000000000000a87d      0x11c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.FirmwareVolumeInfoPpiNotifyCallback.str1.1
+                0x000000000000a999      0x1cb /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.ThirdPartyFvPpiNotifyCallback.str1.1
+                0x000000000000ab64       0x33 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeCoffLoaderGetMachineType.str1.1
+                0x000000000000ab97       0x7a /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeCoffLoaderRelocateImage.str1.1
+                0x000000000000ac11       0x9c /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ *fill*         0x000000000000acad        0x3 
+ .rodata.PeCoffLoaderRelocateImage
+                0x000000000000acb0        0xb /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiCore.str1.1
+                0x000000000000acbb      0x385 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.PeiCheckAndSwitchStack.str1.1
+                0x000000000000b040      0x236 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.CopyStringIntoPerfRecordAndUpdateLength.str1.1
+                0x000000000000b276      0x1a5 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.0.lto_priv.0
+                0x000000000000b41b        0xe /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.0.lto_priv.1
+                0x000000000000b429       0x21 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.14
+                0x000000000000b44a        0xe /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.mFvAttributes
+                0x000000000000b458        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.mFvAttributes2
+                0x000000000000b460        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .rodata.WriteUnaligned16.isra.0.str1.1
+                0x000000000000b468       0x5f /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .rodata.PeCoffLoaderRelocateImageExtraAction.str1.1
+                0x000000000000b468       0x8c /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                                         0xcd (size before relaxing)
+ .rodata.FindFileEx.constprop.0.str1.1
+                0x000000000000b4f4       0x55 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                                         0xe9 (size before relaxing)
+ .rodata.ProcessLibraryConstructorList.constprop.0.str1.1
+                0x000000000000b549       0xcf /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                                         0xd1 (size before relaxing)
+ .rodata.AllocateCopyPool.constprop.0.str1.1
+                0x000000000000b618       0x3f /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                                         0x9c (size before relaxing)
+ .rodata.SwitchStack.constprop.0.str1.1
+                0x000000000000b657       0x81 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .rodata.PeiLoadImage.constprop.0.str1.1
+                0x000000000000b6d8       0x97 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                                         0xb0 (size before relaxing)
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x000000000000b76f      0x17d /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                                        0x180 (size before relaxing)
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x000000000000b8ec       0x5e /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .rodata.AsciiSPrint.constprop.0.str1.1
+                0x000000000000b94a       0x18 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .rodata.LogPerformanceMeasurement.constprop.0.isra.0.str1.1
+                0x000000000000b94a       0xab /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .rodata.PeiLoadImageLoadImage.constprop.0.str1.1
+                0x000000000000b9f5       0xca /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                                        0x116 (size before relaxing)
+ .rodata.PeimDispatchReadiness.isra.0.str1.1
+                0x000000000000babf       0xa3 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ *fill*         0x000000000000bb62        0x2 
+ .rodata.PeimDispatchReadiness.isra.0
+                0x000000000000bb64        0x7 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .rodata.mErrorString
+                0x000000000000bb6b      0x2b5 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .rodata.mHexStr
+                0x000000000000be20       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .rodata.mWarningString
+                0x000000000000be30       0x96 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ *(.got .got.*)
+ *:AutoGen.obj(.data.g*Guid)
+
+.iplt           0x000000000000bec8        0x0
+ .iplt          0x000000000000bec8        0x0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+
+.data           0x000000000000bee0      0x458
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.gEfiCallerIdGuid
+                0x000000000000bee0       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000bee0                gEfiCallerIdGuid
+ .data.gEfiDxeIplPpiGuid
+                0x000000000000bef0       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiFirmwareFileSystem2Guid
+                0x000000000000bf00       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiFirmwareFileSystem3Guid
+                0x000000000000bf10       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000bf10                gEfiFirmwareFileSystem3Guid
+ .data.gEfiHobMemoryAllocStackGuid
+                0x000000000000bf20       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiPeiCoreFvLocationPpiGuid
+                0x000000000000bf30       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiPeiDecompressPpiGuid
+                0x000000000000bf40       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiPeiFirmwareVolumeInfo2PpiGuid
+                0x000000000000bf50       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiPeiFirmwareVolumeInfoPpiGuid
+                0x000000000000bf60       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiPeiLoadFilePpiGuid
+                0x000000000000bf70       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000bf70                gEfiPeiLoadFilePpiGuid
+ .data.gEfiPeiMemoryDiscoveredPpiGuid
+                0x000000000000bf80       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiPeiReset2PpiGuid
+                0x000000000000bf90       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiPeiResetPpiGuid
+                0x000000000000bfa0       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiPeiSecurity2PpiGuid
+                0x000000000000bfb0       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiPeiStatusCodePpiGuid
+                0x000000000000bfc0       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiSecHobDataPpiGuid
+                0x000000000000bfd0       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiTemporaryRamDonePpiGuid
+                0x000000000000bfe0       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEfiTemporaryRamSupportPpiGuid
+                0x000000000000bff0       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gPeiAprioriFileNameGuid
+                0x000000000000c000       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+                0x000000000000c000                gPeiAprioriFileNameGuid
+ .data.gPeiDefaultCpuIoPpi
+                0x000000000000c010       0xa0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gPeiDefaultPciCfg2Ppi
+                0x000000000000c0b0       0x20 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gPpiLoadFilePpiList
+                0x000000000000c0d0       0x18 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gPs      0x000000000000c0e8       0xf8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.mMemoryDiscoveredPpi
+                0x000000000000c1e0       0x18 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.mNotifyList
+                0x000000000000c1f8       0x18 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.mNotifyOnFvInfoList
+                0x000000000000c210       0x30 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.mPeiFfs2FvPpiList
+                0x000000000000c240       0x18 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.mPeiFfs2FwVol
+                0x000000000000c258       0x58 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.mPeiFfs3FvPpiList
+                0x000000000000c2b0       0x18 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.mPeiFfs3FwVol
+                0x000000000000c2c8       0x58 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.mPeiLoadImagePpi
+                0x000000000000c320        0x8 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .data.gEdkiiFpdtExtendedFirmwarePerformanceGuid
+                0x000000000000c328       0x10 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ *(.bss .bss.*)
+
+.igot.plt       0x000000000000c338        0x0
+ .igot.plt      0x000000000000c338        0x0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x000000000000c338        0x0
+ *(.rela .rela.*)
+ .rela.iplt     0x000000000000c338        0x0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+
+.hii
+ *(.hii)
+
+.build-id
+ *(.note.gnu.build-id)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Core/Pei/PeiMain/DEBUG/PeiCore.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x37955
+ .debug_info    0x0000000000000000     0xa1f9 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .debug_info    0x000000000000a1f9     0x2ded /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .debug_info    0x000000000000cfe6      0x24d /tmp/ccwubsTt.debug.temp.o
+                0x000000000000cfe6                PeiCoreEntryPoint.c.537e7efb
+ .debug_info    0x000000000000d233      0x100 /tmp/cc9pHo1U.debug.temp.o
+                0x000000000000d233                memcpy.c.124218b3
+ .debug_info    0x000000000000d333       0xb1 /tmp/ccCVqwNr.debug.temp.o
+                0x000000000000d333                memset.c.fe78e419
+ .debug_info    0x000000000000d3e4       0xb0 /tmp/ccIbfPMa.debug.temp.o
+                0x000000000000d3e4                BaseStackCheckGcc.c.4b3a57a0
+ .debug_info    0x000000000000d494     0x1706 /tmp/cct7USLx.debug.temp.o
+                0x000000000000d494                AutoGen.c.85af5c78
+ .debug_info    0x000000000000eb9a     0x2400 /tmp/ccrSZd1w.debug.temp.o
+                0x000000000000eb9a                PeiMain.c.115ce6d9
+ .debug_info    0x0000000000010f9a     0x2599 /tmp/ccQrAoZV.debug.temp.o
+                0x0000000000010f9a                MemoryServices.c.9f79e7f7
+ .debug_info    0x0000000000013533     0x3057 /tmp/ccZ17wiu.debug.temp.o
+                0x0000000000013533                Image.c.fbf4c1e6
+ .debug_info    0x000000000001658a     0x2238 /tmp/ccl04vLo.debug.temp.o
+                0x000000000001658a                Hob.c.e098885e
+ .debug_info    0x00000000000187c2     0x340d /tmp/ccKrSY3I.debug.temp.o
+                0x00000000000187c2                FwVol.c.5683cd2f
+ .debug_info    0x000000000001bbcf     0x2af4 /tmp/ccvzJeVZ.debug.temp.o
+                0x000000000001bbcf                Dispatcher.c.0e7c85c9
+ .debug_info    0x000000000001e6c3     0x113b /tmp/ccKP94n8.debug.temp.o
+                0x000000000001e6c3                Dependency.c.2d99ce81
+ .debug_info    0x000000000001f7fe     0x2124 /tmp/cc9W3qbv.debug.temp.o
+                0x000000000001f7fe                BootMode.c.fc1707dc
+ .debug_info    0x0000000000021922     0x156a /tmp/ccelDG0s.debug.temp.o
+                0x0000000000021922                CpuIo.c.c2ba2285
+ .debug_info    0x0000000000022e8c     0x112d /tmp/ccDNR66k.debug.temp.o
+                0x0000000000022e8c                PciCfg2.c.b210055c
+ .debug_info    0x0000000000023fb9     0x10e7 /tmp/ccOsZ4gc.debug.temp.o
+                0x0000000000023fb9                StatusCode.c.851bea59
+ .debug_info    0x00000000000250a0     0x2196 /tmp/ccO2EfQ6.debug.temp.o
+                0x00000000000250a0                Security.c.e6a3e7a8
+ .debug_info    0x0000000000027236     0x1139 /tmp/ccO4wpPo.debug.temp.o
+                0x0000000000027236                Reset.c.d09f5f1f
+ .debug_info    0x000000000002836f     0x2772 /tmp/ccndJK3L.debug.temp.o
+                0x000000000002836f                Ppi.c.2e6b7ff8
+ .debug_info    0x000000000002aae1     0x1052 /tmp/ccnUGuUH.debug.temp.o
+                0x000000000002aae1                PeiServicesTablePointer.c.5ba57255
+ .debug_info    0x000000000002bb33      0x67a /tmp/cctY1LyU.debug.temp.o
+                0x000000000002bb33                MemoryAllocationLib.c.19b07035
+ .debug_info    0x000000000002c1ad      0x357 /tmp/ccb2DmZY.debug.temp.o
+                0x000000000002c1ad                CheckSum.c.8b67fbdb
+ .debug_info    0x000000000002c504      0x13f /tmp/ccL4QI05.debug.temp.o
+                0x000000000002c504                SwitchStack.c.ce71d795
+ .debug_info    0x000000000002c643       0xad /tmp/ccCZhUcU.debug.temp.o
+                0x000000000002c643                RShiftU64.c.13f7cf48
+ .debug_info    0x000000000002c6f0       0xad /tmp/cc277Tso.debug.temp.o
+                0x000000000002c6f0                LShiftU64.c.d5f1ff37
+ .debug_info    0x000000000002c79d       0x96 /tmp/ccWS2ip9.debug.temp.o
+                0x000000000002c79d                CpuDeadLoop.c.35be6def
+ .debug_info    0x000000000002c833      0x11a /tmp/cc3Wx2Mb.debug.temp.o
+                0x000000000002c833                InternalSwitchStack.c.c85cf38e
+ .debug_info    0x000000000002c94d      0x238 /tmp/cc4CzuSE.debug.temp.o
+                0x000000000002c94d                Unaligned.c.a40271e9
+ .debug_info    0x000000000002cb85      0x30e /tmp/ccxOZHRZ.debug.temp.o
+                0x000000000002cb85                Math64.c.df2e98ae
+ .debug_info    0x000000000002ce93      0xe10 /tmp/ccRTbfwF.debug.temp.o
+                0x000000000002ce93                HobLib.c.86845a42
+ .debug_info    0x000000000002dca3     0x1888 /tmp/cc1aK33z.debug.temp.o
+                0x000000000002dca3                PeiServicesLib.c.bb3af37b
+ .debug_info    0x000000000002f52b       0xaf /tmp/cc4rLXDD.debug.temp.o
+                0x000000000002f52b                ZeroMemWrapper.c.228af736
+ .debug_info    0x000000000002f5da      0x108 /tmp/ccqfbF76.debug.temp.o
+                0x000000000002f5da                SetMemWrapper.c.39bbe904
+ .debug_info    0x000000000002f6e2       0xc6 /tmp/ccdavCzc.debug.temp.o
+                0x000000000002f6e2                CopyMemWrapper.c.699f6886
+ .debug_info    0x000000000002f7a8      0x348 /tmp/ccSmGZwc.debug.temp.o
+                0x000000000002f7a8                MemLibGeneric.c.2ceb15fe
+ .debug_info    0x000000000002faf0      0x218 /tmp/ccZEY32w.debug.temp.o
+                0x000000000002faf0                MemLibGuid.c.48757170
+ .debug_info    0x000000000002fd08      0x168 /tmp/cc2CPulp.debug.temp.o
+                0x000000000002fd08                CopyMem.c.50b67799
+ .debug_info    0x000000000002fe70      0x128 /tmp/ccSEXr8x.debug.temp.o
+                0x000000000002fe70                SetMem.c.3b263922
+ .debug_info    0x000000000002ff98      0x32b /tmp/ccoBEurU.debug.temp.o
+                0x000000000002ff98                DebugLib.c.b228dbcd
+ .debug_info    0x00000000000302c3      0x1b8 /tmp/ccHWP9Fd.debug.temp.o
+                0x00000000000302c3                ArmArchTimerLib.c.169fc7a3
+ .debug_info    0x000000000003047b      0xa00 /tmp/ccruyEp0.debug.temp.o
+                0x000000000003047b                PeCoffGetEntryPoint.c.e16aa00a
+ .debug_info    0x0000000000030e7b     0x1552 /tmp/ccQpuKNT.debug.temp.o
+                0x0000000000030e7b                ReportStatusCodeLib.c.355fe6e8
+ .debug_info    0x00000000000323cd      0xa4d /tmp/ccxm6mAE.debug.temp.o
+                0x00000000000323cd                PeiPerformanceLib.c.fd0350c9
+ .debug_info    0x0000000000032e1a      0x1c8 /tmp/ccIMU6Oo.debug.temp.o
+                0x0000000000032e1a                ArmCacheMaintenanceLib.c.20dd6e2f
+ .debug_info    0x0000000000032fe2     0x12d6 /tmp/ccNkHTPR.debug.temp.o
+                0x0000000000032fe2                BasePeCoff.c.4bbdf1ef
+ .debug_info    0x00000000000342b8      0x15a /tmp/ccGj2Y3w.debug.temp.o
+                0x00000000000342b8                PeCoffLoaderEx.c.2d9e0210
+ .debug_info    0x0000000000034412      0x11d /tmp/ccIaACMr.debug.temp.o
+                0x0000000000034412                ArmLib.c.8a64e320
+ .debug_info    0x000000000003452f       0xa1 /tmp/cccjumZQ.debug.temp.o
+                0x000000000003452f                MultU64x64.c.e790b77c
+ .debug_info    0x00000000000345d0       0xc3 /tmp/cc9Ew6TD.debug.temp.o
+                0x00000000000345d0                DivU64x32Remainder.c.99a75392
+ .debug_info    0x0000000000034693       0xad /tmp/cceywwsi.debug.temp.o
+                0x0000000000034693                DivU64x32.c.e876f75d
+ .debug_info    0x0000000000034740      0xf83 /tmp/cctOIbcI.debug.temp.o
+                0x0000000000034740                SafeString.c.1b674302
+ .debug_info    0x00000000000356c3      0x711 /tmp/ccbeMToA.debug.temp.o
+                0x00000000000356c3                String.c.8e83c025
+ .debug_info    0x0000000000035dd4      0x5ad /tmp/ccAq92kj.debug.temp.o
+                0x0000000000035dd4                PrintLib.c.b75a7535
+ .debug_info    0x0000000000036381      0x753 /tmp/ccjgeA1g.debug.temp.o
+                0x0000000000036381                PrintLibInternal.c.b254bcc3
+ .debug_info    0x0000000000036ad4      0x277 /tmp/ccQp8bT3.debug.temp.o
+                0x0000000000036ad4                SerialPortLib.c.bf19079b
+ .debug_info    0x0000000000036d4b      0x152 /tmp/cca0xqSc.debug.temp.o
+                0x0000000000036d4b                ArmGenericTimerPhyCounterLib.c.deb3eedf
+ .debug_info    0x0000000000036e9d      0x2fa /tmp/cc7Ua9Bp.debug.temp.o
+                0x0000000000036e9d                DebugPeCoffExtraActionLib.c.3dfef2a3
+ .debug_info    0x0000000000037197      0x2d3 /tmp/ccLi6sdh.debug.temp.o
+                0x0000000000037197                UartLib.c.db43ab4c
+ .debug_info    0x000000000003746a      0x4eb /tmp/ccwKGnUS.debug.temp.o
+                0x000000000003746a                IoLibNoIo.c.373e17b9
+
+.debug_abbrev   0x0000000000000000     0x4927
+ .debug_abbrev  0x0000000000000000      0x248 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000248      0x258 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .debug_abbrev  0x00000000000004a0       0xf3 /tmp/ccwubsTt.debug.temp.o
+ .debug_abbrev  0x0000000000000593       0xa4 /tmp/cc9pHo1U.debug.temp.o
+ .debug_abbrev  0x0000000000000637       0x76 /tmp/ccCVqwNr.debug.temp.o
+ .debug_abbrev  0x00000000000006ad       0x87 /tmp/ccIbfPMa.debug.temp.o
+ .debug_abbrev  0x0000000000000734      0x1dc /tmp/cct7USLx.debug.temp.o
+ .debug_abbrev  0x0000000000000910      0x262 /tmp/ccrSZd1w.debug.temp.o
+ .debug_abbrev  0x0000000000000b72      0x27f /tmp/ccQrAoZV.debug.temp.o
+ .debug_abbrev  0x0000000000000df1      0x2a7 /tmp/ccZ17wiu.debug.temp.o
+ .debug_abbrev  0x0000000000001098      0x22d /tmp/ccl04vLo.debug.temp.o
+ .debug_abbrev  0x00000000000012c5      0x2a2 /tmp/ccKrSY3I.debug.temp.o
+ .debug_abbrev  0x0000000000001567      0x298 /tmp/ccvzJeVZ.debug.temp.o
+ .debug_abbrev  0x00000000000017ff      0x16e /tmp/ccKP94n8.debug.temp.o
+ .debug_abbrev  0x000000000000196d      0x20a /tmp/cc9W3qbv.debug.temp.o
+ .debug_abbrev  0x0000000000001b77      0x1b6 /tmp/ccelDG0s.debug.temp.o
+ .debug_abbrev  0x0000000000001d2d      0x17f /tmp/ccDNR66k.debug.temp.o
+ .debug_abbrev  0x0000000000001eac      0x16e /tmp/ccOsZ4gc.debug.temp.o
+ .debug_abbrev  0x000000000000201a      0x23b /tmp/ccO2EfQ6.debug.temp.o
+ .debug_abbrev  0x0000000000002255      0x181 /tmp/ccO4wpPo.debug.temp.o
+ .debug_abbrev  0x00000000000023d6      0x273 /tmp/ccndJK3L.debug.temp.o
+ .debug_abbrev  0x0000000000002649      0x16c /tmp/ccnUGuUH.debug.temp.o
+ .debug_abbrev  0x00000000000027b5      0x114 /tmp/cctY1LyU.debug.temp.o
+ .debug_abbrev  0x00000000000028c9      0x106 /tmp/ccb2DmZY.debug.temp.o
+ .debug_abbrev  0x00000000000029cf       0xb4 /tmp/ccL4QI05.debug.temp.o
+ .debug_abbrev  0x0000000000002a83       0x57 /tmp/ccCZhUcU.debug.temp.o
+ .debug_abbrev  0x0000000000002ada       0x57 /tmp/cc277Tso.debug.temp.o
+ .debug_abbrev  0x0000000000002b31       0x5c /tmp/ccWS2ip9.debug.temp.o
+ .debug_abbrev  0x0000000000002b8d       0x91 /tmp/cc3Wx2Mb.debug.temp.o
+ .debug_abbrev  0x0000000000002c1e       0x7f /tmp/cc4CzuSE.debug.temp.o
+ .debug_abbrev  0x0000000000002c9d       0xa8 /tmp/ccxOZHRZ.debug.temp.o
+ .debug_abbrev  0x0000000000002d45      0x1b8 /tmp/ccRTbfwF.debug.temp.o
+ .debug_abbrev  0x0000000000002efd      0x1db /tmp/cc1aK33z.debug.temp.o
+ .debug_abbrev  0x00000000000030d8       0x5e /tmp/cc4rLXDD.debug.temp.o
+ .debug_abbrev  0x0000000000003136       0x73 /tmp/ccqfbF76.debug.temp.o
+ .debug_abbrev  0x00000000000031a9       0x6e /tmp/ccdavCzc.debug.temp.o
+ .debug_abbrev  0x0000000000003217       0xca /tmp/ccSmGZwc.debug.temp.o
+ .debug_abbrev  0x00000000000032e1       0xb6 /tmp/ccZEY32w.debug.temp.o
+ .debug_abbrev  0x0000000000003397       0x8b /tmp/cc2CPulp.debug.temp.o
+ .debug_abbrev  0x0000000000003422       0x7f /tmp/ccSEXr8x.debug.temp.o
+ .debug_abbrev  0x00000000000034a1      0x12d /tmp/ccoBEurU.debug.temp.o
+ .debug_abbrev  0x00000000000035ce       0xcd /tmp/ccHWP9Fd.debug.temp.o
+ .debug_abbrev  0x000000000000369b      0x18b /tmp/ccruyEp0.debug.temp.o
+ .debug_abbrev  0x0000000000003826      0x1f9 /tmp/ccQpuKNT.debug.temp.o
+ .debug_abbrev  0x0000000000003a1f      0x18d /tmp/ccxm6mAE.debug.temp.o
+ .debug_abbrev  0x0000000000003bac       0xa8 /tmp/ccIMU6Oo.debug.temp.o
+ .debug_abbrev  0x0000000000003c54      0x1d3 /tmp/ccNkHTPR.debug.temp.o
+ .debug_abbrev  0x0000000000003e27       0x84 /tmp/ccGj2Y3w.debug.temp.o
+ .debug_abbrev  0x0000000000003eab       0x9f /tmp/ccIaACMr.debug.temp.o
+ .debug_abbrev  0x0000000000003f4a       0x66 /tmp/cccjumZQ.debug.temp.o
+ .debug_abbrev  0x0000000000003fb0       0x62 /tmp/cc9Ew6TD.debug.temp.o
+ .debug_abbrev  0x0000000000004012       0x57 /tmp/cceywwsi.debug.temp.o
+ .debug_abbrev  0x0000000000004069      0x133 /tmp/cctOIbcI.debug.temp.o
+ .debug_abbrev  0x000000000000419c      0x101 /tmp/ccbeMToA.debug.temp.o
+ .debug_abbrev  0x000000000000429d      0x106 /tmp/ccAq92kj.debug.temp.o
+ .debug_abbrev  0x00000000000043a3      0x15c /tmp/ccjgeA1g.debug.temp.o
+ .debug_abbrev  0x00000000000044ff       0xc2 /tmp/ccQp8bT3.debug.temp.o
+ .debug_abbrev  0x00000000000045c1       0x9b /tmp/cca0xqSc.debug.temp.o
+ .debug_abbrev  0x000000000000465c       0xeb /tmp/cc7Ua9Bp.debug.temp.o
+ .debug_abbrev  0x0000000000004747       0xf8 /tmp/ccLi6sdh.debug.temp.o
+ .debug_abbrev  0x000000000000483f       0xe8 /tmp/ccwKGnUS.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x1ad7c
+ .debug_loc     0x0000000000000000    0x147a1 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .debug_loc     0x00000000000147a1     0x65db /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x970
+ .debug_aranges
+                0x0000000000000000      0x780 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000780      0x1f0 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x2ec0
+ .debug_ranges  0x0000000000000000     0x2780 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000002780      0x740 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+
+.debug_line     0x0000000000000000    0x11777
+ .debug_line    0x0000000000000000     0x9851 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .debug_line    0x0000000000009851     0x1de8 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+ .debug_line    0x000000000000b639      0x184 /tmp/ccwubsTt.debug.temp.o
+ .debug_line    0x000000000000b7bd       0x70 /tmp/cc9pHo1U.debug.temp.o
+ .debug_line    0x000000000000b82d       0x70 /tmp/ccCVqwNr.debug.temp.o
+ .debug_line    0x000000000000b89d      0x144 /tmp/ccIbfPMa.debug.temp.o
+ .debug_line    0x000000000000b9e1      0x251 /tmp/cct7USLx.debug.temp.o
+ .debug_line    0x000000000000bc32      0x382 /tmp/ccrSZd1w.debug.temp.o
+ .debug_line    0x000000000000bfb4      0x2e2 /tmp/ccQrAoZV.debug.temp.o
+ .debug_line    0x000000000000c296      0x3a1 /tmp/ccZ17wiu.debug.temp.o
+ .debug_line    0x000000000000c637      0x2d4 /tmp/ccl04vLo.debug.temp.o
+ .debug_line    0x000000000000c90b      0x396 /tmp/ccKrSY3I.debug.temp.o
+ .debug_line    0x000000000000cca1      0x3db /tmp/ccvzJeVZ.debug.temp.o
+ .debug_line    0x000000000000d07c      0x239 /tmp/ccKP94n8.debug.temp.o
+ .debug_line    0x000000000000d2b5      0x2de /tmp/cc9W3qbv.debug.temp.o
+ .debug_line    0x000000000000d593      0x263 /tmp/ccelDG0s.debug.temp.o
+ .debug_line    0x000000000000d7f6      0x267 /tmp/ccDNR66k.debug.temp.o
+ .debug_line    0x000000000000da5d      0x2a6 /tmp/ccOsZ4gc.debug.temp.o
+ .debug_line    0x000000000000dd03      0x34b /tmp/ccO2EfQ6.debug.temp.o
+ .debug_line    0x000000000000e04e      0x2a3 /tmp/ccO4wpPo.debug.temp.o
+ .debug_line    0x000000000000e2f1      0x369 /tmp/ccndJK3L.debug.temp.o
+ .debug_line    0x000000000000e65a      0x23f /tmp/ccnUGuUH.debug.temp.o
+ .debug_line    0x000000000000e899      0x15e /tmp/cctY1LyU.debug.temp.o
+ .debug_line    0x000000000000e9f7       0xaf /tmp/ccb2DmZY.debug.temp.o
+ .debug_line    0x000000000000eaa6      0x13f /tmp/ccL4QI05.debug.temp.o
+ .debug_line    0x000000000000ebe5       0xb0 /tmp/ccCZhUcU.debug.temp.o
+ .debug_line    0x000000000000ec95       0xb0 /tmp/cc277Tso.debug.temp.o
+ .debug_line    0x000000000000ed45       0xb2 /tmp/ccWS2ip9.debug.temp.o
+ .debug_line    0x000000000000edf7      0x100 /tmp/cc3Wx2Mb.debug.temp.o
+ .debug_line    0x000000000000eef7       0xb4 /tmp/cc4CzuSE.debug.temp.o
+ .debug_line    0x000000000000efab       0xad /tmp/ccxOZHRZ.debug.temp.o
+ .debug_line    0x000000000000f058      0x21a /tmp/ccRTbfwF.debug.temp.o
+ .debug_line    0x000000000000f272      0x2d7 /tmp/cc1aK33z.debug.temp.o
+ .debug_line    0x000000000000f549       0xbb /tmp/cc4rLXDD.debug.temp.o
+ .debug_line    0x000000000000f604       0xba /tmp/ccqfbF76.debug.temp.o
+ .debug_line    0x000000000000f6be       0xbb /tmp/ccdavCzc.debug.temp.o
+ .debug_line    0x000000000000f779       0xba /tmp/ccSmGZwc.debug.temp.o
+ .debug_line    0x000000000000f833       0xf1 /tmp/ccZEY32w.debug.temp.o
+ .debug_line    0x000000000000f924       0xb4 /tmp/cc2CPulp.debug.temp.o
+ .debug_line    0x000000000000f9d8       0xb3 /tmp/ccSEXr8x.debug.temp.o
+ .debug_line    0x000000000000fa8b      0x192 /tmp/ccoBEurU.debug.temp.o
+ .debug_line    0x000000000000fc1d      0x176 /tmp/ccHWP9Fd.debug.temp.o
+ .debug_line    0x000000000000fd93      0x155 /tmp/ccruyEp0.debug.temp.o
+ .debug_line    0x000000000000fee8      0x3e3 /tmp/ccQpuKNT.debug.temp.o
+ .debug_line    0x00000000000102cb      0x2d4 /tmp/ccxm6mAE.debug.temp.o
+ .debug_line    0x000000000001059f      0x110 /tmp/ccIMU6Oo.debug.temp.o
+ .debug_line    0x00000000000106af      0x186 /tmp/ccNkHTPR.debug.temp.o
+ .debug_line    0x0000000000010835       0xf5 /tmp/ccGj2Y3w.debug.temp.o
+ .debug_line    0x000000000001092a       0xac /tmp/ccIaACMr.debug.temp.o
+ .debug_line    0x00000000000109d6       0xb1 /tmp/cccjumZQ.debug.temp.o
+ .debug_line    0x0000000000010a87       0xb9 /tmp/cc9Ew6TD.debug.temp.o
+ .debug_line    0x0000000000010b40       0xb0 /tmp/cceywwsi.debug.temp.o
+ .debug_line    0x0000000000010bf0      0x159 /tmp/cctOIbcI.debug.temp.o
+ .debug_line    0x0000000000010d49      0x155 /tmp/ccbeMToA.debug.temp.o
+ .debug_line    0x0000000000010e9e       0xfc /tmp/ccAq92kj.debug.temp.o
+ .debug_line    0x0000000000010f9a      0x192 /tmp/ccjgeA1g.debug.temp.o
+ .debug_line    0x000000000001112c      0x14f /tmp/ccQp8bT3.debug.temp.o
+ .debug_line    0x000000000001127b       0xd8 /tmp/cca0xqSc.debug.temp.o
+ .debug_line    0x0000000000011353      0x153 /tmp/cc7Ua9Bp.debug.temp.o
+ .debug_line    0x00000000000114a6      0x1c7 /tmp/ccLi6sdh.debug.temp.o
+ .debug_line    0x000000000001166d      0x10a /tmp/ccwKGnUS.debug.temp.o
+
+.debug_str      0x0000000000000000     0x8dc5
+ .debug_str     0x0000000000000000      0x5c3 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .debug_str     0x00000000000005c3      0x15f /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o
+                                        0x56d (size before relaxing)
+ .debug_str     0x0000000000000722      0x32c /tmp/ccwubsTt.debug.temp.o
+                                        0x3e6 (size before relaxing)
+ .debug_str     0x0000000000000a4e       0xdb /tmp/cc9pHo1U.debug.temp.o
+                                        0x2a4 (size before relaxing)
+ .debug_str     0x0000000000000b29       0x58 /tmp/ccCVqwNr.debug.temp.o
+                                        0x298 (size before relaxing)
+ .debug_str     0x0000000000000b81      0x110 /tmp/ccIbfPMa.debug.temp.o
+                                        0x2f2 (size before relaxing)
+ .debug_str     0x0000000000000c91     0x157b /tmp/cct7USLx.debug.temp.o
+                                       0x1bfb (size before relaxing)
+ .debug_str     0x000000000000220c      0xb34 /tmp/ccrSZd1w.debug.temp.o
+                                       0x1f56 (size before relaxing)
+ .debug_str     0x0000000000002d40      0x293 /tmp/ccQrAoZV.debug.temp.o
+                                       0x1eb1 (size before relaxing)
+ .debug_str     0x0000000000002fd3      0x8d8 /tmp/ccZ17wiu.debug.temp.o
+                                       0x275d (size before relaxing)
+ .debug_str     0x00000000000038ab       0xc6 /tmp/ccl04vLo.debug.temp.o
+                                       0x1c8c (size before relaxing)
+ .debug_str     0x0000000000003971      0x983 /tmp/ccKrSY3I.debug.temp.o
+                                       0x271f (size before relaxing)
+ .debug_str     0x00000000000042f4      0x4c1 /tmp/ccvzJeVZ.debug.temp.o
+                                       0x246e (size before relaxing)
+ .debug_str     0x00000000000047b5       0xf0 /tmp/ccKP94n8.debug.temp.o
+                                       0x10a3 (size before relaxing)
+ .debug_str     0x00000000000048a5       0x69 /tmp/cc9W3qbv.debug.temp.o
+                                       0x1bfe (size before relaxing)
+ .debug_str     0x000000000000490e      0x1cf /tmp/ccelDG0s.debug.temp.o
+                                       0x1186 (size before relaxing)
+ .debug_str     0x0000000000004add       0xa0 /tmp/ccDNR66k.debug.temp.o
+                                       0x1054 (size before relaxing)
+ .debug_str     0x0000000000004b7d       0x9d /tmp/ccOsZ4gc.debug.temp.o
+                                       0x1067 (size before relaxing)
+ .debug_str     0x0000000000004c1a       0xc0 /tmp/ccO2EfQ6.debug.temp.o
+                                       0x1c8d (size before relaxing)
+ .debug_str     0x0000000000004cda       0xbd /tmp/ccO4wpPo.debug.temp.o
+                                       0x109f (size before relaxing)
+ .debug_str     0x0000000000004d97      0x355 /tmp/ccndJK3L.debug.temp.o
+                                       0x2086 (size before relaxing)
+ .debug_str     0x00000000000050ec      0x13b /tmp/ccnUGuUH.debug.temp.o
+                                       0x1078 (size before relaxing)
+ .debug_str     0x0000000000005227      0x300 /tmp/cctY1LyU.debug.temp.o
+                                        0x6fc (size before relaxing)
+ .debug_str     0x0000000000005527      0x147 /tmp/ccb2DmZY.debug.temp.o
+                                        0x355 (size before relaxing)
+ .debug_str     0x000000000000566e       0x98 /tmp/ccL4QI05.debug.temp.o
+                                        0x30a (size before relaxing)
+ .debug_str     0x0000000000005706       0x4c /tmp/ccCZhUcU.debug.temp.o
+                                        0x28e (size before relaxing)
+ .debug_str     0x0000000000005752       0x44 /tmp/cc277Tso.debug.temp.o
+                                        0x28e (size before relaxing)
+ .debug_str     0x0000000000005796       0x52 /tmp/ccWS2ip9.debug.temp.o
+                                        0x282 (size before relaxing)
+ .debug_str     0x00000000000057e8       0x66 /tmp/cc3Wx2Mb.debug.temp.o
+                                        0x309 (size before relaxing)
+ .debug_str     0x000000000000584e       0xf8 /tmp/cc4CzuSE.debug.temp.o
+                                        0x345 (size before relaxing)
+ .debug_str     0x0000000000005946      0x19c /tmp/ccxOZHRZ.debug.temp.o
+                                        0x407 (size before relaxing)
+ .debug_str     0x0000000000005ae2      0x20a /tmp/ccRTbfwF.debug.temp.o
+                                        0xb48 (size before relaxing)
+ .debug_str     0x0000000000005cec      0x376 /tmp/cc1aK33z.debug.temp.o
+                                       0x15b7 (size before relaxing)
+ .debug_str     0x0000000000006062       0xb6 /tmp/cc4rLXDD.debug.temp.o
+                                        0x2a3 (size before relaxing)
+ .debug_str     0x0000000000006118       0x56 /tmp/ccqfbF76.debug.temp.o
+                                        0x2bc (size before relaxing)
+ .debug_str     0x000000000000616e       0x6e /tmp/ccdavCzc.debug.temp.o
+                                        0x2bb (size before relaxing)
+ .debug_str     0x00000000000061dc      0x129 /tmp/ccSmGZwc.debug.temp.o
+                                        0x3cc (size before relaxing)
+ .debug_str     0x0000000000006305       0xf2 /tmp/ccZEY32w.debug.temp.o
+                                        0x380 (size before relaxing)
+ .debug_str     0x00000000000063f7       0x89 /tmp/cc2CPulp.debug.temp.o
+                                        0x311 (size before relaxing)
+ .debug_str     0x0000000000006480       0x86 /tmp/ccSEXr8x.debug.temp.o
+                                        0x2dd (size before relaxing)
+ .debug_str     0x0000000000006506      0x1db /tmp/ccoBEurU.debug.temp.o
+                                        0x4eb (size before relaxing)
+ .debug_str     0x00000000000066e1      0x19f /tmp/ccHWP9Fd.debug.temp.o
+                                        0x3ca (size before relaxing)
+ .debug_str     0x0000000000006880      0x1da /tmp/ccruyEp0.debug.temp.o
+                                        0x899 (size before relaxing)
+ .debug_str     0x0000000000006a5a      0x34d /tmp/ccQpuKNT.debug.temp.o
+                                       0x13d5 (size before relaxing)
+ .debug_str     0x0000000000006da7      0x4c7 /tmp/ccxm6mAE.debug.temp.o
+                                        0x925 (size before relaxing)
+ .debug_str     0x000000000000726e      0x1e3 /tmp/ccIMU6Oo.debug.temp.o
+                                        0x407 (size before relaxing)
+ .debug_str     0x0000000000007451      0x440 /tmp/ccNkHTPR.debug.temp.o
+                                        0xddf (size before relaxing)
+ .debug_str     0x0000000000007891       0xa1 /tmp/ccGj2Y3w.debug.temp.o
+                                        0x31f (size before relaxing)
+ .debug_str     0x0000000000007932      0x131 /tmp/ccIaACMr.debug.temp.o
+                                        0x30c (size before relaxing)
+ .debug_str     0x0000000000007a63       0x45 /tmp/cccjumZQ.debug.temp.o
+                                        0x293 (size before relaxing)
+ .debug_str     0x0000000000007aa8       0x60 /tmp/cc9Ew6TD.debug.temp.o
+                                        0x2ae (size before relaxing)
+ .debug_str     0x0000000000007b08       0x44 /tmp/cceywwsi.debug.temp.o
+                                        0x292 (size before relaxing)
+ .debug_str     0x0000000000007b4c      0x2c0 /tmp/cctOIbcI.debug.temp.o
+                                        0x6ed (size before relaxing)
+ .debug_str     0x0000000000007e0c      0x2ea /tmp/ccbeMToA.debug.temp.o
+                                        0x67e (size before relaxing)
+ .debug_str     0x00000000000080f6      0x21f /tmp/ccAq92kj.debug.temp.o
+                                        0x48c (size before relaxing)
+ .debug_str     0x0000000000008315      0x268 /tmp/ccjgeA1g.debug.temp.o
+                                        0x687 (size before relaxing)
+ .debug_str     0x000000000000857d      0x1f0 /tmp/ccQp8bT3.debug.temp.o
+                                        0x43f (size before relaxing)
+ .debug_str     0x000000000000876d      0x249 /tmp/cca0xqSc.debug.temp.o
+                                        0x434 (size before relaxing)
+ .debug_str     0x00000000000089b6      0x147 /tmp/cc7Ua9Bp.debug.temp.o
+                                        0x4e1 (size before relaxing)
+ .debug_str     0x0000000000008afd      0x123 /tmp/ccLi6sdh.debug.temp.o
+                                        0x438 (size before relaxing)
+ .debug_str     0x0000000000008c20      0x1a5 /tmp/ccwKGnUS.debug.temp.o
+                                        0x3fa (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1da0
+ .debug_frame   0x0000000000000000     0x17b0 /tmp/PeiCore.dll.8EC4Gx.ltrans0.ltrans.o
+ .debug_frame   0x00000000000017b0      0x5f0 /tmp/PeiCore.dll.8EC4Gx.ltrans1.ltrans.o

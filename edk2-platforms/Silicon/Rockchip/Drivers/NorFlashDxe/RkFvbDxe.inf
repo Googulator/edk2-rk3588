@@ -30,11 +30,11 @@
   UefiDriverEntryPoint
   UefiBootServicesTableLib
   UefiRuntimeLib
-#  BaseMemoryLib
-#  DevicePathLib
-#  DxeServicesTableLib
-#  MemoryAllocationLib
-#  UefiRuntimeServicesTableLib
+  BaseMemoryLib
+  DevicePathLib
+  DxeServicesTableLib
+  MemoryAllocationLib
+  UefiRuntimeServicesTableLib
 
 [Guids]
   gEdkiiNvVarStoreFormattedGuid
@@ -55,7 +55,7 @@
   gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwSpareSize
 #  gRockchipTokenSpaceGuid.PcdSpiMemoryBase
 #  gRockchipTokenSpaceGuid.PcdSpiMemoryMapped
-  gRockchipTokenSpaceGuid.PcdSpiVariableOffset
+  gRockchipTokenSpaceGuid.PcdNvStorageVariableBase
 
 [Pcd]
   gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageVariableBase64

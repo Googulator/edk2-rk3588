@@ -961,6 +961,17 @@ CreateResourceMap (
   CalculateResourceAperture (Mem64Node);
   CalculateResourceAperture (PMem64Node);
   CalculateResourceAperture (IoNode);
+
+  //hack
+  IoNode->Alignment = 0xfff;
+  IoNode->Length = 0x1000;
+ // Mem32Node->Alignment = 0xfff;
+ // Mem32Node->Length = 0x100000;
+  //PMem64Node->Alignment = 0;
+  //PMem64Node->Length = 0;
+  //Mem32Node->Alignment = 0xff;
+  //IoNode->B
+
 }
 
 /**

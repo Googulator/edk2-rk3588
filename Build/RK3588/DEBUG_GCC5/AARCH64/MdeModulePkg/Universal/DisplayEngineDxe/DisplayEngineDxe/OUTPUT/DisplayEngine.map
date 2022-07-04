@@ -1,0 +1,1618 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(FormDisplay.obj)
+                              AutoGen.obj (symbol from plugin) (InitializeDisplayEngine)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(ProcessOptions.obj)
+                              FormDisplay.obj (symbol from plugin) (EmptyEventProcess)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(InputHandler.obj)
+                              ProcessOptions.obj (symbol from plugin) (ReadString)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(Popup.obj)
+                              FormDisplay.obj (symbol from plugin) (CreatePopup)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              InputHandler.obj (symbol from plugin) (MultU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              InputHandler.obj (symbol from plugin) (LShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              FormDisplay.obj (symbol from plugin) (InitializeListHead)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              FormDisplay.obj (symbol from plugin) (StrCpyS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              FormDisplay.obj (symbol from plugin) (StrLen)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              CpuDeadLoop.obj (symbol from plugin) (CpuPause)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              FormDisplay.obj (symbol from plugin) (CopyGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              FormDisplay.obj (symbol from plugin) (ZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              FormDisplay.obj (symbol from plugin) (CompareMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              FormDisplay.obj (symbol from plugin) (CopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              ProcessOptions.obj (symbol from plugin) (UnicodeSPrint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              FormDisplay.obj (symbol from plugin) (AllocateZeroPool)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              FormDisplay.obj (symbol from plugin) (HiiAddPackages)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              ProcessOptions.obj (symbol from plugin) (HiiSetString)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib(CustomizedDisplayLib.obj)
+                              FormDisplay.obj (symbol from plugin) (FormExitPolicy)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib(CustomizedDisplayLibInternal.obj)
+                              CustomizedDisplayLib.obj (symbol from plugin) (ProcessExternedOpcode)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib(AutoGen.obj)
+                              CustomizedDisplayLib.obj (symbol from plugin) (CustomizedDisplayLibStrings)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib(SerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiLib.obj (symbol from plugin) (DevicePathType)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              HiiLib.obj (symbol from plugin) (DevicePathFromHandle)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              HiiLib.obj (symbol from plugin) (GetDevicePathSize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib(UartLib.obj)
+                              SerialPortLib.obj (symbol from plugin) (UartInitializePort)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              UartLib.obj (symbol from plugin) (MmioRead32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              IoLibNoIo.obj (symbol from plugin) (FilterBeforeMmIoRead)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x0000000000000000       0x2e /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000000000       0x4c /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdBrowserFieldBackgroundHighlightColor
+                0x0000000000000000        0x1 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdBrowserFieldTextHighlightColor
+                0x0000000000000000        0x1 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x0000000000000000        0x1 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+                0x0000000000000000        0x4 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.gEfiCallerBaseName
+                0x0000000000000000        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0xa0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .data.__stack_chk_guard
+                0x0000000000000000        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/ccT4eaYI.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccT4eaYI.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccYzkgLB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYzkgLB.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccAGpxrq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAGpxrq.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccvRXleD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvRXleD.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cchEaaLz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cchEaaLz.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccpdz2Qs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpdz2Qs.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccZBp4p0.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZBp4p0.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccNPzhNk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNPzhNk.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc3IR3n1.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3IR3n1.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc1aH4cZ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1aH4cZ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc0M6BeV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0M6BeV.debug.temp.o
+ .debug_info    0x0000000000000000       0x96 /tmp/cc3K2LR6.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5c /tmp/cc3K2LR6.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/cc3K2LR6.debug.temp.o
+ .debug_str     0x0000000000000000      0x282 /tmp/cc3K2LR6.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc3K2LR6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3K2LR6.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQUi3R8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQUi3R8.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc1bfJDj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1bfJDj.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccWBKtrY.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWBKtrY.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQsaWWm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQsaWWm.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/cc5PeCKP.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/cc5PeCKP.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/cc5PeCKP.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/cc5PeCKP.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc5PeCKP.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5PeCKP.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/ccWfofFm.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccWfofFm.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccWfofFm.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/ccWfofFm.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccWfofFm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWfofFm.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccUaT42x.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccUaT42x.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccUaT42x.debug.temp.o
+ .debug_str     0x0000000000000000      0x28e /tmp/ccUaT42x.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccUaT42x.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUaT42x.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccxYpdgH.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccxYpdgH.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccxYpdgH.debug.temp.o
+ .debug_str     0x0000000000000000      0x292 /tmp/ccxYpdgH.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccxYpdgH.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxYpdgH.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccNbnDL5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNbnDL5.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccPXpdMz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPXpdMz.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc7X7tpo.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7X7tpo.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccf2qSN2.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccf2qSN2.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc379Yja.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc379Yja.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc0khbYz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0khbYz.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccvaG4AL.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvaG4AL.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc4VMfml.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4VMfml.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cci6F7m0.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cci6F7m0.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccEtjl6p.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEtjl6p.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccsHPGIw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsHPGIw.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc2vjyJm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2vjyJm.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccoRH3Fy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoRH3Fy.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQngP3B.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQngP3B.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccmHn35t.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmHn35t.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccm2mUeV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccm2mUeV.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccoOggCH.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoOggCH.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccFeyQl8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFeyQl8.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccDW94h3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDW94h3.debug.temp.o
+ .debug_info    0x0000000000000000      0x795 /tmp/cc0AndbZ.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x9f /tmp/cc0AndbZ.debug.temp.o
+ .debug_line    0x0000000000000000       0xaf /tmp/cc0AndbZ.debug.temp.o
+ .debug_str     0x0000000000000000      0x48b /tmp/cc0AndbZ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc0AndbZ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0AndbZ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc180Nia.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc180Nia.debug.temp.o
+ .debug_info    0x0000000000000000      0x108 /tmp/ccK5Ji8Y.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x73 /tmp/ccK5Ji8Y.debug.temp.o
+ .debug_line    0x0000000000000000       0xc0 /tmp/ccK5Ji8Y.debug.temp.o
+ .debug_str     0x0000000000000000      0x2ce /tmp/ccK5Ji8Y.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccK5Ji8Y.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccK5Ji8Y.debug.temp.o
+ .debug_info    0x0000000000000000       0xbb /tmp/ccawNgr2.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5e /tmp/ccawNgr2.debug.temp.o
+ .debug_line    0x0000000000000000       0xc2 /tmp/ccawNgr2.debug.temp.o
+ .debug_str     0x0000000000000000      0x2bd /tmp/ccawNgr2.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccawNgr2.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccawNgr2.debug.temp.o
+ .debug_info    0x0000000000000000       0xb6 /tmp/cclrksov.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x86 /tmp/cclrksov.debug.temp.o
+ .debug_line    0x0000000000000000      0x16c /tmp/cclrksov.debug.temp.o
+ .debug_str     0x0000000000000000      0x324 /tmp/cclrksov.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cclrksov.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclrksov.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccWFHVKj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWFHVKj.debug.temp.o
+ .debug_info    0x0000000000000000      0x5bc /tmp/ccwtWOD9.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x162 /tmp/ccwtWOD9.debug.temp.o
+ .debug_line    0x0000000000000000      0x1d6 /tmp/ccwtWOD9.debug.temp.o
+ .debug_str     0x0000000000000000      0x660 /tmp/ccwtWOD9.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccwtWOD9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwtWOD9.debug.temp.o
+ .debug_info    0x0000000000000000      0xec3 /tmp/ccfwyiTU.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x189 /tmp/ccfwyiTU.debug.temp.o
+ .debug_line    0x0000000000000000      0x20c /tmp/ccfwyiTU.debug.temp.o
+ .debug_str     0x0000000000000000      0xd0c /tmp/ccfwyiTU.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccfwyiTU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfwyiTU.debug.temp.o
+ .debug_info    0x0000000000000000      0x305 /tmp/ccpqD16I.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xd2 /tmp/ccpqD16I.debug.temp.o
+ .debug_line    0x0000000000000000      0x10b /tmp/ccpqD16I.debug.temp.o
+ .debug_str     0x0000000000000000      0x47b /tmp/ccpqD16I.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccpqD16I.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpqD16I.debug.temp.o
+ .debug_info    0x0000000000000000     0x2675 /tmp/ccOGFXA4.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x231 /tmp/ccOGFXA4.debug.temp.o
+ .debug_line    0x0000000000000000      0x2c3 /tmp/ccOGFXA4.debug.temp.o
+ .debug_str     0x0000000000000000     0x13cf /tmp/ccOGFXA4.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccOGFXA4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOGFXA4.debug.temp.o
+ .debug_info    0x0000000000000000     0x2ef9 /tmp/ccC8fLUD.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x20d /tmp/ccC8fLUD.debug.temp.o
+ .debug_line    0x0000000000000000      0x2b7 /tmp/ccC8fLUD.debug.temp.o
+ .debug_str     0x0000000000000000     0x1cf4 /tmp/ccC8fLUD.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccC8fLUD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccC8fLUD.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/cceMWaqi.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/cceMWaqi.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/cceMWaqi.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/cceMWaqi.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cceMWaqi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cceMWaqi.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccqaFz0e.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqaFz0e.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc707ohF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc707ohF.debug.temp.o
+ .debug_info    0x0000000000000000      0x302 /tmp/cc2kkkzq.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xcd /tmp/cc2kkkzq.debug.temp.o
+ .debug_line    0x0000000000000000      0x119 /tmp/cc2kkkzq.debug.temp.o
+ .debug_str     0x0000000000000000      0x40b /tmp/cc2kkkzq.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc2kkkzq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2kkkzq.debug.temp.o
+ .text          0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+LOAD /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+LOAD /tmp/ccT4eaYI.debug.temp.o
+LOAD /tmp/ccYzkgLB.debug.temp.o
+LOAD /tmp/ccAGpxrq.debug.temp.o
+LOAD /tmp/ccvRXleD.debug.temp.o
+LOAD /tmp/cchEaaLz.debug.temp.o
+LOAD /tmp/ccpdz2Qs.debug.temp.o
+LOAD /tmp/ccZBp4p0.debug.temp.o
+LOAD /tmp/ccNPzhNk.debug.temp.o
+LOAD /tmp/cc3IR3n1.debug.temp.o
+LOAD /tmp/cc1aH4cZ.debug.temp.o
+LOAD /tmp/cc0M6BeV.debug.temp.o
+LOAD /tmp/cc3K2LR6.debug.temp.o
+LOAD /tmp/ccQUi3R8.debug.temp.o
+LOAD /tmp/cc1bfJDj.debug.temp.o
+LOAD /tmp/ccWBKtrY.debug.temp.o
+LOAD /tmp/ccQsaWWm.debug.temp.o
+LOAD /tmp/cc5PeCKP.debug.temp.o
+LOAD /tmp/ccWfofFm.debug.temp.o
+LOAD /tmp/ccUaT42x.debug.temp.o
+LOAD /tmp/ccxYpdgH.debug.temp.o
+LOAD /tmp/ccNbnDL5.debug.temp.o
+LOAD /tmp/ccPXpdMz.debug.temp.o
+LOAD /tmp/cc7X7tpo.debug.temp.o
+LOAD /tmp/ccf2qSN2.debug.temp.o
+LOAD /tmp/cc379Yja.debug.temp.o
+LOAD /tmp/cc0khbYz.debug.temp.o
+LOAD /tmp/ccvaG4AL.debug.temp.o
+LOAD /tmp/cc4VMfml.debug.temp.o
+LOAD /tmp/cci6F7m0.debug.temp.o
+LOAD /tmp/ccEtjl6p.debug.temp.o
+LOAD /tmp/ccsHPGIw.debug.temp.o
+LOAD /tmp/cc2vjyJm.debug.temp.o
+LOAD /tmp/ccoRH3Fy.debug.temp.o
+LOAD /tmp/ccQngP3B.debug.temp.o
+LOAD /tmp/ccmHn35t.debug.temp.o
+LOAD /tmp/ccm2mUeV.debug.temp.o
+LOAD /tmp/ccoOggCH.debug.temp.o
+LOAD /tmp/ccFeyQl8.debug.temp.o
+LOAD /tmp/ccDW94h3.debug.temp.o
+LOAD /tmp/cc0AndbZ.debug.temp.o
+LOAD /tmp/cc180Nia.debug.temp.o
+LOAD /tmp/ccK5Ji8Y.debug.temp.o
+LOAD /tmp/ccawNgr2.debug.temp.o
+LOAD /tmp/cclrksov.debug.temp.o
+LOAD /tmp/ccWFHVKj.debug.temp.o
+LOAD /tmp/ccwtWOD9.debug.temp.o
+LOAD /tmp/ccfwyiTU.debug.temp.o
+LOAD /tmp/ccpqD16I.debug.temp.o
+LOAD /tmp/ccOGFXA4.debug.temp.o
+LOAD /tmp/ccC8fLUD.debug.temp.o
+LOAD /tmp/cceMWaqi.debug.temp.o
+LOAD /tmp/ccqaFz0e.debug.temp.o
+LOAD /tmp/cc707ohF.debug.temp.o
+LOAD /tmp/cc2kkkzq.debug.temp.o
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000001000    0x11845
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.SetDisplayAttribute
+                0x0000000000001000       0x5c /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.EmptyEventProcess
+                0x000000000000105c        0x4 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.DriverClearDisplayPage
+                0x0000000000001060       0x54 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x00000000000010b4      0x2b0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.GetIndexInfoForOpcode
+                0x0000000000001364       0xd4 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.FindHighLightMenuOption
+                0x0000000000001438      0x1fc /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.UpdateHighlightMenuInfo
+                0x0000000000001634      0x21c /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.DisplayMenuString
+                0x0000000000001850       0x94 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.RefreshTimeOutProcess
+                0x00000000000018e4       0xa0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.NewStrCat
+                0x0000000000001984       0x28 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.memcpy   0x00000000000019ac       0x20 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x00000000000019ac                memcpy
+ .text.GetToken
+                0x00000000000019cc       0x74 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x00000000000019cc                GetToken
+ .text._ModuleEntryPoint
+                0x0000000000001a40      0xb80 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000001a40                _ModuleEntryPoint
+ .text.GetWidth
+                0x00000000000025c0      0x13c /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.BrowserStatusProcess
+                0x00000000000026fc      0x5a0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.GetLineByWidth
+                0x0000000000002c9c      0x234 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000002c9c                GetLineByWidth
+ .text.UiAddMenuOption
+                0x0000000000002ed0      0x2ac /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.ConvertStatementToMenu
+                0x000000000000317c      0x178 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.UpdateSkipInfoForMenu
+                0x00000000000032f4       0xb4 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.GetFieldFromNum
+                0x00000000000033a8       0x40 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x00000000000033a8                LibGetFieldFromNum
+                0x00000000000033a8                GetFieldFromNum
+ .text.GetStringWidth.part.0
+                0x00000000000033e8       0x5c /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x00000000000033e8                GetStringWidth.part.0
+                0x00000000000033e8                LibGetStringWidth.part.0
+ .text.GetStringWidth
+                0x0000000000003444       0x5c /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000003444                GetStringWidth
+ .text.ReadString
+                0x00000000000034a0      0x7f4 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.HiiValueToUINT64
+                0x0000000000003c94       0x50 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000003c94                HiiValueToUINT64
+ .text.ValueToOption
+                0x0000000000003ce4      0x104 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000003ce4                ValueToOption
+ .text.GetArrayData
+                0x0000000000003de8       0x98 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000003de8                GetArrayData
+ .text.PrintMismatchMenuInfo
+                0x0000000000003e80      0x6e0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.SetArrayData
+                0x0000000000004560       0x94 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000004560                SetArrayData
+ .text.ProcessOptions
+                0x00000000000045f4     0x1144 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.UpdateOptionSkipLines
+                0x0000000000005738       0x90 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.FindTopOfScreenMenu
+                0x00000000000057c8       0xf0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.FindTopOfScreenMenuOption
+                0x00000000000058b8      0x1e8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.IsSelectable
+                0x0000000000005aa0       0xf0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.MoveToNextStatement
+                0x0000000000005b90      0x174 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.DisplayOneMenu
+                0x0000000000005d04      0x62c /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.FormDisplay
+                0x0000000000006330     0x2dc8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .text.InternalSafeStringNoStrOverlap
+                0x00000000000090f8       0x3c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.AsciiStrnLenS
+                0x0000000000009134       0x3c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x0000000000009170       0x34 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.MultU64x32.constprop.0
+                0x00000000000091a4        0xc /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.LShiftU64.constprop.0
+                0x00000000000091b0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.DebugAssertEnabled
+                0x00000000000091b8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x00000000000091b8                DebugAssertEnabled
+ .text.DebugPrintEnabled
+                0x00000000000091c0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x00000000000091c0                DebugPrintEnabled
+ .text.DebugPrintLevelEnabled
+                0x00000000000091c8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x00000000000091c8                DebugPrintLevelEnabled
+ .text.WaitForKeyStroke
+                0x00000000000091d0       0x78 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x00000000000091d0                WaitForKeyStroke
+ .text.ReadUnaligned32
+                0x0000000000009248       0x50 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x0000000000009248                ReadUnaligned32
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000009298      0xd7c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x000000000000a014       0x68 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.DebugAssert
+                0x000000000000a07c       0x4c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a07c                DebugAssert
+ .text.SetValuesByType
+                0x000000000000a0c8       0x8c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x000000000000a154       0xb0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.InsertHeadList
+                0x000000000000a204       0x58 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.GetFirstNode
+                0x000000000000a25c       0x44 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a25c                GetFirstNode
+ .text.GetNextNode
+                0x000000000000a2a0       0x44 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a2a0                GetNextNode
+ .text.IsListEmpty
+                0x000000000000a2e4       0x4c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a2e4                IsListEmpty
+ .text.IsNull   0x000000000000a330       0x4c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a330                IsNull
+ .text.RemoveEntryList
+                0x000000000000a37c       0x50 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a37c                RemoveEntryList
+ .text.StrnLenS
+                0x000000000000a3cc       0x70 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.StrLen   0x000000000000a43c       0xa4 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a43c                StrLen
+ .text.StrSize  0x000000000000a4e0       0x1c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a4e0                StrSize
+ .text.StrCmp   0x000000000000a4fc       0x88 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a4fc                StrCmp
+ .text.AsciiStrLen
+                0x000000000000a584       0x90 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.AsciiStrnCmp
+                0x000000000000a614       0xdc /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.CopyGuid
+                0x000000000000a6f0       0x48 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a6f0                CopyGuid
+ .text.CompareGuid
+                0x000000000000a738       0x44 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a738                CompareGuid
+ .text.ZeroMem  0x000000000000a77c       0x74 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a77c                ZeroMem
+ .text.CompareMem
+                0x000000000000a7f0       0xd0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a7f0                CompareMem
+ .text.CopyMem  0x000000000000a8c0       0xa4 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a8c0                CopyMem
+ .text.UnicodeVSPrint
+                0x000000000000a964       0x74 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.UnicodeSPrint
+                0x000000000000a9d8       0x50 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000a9d8                UnicodeSPrint
+ .text.LibGetStringWidth
+                0x000000000000aa28       0x50 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000aa28                LibGetStringWidth
+ .text.ReadUnaligned16
+                0x000000000000aa78       0x5c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.MmioRead32
+                0x000000000000aad4        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.MmioWrite32.isra.0
+                0x000000000000aadc        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x000000000000aae4       0xcc /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000aae4                BaseDebugLibSerialPortConstructor
+ .text.UartWrite.constprop.0.isra.0
+                0x000000000000abb0       0x4c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.DebugPrint
+                0x000000000000abfc       0x98 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000abfc                DebugPrint
+ .text.FreePool
+                0x000000000000ac94       0x7c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000ac94                FreePool
+ .text.HiiRemovePackages
+                0x000000000000ad10       0xb0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000ad10                HiiRemovePackages
+ .text.BasePrintLibSPrint.constprop.0
+                0x000000000000adc0       0x54 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.CompareHiiValue.constprop.0
+                0x000000000000ae14      0x244 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000ae14                CompareHiiValue.constprop.0
+ .text.SetUnicodeMem.constprop.0
+                0x000000000000b058       0x20 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000b058                SetUnicodeMem.constprop.0
+ .text.InternalAllocatePool.constprop.0
+                0x000000000000b078       0x38 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000b078                InternalAllocatePool.constprop.0
+ .text.AllocateZeroPool
+                0x000000000000b0b0       0x34 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000b0b0                AllocateZeroPool
+ .text.ParseMessageString.part.0
+                0x000000000000b0e4      0x114 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.HiiAddPackages
+                0x000000000000b1f8      0x194 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000b1f8                HiiAddPackages
+ .text.HiiGetSupportedLanguages
+                0x000000000000b38c       0xbc /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.HiiSetString.constprop.0
+                0x000000000000b448      0x160 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000b448                HiiSetString.constprop.0
+ .text.ProcessUserOpcode
+                0x000000000000b5a8      0x15c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000b5a8                ProcessUserOpcode
+ .text.PrintAt  0x000000000000b704      0x2c0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.PrintStringAt
+                0x000000000000b9c4       0x1c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000b9c4                PrintStringAt
+ .text.UpdateStatusBar
+                0x000000000000b9e0      0x168 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000b9e0                UpdateStatusBar
+ .text.ClearLines
+                0x000000000000bb48       0xdc /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000bb48                ClearLines
+ .text.PrintCharAt
+                0x000000000000bc24       0x1c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000bc24                PrintCharAt
+ .text.CreateDialog
+                0x000000000000bc40      0x430 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000bc40                CreateDialog
+ .text.ConfirmDataChange
+                0x000000000000c070       0xc0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000c070                ConfirmDataChange
+ .text.CreateMultiStringPopUp.constprop.0
+                0x000000000000c130      0x2e0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000c130                CreateMultiStringPopUp.constprop.0
+ .text.ProcessHelpString.constprop.0
+                0x000000000000c410      0x134 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000c410                ProcessHelpString.constprop.0
+ .text.GetBestLanguage.constprop.0
+                0x000000000000c544      0x18c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.AllocateCopyPool
+                0x000000000000c6d0       0x8c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000c6d0                AllocateCopyPool
+ .text.HiiGetString.constprop.0
+                0x000000000000c75c      0x228 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000c75c                HiiGetString.constprop.0
+ .text.LibGetToken
+                0x000000000000c984       0x74 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000c984                LibGetToken
+ .text.PrintFormattedNumber.constprop.0.isra.0
+                0x000000000000c9f8       0x90 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000c9f8                PrintFormattedNumber.constprop.0.isra.0
+ .text.GetNumericInput
+                0x000000000000ca88      0xe50 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000ca88                GetNumericInput
+ .text.PrintStringAtWithWidth.isra.0
+                0x000000000000d8d8       0x20 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000d8d8                PrintStringAtWithWidth.isra.0
+ .text.PrintHotKeyHelpString
+                0x000000000000d8f8      0x214 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.RefreshKeyHelp
+                0x000000000000db0c      0x654 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000db0c                RefreshKeyHelp
+ .text.StrCatS.isra.0
+                0x000000000000e160      0x248 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000e160                StrCatS.isra.0
+ .text.StrnCpyS.isra.0
+                0x000000000000e3a8      0x24c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000e3a8                StrnCpyS.isra.0
+ .text.StrCpyS.isra.0
+                0x000000000000e5f4      0x1f0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000e5f4                StrCpyS.isra.0
+ .text.InsertTailList.isra.0
+                0x000000000000e7e4       0x58 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000e7e4                InsertTailList.isra.0
+ .text.AddOneSelectableOption
+                0x000000000000e83c       0xf0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.SwapListEntries.isra.0
+                0x000000000000e92c       0xa8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .text.GetSelectionInputPopUp
+                0x000000000000e9d4      0xc78 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000e9d4                GetSelectionInputPopUp
+ .text.InitializeListHead.isra.0
+                0x000000000000f64c        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000f64c                InitializeListHead.isra.0
+ .text.CreatePopup
+                0x000000000000f654      0xbd0 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x000000000000f654                CreatePopup
+ .text.AdjustDateAndTimePosition.isra.0
+                0x0000000000010224      0x124 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x0000000000010224                AdjustDateAndTimePosition.isra.0
+ .text.ProcessLibraryDestructorList.isra.0
+                0x0000000000010348       0xfc /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                0x0000000000010348                ProcessLibraryDestructorList.isra.0
+ *fill*         0x0000000000010444        0xc 
+ .text          0x0000000000010450      0x200 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000010450                InternalMemSetMem16
+                0x000000000001045c                InternalMemSetMem32
+                0x0000000000010468                InternalMemSetMem64
+                0x0000000000010474                InternalMemZeroMem
+                0x000000000001047c                InternalMemSetMem
+ .text          0x0000000000010650      0x218 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x00000000000107bc                InternalMemCopyMem
+ *fill*         0x0000000000010868       0x18 
+ .text          0x0000000000010880       0xe0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000010880                InternalMemCompareMem
+ .text          0x0000000000010960       0x20 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x0000000000010960                InternalMemCompareGuid
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.GetIndexInfoForOpcode.str1.1
+                0x0000000000010980       0x6c /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.FindHighLightMenuOption.str1.1
+                0x00000000000109ec       0x17 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.UpdateHighlightMenuInfo.str1.1
+                0x0000000000010a03       0x5a /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.DisplayMenuString.str2.2
+                0x0000000000010a5d        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                                          0x2 (size before relaxing)
+ *fill*         0x0000000000010a5d        0x1 
+ .rodata.RefreshTimeOutProcess.str2.2
+                0x0000000000010a5e        0x6 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.GetToken.str1.1
+                0x0000000000010a64       0x5a /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                                         0x17 (size before relaxing)
+ .rodata._ModuleEntryPoint.str1.1
+                0x0000000000010a64      0x415 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ *fill*         0x0000000000010e79        0x1 
+ .rodata._ModuleEntryPoint.str2.2
+                0x0000000000010e7a        0x4 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.BrowserStatusProcess.str1.1
+                0x0000000000010e7e       0x52 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.BrowserStatusProcess
+                0x0000000000010ed0        0xb /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.UiAddMenuOption.str1.1
+                0x0000000000010edb        0xe /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                                         0x19 (size before relaxing)
+ .rodata.ReadString.str1.1
+                0x0000000000010ee9       0x72 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ *fill*         0x0000000000010f5b        0x1 
+ .rodata.HiiValueToUINT64
+                0x0000000000010f5c        0x7 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.ValueToOption.str1.1
+                0x0000000000010f63       0x5a /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.GetArrayData.str1.1
+                0x0000000000010fbd       0x5a /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                                         0x16 (size before relaxing)
+ *fill*         0x0000000000010fbd        0x3 
+ .rodata.GetArrayData
+                0x0000000000010fc0        0x4 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.PrintMismatchMenuInfo.str1.1
+                0x0000000000010fc4      0x339 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ *fill*         0x00000000000112fd        0x3 
+ .rodata.PrintMismatchMenuInfo
+                0x0000000000011300        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.SetArrayData
+                0x0000000000011308        0x4 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.ProcessOptions.str1.1
+                0x000000000001130c       0x18 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                                         0x4d (size before relaxing)
+ .rodata.ProcessOptions.str2.2
+                0x0000000000011324       0x1e /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                                         0x24 (size before relaxing)
+ *fill*         0x0000000000011342        0x2 
+ .rodata.ProcessOptions
+                0x0000000000011344       0x24 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.IsSelectable.str1.1
+                0x0000000000011368       0x1d /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.FormDisplay.str1.1
+                0x0000000000011385      0x1bd /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                                        0x1d4 (size before relaxing)
+ *fill*         0x0000000000011542        0x2 
+ .rodata.FormDisplay
+                0x0000000000011544       0x26 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ *fill*         0x000000000001156a        0x2 
+ .rodata.gScanCodeToOperation
+                0x000000000001156c       0x38 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.gScreenOperationToControlFlag
+                0x00000000000115a4       0x50 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .rodata.ReadUnaligned32.str1.1
+                0x00000000000115f4       0x48 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                         0x5f (size before relaxing)
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x000000000001163c      0x20c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000011848       0x5e /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.AsciiSPrint.constprop.0.str1.1
+                0x00000000000118a6       0x18 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.DebugAssert.str1.1
+                0x00000000000118be        0xe /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.SetValuesByType.str1.1
+                0x00000000000118be       0x6a /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ *fill*         0x00000000000118be        0x2 
+ .rodata.SetValuesByType
+                0x00000000000118c0        0x5 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.InternalBaseLibIsListValid.str1.1
+                0x00000000000118c5       0x9b /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.IsNodeInList.str1.1
+                0x0000000000011960       0x44 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.InsertHeadList.str1.1
+                0x00000000000119a4       0x26 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.GetFirstNode.str1.1
+                0x00000000000119ca       0x22 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.RemoveEntryList.str1.1
+                0x00000000000119ec       0x15 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x0000000000011a01       0x68 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.StrLen.str1.1
+                0x0000000000011a69       0x7b /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                         0x92 (size before relaxing)
+ .rodata.StrCmp.str1.1
+                0x0000000000011ae4       0x37 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000011b1b       0x38 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.AsciiStrnCmp.str1.1
+                0x0000000000011b53       0x70 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.CopyGuid.str1.1
+                0x0000000000011bc3       0x70 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.CompareGuid.str1.1
+                0x0000000000011c33       0x16 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x0000000000011c49       0x8b /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.CompareMem.str1.1
+                0x0000000000011cd4      0x118 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x0000000000011dec       0x55 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.UnicodeVSPrint.str1.1
+                0x0000000000011e41       0x70 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.LibGetStringWidth.str1.1
+                0x0000000000011eb1       0x6a /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.FreePool.str1.1
+                0x0000000000011eb1       0x5e /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                         0x93 (size before relaxing)
+ .rodata.HiiRemovePackages.str1.1
+                0x0000000000011f0f       0x5e /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                         0x64 (size before relaxing)
+ *fill*         0x0000000000011f0f        0x1 
+ .rodata.CompareHiiValue.constprop.0
+                0x0000000000011f10       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.HiiGetSupportedLanguages.str1.1
+                0x0000000000011f20       0x4f /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.HiiSetString.constprop.0.str1.1
+                0x0000000000011f6f       0x54 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.ProcessUserOpcode.str1.1
+                0x0000000000011fc3       0x1c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.PrintAt.str1.1
+                0x0000000000011fdf        0xd /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                         0x14 (size before relaxing)
+ .rodata.PrintStringAt.str2.2
+                0x0000000000011fec       0x1e /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                          0x6 (size before relaxing)
+ .rodata.UpdateStatusBar.str2.2
+                0x0000000000011fec        0x6 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.ClearLines.str1.1
+                0x0000000000011ff2       0x62 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.PrintCharAt.str2.2
+                0x0000000000011ff2        0x6 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.ProcessHelpString.constprop.0.str1.1
+                0x0000000000011ff8       0x21 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                         0x7b (size before relaxing)
+ .rodata.GetBestLanguage.constprop.0.str1.1
+                0x0000000000012019       0x65 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.AllocateCopyPool.str1.1
+                0x000000000001207e       0x3f /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.HiiGetString.constprop.0.str1.1
+                0x00000000000120bd       0x25 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                         0x26 (size before relaxing)
+ .rodata.HiiGetString.constprop.0.str2.2
+                0x00000000000120e2       0x1a /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.PrintFormattedNumber.constprop.0.isra.0.str2.2
+                0x00000000000120fc       0x12 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                         0x1a (size before relaxing)
+ .rodata.GetNumericInput.str1.1
+                0x000000000001210e       0xd5 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.GetNumericInput.str2.2
+                0x00000000000121e3       0x12 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                         0x18 (size before relaxing)
+ *fill*         0x00000000000121e3        0x1 
+ .rodata.GetNumericInput
+                0x00000000000121e4       0x16 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.PrintHotKeyHelpString.str1.1
+                0x00000000000121fa       0x15 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.RefreshKeyHelp.str1.1
+                0x00000000000121fa       0x19 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.RefreshKeyHelp.str2.2
+                0x00000000000121fa       0x16 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                         0x24 (size before relaxing)
+ .rodata.RefreshKeyHelp
+                0x0000000000012210       0x44 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.StrCatS.isra.0.str1.1
+                0x0000000000012254      0x154 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.StrnCpyS.isra.0.str1.1
+                0x00000000000123a8       0x2c /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.AddOneSelectableOption
+                0x00000000000123d4        0x4 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.GetSelectionInputPopUp.str1.1
+                0x00000000000123d8       0x76 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                         0x90 (size before relaxing)
+ .rodata.GetSelectionInputPopUp.str2.2
+                0x000000000001244e       0x16 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                          0x8 (size before relaxing)
+ *fill*         0x000000000001244e        0x2 
+ .rodata.GetSelectionInputPopUp
+                0x0000000000012450        0x5 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ *fill*         0x0000000000012455        0x1 
+ .rodata.CreatePopup.str2.2
+                0x0000000000012456        0xe /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.CreatePopup.str1.1
+                0x0000000000012464       0x51 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.AdjustDateAndTimePosition.isra.0.str1.1
+                0x00000000000124b5       0x57 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.CSWTCH.185
+                0x00000000000124b5        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.25
+                0x00000000000124bd        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.26
+                0x00000000000124c5        0x9 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.27
+                0x00000000000124ce        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFrontPageFormSetGuid
+                0x00000000000124d6       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.mEndOfPakageList
+                0x00000000000124e6        0x4 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.mErrorString
+                0x00000000000124ea      0x2b5 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.mHexStr
+                0x000000000001279f       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .rodata.mWarningString
+                0x00000000000127af       0x96 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ *(.got .got.*)
+ *:AutoGen.obj(.data.g*Guid)
+
+.iplt           0x0000000000012848        0x0
+ .iplt          0x0000000000012848        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+
+.data           0x0000000000013000     0x21b8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.CustomizedDisplayLibStrings
+                0x0000000000013000      0x6ea /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.DisplayEngineStrings
+                0x00000000000136ea     0x15c6 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gCustomizedDisplayLibGuid
+                0x0000000000014cb0       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gDisplayEngineGuid
+                0x0000000000014cc0       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gEdkiiFormBrowserEx2ProtocolGuid
+                0x0000000000014cd0       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gEdkiiFormDisplayEngineProtocolGuid
+                0x0000000000014ce0       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x0000000000014cf0       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x0000000000014d00       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x0000000000014d10       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x0000000000014d20       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gEfiHiiPopupProtocolGuid
+                0x0000000000014d30       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x0000000000014d40       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gEfiLoadedImageProtocolGuid
+                0x0000000000014d50       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gLibIsFirstForm
+                0x0000000000014d60        0x1 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.mIsFirstForm
+                0x0000000000014d61        0x1 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ *fill*         0x0000000000014d62        0x6 
+ .data.mPrivateData
+                0x0000000000014d68       0x38 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x0000000000014da0       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .data.gEfiIfrTianoGuid
+                0x0000000000014db0       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ *(.bss .bss.*)
+ .bss.gAdjustNumber
+                0x0000000000014dc0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014dc0                gAdjustNumber
+ .bss.gAreYouSure
+                0x0000000000014dc8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014dc8                gAreYouSure
+ .bss.gBS       0x0000000000014dd0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014dd0                gBS
+ .bss.gBannerData
+                0x0000000000014dd8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014dd8                gBannerData
+ .bss.gBrowserError
+                0x0000000000014de0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gCancelOption
+                0x0000000000014de8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014de8                gCancelOption
+ .bss.gChangesOpt
+                0x0000000000014df0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gCheckError
+                0x0000000000014df8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gClassOfVfr
+                0x0000000000014e00        0x2 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014e00                gClassOfVfr
+ *fill*         0x0000000000014e02        0x6 
+ .bss.gConfirmDefaultMsg
+                0x0000000000014e08        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmDefaultMsg2nd
+                0x0000000000014e10        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmDiscardMsg
+                0x0000000000014e18        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmError
+                0x0000000000014e20        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmExitMsg
+                0x0000000000014e28        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmExitMsg2nd
+                0x0000000000014e30        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmMsgConnect
+                0x0000000000014e38        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmMsgEnd
+                0x0000000000014e40        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmOpt
+                0x0000000000014e48        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmOptCancel
+                0x0000000000014e50        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014e50                gConfirmOptCancel
+ .bss.gConfirmOptNo
+                0x0000000000014e58        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014e58                gConfirmOptNo
+ .bss.gConfirmOptOk
+                0x0000000000014e60        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014e60                gConfirmOptOk
+ .bss.gConfirmOptYes
+                0x0000000000014e68        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014e68                gConfirmOptYes
+ .bss.gConfirmPassword
+                0x0000000000014e70        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmResetMsg
+                0x0000000000014e78        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmResetMsg2nd
+                0x0000000000014e80        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmSubmitMsg
+                0x0000000000014e88        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gConfirmSubmitMsg2nd
+                0x0000000000014e90        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gDecNumericInput
+                0x0000000000014e98        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014e98                gDecNumericInput
+ .bss.gDirection
+                0x0000000000014ea0        0x2 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014ea0                gDirection
+ *fill*         0x0000000000014ea2        0x6 
+ .bss.gDiscardChange
+                0x0000000000014ea8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gEmptyString
+                0x0000000000014eb0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gEnterCommitString
+                0x0000000000014eb8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014eb8                gEnterCommitString
+ .bss.gEnterEscapeString
+                0x0000000000014ec0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014ec0                gEnterEscapeString
+ .bss.gEnterString
+                0x0000000000014ec8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014ec8                gEnterString
+ .bss.gErrorPopup
+                0x0000000000014ed0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014ed0                gErrorPopup
+ .bss.gEscapeString
+                0x0000000000014ed8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014ed8                gEscapeString
+ .bss.gFooterHeight
+                0x0000000000014ee0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014ee0                gFooterHeight
+ .bss.gFormData
+                0x0000000000014ee8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014ee8                gFormData
+ .bss.gFormNotFound
+                0x0000000000014ef0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gFormSuppress
+                0x0000000000014ef8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gHelpBlockWidth
+                0x0000000000014f00        0x2 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014f00                gHelpBlockWidth
+ *fill*         0x0000000000014f02        0x6 
+ .bss.gHexNumericInput
+                0x0000000000014f08        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014f08                gHexNumericInput
+ .bss.gHighligthMenuInfo
+                0x0000000000014f10       0x48 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gHiiConfigRouting
+                0x0000000000014f58        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gHiiDatabase
+                0x0000000000014f60        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014f60                gHiiDatabase
+ .bss.gHiiFont  0x0000000000014f68        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gHiiHandle
+                0x0000000000014f70        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gHiiImage
+                0x0000000000014f78        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gHiiString
+                0x0000000000014f80        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014f80                gHiiString
+ .bss.gImageHandle
+                0x0000000000014f88        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gInfoPopup
+                0x0000000000014f90        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014f90                gInfoPopup
+ .bss.gInputErrorMessage
+                0x0000000000014f98        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014f98                gInputErrorMessage
+ .bss.gJumpToFormSet
+                0x0000000000014fa0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gLibEmptyString
+                0x0000000000014fa8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014fa8                gLibEmptyString
+ .bss.gMenuOption
+                0x0000000000014fb0       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gMiniString
+                0x0000000000014fc0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gMinusString
+                0x0000000000014fc8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014fc8                gMinusString
+ .bss.gMisMatch
+                0x0000000000014fd0        0x1 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ *fill*         0x0000000000014fd1        0x1 
+ .bss.gModalSkipColumn
+                0x0000000000014fd2        0x2 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ *fill*         0x0000000000014fd4        0x4 
+ .bss.gMoveHighlight
+                0x0000000000014fd8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014fd8                gMoveHighlight
+ .bss.gNoOption
+                0x0000000000014fe0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014fe0                gNoOption
+ .bss.gNoResponse
+                0x0000000000014fe8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000014fe8                gNoResponse
+ .bss.gNoSubmitIf
+                0x0000000000014ff0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gNoSubmitIfFailed
+                0x0000000000014ff8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gNvUpdateMessage
+                0x0000000000015000        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015000                gNvUpdateMessage
+ .bss.gOkOption
+                0x0000000000015008        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015008                gOkOption
+ .bss.gOldFormEntry
+                0x0000000000015010       0x38 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gOptionBlockWidth
+                0x0000000000015048        0x2 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015048                gOptionBlockWidth
+ *fill*         0x000000000001504a        0x6 
+ .bss.gOptionMismatch
+                0x0000000000015050        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gPassowordInvalid
+                0x0000000000015058        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gPasswordUnsupported
+                0x0000000000015060        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gPlusString
+                0x0000000000015068        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015068                gPlusString
+ .bss.gPressEnter
+                0x0000000000015070        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gPromptBlockWidth
+                0x0000000000015078        0x2 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ *fill*         0x000000000001507a        0x6 
+ .bss.gPromptForData
+                0x0000000000015080        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gPromptForNewPassword
+                0x0000000000015088        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gPromptForPassword
+                0x0000000000015090        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gProtocolNotFound
+                0x0000000000015098        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gRT       0x00000000000150a0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x00000000000150a0                gRT
+ .bss.gReconnectConfirmChanges
+                0x00000000000150a8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gReconnectFail
+                0x00000000000150b0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gReconnectRequired
+                0x00000000000150b8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gST       0x00000000000150c0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x00000000000150c0                gST
+ .bss.gSaveChanges
+                0x00000000000150c8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x00000000000150c8                gSaveChanges
+ .bss.gSaveFailed
+                0x00000000000150d0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gSaveNoSubmitProcess
+                0x00000000000150d8        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gSaveProcess
+                0x00000000000150e0        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gScreenDimensions
+                0x00000000000150e8       0x20 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x00000000000150e8                gScreenDimensions
+ .bss.gStatementDimensions
+                0x0000000000015108       0x20 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015108                gStatementDimensions
+ .bss.gToggleCheckBox
+                0x0000000000015128        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015128                gToggleCheckBox
+ .bss.gUserInput
+                0x0000000000015130        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015130                gUserInput
+ .bss.gWarningPopup
+                0x0000000000015138        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015138                gWarningPopup
+ .bss.gYesOption
+                0x0000000000015140        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015140                gYesOption
+ .bss.gYesResponse
+                0x0000000000015148        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015148                gYesResponse
+ .bss.mCDLStringPackHandle
+                0x0000000000015150        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015150                mCDLStringPackHandle
+ .bss.mLibUnknownString
+                0x0000000000015158        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015158                mLibUnknownString
+ .bss.mSpaceBuffer
+                0x0000000000015160        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+                0x0000000000015160                mSpaceBuffer
+ .bss.mUnknownString
+                0x0000000000015168        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .bss.gMaxRowWidth
+                0x0000000000015170        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .bss.gMesStrLineNum
+                0x0000000000015178        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .bss.gMessageString
+                0x0000000000015180        0x8 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .bss.gPopupDimensions
+                0x0000000000015188       0x20 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .bss.gUserSelectableOptions
+                0x00000000000151a8       0x10 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+
+.igot.plt       0x00000000000151b8        0x0
+ .igot.plt      0x00000000000151b8        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x00000000000151b8        0x0
+ *(.rela .rela.*)
+ .rela.iplt     0x00000000000151b8        0x0 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+
+.hii
+ *(.hii)
+
+.build-id
+ *(.note.gnu.build-id)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/DEBUG/DisplayEngine.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x35acf
+ .debug_info    0x0000000000000000     0x8dc8 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .debug_info    0x0000000000008dc8     0x7b90 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .debug_info    0x0000000000010958     0x191f /tmp/ccT4eaYI.debug.temp.o
+                0x0000000000010958                DriverEntryPoint.c.6ad2c6b6
+ .debug_info    0x0000000000012277      0x100 /tmp/ccYzkgLB.debug.temp.o
+                0x0000000000012277                memcpy.c.124218b3
+ .debug_info    0x0000000000012377       0xb1 /tmp/ccAGpxrq.debug.temp.o
+                0x0000000000012377                memset.c.fe78e419
+ .debug_info    0x0000000000012428       0xb0 /tmp/ccvRXleD.debug.temp.o
+                0x0000000000012428                BaseStackCheckGcc.c.4b3a57a0
+ .debug_info    0x00000000000124d8     0x1ee4 /tmp/cchEaaLz.debug.temp.o
+                0x00000000000124d8                AutoGen.c.4d83cada
+ .debug_info    0x00000000000143bc     0x3e27 /tmp/ccpdz2Qs.debug.temp.o
+                0x00000000000143bc                FormDisplay.c.84134657
+ .debug_info    0x00000000000181e3     0x2c56 /tmp/ccZBp4p0.debug.temp.o
+                0x00000000000181e3                ProcessOptions.c.bad8d1a4
+ .debug_info    0x000000000001ae39     0x297f /tmp/ccNPzhNk.debug.temp.o
+                0x000000000001ae39                InputHandler.c.b6199e45
+ .debug_info    0x000000000001d7b8     0x1ebe /tmp/cc3IR3n1.debug.temp.o
+                0x000000000001d7b8                Popup.c.af2d1131
+ .debug_info    0x000000000001f676       0xad /tmp/cc1aH4cZ.debug.temp.o
+                0x000000000001f676                MultU64x32.c.35a86048
+ .debug_info    0x000000000001f723       0xad /tmp/cc0M6BeV.debug.temp.o
+                0x000000000001f723                LShiftU64.c.d5f1ff37
+ .debug_info    0x000000000001f7d0      0x328 /tmp/ccQUi3R8.debug.temp.o
+                0x000000000001f7d0                LinkedList.c.b8b68687
+ .debug_info    0x000000000001faf8      0xf83 /tmp/cc1bfJDj.debug.temp.o
+                0x000000000001faf8                SafeString.c.1b674302
+ .debug_info    0x0000000000020a7b      0x711 /tmp/ccWBKtrY.debug.temp.o
+                0x0000000000020a7b                String.c.8e83c025
+ .debug_info    0x000000000002118c      0x30e /tmp/ccQsaWWm.debug.temp.o
+                0x000000000002118c                Math64.c.df2e98ae
+ .debug_info    0x000000000002149a      0x1d0 /tmp/ccNbnDL5.debug.temp.o
+                0x000000000002149a                MemLibGuid.c.0abd8b36
+ .debug_info    0x000000000002166a       0xaf /tmp/ccPXpdMz.debug.temp.o
+                0x000000000002166a                ZeroMemWrapper.c.0fd9aaec
+ .debug_info    0x0000000000021719       0xdc /tmp/cc7X7tpo.debug.temp.o
+                0x0000000000021719                CompareMemWrapper.c.32802e29
+ .debug_info    0x00000000000217f5       0xc6 /tmp/ccf2qSN2.debug.temp.o
+                0x00000000000217f5                CopyMemWrapper.c.5220106c
+ .debug_info    0x00000000000218bb      0x5ad /tmp/cc379Yja.debug.temp.o
+                0x00000000000218bb                PrintLib.c.b75a7535
+ .debug_info    0x0000000000021e68      0x753 /tmp/cc0khbYz.debug.temp.o
+                0x0000000000021e68                PrintLibInternal.c.b254bcc3
+ .debug_info    0x00000000000225bb      0x32b /tmp/ccvaG4AL.debug.temp.o
+                0x00000000000225bb                DebugLib.c.b228dbcd
+ .debug_info    0x00000000000228e6     0x17cd /tmp/cc4VMfml.debug.temp.o
+                0x00000000000228e6                UefiBootServicesTableLib.c.40f3e47d
+ .debug_info    0x00000000000240b3     0x13a8 /tmp/cci6F7m0.debug.temp.o
+                0x00000000000240b3                MemoryAllocationLib.c.3e4a7161
+ .debug_info    0x000000000002545b     0x179e /tmp/ccEtjl6p.debug.temp.o
+                0x000000000002545b                UefiRuntimeServicesTableLib.c.90bd0d28
+ .debug_info    0x0000000000026bf9     0x2832 /tmp/ccsHPGIw.debug.temp.o
+                0x0000000000026bf9                UefiHiiServicesLib.c.60c1a6cc
+ .debug_info    0x000000000002942b     0x2543 /tmp/cc2vjyJm.debug.temp.o
+                0x000000000002942b                UefiLib.c.33a327e5
+ .debug_info    0x000000000002b96e     0x3bd7 /tmp/ccoRH3Fy.debug.temp.o
+                0x000000000002b96e                HiiLib.c.b28fbabb
+ .debug_info    0x000000000002f545      0x562 /tmp/ccQngP3B.debug.temp.o
+                0x000000000002f545                HiiString.c.bee056df
+ .debug_info    0x000000000002faa7      0x390 /tmp/ccmHn35t.debug.temp.o
+                0x000000000002faa7                HiiLanguage.c.4036365e
+ .debug_info    0x000000000002fe37     0x26a4 /tmp/ccm2mUeV.debug.temp.o
+                0x000000000002fe37                CustomizedDisplayLib.c.727a5c3d
+ .debug_info    0x00000000000324db     0x282c /tmp/ccoOggCH.debug.temp.o
+                0x00000000000324db                CustomizedDisplayLibInternal.c.78c4709b
+ .debug_info    0x0000000000034d07       0x98 /tmp/ccFeyQl8.debug.temp.o
+                0x0000000000034d07                AutoGen.c.a3db8bac
+ .debug_info    0x0000000000034d9f       0xc3 /tmp/ccDW94h3.debug.temp.o
+                0x0000000000034d9f                DivU64x32Remainder.c.99a75392
+ .debug_info    0x0000000000034e62      0x238 /tmp/cc180Nia.debug.temp.o
+                0x0000000000034e62                Unaligned.c.a40271e9
+ .debug_info    0x000000000003509a      0x277 /tmp/ccWFHVKj.debug.temp.o
+                0x000000000003509a                SerialPortLib.c.bf19079b
+ .debug_info    0x0000000000035311      0x2d3 /tmp/ccqaFz0e.debug.temp.o
+                0x0000000000035311                UartLib.c.db43ab4c
+ .debug_info    0x00000000000355e4      0x4eb /tmp/cc707ohF.debug.temp.o
+                0x00000000000355e4                IoLibNoIo.c.373e17b9
+
+.debug_abbrev   0x0000000000000000     0x36f3
+ .debug_abbrev  0x0000000000000000      0x21c /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .debug_abbrev  0x000000000000021c      0x294 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .debug_abbrev  0x00000000000004b0      0x1d1 /tmp/ccT4eaYI.debug.temp.o
+ .debug_abbrev  0x0000000000000681       0xa4 /tmp/ccYzkgLB.debug.temp.o
+ .debug_abbrev  0x0000000000000725       0x76 /tmp/ccAGpxrq.debug.temp.o
+ .debug_abbrev  0x000000000000079b       0x87 /tmp/ccvRXleD.debug.temp.o
+ .debug_abbrev  0x0000000000000822      0x25d /tmp/cchEaaLz.debug.temp.o
+ .debug_abbrev  0x0000000000000a7f      0x2b9 /tmp/ccpdz2Qs.debug.temp.o
+ .debug_abbrev  0x0000000000000d38      0x2b5 /tmp/ccZBp4p0.debug.temp.o
+ .debug_abbrev  0x0000000000000fed      0x286 /tmp/ccNPzhNk.debug.temp.o
+ .debug_abbrev  0x0000000000001273      0x246 /tmp/cc3IR3n1.debug.temp.o
+ .debug_abbrev  0x00000000000014b9       0x66 /tmp/cc1aH4cZ.debug.temp.o
+ .debug_abbrev  0x000000000000151f       0x57 /tmp/cc0M6BeV.debug.temp.o
+ .debug_abbrev  0x0000000000001576      0x102 /tmp/ccQUi3R8.debug.temp.o
+ .debug_abbrev  0x0000000000001678      0x133 /tmp/cc1bfJDj.debug.temp.o
+ .debug_abbrev  0x00000000000017ab      0x101 /tmp/ccWBKtrY.debug.temp.o
+ .debug_abbrev  0x00000000000018ac       0xa8 /tmp/ccQsaWWm.debug.temp.o
+ .debug_abbrev  0x0000000000001954       0xb6 /tmp/ccNbnDL5.debug.temp.o
+ .debug_abbrev  0x0000000000001a0a       0x5e /tmp/ccPXpdMz.debug.temp.o
+ .debug_abbrev  0x0000000000001a68       0x67 /tmp/cc7X7tpo.debug.temp.o
+ .debug_abbrev  0x0000000000001acf       0x6e /tmp/ccf2qSN2.debug.temp.o
+ .debug_abbrev  0x0000000000001b3d      0x106 /tmp/cc379Yja.debug.temp.o
+ .debug_abbrev  0x0000000000001c43      0x15c /tmp/cc0khbYz.debug.temp.o
+ .debug_abbrev  0x0000000000001d9f      0x12d /tmp/ccvaG4AL.debug.temp.o
+ .debug_abbrev  0x0000000000001ecc      0x1c5 /tmp/cc4VMfml.debug.temp.o
+ .debug_abbrev  0x0000000000002091      0x1e4 /tmp/cci6F7m0.debug.temp.o
+ .debug_abbrev  0x0000000000002275      0x198 /tmp/ccEtjl6p.debug.temp.o
+ .debug_abbrev  0x000000000000240d      0x1fe /tmp/ccsHPGIw.debug.temp.o
+ .debug_abbrev  0x000000000000260b      0x24f /tmp/cc2vjyJm.debug.temp.o
+ .debug_abbrev  0x000000000000285a      0x2e1 /tmp/ccoRH3Fy.debug.temp.o
+ .debug_abbrev  0x0000000000002b3b      0x134 /tmp/ccQngP3B.debug.temp.o
+ .debug_abbrev  0x0000000000002c6f       0xf4 /tmp/ccmHn35t.debug.temp.o
+ .debug_abbrev  0x0000000000002d63      0x2da /tmp/ccm2mUeV.debug.temp.o
+ .debug_abbrev  0x000000000000303d      0x2d4 /tmp/ccoOggCH.debug.temp.o
+ .debug_abbrev  0x0000000000003311       0x5f /tmp/ccFeyQl8.debug.temp.o
+ .debug_abbrev  0x0000000000003370       0x62 /tmp/ccDW94h3.debug.temp.o
+ .debug_abbrev  0x00000000000033d2       0x7f /tmp/cc180Nia.debug.temp.o
+ .debug_abbrev  0x0000000000003451       0xc2 /tmp/ccWFHVKj.debug.temp.o
+ .debug_abbrev  0x0000000000003513       0xf8 /tmp/ccqaFz0e.debug.temp.o
+ .debug_abbrev  0x000000000000360b       0xe8 /tmp/cc707ohF.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x1b2f9
+ .debug_loc     0x0000000000000000     0xb414 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .debug_loc     0x000000000000b414     0xfee5 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x7d0
+ .debug_aranges
+                0x0000000000000000      0x280 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000280      0x550 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x1e60
+ .debug_ranges  0x0000000000000000      0xe60 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000e60     0x1000 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+
+.debug_line     0x0000000000000000     0xfbfd
+ .debug_line    0x0000000000000000     0x60ab /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .debug_line    0x00000000000060ab     0x581d /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+ .debug_line    0x000000000000b8c8      0x2de /tmp/ccT4eaYI.debug.temp.o
+ .debug_line    0x000000000000bba6       0x70 /tmp/ccYzkgLB.debug.temp.o
+ .debug_line    0x000000000000bc16       0x70 /tmp/ccAGpxrq.debug.temp.o
+ .debug_line    0x000000000000bc86      0x144 /tmp/ccvRXleD.debug.temp.o
+ .debug_line    0x000000000000bdca      0x2da /tmp/cchEaaLz.debug.temp.o
+ .debug_line    0x000000000000c0a4      0x39c /tmp/ccpdz2Qs.debug.temp.o
+ .debug_line    0x000000000000c440      0x35e /tmp/ccZBp4p0.debug.temp.o
+ .debug_line    0x000000000000c79e      0x2c6 /tmp/ccNPzhNk.debug.temp.o
+ .debug_line    0x000000000000ca64      0x279 /tmp/cc3IR3n1.debug.temp.o
+ .debug_line    0x000000000000ccdd       0xb1 /tmp/cc1aH4cZ.debug.temp.o
+ .debug_line    0x000000000000cd8e       0xb0 /tmp/cc0M6BeV.debug.temp.o
+ .debug_line    0x000000000000ce3e      0x159 /tmp/ccQUi3R8.debug.temp.o
+ .debug_line    0x000000000000cf97      0x159 /tmp/cc1bfJDj.debug.temp.o
+ .debug_line    0x000000000000d0f0      0x155 /tmp/ccWBKtrY.debug.temp.o
+ .debug_line    0x000000000000d245       0xad /tmp/ccQsaWWm.debug.temp.o
+ .debug_line    0x000000000000d2f2       0xfb /tmp/ccNbnDL5.debug.temp.o
+ .debug_line    0x000000000000d3ed       0xc1 /tmp/ccPXpdMz.debug.temp.o
+ .debug_line    0x000000000000d4ae       0xc4 /tmp/cc7X7tpo.debug.temp.o
+ .debug_line    0x000000000000d572       0xc1 /tmp/ccf2qSN2.debug.temp.o
+ .debug_line    0x000000000000d633       0xfc /tmp/cc379Yja.debug.temp.o
+ .debug_line    0x000000000000d72f      0x192 /tmp/cc0khbYz.debug.temp.o
+ .debug_line    0x000000000000d8c1      0x192 /tmp/ccvaG4AL.debug.temp.o
+ .debug_line    0x000000000000da53      0x237 /tmp/cc4VMfml.debug.temp.o
+ .debug_line    0x000000000000dc8a      0x20c /tmp/cci6F7m0.debug.temp.o
+ .debug_line    0x000000000000de96      0x1e7 /tmp/ccEtjl6p.debug.temp.o
+ .debug_line    0x000000000000e07d      0x39a /tmp/ccsHPGIw.debug.temp.o
+ .debug_line    0x000000000000e417      0x2d5 /tmp/cc2vjyJm.debug.temp.o
+ .debug_line    0x000000000000e6ec      0x333 /tmp/ccoRH3Fy.debug.temp.o
+ .debug_line    0x000000000000ea1f      0x209 /tmp/ccQngP3B.debug.temp.o
+ .debug_line    0x000000000000ec28      0x20b /tmp/ccmHn35t.debug.temp.o
+ .debug_line    0x000000000000ee33      0x39e /tmp/ccm2mUeV.debug.temp.o
+ .debug_line    0x000000000000f1d1      0x3d2 /tmp/ccoOggCH.debug.temp.o
+ .debug_line    0x000000000000f5a3       0xcd /tmp/ccFeyQl8.debug.temp.o
+ .debug_line    0x000000000000f670       0xb9 /tmp/ccDW94h3.debug.temp.o
+ .debug_line    0x000000000000f729       0xb4 /tmp/cc180Nia.debug.temp.o
+ .debug_line    0x000000000000f7dd      0x14f /tmp/ccWFHVKj.debug.temp.o
+ .debug_line    0x000000000000f92c      0x1c7 /tmp/ccqaFz0e.debug.temp.o
+ .debug_line    0x000000000000faf3      0x10a /tmp/cc707ohF.debug.temp.o
+
+.debug_str      0x0000000000000000     0x8db8
+ .debug_str     0x0000000000000000      0x568 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .debug_str     0x0000000000000568       0x64 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o
+                                        0x454 (size before relaxing)
+ .debug_str     0x00000000000005cc     0x1302 /tmp/ccT4eaYI.debug.temp.o
+                                       0x1464 (size before relaxing)
+ .debug_str     0x00000000000018ce      0x21d /tmp/ccYzkgLB.debug.temp.o
+                                        0x2a4 (size before relaxing)
+ .debug_str     0x0000000000001aeb       0x58 /tmp/ccAGpxrq.debug.temp.o
+                                        0x298 (size before relaxing)
+ .debug_str     0x0000000000001b43      0x110 /tmp/ccvRXleD.debug.temp.o
+                                        0x2f2 (size before relaxing)
+ .debug_str     0x0000000000001c53      0xba1 /tmp/cchEaaLz.debug.temp.o
+                                       0x1f0a (size before relaxing)
+ .debug_str     0x00000000000027f4     0x1690 /tmp/ccpdz2Qs.debug.temp.o
+                                       0x2e02 (size before relaxing)
+ .debug_str     0x0000000000003e84      0x42f /tmp/ccZBp4p0.debug.temp.o
+                                       0x1f22 (size before relaxing)
+ .debug_str     0x00000000000042b3      0x2d2 /tmp/ccNPzhNk.debug.temp.o
+                                       0x1d16 (size before relaxing)
+ .debug_str     0x0000000000004585      0x2ae /tmp/cc3IR3n1.debug.temp.o
+                                       0x18f2 (size before relaxing)
+ .debug_str     0x0000000000004833       0xb8 /tmp/cc1aH4cZ.debug.temp.o
+                                        0x29a (size before relaxing)
+ .debug_str     0x00000000000048eb       0x4c /tmp/cc0M6BeV.debug.temp.o
+                                        0x28e (size before relaxing)
+ .debug_str     0x0000000000004937      0x11d /tmp/ccQUi3R8.debug.temp.o
+                                        0x3f6 (size before relaxing)
+ .debug_str     0x0000000000004a54      0x2d3 /tmp/cc1bfJDj.debug.temp.o
+                                        0x6ed (size before relaxing)
+ .debug_str     0x0000000000004d27      0x2d8 /tmp/ccWBKtrY.debug.temp.o
+                                        0x67e (size before relaxing)
+ .debug_str     0x0000000000004fff      0x19b /tmp/ccQsaWWm.debug.temp.o
+                                        0x407 (size before relaxing)
+ .debug_str     0x000000000000519a      0x114 /tmp/ccNbnDL5.debug.temp.o
+                                        0x33b (size before relaxing)
+ .debug_str     0x00000000000052ae       0x55 /tmp/ccPXpdMz.debug.temp.o
+                                        0x2b5 (size before relaxing)
+ .debug_str     0x0000000000005303       0x77 /tmp/cc7X7tpo.debug.temp.o
+                                        0x2de (size before relaxing)
+ .debug_str     0x000000000000537a       0x55 /tmp/ccf2qSN2.debug.temp.o
+                                        0x2cd (size before relaxing)
+ .debug_str     0x00000000000053cf      0x229 /tmp/cc379Yja.debug.temp.o
+                                        0x48c (size before relaxing)
+ .debug_str     0x00000000000055f8      0x241 /tmp/cc0khbYz.debug.temp.o
+                                        0x687 (size before relaxing)
+ .debug_str     0x0000000000005839      0x1b8 /tmp/ccvaG4AL.debug.temp.o
+                                        0x4eb (size before relaxing)
+ .debug_str     0x00000000000059f1      0x105 /tmp/cc4VMfml.debug.temp.o
+                                       0x1382 (size before relaxing)
+ .debug_str     0x0000000000005af6      0x312 /tmp/cci6F7m0.debug.temp.o
+                                        0xf74 (size before relaxing)
+ .debug_str     0x0000000000005e08      0x114 /tmp/ccEtjl6p.debug.temp.o
+                                       0x1384 (size before relaxing)
+ .debug_str     0x0000000000005f1c      0xb17 /tmp/ccsHPGIw.debug.temp.o
+                                       0x1fb9 (size before relaxing)
+ .debug_str     0x0000000000006a33      0x6c3 /tmp/cc2vjyJm.debug.temp.o
+                                       0x1b28 (size before relaxing)
+ .debug_str     0x00000000000070f6      0xc96 /tmp/ccoRH3Fy.debug.temp.o
+                                       0x244c (size before relaxing)
+ .debug_str     0x0000000000007d8c       0xc9 /tmp/ccQngP3B.debug.temp.o
+                                        0x51f (size before relaxing)
+ .debug_str     0x0000000000007e55       0x8c /tmp/ccmHn35t.debug.temp.o
+                                        0x455 (size before relaxing)
+ .debug_str     0x0000000000007ee1      0x51e /tmp/ccm2mUeV.debug.temp.o
+                                       0x1e31 (size before relaxing)
+ .debug_str     0x00000000000083ff      0x2ea /tmp/ccoOggCH.debug.temp.o
+                                       0x1da7 (size before relaxing)
+ .debug_str     0x00000000000086e9       0x8b /tmp/ccFeyQl8.debug.temp.o
+                                        0x2c1 (size before relaxing)
+ .debug_str     0x0000000000008774       0x60 /tmp/ccDW94h3.debug.temp.o
+                                        0x2ae (size before relaxing)
+ .debug_str     0x00000000000087d4       0xe1 /tmp/cc180Nia.debug.temp.o
+                                        0x345 (size before relaxing)
+ .debug_str     0x00000000000088b5      0x1f6 /tmp/ccWFHVKj.debug.temp.o
+                                        0x43f (size before relaxing)
+ .debug_str     0x0000000000008aab      0x123 /tmp/ccqaFz0e.debug.temp.o
+                                        0x438 (size before relaxing)
+ .debug_str     0x0000000000008bce      0x1ea /tmp/cc707ohF.debug.temp.o
+                                        0x3fa (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1890
+ .debug_frame   0x0000000000000000      0x848 /tmp/DisplayEngine.dll.IPoohU.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000848     0x1048 /tmp/DisplayEngine.dll.IPoohU.ltrans1.ltrans.o

@@ -1,0 +1,14 @@
+-I/home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/ArmExceptionLib/AArch64
+-I/home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/ArmExceptionLib
+-I/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/DEBUG
+-I/home/daijh/sdk/rk3588/uefi/edk2/MdePkg
+-I/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include
+-I/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Test/UnitTest/Include
+-I/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/AArch64
+-I/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg
+-I/home/daijh/sdk/rk3588/uefi/edk2/MdeModulePkg/Include
+-I/home/daijh/sdk/rk3588/uefi/edk2/ArmPkg
+-I/home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Include
+-I/home/daijh/sdk/rk3588/uefi/edk2-platforms/Silicon/Rockchip/RK3588/Include
+-I/home/daijh/sdk/rk3588/uefi/edk2-platforms/Platform/Rockchip/RK3588/Include
+-I/home/daijh/sdk/rk3588/uefi/edk2-platforms/Silicon/Rockchip/Include

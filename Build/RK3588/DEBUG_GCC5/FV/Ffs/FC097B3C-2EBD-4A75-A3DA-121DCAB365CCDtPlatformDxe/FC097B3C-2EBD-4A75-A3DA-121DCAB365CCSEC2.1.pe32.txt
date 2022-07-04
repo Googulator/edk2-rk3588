@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/FC097B3C-2EBD-4A75-A3DA-121DCAB365CCDtPlatformDxe/FC097B3C-2EBD-4A75-A3DA-121DCAB365CCSEC2.1.pe32 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Drivers/DtPlatformDxe/DtPlatformDxe/OUTPUT/DtPlatformDxe.efi

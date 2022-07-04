@@ -1,0 +1,1895 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Driver.obj)
+                              AutoGen.obj (symbol from plugin) (Ip4DriverEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4If.obj)
+                              Ip4Driver.obj (symbol from plugin) (Ip4CreateInterface)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Output.obj)
+                              Ip4Driver.obj (symbol from plugin) (mIp4Id)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Igmp.obj)
+                              Ip4Driver.obj (symbol from plugin) (Ip4InitIgmp)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Impl.obj)
+                              Ip4Driver.obj (symbol from plugin) (Ip4ServiceConfigMnp)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Common.obj)
+                              Ip4Output.obj (symbol from plugin) (Ip4GetNetCast)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Option.obj)
+                              Ip4Impl.obj (symbol from plugin) (Ip4OptionIsValid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(ComponentName.obj)
+                              Ip4Driver.obj (symbol from plugin) (gIp4ComponentName)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Route.obj)
+                              Ip4If.obj (symbol from plugin) (Ip4FreeRouteCacheEntry)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Input.obj)
+                              Ip4Driver.obj (symbol from plugin) (Ip4InitAssembleTable)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Config2Impl.obj)
+                              Ip4Driver.obj (symbol from plugin) (Ip4Config2DestroyDhcp4)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Config2Nv.obj)
+                              Ip4Config2Impl.obj (symbol from plugin) (Ip4Config2FormUnload)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Icmp.obj)
+                              Ip4Input.obj (symbol from plugin) (Ip4IcmpHandle)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib(Ip4Config2.obj)
+                              Ip4Config2Nv.obj (symbol from plugin) (Ip4Config2Bin)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              Ip4Config2Nv.obj (symbol from plugin) (CopyGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              Ip4Driver.obj (symbol from plugin) (ZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              Ip4If.obj (symbol from plugin) (CompareMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              Ip4If.obj (symbol from plugin) (CopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              Ip4If.obj (symbol from plugin) (SwapBytes32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              Ip4Output.obj (symbol from plugin) (SwapBytes16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              Ip4Driver.obj (symbol from plugin) (InitializeListHead)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              Ip4Config2Nv.obj (symbol from plugin) (StrLen)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              CpuDeadLoop.obj (symbol from plugin) (CpuPause)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              String.obj (symbol from plugin) (StrDecimalToUintnS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (LShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              ComponentName.obj (symbol from plugin) (UnicodeSPrint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              Ip4Driver.obj (symbol from plugin) (AllocatePool)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              Ip4Config2Nv.obj (symbol from plugin) (SetDevicePathNodeLength)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              Ip4Driver.obj (symbol from plugin) (EfiLibInstallDriverBindingComponentName2)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              Ip4Config2Nv.obj (symbol from plugin) (CreatePopUp)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(DxeNetLib.obj)
+                              Ip4Impl.obj (symbol from plugin) (NetGetMaskLength)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(NetBuffer.obj)
+                              Ip4Igmp.obj (symbol from plugin) (NetbufAlloc)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeDpcLib/DxeDpcLib/OUTPUT/DxeDpcLib.lib(DpcLib.obj)
+                              AutoGen.obj (symbol from plugin) (DpcLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              Ip4Config2Nv.obj (symbol from plugin) (HiiAddPackages)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              Ip4Config2Nv.obj (symbol from plugin) (HiiSetString)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem16Wrapper.obj)
+                              Console.obj (symbol from plugin) (SetMem16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib(SerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib(UartLib.obj)
+                              SerialPortLib.obj (symbol from plugin) (UartInitializePort)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              UartLib.obj (symbol from plugin) (MmioRead32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              IoLibNoIo.obj (symbol from plugin) (FilterBeforeMmIoRead)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4ComponentNameGetDriverName
+                0x0000000000000000       0x2c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4ComponentNameGetControllerName.str2.2
+                0x0000000000000000       0x58 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4ComponentNameGetControllerName.str1.1
+                0x0000000000000000        0x7 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4ComponentNameGetControllerName
+                0x0000000000000000      0x204 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000000000       0x20 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x0000000000000000       0x2e /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000000000       0x4c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.IsNodeInList.str1.1
+                0x0000000000000000       0x44 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0xa0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000        0x7 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.str2.2
+                0x0000000000000000       0x36 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gIp4ComponentName
+                0x0000000000000000       0x18 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gIp4ComponentName2
+                0x0000000000000000       0x18 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.mIp4DriverNameTable
+                0x0000000000000000       0x20 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x0000000000000000        0x1 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+                0x0000000000000000        0x4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdVerifyNodeInList
+                0x0000000000000000        0x1 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x0000000000000000        0x4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.IsLanguageSupported
+                0x0000000000000000       0x88 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.ReadUnaligned24
+                0x0000000000000000       0x4c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.LookupUnicodeString2
+                0x0000000000000000      0x100 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.AddUnicodeString2.part.0.constprop.0
+                0x0000000000000000      0x1a0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .data.__stack_chk_guard
+                0x0000000000000000        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/cczyF1S9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczyF1S9.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc30CvNk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc30CvNk.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc6xJQoX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6xJQoX.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc9swtIs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9swtIs.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc4eDg6r.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4eDg6r.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccasGvpx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccasGvpx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQD4QGN.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQD4QGN.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccsbewzT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsbewzT.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc8UrLiD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8UrLiD.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccO41zZd.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccO41zZd.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccvdhAPW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvdhAPW.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccRHxBL7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRHxBL7.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccT5n2xd.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccT5n2xd.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccs494xK.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccs494xK.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccupTF44.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccupTF44.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccIVe4aQ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIVe4aQ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccsq3OMa.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsq3OMa.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cci6Doln.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cci6Doln.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccCAgsrJ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCAgsrJ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccTdsiWT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTdsiWT.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cccBDE0u.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccBDE0u.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccadh9Ve.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccadh9Ve.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccaO02dE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccaO02dE.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQq2iQn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQq2iQn.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc4MPRRi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4MPRRi.debug.temp.o
+ .debug_info    0x0000000000000000       0x96 /tmp/cc2Lkrui.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5c /tmp/cc2Lkrui.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/cc2Lkrui.debug.temp.o
+ .debug_str     0x0000000000000000      0x282 /tmp/cc2Lkrui.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc2Lkrui.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2Lkrui.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccOf82fx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOf82fx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc3DKVXU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3DKVXU.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccyKPdOK.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccyKPdOK.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccMuFT6Y.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccMuFT6Y.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccMuFT6Y.debug.temp.o
+ .debug_str     0x0000000000000000      0x28e /tmp/ccMuFT6Y.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccMuFT6Y.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMuFT6Y.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccw6xOsq.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/ccw6xOsq.debug.temp.o
+ .debug_line    0x0000000000000000       0xb1 /tmp/ccw6xOsq.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/ccw6xOsq.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccw6xOsq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccw6xOsq.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccoSU4tb.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccoSU4tb.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccoSU4tb.debug.temp.o
+ .debug_str     0x0000000000000000      0x28e /tmp/ccoSU4tb.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccoSU4tb.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoSU4tb.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/cc92yJj2.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/cc92yJj2.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/cc92yJj2.debug.temp.o
+ .debug_str     0x0000000000000000      0x292 /tmp/cc92yJj2.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc92yJj2.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc92yJj2.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccveKMxD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccveKMxD.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccRviGcL.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRviGcL.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccB5RPEm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccB5RPEm.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cco87qWO.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cco87qWO.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccLPKDSP.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLPKDSP.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cclbaQwa.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclbaQwa.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccD5GWWv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccD5GWWv.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccERyVU2.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccERyVU2.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccoSvTfc.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoSvTfc.debug.temp.o
+ .debug_info    0x0000000000000000     0x2675 /tmp/cc3HH7i6.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x231 /tmp/cc3HH7i6.debug.temp.o
+ .debug_line    0x0000000000000000      0x2c3 /tmp/cc3HH7i6.debug.temp.o
+ .debug_str     0x0000000000000000     0x13cf /tmp/cc3HH7i6.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc3HH7i6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3HH7i6.debug.temp.o
+ .debug_info    0x0000000000000000     0x2ef9 /tmp/ccXgvdu3.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x20d /tmp/ccXgvdu3.debug.temp.o
+ .debug_line    0x0000000000000000      0x2b7 /tmp/ccXgvdu3.debug.temp.o
+ .debug_str     0x0000000000000000     0x1cf4 /tmp/ccXgvdu3.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccXgvdu3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXgvdu3.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccf7Sl2S.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccf7Sl2S.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccS0ixMf.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccS0ixMf.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccU3KacK.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccU3KacK.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cckxc0er.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckxc0er.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccGvrcPg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGvrcPg.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccMJQcm7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMJQcm7.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccsANmwe.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsANmwe.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccLHstdH.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLHstdH.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccwMUSi5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwMUSi5.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccV9ebjf.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccV9ebjf.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccvliUJ0.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvliUJ0.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccA2kRC4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccA2kRC4.debug.temp.o
+ .debug_info    0x0000000000000000      0x108 /tmp/ccNRzpZv.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x73 /tmp/ccNRzpZv.debug.temp.o
+ .debug_line    0x0000000000000000       0xc0 /tmp/ccNRzpZv.debug.temp.o
+ .debug_str     0x0000000000000000      0x2ce /tmp/ccNRzpZv.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccNRzpZv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNRzpZv.debug.temp.o
+ .debug_info    0x0000000000000000       0xbb /tmp/cco1td1u.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5e /tmp/cco1td1u.debug.temp.o
+ .debug_line    0x0000000000000000       0xc2 /tmp/cco1td1u.debug.temp.o
+ .debug_str     0x0000000000000000      0x2bd /tmp/cco1td1u.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cco1td1u.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cco1td1u.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/ccJN3M62.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccJN3M62.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccJN3M62.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/ccJN3M62.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccJN3M62.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJN3M62.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccKGrw5j.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKGrw5j.debug.temp.o
+ .debug_info    0x0000000000000000      0x795 /tmp/cclWG6ib.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x9f /tmp/cclWG6ib.debug.temp.o
+ .debug_line    0x0000000000000000       0xaf /tmp/cclWG6ib.debug.temp.o
+ .debug_str     0x0000000000000000      0x48b /tmp/cclWG6ib.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cclWG6ib.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclWG6ib.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccagmls0.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccagmls0.debug.temp.o
+ .debug_info    0x0000000000000000       0xb6 /tmp/ccawKVaC.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x86 /tmp/ccawKVaC.debug.temp.o
+ .debug_line    0x0000000000000000      0x16c /tmp/ccawKVaC.debug.temp.o
+ .debug_str     0x0000000000000000      0x324 /tmp/ccawKVaC.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccawKVaC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccawKVaC.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccAdYpjv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAdYpjv.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cclA1DKE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclA1DKE.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccZVBdSR.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZVBdSR.debug.temp.o
+ .debug_info    0x0000000000000000      0x302 /tmp/ccd1v5Dt.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xcd /tmp/ccd1v5Dt.debug.temp.o
+ .debug_line    0x0000000000000000      0x119 /tmp/ccd1v5Dt.debug.temp.o
+ .debug_str     0x0000000000000000      0x40b /tmp/ccd1v5Dt.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccd1v5Dt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccd1v5Dt.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .text          0x0000000000000000       0x20 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+LOAD /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+LOAD /tmp/cczyF1S9.debug.temp.o
+LOAD /tmp/cc30CvNk.debug.temp.o
+LOAD /tmp/cc6xJQoX.debug.temp.o
+LOAD /tmp/cc9swtIs.debug.temp.o
+LOAD /tmp/cc4eDg6r.debug.temp.o
+LOAD /tmp/ccasGvpx.debug.temp.o
+LOAD /tmp/ccQD4QGN.debug.temp.o
+LOAD /tmp/ccsbewzT.debug.temp.o
+LOAD /tmp/cc8UrLiD.debug.temp.o
+LOAD /tmp/ccO41zZd.debug.temp.o
+LOAD /tmp/ccvdhAPW.debug.temp.o
+LOAD /tmp/ccRHxBL7.debug.temp.o
+LOAD /tmp/ccT5n2xd.debug.temp.o
+LOAD /tmp/ccs494xK.debug.temp.o
+LOAD /tmp/ccupTF44.debug.temp.o
+LOAD /tmp/ccIVe4aQ.debug.temp.o
+LOAD /tmp/ccsq3OMa.debug.temp.o
+LOAD /tmp/cci6Doln.debug.temp.o
+LOAD /tmp/ccCAgsrJ.debug.temp.o
+LOAD /tmp/ccTdsiWT.debug.temp.o
+LOAD /tmp/cccBDE0u.debug.temp.o
+LOAD /tmp/ccadh9Ve.debug.temp.o
+LOAD /tmp/ccaO02dE.debug.temp.o
+LOAD /tmp/ccQq2iQn.debug.temp.o
+LOAD /tmp/cc4MPRRi.debug.temp.o
+LOAD /tmp/cc2Lkrui.debug.temp.o
+LOAD /tmp/ccOf82fx.debug.temp.o
+LOAD /tmp/cc3DKVXU.debug.temp.o
+LOAD /tmp/ccyKPdOK.debug.temp.o
+LOAD /tmp/ccMuFT6Y.debug.temp.o
+LOAD /tmp/ccw6xOsq.debug.temp.o
+LOAD /tmp/ccoSU4tb.debug.temp.o
+LOAD /tmp/cc92yJj2.debug.temp.o
+LOAD /tmp/ccveKMxD.debug.temp.o
+LOAD /tmp/ccRviGcL.debug.temp.o
+LOAD /tmp/ccB5RPEm.debug.temp.o
+LOAD /tmp/cco87qWO.debug.temp.o
+LOAD /tmp/ccLPKDSP.debug.temp.o
+LOAD /tmp/cclbaQwa.debug.temp.o
+LOAD /tmp/ccD5GWWv.debug.temp.o
+LOAD /tmp/ccERyVU2.debug.temp.o
+LOAD /tmp/ccoSvTfc.debug.temp.o
+LOAD /tmp/cc3HH7i6.debug.temp.o
+LOAD /tmp/ccXgvdu3.debug.temp.o
+LOAD /tmp/ccf7Sl2S.debug.temp.o
+LOAD /tmp/ccS0ixMf.debug.temp.o
+LOAD /tmp/ccU3KacK.debug.temp.o
+LOAD /tmp/cckxc0er.debug.temp.o
+LOAD /tmp/ccGvrcPg.debug.temp.o
+LOAD /tmp/ccMJQcm7.debug.temp.o
+LOAD /tmp/ccsANmwe.debug.temp.o
+LOAD /tmp/ccLHstdH.debug.temp.o
+LOAD /tmp/ccwMUSi5.debug.temp.o
+LOAD /tmp/ccV9ebjf.debug.temp.o
+LOAD /tmp/ccvliUJ0.debug.temp.o
+LOAD /tmp/ccA2kRC4.debug.temp.o
+LOAD /tmp/ccNRzpZv.debug.temp.o
+LOAD /tmp/cco1td1u.debug.temp.o
+LOAD /tmp/ccJN3M62.debug.temp.o
+LOAD /tmp/ccKGrw5j.debug.temp.o
+LOAD /tmp/cclWG6ib.debug.temp.o
+LOAD /tmp/ccagmls0.debug.temp.o
+LOAD /tmp/ccawKVaC.debug.temp.o
+LOAD /tmp/ccAdYpjv.debug.temp.o
+LOAD /tmp/cclA1DKE.debug.temp.o
+LOAD /tmp/ccZVBdSR.debug.temp.o
+LOAD /tmp/ccd1v5Dt.debug.temp.o
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/OUTPUT/Ip4Dxe.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeDpcLib/DxeDpcLib/OUTPUT/DxeDpcLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000001000    0x12897
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text._DriverUnloadHandler
+                0x0000000000001000      0x18c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.IpSec2InstalledCallback
+                0x000000000000118c       0x70 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4DriverBindingSupported
+                0x00000000000011fc       0x90 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4CancelInstanceFrame
+                0x000000000000128c       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4CancelReceive
+                0x000000000000129c       0x78 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4CancelPacketFragments
+                0x0000000000001314       0x24 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FindGroup
+                0x0000000000001338       0x2c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4TokenExist
+                0x0000000000001364       0x2c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FindNet
+                0x0000000000001390       0x3c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4OptionIsValid
+                0x00000000000013cc       0xdc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FindRouteCache
+                0x00000000000014a8       0x70 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2SignalEvent
+                0x0000000000001518       0x28 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2StrToIp
+                0x0000000000001540       0x88 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2ManualAddressNotify
+                0x00000000000015c8        0xc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4DestroyChildEntryInHandleBuffer
+                0x00000000000015d4       0xc4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.EfiIp4Poll
+                0x0000000000001698       0x98 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FreeLinkTxToken
+                0x0000000000001730       0x70 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FreeRouteEntry
+                0x00000000000017a0       0x6c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FreeRouteCacheEntry
+                0x000000000000180c       0x6c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2FormUnload
+                0x0000000000001878      0x168 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4CancelFrameArp
+                0x00000000000019e0       0xa0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FreeArpQue
+                0x0000000000001a80       0x88 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4OnFrameSentDpc
+                0x0000000000001b08       0x78 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FreeRouteTable
+                0x0000000000001b80      0x108 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4SysPacketSent
+                0x0000000000001c88        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4OnPacketSent
+                0x0000000000001c90       0x60 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FreeAssembleEntry
+                0x0000000000001cf0       0x58 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4CleanAssembleTable
+                0x0000000000001d48       0x60 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4OnFreeFragments
+                0x0000000000001da8        0x4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4IpSecFree
+                0x0000000000001dac       0x40 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4TimerReconfigChecking
+                0x0000000000001dec       0xc4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4AutoReconfigCallBack
+                0x0000000000001eb0        0xc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4OnArpResolved
+                0x0000000000001ebc        0xc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4OnFrameSent
+                0x0000000000001ec8        0xc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4OnFrameReceived
+                0x0000000000001ed4        0xc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000001ed4                Ip4OnFrameReceived
+ .text.Ip4CreateRouteTable
+                0x0000000000001ee0       0x7c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Route
+                0x0000000000001f5c      0x1e4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4TrimPacket
+                0x0000000000002140      0x100 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4AddRoute
+                0x0000000000002240       0xdc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4DelRoute
+                0x000000000000231c       0xfc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4CancelRxTokens
+                0x0000000000002418       0x68 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FreeTxToken
+                0x0000000000002480       0x7c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.EfiIp4Config2UnregisterDataNotify
+                0x00000000000024fc      0x100 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.EfiIp4Config2RegisterDataNotify
+                0x00000000000025fc      0x110 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Cancel
+                0x000000000000270c       0xc0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.EfiIp4Cancel
+                0x00000000000027cc       0xe8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4StationAddressValid
+                0x00000000000028b4       0x68 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4OnRecyclePacket
+                0x000000000000291c       0xa0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2OnDhcp4SbInstalled
+                0x00000000000029bc       0x20 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x00000000000029bc                Ip4Config2OnDhcp4SbInstalled
+ .text.Ip4AutoReconfigCallBackDpc
+                0x00000000000029dc       0x74 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FormExtractConfig
+                0x0000000000002a50      0x504 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.CompareMem
+                0x0000000000002f54       0xd0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text._ModuleEntryPoint
+                0x0000000000003024      0x4b0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000003024                _ModuleEntryPoint
+ .text.Ip4FreeFrameRxToken
+                0x00000000000034d4       0x70 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x00000000000034d4                Ip4FreeFrameRxToken
+ .text.Ip4RecycleFrame
+                0x0000000000003544       0x74 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4OnFrameReceivedDpc
+                0x00000000000035b8      0x144 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4GetNetCast
+                0x00000000000036fc       0x3c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x00000000000036fc                Ip4GetNetCast
+ .text.Ip4Config2DestroyDhcp4
+                0x0000000000003738       0xec /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000003738                Ip4Config2DestroyDhcp4
+ .text.CopyGuid
+                0x0000000000003824        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000003824                CopyGuid
+ .text.ZeroMem  0x000000000000382c       0x74 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x000000000000382c                ZeroMem
+ .text.CopyMem  0x00000000000038a0       0xa4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x00000000000038a0                CopyMem
+ .text.Ip4CreateInterface
+                0x0000000000003944       0xe8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2ReadConfigData
+                0x0000000000003a2c      0x190 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2WriteConfigData
+                0x0000000000003bbc      0x13c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.EfiIp4Config2SetData
+                0x0000000000003cf8      0x1f8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.EfiIp4Config2GetData
+                0x0000000000003ef0      0x138 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2FormInit
+                0x0000000000004028      0x504 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2StrToIpList.part.0
+                0x000000000000452c      0x1c8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.SwapBytes32
+                0x00000000000046f4        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x00000000000046f4                SwapBytes32
+ .text.Ip4SetAddress
+                0x00000000000046fc      0x1a4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.EfiIp4GetModeData
+                0x00000000000048a0      0x270 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.EfiIp4Routes
+                0x0000000000004b10      0x1d8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4GetMulticastMac
+                0x0000000000004ce8       0x38 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4SendFrame
+                0x0000000000004d20      0x37c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4OnArpResolvedDpc
+                0x000000000000509c      0x260 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2GetIfInfo
+                0x00000000000052fc      0x198 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2SetGateway
+                0x0000000000005494      0x25c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2SetDnsServerWorker.part.0
+                0x00000000000056f0      0x148 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2SetDnsServer
+                0x0000000000005838       0x8c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.GetSubnetMaskPrefixLength
+                0x00000000000058c4       0x54 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2ConvertIfrNvDataToConfigNvData
+                0x0000000000005918      0x480 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FormRouteConfig
+                0x0000000000005d98      0x170 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FormCallback
+                0x0000000000005f08      0x408 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.SwapBytes16
+                0x0000000000006310        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000006310                SwapBytes16
+ .text.Ip4NtohHead
+                0x0000000000006318       0x54 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4WrapRxData
+                0x000000000000636c      0x140 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4IpSecProcessPacket.part.0
+                0x00000000000064ac      0x3e4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4PreProcessPacket
+                0x0000000000006890      0x64c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000006edc       0xb0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000006edc                InternalBaseLibIsListValid
+ .text.GetFirstNode
+                0x0000000000006f8c       0x44 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.GetNextNode
+                0x0000000000006fd0       0x44 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.IsNull   0x0000000000007014       0x4c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.IsListEmpty
+                0x0000000000007060       0x4c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000007060                IsListEmpty
+ .text.Ip4CancelFrames
+                0x00000000000070ac       0xe0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Output
+                0x000000000000718c      0x63c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4SendIgmpMessage
+                0x00000000000077c8       0xe8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4SendIgmpReport
+                0x00000000000078b0       0x1c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4TimerTicking
+                0x00000000000078cc      0x1c8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Groups
+                0x0000000000007a94      0x3e4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.EfiIp4Groups
+                0x0000000000007e78      0x130 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.EfiIp4Transmit
+                0x0000000000007fa8      0x534 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4AccpetFrame
+                0x00000000000084dc      0x55c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x00000000000084dc                Ip4AccpetFrame
+ .text.Ip4CancelTxTokens
+                0x0000000000008a38       0x8c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4SentPacketTicking
+                0x0000000000008ac4       0x80 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4FreeInterface
+                0x0000000000008b44      0x1a8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4CleanService
+                0x0000000000008cec      0x1cc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4DriverBindingStart
+                0x0000000000008eb8      0x78c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4DriverBindingStop
+                0x0000000000009644      0x2f8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2SetDefaultAddr
+                0x000000000000993c      0x200 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2SetManualAddress
+                0x0000000000009b3c      0x250 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4Config2OnDhcp4Complete
+                0x0000000000009d8c      0x28c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000009d8c                Ip4Config2OnDhcp4Complete
+ .text.Ip4Config2SetPolicy
+                0x000000000000a018      0x248 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4CleanProtocol
+                0x000000000000a260       0xfc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4ServiceBindingDestroyChild
+                0x000000000000a35c      0x25c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4ServiceBindingCreateChild
+                0x000000000000a5b8      0x204 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.EfiIp4Configure
+                0x000000000000a7bc      0x498 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.Ip4InstanceDeliverPacket
+                0x000000000000ac54      0x21c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x000000000000ac54                Ip4InstanceDeliverPacket
+ .text.EfiIp4Receive
+                0x000000000000ae70      0x120 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .text.InternalSafeStringNoStrOverlap
+                0x000000000000af90       0x3c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.AsciiStrnLenS
+                0x000000000000afcc       0x3c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x000000000000b008       0x34 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.DebugCodeEnabled
+                0x000000000000b03c        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.DevicePathFromHandle
+                0x000000000000b044       0x38 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.UefiLibGetStringWidth
+                0x000000000000b07c       0x98 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.InternalAllocatePool.constprop.0
+                0x000000000000b114       0x38 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.DebugAssertEnabled
+                0x000000000000b14c        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000b14c                DebugAssertEnabled
+ .text.DebugPrintLevelEnabled
+                0x000000000000b154        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000b154                DebugPrintLevelEnabled
+ .text.DebugAssert
+                0x000000000000b15c       0x4c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000b15c                DebugAssert
+ .text.StrLen   0x000000000000b1a8       0xa4 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000b1a8                StrLen
+ .text.StrSize  0x000000000000b24c       0x1c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.StrnCmp  0x000000000000b268       0xd4 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.StrStr   0x000000000000b33c       0xa8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000b33c                StrStr
+ .text.AsciiStrLen
+                0x000000000000b3e4       0x90 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.AsciiStrSize
+                0x000000000000b474       0x18 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.AsciiStrnCmp
+                0x000000000000b48c       0xd4 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.StrnLenS
+                0x000000000000b560       0x70 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.BasePrintLibValueToString
+                0x000000000000b5d0       0x2c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.DevicePathType
+                0x000000000000b5fc       0x48 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.DevicePathSubType
+                0x000000000000b644       0x48 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.IsDevicePathEnd
+                0x000000000000b68c       0x94 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.NetLibGetMacAddress
+                0x000000000000b720      0x1a0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.NetblockTrim
+                0x000000000000b8c0       0x88 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.InternalHiiCompareSubString
+                0x000000000000b948       0xf8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.SetMem16
+                0x000000000000ba40       0xa0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.ReadUnaligned16
+                0x000000000000bae0       0x5c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.ReadUnaligned32
+                0x000000000000bb3c       0x50 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.MmioRead32
+                0x000000000000bb8c        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x000000000000bb94      0xdac /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.UnicodeSPrint
+                0x000000000000c940       0xa8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000c940                UnicodeSPrint
+ .text.AsciiSPrint.constprop.0
+                0x000000000000c9e8       0x68 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x000000000000ca50       0x54 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.UnicodeValueToStringS.constprop.0.isra.0
+                0x000000000000caa4      0x124 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.MmioWrite32.isra.0
+                0x000000000000cbc8        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x000000000000cbd0       0xcc /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000cbd0                BaseDebugLibSerialPortConstructor
+ .text.UartWrite.constprop.0.isra.0
+                0x000000000000cc9c       0x4c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.DebugPrint
+                0x000000000000cce8       0x98 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000cce8                DebugPrint
+ .text.Ip4CopyOption.isra.0
+                0x000000000000cd80      0x138 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.DebugPrintEnabled
+                0x000000000000ceb8        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000ceb8                DebugPrintEnabled
+ .text.StrnCpyS
+                0x000000000000cec0      0x288 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.StrCatS  0x000000000000d148      0x250 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.StrCpyS.constprop.0.isra.0
+                0x000000000000d398      0x1a0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.AllocatePool
+                0x000000000000d538        0x4 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d538                AllocatePool
+ .text.AllocateZeroPool
+                0x000000000000d53c       0x34 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d53c                AllocateZeroPool
+ .text.AllocateCopyPool
+                0x000000000000d570       0x8c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d570                AllocateCopyPool
+ .text.FreePool
+                0x000000000000d5fc       0x7c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d5fc                FreePool
+ .text.NetbufFreeVector
+                0x000000000000d678      0x12c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .text.NetbufGetFragmentFree
+                0x000000000000d7a4        0x4 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d7a4                NetbufGetFragmentFree
+ .text.DevicePathNodeLength
+                0x000000000000d7a8       0x50 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d7a8                DevicePathNodeLength
+ .text.NextDevicePathNode
+                0x000000000000d7f8       0x50 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d7f8                NextDevicePathNode
+ .text.EfiReleaseLock
+                0x000000000000d848       0x6c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d848                EfiReleaseLock
+ .text.NetGetMaskLength
+                0x000000000000d8b4       0x2c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d8b4                NetGetMaskLength
+ .text.NetGetIpClass
+                0x000000000000d8e0       0x4c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d8e0                NetGetIpClass
+ .text.NetIp4IsUnicast
+                0x000000000000d92c       0xb4 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d92c                NetIp4IsUnicast
+ .text.NetListInsertBefore
+                0x000000000000d9e0       0x5c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000d9e0                NetListInsertBefore
+ .text.NetMapIsEmpty
+                0x000000000000da3c       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000da3c                NetMapIsEmpty
+ .text.NetMapFindKey
+                0x000000000000da4c       0x74 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000da4c                NetMapFindKey
+ .text.NetMapIterate
+                0x000000000000dac0       0x94 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000dac0                NetMapIterate
+ .text.NetLibCreateServiceChild
+                0x000000000000db54       0x58 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000db54                NetLibCreateServiceChild
+ .text.NetLibDestroyServiceChild
+                0x000000000000dbac       0x58 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000dbac                NetLibDestroyServiceChild
+ .text.NetLibGetVlanId
+                0x000000000000dc04       0x5c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000dc04                NetLibGetVlanId
+ .text.NetLibGetNicHandle
+                0x000000000000dc60       0x84 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000dc60                NetLibGetNicHandle
+ .text.NetbufFree
+                0x000000000000dce4       0xc0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000dce4                NetbufFree
+ .text.NetbufGetByte
+                0x000000000000dda4       0xcc /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000dda4                NetbufGetByte
+ .text.NetbufSetBlock
+                0x000000000000de70       0xf4 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000de70                NetbufSetBlock
+ .text.NetbufSetBlockOp
+                0x000000000000df64       0xa8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000df64                NetbufSetBlockOp
+ .text.NetbufBuildExt
+                0x000000000000e00c       0x70 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000e00c                NetbufBuildExt
+ .text.NetbufReserve
+                0x000000000000e07c      0x138 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000e07c                NetbufReserve
+ .text.NetbufAllocSpace
+                0x000000000000e1b4      0x1e0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000e1b4                NetbufAllocSpace
+ .text.NetblockChecksum
+                0x000000000000e394       0x48 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000e394                NetblockChecksum
+ .text.NetbufChecksum
+                0x000000000000e3dc       0xd4 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000e3dc                NetbufChecksum
+ .text.HiiGetSupportedLanguages
+                0x000000000000e4b0       0xbc /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000e4b0                HiiGetSupportedLanguages
+ .text.CreatePopUp.constprop.0
+                0x000000000000e56c      0x4e8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000e56c                CreatePopUp.constprop.0
+ .text.Ip4ReceiveFrame.constprop.0
+                0x000000000000ea54      0x12c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000ea54                Ip4ReceiveFrame.constprop.0
+ .text.IsDevicePathValid.constprop.0
+                0x000000000000eb80       0xc8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000eb80                IsDevicePathValid.constprop.0
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x000000000000ec48       0x6c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000ec48                UefiDevicePathLibGetDevicePathSize
+ .text.UefiDevicePathLibDuplicateDevicePath
+                0x000000000000ecb4       0x34 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000ecb4                UefiDevicePathLibDuplicateDevicePath
+ .text.HiiConstructConfigHdr.constprop.0
+                0x000000000000ece8      0x200 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000ece8                HiiConstructConfigHdr.constprop.0
+ .text.HiiIsConfigHdrMatch.constprop.0
+                0x000000000000eee8       0xb4 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000eee8                HiiIsConfigHdrMatch.constprop.0
+ .text.HiiAddPackages.constprop.0
+                0x000000000000ef9c      0x194 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000ef9c                HiiAddPackages.constprop.0
+ .text.NetLibGetMacString.constprop.0
+                0x000000000000f130      0x118 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f130                NetLibGetMacString.constprop.0
+ .text.GetBestLanguage.constprop.0
+                0x000000000000f248      0x18c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f248                GetBestLanguage.constprop.0
+ .text.EfiCreateProtocolNotifyEvent.constprop.0
+                0x000000000000f3d4      0x120 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f3d4                EfiCreateProtocolNotifyEvent.constprop.0
+ .text.HiiSetString.constprop.0.isra.0
+                0x000000000000f4f4      0x128 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f4f4                HiiSetString.constprop.0.isra.0
+ .text.QueueDpc.constprop.0.isra.0
+                0x000000000000f61c       0x20 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f61c                QueueDpc.constprop.0.isra.0
+ .text.NetbufCopy.constprop.0.isra.0
+                0x000000000000f63c      0x170 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f63c                NetbufCopy.constprop.0.isra.0
+ .text.WriteUnaligned16.isra.0
+                0x000000000000f7ac       0x14 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f7ac                WriteUnaligned16.isra.0
+ .text.DispatchDpc.isra.0
+                0x000000000000f7c0       0x14 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f7c0                DispatchDpc.isra.0
+ .text.NetbufTrim.isra.0
+                0x000000000000f7d4       0xfc /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f7d4                NetbufTrim.isra.0
+ .text.FreeUnicodeStringTable.isra.0
+                0x000000000000f8d0       0x4c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f8d0                FreeUnicodeStringTable.isra.0
+ .text.EfiAcquireLockOrFail.isra.0
+                0x000000000000f91c       0x78 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f91c                EfiAcquireLockOrFail.isra.0
+ .text.RemoveEntryList.isra.0
+                0x000000000000f994       0x50 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f994                RemoveEntryList.isra.0
+ .text.NetMapClean
+                0x000000000000f9e4      0x144 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000f9e4                NetMapClean
+ .text.InsertTailList.isra.0
+                0x000000000000fb28       0x58 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000fb28                InsertTailList.isra.0
+ .text.InsertHeadList.isra.0
+                0x000000000000fb80       0x54 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000fb80                InsertHeadList.isra.0
+ .text.NetMapInsertTail
+                0x000000000000fbd4      0x124 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000fbd4                NetMapInsertTail
+ .text.NetMapRemoveItem.constprop.0.isra.0
+                0x000000000000fcf8       0xc0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000fcf8                NetMapRemoveItem.constprop.0.isra.0
+ .text.InitializeListHead.isra.0
+                0x000000000000fdb8       0x3c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000fdb8                InitializeListHead.isra.0
+ .text.NetMapInit
+                0x000000000000fdf4       0x2c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000fdf4                NetMapInit
+ .text.NetbufAllocStruct
+                0x000000000000fe20       0xd0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000fe20                NetbufAllocStruct
+ .text.NetbufAlloc
+                0x000000000000fef0       0xa4 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000fef0                NetbufAlloc
+ .text.NetbufDuplicate.constprop.0
+                0x000000000000ff94       0xb8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000000ff94                NetbufDuplicate.constprop.0
+ .text.NetbufFromExt
+                0x000000000001004c      0x294 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000001004c                NetbufFromExt
+ .text.Ip4Config2IpToStr.isra.0
+                0x00000000000102e0       0x28 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x00000000000102e0                Ip4Config2IpToStr.isra.0
+ .text.Ip4StartAutoConfig.isra.0
+                0x0000000000010308      0x254 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x0000000000010308                Ip4StartAutoConfig.isra.0
+ .text.Ip4PrependHead.isra.0
+                0x000000000001055c      0x14c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x000000000001055c                Ip4PrependHead.isra.0
+ .text.Ip4Demultiplex.isra.0
+                0x00000000000106a8      0x410 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                0x00000000000106a8                Ip4Demultiplex.isra.0
+ *fill*         0x0000000000010ab8        0x8 
+ .text          0x0000000000010ac0      0x200 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000010ac0                InternalMemSetMem16
+                0x0000000000010acc                InternalMemSetMem32
+                0x0000000000010ad8                InternalMemSetMem64
+                0x0000000000010ae4                InternalMemZeroMem
+                0x0000000000010aec                InternalMemSetMem
+ .text          0x0000000000010cc0      0x218 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x0000000000010e2c                InternalMemCopyMem
+ *fill*         0x0000000000010ed8       0x28 
+ .text          0x0000000000010f00       0xe0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000010f00                InternalMemCompareMem
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.Ip4DestroyChildEntryInHandleBuffer.str1.1
+                0x0000000000010fe0       0x54 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.EfiIp4Poll.str1.1
+                0x0000000000011034       0x3d /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4FreeLinkTxToken.str1.1
+                0x0000000000011071       0xa8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4FreeRouteEntry.str1.1
+                0x0000000000011119       0x52 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4FreeRouteCacheEntry.str1.1
+                0x000000000001116b       0x19 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4Config2FormUnload.str1.1
+                0x0000000000011184       0xc1 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4FreeArpQue.str1.1
+                0x0000000000011245       0x6f /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4FreeRouteTable.str1.1
+                0x00000000000112b4       0x14 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4OnPacketSent.str1.1
+                0x00000000000112c8       0x1c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4TimerReconfigChecking.str1.1
+                0x00000000000112e4       0x6b /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4Route.str1.1
+                0x000000000001134f       0x18 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4TrimPacket.str1.1
+                0x0000000000011367       0x91 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.EfiIp4Config2UnregisterDataNotify.str1.1
+                0x00000000000113f8       0x44 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4OnRecyclePacket.str1.1
+                0x000000000001143c       0x48 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4FormExtractConfig.str1.1
+                0x0000000000011484       0x73 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ *fill*         0x00000000000114f7        0x1 
+ .rodata.Ip4FormExtractConfig.str2.2
+                0x00000000000114f8       0x58 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.CompareMem.str1.1
+                0x0000000000011550      0x118 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x0000000000011668      0x30e /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4FreeFrameRxToken.str1.1
+                0x0000000000011976       0x6d /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4RecycleFrame.str1.1
+                0x00000000000119e3       0x6d /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4Config2DestroyDhcp4.str1.1
+                0x0000000000011a50       0x6d /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                                         0x16 (size before relaxing)
+ .rodata.ZeroMem.str1.1
+                0x0000000000011a50       0x8b /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                                         0xa2 (size before relaxing)
+ .rodata.CopyMem.str1.1
+                0x0000000000011adb       0x55 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4Config2FormInit.str1.1
+                0x0000000000011b30      0x12d /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                                        0x12e (size before relaxing)
+ *fill*         0x0000000000011c5d        0x1 
+ .rodata.Ip4Config2FormInit.str2.2
+                0x0000000000011c5e       0x40 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4SetAddress.str1.1
+                0x0000000000011c9e       0x75 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4SendFrame.str1.1
+                0x0000000000011d13       0x16 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4OnArpResolvedDpc.str1.1
+                0x0000000000011d29       0x2c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ *fill*         0x0000000000011d55        0x1 
+ .rodata.Ip4Config2ConvertIfrNvDataToConfigNvData.str2.2
+                0x0000000000011d56       0x9c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4FormCallback.str2.2
+                0x0000000000011df2        0xc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ *fill*         0x0000000000011dfe        0x2 
+ .rodata.Ip4FormCallback
+                0x0000000000011e00        0xa /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4WrapRxData.str1.1
+                0x0000000000011e0a       0x3a /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4IpSecProcessPacket.part.0.str1.1
+                0x0000000000011e44      0x171 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4PreProcessPacket.str1.1
+                0x0000000000011fb5       0x55 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.InternalBaseLibIsListValid.str1.1
+                0x000000000001200a       0x9b /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.GetFirstNode.str1.1
+                0x00000000000120a5       0x22 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.IsListEmpty.str1.1
+                0x00000000000120c7       0x26 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4Output.str1.1
+                0x00000000000120ed        0xe /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4TimerTicking.str1.1
+                0x00000000000120fb       0x53 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4Groups.str1.1
+                0x000000000001214e       0x4b /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4AccpetFrame.str1.1
+                0x0000000000012199       0x69 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                                         0x7e (size before relaxing)
+ .rodata.Ip4CancelTxTokens.str1.1
+                0x0000000000012202       0x15 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4FreeInterface.str1.1
+                0x0000000000012217       0x83 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4DriverBindingStart.str2.2
+                0x000000000001229a        0xc /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4Config2SetDefaultAddr.str1.1
+                0x00000000000122a6       0x15 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4Config2SetManualAddress.str1.1
+                0x00000000000122bb       0x6d /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4Config2OnDhcp4Complete.str1.1
+                0x0000000000012328       0x20 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.Ip4InstanceDeliverPacket.str1.1
+                0x0000000000012348       0x6b /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ *fill*         0x00000000000123b3        0x1 
+ .rodata.mConfigHdrTemplate
+                0x00000000000123b4       0x70 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.mIcmpClass
+                0x0000000000012424       0x22 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000012424                mIcmpClass
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x0000000000012446        0x4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .rodata.DebugAssert.str1.1
+                0x000000000001244a       0x1f /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.StrLen.str1.1
+                0x0000000000012469       0x9e /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0xb5 (size before relaxing)
+ .rodata.StrnCmp.str1.1
+                0x0000000000012507       0x72 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.StrStr.str1.1
+                0x0000000000012579       0x32 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x00000000000125ab       0x38 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.AsciiStrnCmp.str1.1
+                0x00000000000125e3       0x70 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x0000000000012653       0x45 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.DevicePathType.str1.1
+                0x0000000000012698       0x6d /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.NetblockTrim.str1.1
+                0x0000000000012698       0x34 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0x7e (size before relaxing)
+ .rodata.InternalHiiCompareSubString.str1.1
+                0x00000000000126cc       0x39 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0x83 (size before relaxing)
+ .rodata.SetMem16.str1.1
+                0x0000000000012705       0xbc /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0xd3 (size before relaxing)
+ .rodata.ReadUnaligned16.str1.1
+                0x00000000000127c1       0x48 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x0000000000012809      0x290 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ *fill*         0x0000000000012a99        0x3 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000012a9c       0x5e /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.UnicodeSPrint.str1.1
+                0x0000000000012afa       0x70 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.UnicodeValueToStringS.constprop.0.isra.0.str1.1
+                0x0000000000012b6a       0xa2 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.Ip4CopyOption.isra.0.str1.1
+                0x0000000000012c0c       0x6d /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.StrnCpyS.str1.1
+                0x0000000000012c79      0x15b /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.StrCatS.str1.1
+                0x0000000000012dd4       0x25 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ *fill*         0x0000000000012df9        0x1 
+ .rodata.StrCpyS.constprop.0.isra.0.str2.2
+                0x0000000000012dfa        0xc /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.AllocateCopyPool.str1.1
+                0x0000000000012e06       0x9d /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.FreePool.str1.1
+                0x0000000000012ea3       0x35 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.NetbufFreeVector.str1.1
+                0x0000000000012ea3       0x86 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0x99 (size before relaxing)
+ .rodata.EfiReleaseLock.str1.1
+                0x0000000000012f29       0x1e /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0x60 (size before relaxing)
+ .rodata.NetIp4IsUnicast.str1.1
+                0x0000000000012f47       0x35 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0x7f (size before relaxing)
+ .rodata.NetListInsertBefore.str1.1
+                0x0000000000012f7c       0x36 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.NetMapFindKey.str1.1
+                0x0000000000012fb2       0x2b /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.NetMapIterate.str1.1
+                0x0000000000012fdd       0x34 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.NetbufFree.str1.1
+                0x0000000000013011       0x15 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0x91 (size before relaxing)
+ .rodata.NetbufSetBlock.str1.1
+                0x0000000000013026       0x19 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0x94 (size before relaxing)
+ .rodata.NetbufReserve.str1.1
+                0x000000000001303f       0xa9 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.NetbufAllocSpace.str1.1
+                0x00000000000130e8        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.HiiGetSupportedLanguages.str1.1
+                0x00000000000130f0       0x4f /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0x69 (size before relaxing)
+ .rodata.CreatePopUp.constprop.0.str1.1
+                0x000000000001313f       0x93 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.CreatePopUp.constprop.0.str2.2
+                0x00000000000131d2        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.Ip4ReceiveFrame.constprop.0.str1.1
+                0x00000000000131da       0xb0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.HiiConstructConfigHdr.constprop.0.str2.2
+                0x00000000000131da       0x1c /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.HiiIsConfigHdrMatch.constprop.0.str1.1
+                0x00000000000131f6       0x1a /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.GetBestLanguage.constprop.0.str1.1
+                0x0000000000013210       0x23 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.HiiSetString.constprop.0.isra.0.str1.1
+                0x0000000000013233        0x7 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0x54 (size before relaxing)
+ .rodata.NetbufCopy.constprop.0.isra.0.str1.1
+                0x000000000001323a        0x5 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.EfiAcquireLockOrFail.isra.0.str1.1
+                0x000000000001323f       0x23 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.RemoveEntryList.isra.0.str1.1
+                0x0000000000013262       0x15 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0x5a (size before relaxing)
+ .rodata.NetMapClean.str1.1
+                0x0000000000013277       0x5f /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.InsertTailList.isra.0.str1.1
+                0x00000000000132d6       0x26 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.NetMapRemoveItem.constprop.0.isra.0.str1.1
+                0x00000000000132d6       0x75 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.InitializeListHead.isra.0.str1.1
+                0x000000000001334b       0x19 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.NetbufAllocStruct.str1.1
+                0x0000000000013364       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.NetbufFromExt.str1.1
+                0x0000000000013374       0x4b /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.Ip4Config2IpToStr.isra.0.str2.2
+                0x00000000000133bf       0x18 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.Ip4StartAutoConfig.isra.0.str1.1
+                0x00000000000133bf       0x59 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.Ip4PrependHead.isra.0.str1.1
+                0x00000000000133bf       0x63 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.Ip4Demultiplex.isra.0.str1.1
+                0x0000000000013422       0x77 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                         0xb5 (size before relaxing)
+ .rodata.__FUNCTION__.25
+                0x0000000000013499        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.26
+                0x00000000000134a1        0x9 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.27
+                0x00000000000134aa        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ *fill*         0x00000000000134b2        0x2 
+ .rodata.gIp4AllMasks
+                0x00000000000134b4       0x84 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.mEndOfPakageList
+                0x0000000000013538        0x4 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.mErrorString
+                0x000000000001353c      0x2b5 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.mHexStr
+                0x00000000000137f1       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .rodata.mWarningString
+                0x0000000000013801       0x96 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ *(.got .got.*)
+ *:AutoGen.obj(.data.g*Guid)
+
+.iplt           0x0000000000013898        0x0
+ .iplt          0x0000000000013898        0x0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+
+.data           0x0000000000014000      0x8d0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.Ip4Config2Bin
+                0x0000000000014000      0x13c /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.Ip4DxeStrings
+                0x000000000001413c      0x469 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ *fill*         0x00000000000145a5        0x3 
+ .data.gEfiArpProtocolGuid
+                0x00000000000145a8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiArpServiceBindingProtocolGuid
+                0x00000000000145b8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiCallerIdGuid
+                0x00000000000145c8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiComponentName2ProtocolGuid
+                0x00000000000145d8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x00000000000145e8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x00000000000145f8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x00000000000145f8                gEfiDevicePathProtocolGuid
+ .data.gEfiDhcp4ProtocolGuid
+                0x0000000000014608       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000014608                gEfiDhcp4ProtocolGuid
+ .data.gEfiDhcp4ServiceBindingProtocolGuid
+                0x0000000000014618       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000014618                gEfiDhcp4ServiceBindingProtocolGuid
+ .data.gEfiDpcProtocolGuid
+                0x0000000000014628       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiDriverBindingProtocolGuid
+                0x0000000000014638       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiFormBrowser2ProtocolGuid
+                0x0000000000014648       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x0000000000014658       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiHiiConfigAccessProtocolGuid
+                0x0000000000014668       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x0000000000014678       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x0000000000014688       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x0000000000014698       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x00000000000146a8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x00000000000146b8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiIp4Config2ProtocolGuid
+                0x00000000000146c8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiIp4ProtocolGuid
+                0x00000000000146d8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiIp4ServiceBindingProtocolGuid
+                0x00000000000146e8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiIpSec2ProtocolGuid
+                0x00000000000146f8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiLoadedImageProtocolGuid
+                0x0000000000014708       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiManagedNetworkProtocolGuid
+                0x0000000000014718       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000014718                gEfiManagedNetworkProtocolGuid
+ .data.gEfiManagedNetworkServiceBindingProtocolGuid
+                0x0000000000014728       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000014728                gEfiManagedNetworkServiceBindingProtocolGuid
+ .data.gIp4Config2NvDataGuid
+                0x0000000000014738       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000014738                gIp4Config2NvDataGuid
+ .data.gIp4DriverBinding
+                0x0000000000014748       0x30 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.mEfiIp4ProtocolTemplete
+                0x0000000000014778       0x40 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.mIp4Config2InstanceList
+                0x00000000000147b8       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.mIp4Config2StorageName
+                0x00000000000147c8       0x2e /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x00000000000147c8                mIp4Config2StorageName
+ .data.mIp4SupportedIcmp
+                0x00000000000147f6       0x2e /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.mRouteAlertOption
+                0x0000000000014824        0x4 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .data.gEfiSimpleNetworkProtocolGuid
+                0x0000000000014828       0x10 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ *(.bss .bss.*)
+ .bss.gBS       0x0000000000014838        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000014838                gBS
+ .bss.gHiiConfigRouting
+                0x0000000000014840        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .bss.gHiiDatabase
+                0x0000000000014848        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000014848                gHiiDatabase
+ .bss.gHiiFont  0x0000000000014850        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .bss.gHiiImage
+                0x0000000000014858        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .bss.gHiiString
+                0x0000000000014860        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000014860                gHiiString
+ .bss.gImageHandle
+                0x0000000000014868        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .bss.gIp4ControllerNameTable
+                0x0000000000014870        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000014870                gIp4ControllerNameTable
+ .bss.gRT       0x0000000000014878        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .bss.gST       0x0000000000014880        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000014880                gST
+ .bss.mDpc      0x0000000000014888        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                0x0000000000014888                mDpc
+ .bss.mIp4Id    0x0000000000014890        0x2 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ *fill*         0x0000000000014892        0x6 
+ .bss.mIpSec    0x0000000000014898        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .bss.mIpSec2Installed
+                0x00000000000148a0        0x1 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ *fill*         0x00000000000148a1        0x7 
+ .bss.mUefiFormBrowser2
+                0x00000000000148a8        0x8 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .bss.mZeroMacAddress
+                0x00000000000148b0       0x20 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+
+.igot.plt       0x00000000000148d0        0x0
+ .igot.plt      0x00000000000148d0        0x0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x00000000000148d0        0x0
+ *(.rela .rela.*)
+ .rela.iplt     0x00000000000148d0        0x0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+
+.hii
+ *(.hii)
+
+.build-id
+ *(.note.gnu.build-id)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Ip4Dxe/Ip4Dxe/DEBUG/Ip4Dxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x652b5
+ .debug_info    0x0000000000000000     0xe042 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .debug_info    0x000000000000e042     0x7136 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .debug_info    0x0000000000015178     0x191f /tmp/cczyF1S9.debug.temp.o
+                0x0000000000015178                DriverEntryPoint.c.6ad2c6b6
+ .debug_info    0x0000000000016a97      0x100 /tmp/cc30CvNk.debug.temp.o
+                0x0000000000016a97                memcpy.c.124218b3
+ .debug_info    0x0000000000016b97       0xb1 /tmp/cc6xJQoX.debug.temp.o
+                0x0000000000016b97                memset.c.fe78e419
+ .debug_info    0x0000000000016c48       0xb0 /tmp/cc9swtIs.debug.temp.o
+                0x0000000000016c48                BaseStackCheckGcc.c.4b3a57a0
+ .debug_info    0x0000000000016cf8     0x1f61 /tmp/cc4eDg6r.debug.temp.o
+                0x0000000000016cf8                AutoGen.c.f3ca41f1
+ .debug_info    0x0000000000018c59     0x4a1c /tmp/ccasGvpx.debug.temp.o
+                0x0000000000018c59                Ip4Driver.c.0eff8cde
+ .debug_info    0x000000000001d675     0x4302 /tmp/ccQD4QGN.debug.temp.o
+                0x000000000001d675                Ip4If.c.fc1de246
+ .debug_info    0x0000000000021977     0x30ab /tmp/ccsbewzT.debug.temp.o
+                0x0000000000021977                Ip4Output.c.8d39c194
+ .debug_info    0x0000000000024a22     0x3138 /tmp/cc8UrLiD.debug.temp.o
+                0x0000000000024a22                Ip4Igmp.c.604c1029
+ .debug_info    0x0000000000027b5a     0x45db /tmp/ccO41zZd.debug.temp.o
+                0x0000000000027b5a                Ip4Impl.c.3db52ed6
+ .debug_info    0x000000000002c135     0x2eb3 /tmp/ccvdhAPW.debug.temp.o
+                0x000000000002c135                Ip4Common.c.7e674723
+ .debug_info    0x000000000002efe8      0x1b3 /tmp/ccRHxBL7.debug.temp.o
+                0x000000000002efe8                Ip4Option.c.e882229b
+ .debug_info    0x000000000002f19b     0x1b0e /tmp/ccT5n2xd.debug.temp.o
+                0x000000000002f19b                ComponentName.c.175168ca
+ .debug_info    0x0000000000030ca9     0x3281 /tmp/ccs494xK.debug.temp.o
+                0x0000000000030ca9                Ip4Route.c.d0a8493c
+ .debug_info    0x0000000000033f2a     0x45f9 /tmp/ccupTF44.debug.temp.o
+                0x0000000000033f2a                Ip4Input.c.0d527644
+ .debug_info    0x0000000000038523     0x4b7b /tmp/ccIVe4aQ.debug.temp.o
+                0x0000000000038523                Ip4Config2Impl.c.786d6ad1
+ .debug_info    0x000000000003d09e     0x43a7 /tmp/ccsq3OMa.debug.temp.o
+                0x000000000003d09e                Ip4Config2Nv.c.c1c16f6f
+ .debug_info    0x0000000000041445     0x30ed /tmp/cci6Doln.debug.temp.o
+                0x0000000000041445                Ip4Icmp.c.d76e8890
+ .debug_info    0x0000000000044532       0x81 /tmp/ccCAgsrJ.debug.temp.o
+                0x0000000000044532                Ip4Config2.c.467d5e9b
+ .debug_info    0x00000000000445b3      0x1d0 /tmp/ccTdsiWT.debug.temp.o
+                0x00000000000445b3                MemLibGuid.c.0abd8b36
+ .debug_info    0x0000000000044783       0xaf /tmp/cccBDE0u.debug.temp.o
+                0x0000000000044783                ZeroMemWrapper.c.0fd9aaec
+ .debug_info    0x0000000000044832       0xdc /tmp/ccadh9Ve.debug.temp.o
+                0x0000000000044832                CompareMemWrapper.c.32802e29
+ .debug_info    0x000000000004490e       0xc6 /tmp/ccaO02dE.debug.temp.o
+                0x000000000004490e                CopyMemWrapper.c.5220106c
+ .debug_info    0x00000000000449d4       0xad /tmp/ccQq2iQn.debug.temp.o
+                0x00000000000449d4                SwapBytes32.c.82c5a0d5
+ .debug_info    0x0000000000044a81       0x89 /tmp/cc4MPRRi.debug.temp.o
+                0x0000000000044a81                SwapBytes16.c.ef30b2de
+ .debug_info    0x0000000000044b0a      0x328 /tmp/ccOf82fx.debug.temp.o
+                0x0000000000044b0a                LinkedList.c.b8b68687
+ .debug_info    0x0000000000044e32      0x711 /tmp/cc3DKVXU.debug.temp.o
+                0x0000000000044e32                String.c.8e83c025
+ .debug_info    0x0000000000045543      0xf83 /tmp/ccyKPdOK.debug.temp.o
+                0x0000000000045543                SafeString.c.1b674302
+ .debug_info    0x00000000000464c6      0x30e /tmp/ccveKMxD.debug.temp.o
+                0x00000000000464c6                Math64.c.df2e98ae
+ .debug_info    0x00000000000467d4      0x5ad /tmp/ccRviGcL.debug.temp.o
+                0x00000000000467d4                PrintLib.c.b75a7535
+ .debug_info    0x0000000000046d81      0x753 /tmp/ccB5RPEm.debug.temp.o
+                0x0000000000046d81                PrintLibInternal.c.b254bcc3
+ .debug_info    0x00000000000474d4      0x32b /tmp/cco87qWO.debug.temp.o
+                0x00000000000474d4                DebugLib.c.b228dbcd
+ .debug_info    0x00000000000477ff     0x17cd /tmp/ccLPKDSP.debug.temp.o
+                0x00000000000477ff                UefiBootServicesTableLib.c.40f3e47d
+ .debug_info    0x0000000000048fcc     0x13a8 /tmp/cclbaQwa.debug.temp.o
+                0x0000000000048fcc                MemoryAllocationLib.c.3e4a7161
+ .debug_info    0x000000000004a374      0x5bc /tmp/ccD5GWWv.debug.temp.o
+                0x000000000004a374                DevicePathUtilities.c.b90c247c
+ .debug_info    0x000000000004a930      0xec3 /tmp/ccERyVU2.debug.temp.o
+                0x000000000004a930                DevicePathUtilitiesDxeSmm.c.1206e153
+ .debug_info    0x000000000004b7f3      0x305 /tmp/ccoSvTfc.debug.temp.o
+                0x000000000004b7f3                UefiDevicePathLib.c.bbabffea
+ .debug_info    0x000000000004baf8     0x179e /tmp/ccf7Sl2S.debug.temp.o
+                0x000000000004baf8                UefiRuntimeServicesTableLib.c.90bd0d28
+ .debug_info    0x000000000004d296     0x20e5 /tmp/ccS0ixMf.debug.temp.o
+                0x000000000004d296                UefiDriverModel.c.d7d7932b
+ .debug_info    0x000000000004f37b     0x1a2f /tmp/ccU3KacK.debug.temp.o
+                0x000000000004f37b                Console.c.e3d87e6e
+ .debug_info    0x0000000000050daa     0x2543 /tmp/cckxc0er.debug.temp.o
+                0x0000000000050daa                UefiLib.c.33a327e5
+ .debug_info    0x00000000000532ed     0x2832 /tmp/ccGvrcPg.debug.temp.o
+                0x00000000000532ed                UefiHiiServicesLib.c.60c1a6cc
+ .debug_info    0x0000000000055b1f     0x6bfd /tmp/ccMJQcm7.debug.temp.o
+                0x0000000000055b1f                DxeNetLib.c.81ec3bb6
+ .debug_info    0x000000000005c71c     0x2016 /tmp/ccsANmwe.debug.temp.o
+                0x000000000005c71c                NetBuffer.c.0a050e5f
+ .debug_info    0x000000000005e732     0x18c3 /tmp/ccLHstdH.debug.temp.o
+                0x000000000005e732                DpcLib.c.c21122a7
+ .debug_info    0x000000000005fff5     0x3bd7 /tmp/ccwMUSi5.debug.temp.o
+                0x000000000005fff5                HiiLib.c.b28fbabb
+ .debug_info    0x0000000000063bcc      0x562 /tmp/ccV9ebjf.debug.temp.o
+                0x0000000000063bcc                HiiString.c.bee056df
+ .debug_info    0x000000000006412e      0x390 /tmp/ccvliUJ0.debug.temp.o
+                0x000000000006412e                HiiLanguage.c.4036365e
+ .debug_info    0x00000000000644be       0xc7 /tmp/ccA2kRC4.debug.temp.o
+                0x00000000000644be                SetMem16Wrapper.c.57d1986f
+ .debug_info    0x0000000000064585       0xc3 /tmp/ccKGrw5j.debug.temp.o
+                0x0000000000064585                DivU64x32Remainder.c.99a75392
+ .debug_info    0x0000000000064648      0x238 /tmp/ccagmls0.debug.temp.o
+                0x0000000000064648                Unaligned.c.a40271e9
+ .debug_info    0x0000000000064880      0x277 /tmp/ccAdYpjv.debug.temp.o
+                0x0000000000064880                SerialPortLib.c.bf19079b
+ .debug_info    0x0000000000064af7      0x2d3 /tmp/cclA1DKE.debug.temp.o
+                0x0000000000064af7                UartLib.c.db43ab4c
+ .debug_info    0x0000000000064dca      0x4eb /tmp/ccZVBdSR.debug.temp.o
+                0x0000000000064dca                IoLibNoIo.c.373e17b9
+
+.debug_abbrev   0x0000000000000000     0x5cc5
+ .debug_abbrev  0x0000000000000000      0x24d /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .debug_abbrev  0x000000000000024d      0x2c9 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .debug_abbrev  0x0000000000000516      0x1d1 /tmp/cczyF1S9.debug.temp.o
+ .debug_abbrev  0x00000000000006e7       0xa4 /tmp/cc30CvNk.debug.temp.o
+ .debug_abbrev  0x000000000000078b       0x76 /tmp/cc6xJQoX.debug.temp.o
+ .debug_abbrev  0x0000000000000801       0x87 /tmp/cc9swtIs.debug.temp.o
+ .debug_abbrev  0x0000000000000888      0x25d /tmp/cc4eDg6r.debug.temp.o
+ .debug_abbrev  0x0000000000000ae5      0x32a /tmp/ccasGvpx.debug.temp.o
+ .debug_abbrev  0x0000000000000e0f      0x347 /tmp/ccQD4QGN.debug.temp.o
+ .debug_abbrev  0x0000000000001156      0x2e4 /tmp/ccsbewzT.debug.temp.o
+ .debug_abbrev  0x000000000000143a      0x2ed /tmp/cc8UrLiD.debug.temp.o
+ .debug_abbrev  0x0000000000001727      0x322 /tmp/ccO41zZd.debug.temp.o
+ .debug_abbrev  0x0000000000001a49      0x291 /tmp/ccvdhAPW.debug.temp.o
+ .debug_abbrev  0x0000000000001cda       0xc3 /tmp/ccRHxBL7.debug.temp.o
+ .debug_abbrev  0x0000000000001d9d      0x295 /tmp/ccT5n2xd.debug.temp.o
+ .debug_abbrev  0x0000000000002032      0x2c6 /tmp/ccs494xK.debug.temp.o
+ .debug_abbrev  0x00000000000022f8      0x36c /tmp/ccupTF44.debug.temp.o
+ .debug_abbrev  0x0000000000002664      0x347 /tmp/ccIVe4aQ.debug.temp.o
+ .debug_abbrev  0x00000000000029ab      0x36a /tmp/ccsq3OMa.debug.temp.o
+ .debug_abbrev  0x0000000000002d15      0x2b2 /tmp/cci6Doln.debug.temp.o
+ .debug_abbrev  0x0000000000002fc7       0x49 /tmp/ccCAgsrJ.debug.temp.o
+ .debug_abbrev  0x0000000000003010       0xb6 /tmp/ccTdsiWT.debug.temp.o
+ .debug_abbrev  0x00000000000030c6       0x5e /tmp/cccBDE0u.debug.temp.o
+ .debug_abbrev  0x0000000000003124       0x67 /tmp/ccadh9Ve.debug.temp.o
+ .debug_abbrev  0x000000000000318b       0x6e /tmp/ccaO02dE.debug.temp.o
+ .debug_abbrev  0x00000000000031f9       0x66 /tmp/ccQq2iQn.debug.temp.o
+ .debug_abbrev  0x000000000000325f       0x57 /tmp/cc4MPRRi.debug.temp.o
+ .debug_abbrev  0x00000000000032b6      0x102 /tmp/ccOf82fx.debug.temp.o
+ .debug_abbrev  0x00000000000033b8      0x101 /tmp/cc3DKVXU.debug.temp.o
+ .debug_abbrev  0x00000000000034b9      0x133 /tmp/ccyKPdOK.debug.temp.o
+ .debug_abbrev  0x00000000000035ec       0xa8 /tmp/ccveKMxD.debug.temp.o
+ .debug_abbrev  0x0000000000003694      0x106 /tmp/ccRviGcL.debug.temp.o
+ .debug_abbrev  0x000000000000379a      0x15c /tmp/ccB5RPEm.debug.temp.o
+ .debug_abbrev  0x00000000000038f6      0x12d /tmp/cco87qWO.debug.temp.o
+ .debug_abbrev  0x0000000000003a23      0x1c5 /tmp/ccLPKDSP.debug.temp.o
+ .debug_abbrev  0x0000000000003be8      0x1e4 /tmp/cclbaQwa.debug.temp.o
+ .debug_abbrev  0x0000000000003dcc      0x162 /tmp/ccD5GWWv.debug.temp.o
+ .debug_abbrev  0x0000000000003f2e      0x189 /tmp/ccERyVU2.debug.temp.o
+ .debug_abbrev  0x00000000000040b7       0xd2 /tmp/ccoSvTfc.debug.temp.o
+ .debug_abbrev  0x0000000000004189      0x198 /tmp/ccf7Sl2S.debug.temp.o
+ .debug_abbrev  0x0000000000004321      0x204 /tmp/ccS0ixMf.debug.temp.o
+ .debug_abbrev  0x0000000000004525      0x24b /tmp/ccU3KacK.debug.temp.o
+ .debug_abbrev  0x0000000000004770      0x24f /tmp/cckxc0er.debug.temp.o
+ .debug_abbrev  0x00000000000049bf      0x1fe /tmp/ccGvrcPg.debug.temp.o
+ .debug_abbrev  0x0000000000004bbd      0x379 /tmp/ccMJQcm7.debug.temp.o
+ .debug_abbrev  0x0000000000004f36      0x2b0 /tmp/ccsANmwe.debug.temp.o
+ .debug_abbrev  0x00000000000051e6      0x1f5 /tmp/ccLHstdH.debug.temp.o
+ .debug_abbrev  0x00000000000053db      0x2e1 /tmp/ccwMUSi5.debug.temp.o
+ .debug_abbrev  0x00000000000056bc      0x134 /tmp/ccV9ebjf.debug.temp.o
+ .debug_abbrev  0x00000000000057f0       0xf4 /tmp/ccvliUJ0.debug.temp.o
+ .debug_abbrev  0x00000000000058e4       0x5e /tmp/ccA2kRC4.debug.temp.o
+ .debug_abbrev  0x0000000000005942       0x62 /tmp/ccKGrw5j.debug.temp.o
+ .debug_abbrev  0x00000000000059a4       0x7f /tmp/ccagmls0.debug.temp.o
+ .debug_abbrev  0x0000000000005a23       0xc2 /tmp/ccAdYpjv.debug.temp.o
+ .debug_abbrev  0x0000000000005ae5       0xf8 /tmp/cclA1DKE.debug.temp.o
+ .debug_abbrev  0x0000000000005bdd       0xe8 /tmp/ccZVBdSR.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x27bbe
+ .debug_loc     0x0000000000000000    0x1a329 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .debug_loc     0x000000000001a329     0xd895 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xf00
+ .debug_aranges
+                0x0000000000000000      0x7e0 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000000000007e0      0x720 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x2d30
+ .debug_ranges  0x0000000000000000     0x1e70 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000001e70      0xec0 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+
+.debug_line     0x0000000000000000    0x1411e
+ .debug_line    0x0000000000000000     0x87ea /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .debug_line    0x00000000000087ea     0x49f8 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+ .debug_line    0x000000000000d1e2      0x2de /tmp/cczyF1S9.debug.temp.o
+ .debug_line    0x000000000000d4c0       0x70 /tmp/cc30CvNk.debug.temp.o
+ .debug_line    0x000000000000d530       0x70 /tmp/cc6xJQoX.debug.temp.o
+ .debug_line    0x000000000000d5a0      0x144 /tmp/cc9swtIs.debug.temp.o
+ .debug_line    0x000000000000d6e4      0x2b3 /tmp/cc4eDg6r.debug.temp.o
+ .debug_line    0x000000000000d997      0x463 /tmp/ccasGvpx.debug.temp.o
+ .debug_line    0x000000000000ddfa      0x3c6 /tmp/ccQD4QGN.debug.temp.o
+ .debug_line    0x000000000000e1c0      0x342 /tmp/ccsbewzT.debug.temp.o
+ .debug_line    0x000000000000e502      0x320 /tmp/cc8UrLiD.debug.temp.o
+ .debug_line    0x000000000000e822      0x413 /tmp/ccO41zZd.debug.temp.o
+ .debug_line    0x000000000000ec35      0x322 /tmp/ccvdhAPW.debug.temp.o
+ .debug_line    0x000000000000ef57      0x12c /tmp/ccRHxBL7.debug.temp.o
+ .debug_line    0x000000000000f083      0x2dc /tmp/ccT5n2xd.debug.temp.o
+ .debug_line    0x000000000000f35f      0x321 /tmp/ccs494xK.debug.temp.o
+ .debug_line    0x000000000000f680      0x38a /tmp/ccupTF44.debug.temp.o
+ .debug_line    0x000000000000fa0a      0x412 /tmp/ccIVe4aQ.debug.temp.o
+ .debug_line    0x000000000000fe1c      0x47f /tmp/ccsq3OMa.debug.temp.o
+ .debug_line    0x000000000001029b      0x32d /tmp/cci6Doln.debug.temp.o
+ .debug_line    0x00000000000105c8       0x89 /tmp/ccCAgsrJ.debug.temp.o
+ .debug_line    0x0000000000010651       0xfb /tmp/ccTdsiWT.debug.temp.o
+ .debug_line    0x000000000001074c       0xc1 /tmp/cccBDE0u.debug.temp.o
+ .debug_line    0x000000000001080d       0xc4 /tmp/ccadh9Ve.debug.temp.o
+ .debug_line    0x00000000000108d1       0xc1 /tmp/ccaO02dE.debug.temp.o
+ .debug_line    0x0000000000010992       0xb2 /tmp/ccQq2iQn.debug.temp.o
+ .debug_line    0x0000000000010a44       0xb2 /tmp/cc4MPRRi.debug.temp.o
+ .debug_line    0x0000000000010af6      0x159 /tmp/ccOf82fx.debug.temp.o
+ .debug_line    0x0000000000010c4f      0x155 /tmp/cc3DKVXU.debug.temp.o
+ .debug_line    0x0000000000010da4      0x159 /tmp/ccyKPdOK.debug.temp.o
+ .debug_line    0x0000000000010efd       0xad /tmp/ccveKMxD.debug.temp.o
+ .debug_line    0x0000000000010faa       0xfc /tmp/ccRviGcL.debug.temp.o
+ .debug_line    0x00000000000110a6      0x192 /tmp/ccB5RPEm.debug.temp.o
+ .debug_line    0x0000000000011238      0x192 /tmp/cco87qWO.debug.temp.o
+ .debug_line    0x00000000000113ca      0x237 /tmp/ccLPKDSP.debug.temp.o
+ .debug_line    0x0000000000011601      0x20c /tmp/cclbaQwa.debug.temp.o
+ .debug_line    0x000000000001180d      0x1d6 /tmp/ccD5GWWv.debug.temp.o
+ .debug_line    0x00000000000119e3      0x20c /tmp/ccERyVU2.debug.temp.o
+ .debug_line    0x0000000000011bef      0x10b /tmp/ccoSvTfc.debug.temp.o
+ .debug_line    0x0000000000011cfa      0x1e7 /tmp/ccf7Sl2S.debug.temp.o
+ .debug_line    0x0000000000011ee1      0x327 /tmp/ccS0ixMf.debug.temp.o
+ .debug_line    0x0000000000012208      0x223 /tmp/ccU3KacK.debug.temp.o
+ .debug_line    0x000000000001242b      0x2d5 /tmp/cckxc0er.debug.temp.o
+ .debug_line    0x0000000000012700      0x39a /tmp/ccGvrcPg.debug.temp.o
+ .debug_line    0x0000000000012a9a      0x3cf /tmp/ccMJQcm7.debug.temp.o
+ .debug_line    0x0000000000012e69      0x249 /tmp/ccsANmwe.debug.temp.o
+ .debug_line    0x00000000000130b2      0x2d6 /tmp/ccLHstdH.debug.temp.o
+ .debug_line    0x0000000000013388      0x333 /tmp/ccwMUSi5.debug.temp.o
+ .debug_line    0x00000000000136bb      0x209 /tmp/ccV9ebjf.debug.temp.o
+ .debug_line    0x00000000000138c4      0x20b /tmp/ccvliUJ0.debug.temp.o
+ .debug_line    0x0000000000013acf       0xc2 /tmp/ccA2kRC4.debug.temp.o
+ .debug_line    0x0000000000013b91       0xb9 /tmp/ccKGrw5j.debug.temp.o
+ .debug_line    0x0000000000013c4a       0xb4 /tmp/ccagmls0.debug.temp.o
+ .debug_line    0x0000000000013cfe      0x14f /tmp/ccAdYpjv.debug.temp.o
+ .debug_line    0x0000000000013e4d      0x1c7 /tmp/cclA1DKE.debug.temp.o
+ .debug_line    0x0000000000014014      0x10a /tmp/ccZVBdSR.debug.temp.o
+
+.debug_str      0x0000000000000000     0xdb17
+ .debug_str     0x0000000000000000      0x718 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+                                        0x725 (size before relaxing)
+ .debug_str     0x0000000000000718       0x91 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o
+                                        0x52f (size before relaxing)
+ .debug_str     0x00000000000007a9     0x12c6 /tmp/cczyF1S9.debug.temp.o
+                                       0x1464 (size before relaxing)
+ .debug_str     0x0000000000001a6f      0x21d /tmp/cc30CvNk.debug.temp.o
+                                        0x2a4 (size before relaxing)
+ .debug_str     0x0000000000001c8c       0x58 /tmp/cc6xJQoX.debug.temp.o
+                                        0x298 (size before relaxing)
+ .debug_str     0x0000000000001ce4      0x110 /tmp/cc9swtIs.debug.temp.o
+                                        0x2f2 (size before relaxing)
+ .debug_str     0x0000000000001df4      0xb79 /tmp/cc4eDg6r.debug.temp.o
+                                       0x1ec2 (size before relaxing)
+ .debug_str     0x000000000000296d     0x1b13 /tmp/ccasGvpx.debug.temp.o
+                                       0x34d2 (size before relaxing)
+ .debug_str     0x0000000000004480      0x2e0 /tmp/ccQD4QGN.debug.temp.o
+                                       0x2bcd (size before relaxing)
+ .debug_str     0x0000000000004760       0xf5 /tmp/ccsbewzT.debug.temp.o
+                                       0x2096 (size before relaxing)
+ .debug_str     0x0000000000004855      0x131 /tmp/cc8UrLiD.debug.temp.o
+                                       0x2042 (size before relaxing)
+ .debug_str     0x0000000000004986      0x2be /tmp/ccO41zZd.debug.temp.o
+                                       0x2d8f (size before relaxing)
+ .debug_str     0x0000000000004c44       0xd4 /tmp/ccvdhAPW.debug.temp.o
+                                       0x1fe5 (size before relaxing)
+ .debug_str     0x0000000000004d18       0x7b /tmp/ccRHxBL7.debug.temp.o
+                                        0x2cf (size before relaxing)
+ .debug_str     0x0000000000004d93       0xad /tmp/ccT5n2xd.debug.temp.o
+                                       0x16cd (size before relaxing)
+ .debug_str     0x0000000000004e40      0x177 /tmp/ccs494xK.debug.temp.o
+                                       0x20cb (size before relaxing)
+ .debug_str     0x0000000000004fb7      0x330 /tmp/ccupTF44.debug.temp.o
+                                       0x2d43 (size before relaxing)
+ .debug_str     0x00000000000052e7      0x436 /tmp/ccIVe4aQ.debug.temp.o
+                                       0x3140 (size before relaxing)
+ .debug_str     0x000000000000571d      0x42e /tmp/ccsq3OMa.debug.temp.o
+                                       0x2df5 (size before relaxing)
+ .debug_str     0x0000000000005b4b       0xb9 /tmp/cci6Doln.debug.temp.o
+                                       0x2095 (size before relaxing)
+ .debug_str     0x0000000000005c04       0x68 /tmp/ccCAgsrJ.debug.temp.o
+                                        0x26a (size before relaxing)
+ .debug_str     0x0000000000005c6c      0x120 /tmp/ccTdsiWT.debug.temp.o
+                                        0x33b (size before relaxing)
+ .debug_str     0x0000000000005d8c       0x55 /tmp/cccBDE0u.debug.temp.o
+                                        0x2b5 (size before relaxing)
+ .debug_str     0x0000000000005de1       0x77 /tmp/ccadh9Ve.debug.temp.o
+                                        0x2de (size before relaxing)
+ .debug_str     0x0000000000005e58       0x55 /tmp/ccaO02dE.debug.temp.o
+                                        0x2cd (size before relaxing)
+ .debug_str     0x0000000000005ead       0xc4 /tmp/ccQq2iQn.debug.temp.o
+                                        0x29a (size before relaxing)
+ .debug_str     0x0000000000005f71       0x52 /tmp/cc4MPRRi.debug.temp.o
+                                        0x27c (size before relaxing)
+ .debug_str     0x0000000000005fc3      0x11d /tmp/ccOf82fx.debug.temp.o
+                                        0x3f6 (size before relaxing)
+ .debug_str     0x00000000000060e0      0x2e9 /tmp/cc3DKVXU.debug.temp.o
+                                        0x67e (size before relaxing)
+ .debug_str     0x00000000000063c9      0x2c8 /tmp/ccyKPdOK.debug.temp.o
+                                        0x6ed (size before relaxing)
+ .debug_str     0x0000000000006691      0x199 /tmp/ccveKMxD.debug.temp.o
+                                        0x407 (size before relaxing)
+ .debug_str     0x000000000000682a      0x269 /tmp/ccRviGcL.debug.temp.o
+                                        0x48c (size before relaxing)
+ .debug_str     0x0000000000006a93      0x246 /tmp/ccB5RPEm.debug.temp.o
+                                        0x687 (size before relaxing)
+ .debug_str     0x0000000000006cd9      0x1c6 /tmp/cco87qWO.debug.temp.o
+                                        0x4eb (size before relaxing)
+ .debug_str     0x0000000000006e9f      0x105 /tmp/ccLPKDSP.debug.temp.o
+                                       0x1382 (size before relaxing)
+ .debug_str     0x0000000000006fa4      0x312 /tmp/cclbaQwa.debug.temp.o
+                                        0xf74 (size before relaxing)
+ .debug_str     0x00000000000072b6      0x374 /tmp/ccD5GWWv.debug.temp.o
+                                        0x660 (size before relaxing)
+ .debug_str     0x000000000000762a       0x73 /tmp/ccERyVU2.debug.temp.o
+                                        0xd0c (size before relaxing)
+ .debug_str     0x000000000000769d       0xef /tmp/ccoSvTfc.debug.temp.o
+                                        0x47b (size before relaxing)
+ .debug_str     0x000000000000778c      0x114 /tmp/ccf7Sl2S.debug.temp.o
+                                       0x1384 (size before relaxing)
+ .debug_str     0x00000000000078a0      0x5ae /tmp/ccS0ixMf.debug.temp.o
+                                       0x1c7b (size before relaxing)
+ .debug_str     0x0000000000007e4e      0x130 /tmp/ccU3KacK.debug.temp.o
+                                       0x1466 (size before relaxing)
+ .debug_str     0x0000000000007f7e      0x5b1 /tmp/cckxc0er.debug.temp.o
+                                       0x1b28 (size before relaxing)
+ .debug_str     0x000000000000852f      0xa34 /tmp/ccGvrcPg.debug.temp.o
+                                       0x1fb9 (size before relaxing)
+ .debug_str     0x0000000000008f63     0x308a /tmp/ccMJQcm7.debug.temp.o
+                                       0x5157 (size before relaxing)
+ .debug_str     0x000000000000bfed      0x3ac /tmp/ccsANmwe.debug.temp.o
+                                       0x12cf (size before relaxing)
+ .debug_str     0x000000000000c399      0x140 /tmp/ccLHstdH.debug.temp.o
+                                       0x13e7 (size before relaxing)
+ .debug_str     0x000000000000c4d9      0xe4f /tmp/ccwMUSi5.debug.temp.o
+                                       0x244c (size before relaxing)
+ .debug_str     0x000000000000d328       0xc9 /tmp/ccV9ebjf.debug.temp.o
+                                        0x51f (size before relaxing)
+ .debug_str     0x000000000000d3f1       0x8c /tmp/ccvliUJ0.debug.temp.o
+                                        0x455 (size before relaxing)
+ .debug_str     0x000000000000d47d       0x56 /tmp/ccA2kRC4.debug.temp.o
+                                        0x2c4 (size before relaxing)
+ .debug_str     0x000000000000d4d3       0x60 /tmp/ccKGrw5j.debug.temp.o
+                                        0x2ae (size before relaxing)
+ .debug_str     0x000000000000d533       0xe1 /tmp/ccagmls0.debug.temp.o
+                                        0x345 (size before relaxing)
+ .debug_str     0x000000000000d614      0x1f6 /tmp/ccAdYpjv.debug.temp.o
+                                        0x43f (size before relaxing)
+ .debug_str     0x000000000000d80a      0x123 /tmp/cclA1DKE.debug.temp.o
+                                        0x438 (size before relaxing)
+ .debug_str     0x000000000000d92d      0x1ea /tmp/ccZVBdSR.debug.temp.o
+                                        0x3fa (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x2ec0
+ .debug_frame   0x0000000000000000     0x1980 /tmp/Ip4Dxe.dll.pB2ong.ltrans0.ltrans.o
+ .debug_frame   0x0000000000001980     0x1540 /tmp/Ip4Dxe.dll.pB2ong.ltrans1.ltrans.o

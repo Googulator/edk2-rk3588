@@ -77,6 +77,12 @@
         .frac = _frac,                                                    \
     }
 
+#define RK3588_PLL_RATE(_rate, _p, _m, _s, _k) \
+    {                                                                     \
+        .rate = _rate##U, .p = _p, .m = _m,         \
+        .s = _s, .k = _k,        \
+    }
+
 struct PLL_CONFIG {
     uint32_t rate;
     uint32_t fbDiv;
@@ -85,6 +91,10 @@ struct PLL_CONFIG {
     uint32_t postDiv2;
     uint32_t dsmpd;
     uint32_t frac;
+    uint32_t m;
+    uint32_t p;
+    uint32_t s;
+    uint32_t k;
 };
 
 struct PLL_SETUP {
@@ -92,6 +102,7 @@ struct PLL_SETUP {
     __IO uint32_t *conOffset1;
     __IO uint32_t *conOffset2;
     __IO uint32_t *conOffset3;
+    __IO uint32_t *conOffset6;
     __IO uint32_t *modeOffset;
     __I uint32_t *stat0;
     uint32_t modeShift;
@@ -125,6 +136,9 @@ uint32_t HAL_CRU_GetPllFreq(struct PLL_SETUP *pSetup);
 HAL_Status HAL_CRU_SetPllFreq(struct PLL_SETUP *pSetup, uint32_t rate);
 HAL_Status HAL_CRU_SetPllPowerUp(struct PLL_SETUP *pSetup);
 HAL_Status HAL_CRU_SetPllPowerDown(struct PLL_SETUP *pSetup);
+
+uint32_t HAL_CRU_GetPllV1Freq(struct PLL_SETUP *pSetup);
+HAL_Status HAL_CRU_SetPllV1Freq(struct PLL_SETUP *pSetup, uint32_t rate);
 
 HAL_Check HAL_CRU_ClkIsEnabled(uint32_t clk);
 HAL_Status HAL_CRU_ClkEnable(uint32_t clk);

@@ -1,0 +1,9 @@
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiLib/Console.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiLib/UefiLib.inf
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiLib/UefiLib.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiLib/UefiNotTiano.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiLib/Acpi.c
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/DEBUG/AutoGen.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiLib/UefiLibInternal.h
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiLib/UefiDriverModel.c
+/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/UefiLib/UefiLibPrint.c

@@ -1,0 +1,2400 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/OUTPUT/BdsDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/OUTPUT/BdsDxe.lib(BdsEntry.obj)
+                              AutoGen.obj (symbol from plugin) (BdsInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/OUTPUT/BdsDxe.lib(HwErrRecSupport.obj)
+                              BdsEntry.obj (symbol from plugin) (InitializeHwErrRecSupport)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/OUTPUT/BdsDxe.lib(Language.obj)
+                              BdsEntry.obj (symbol from plugin) (InitializeLanguage)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib(DxePcdLib.obj)
+                              BdsEntry.obj (symbol from plugin) (LibPcdGet16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              BdsEntry.obj (symbol from plugin) (CopyGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              BdsEntry.obj (symbol from plugin) (CopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              BdsEntry.obj (symbol from plugin) (MultU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              BdsEntry.obj (symbol from plugin) (LowBitSet32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              BdsEntry.obj (symbol from plugin) (StrSize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              MultU64x32.obj (symbol from plugin) (InternalMathMultU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              CpuDeadLoop.obj (symbol from plugin) (CpuPause)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              Math64.obj (symbol from plugin) (SwapBytes32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SwapBytes32.obj (symbol from plugin) (SwapBytes16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              String.obj (symbol from plugin) (StrDecimalToUintnS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (LShiftU64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              BdsEntry.obj (symbol from plugin) (UnicodeSPrint)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              BdsEntry.obj (symbol from plugin) (AllocatePool)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              BdsEntry.obj (symbol from plugin) (IsDevicePathValid)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              BdsEntry.obj (symbol from plugin) (Print)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib(DxeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (DxeServicesTableLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib/OUTPUT/DxePerformanceLib.lib(DxePerformanceLib.obj)
+                              BdsEntry.obj (symbol from plugin) (LogPerformanceMeasurement)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib(HobLib.obj)
+                              AutoGen.obj (symbol from plugin) (HobLibConstructor)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib/OUTPUT/DxeReportStatusCodeLib.lib(ReportStatusCodeLib.obj)
+                              BdsEntry.obj (symbol from plugin) (ReportProgressCodeEnabled)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmConnect.obj)
+                              BdsEntry.obj (symbol from plugin) (EfiBootManagerConnectAll)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmConsole.obj)
+                              BdsEntry.obj (symbol from plugin) (EfiBootManagerConnectConsoleVariable)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmBoot.obj)
+                              BdsEntry.obj (symbol from plugin) (EfiBootManagerBoot)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmBootDescription.obj)
+                              BmBoot.obj (symbol from plugin) (BmGetBootDescription)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmLoadOption.obj)
+                              BmBoot.obj (symbol from plugin) (mBmLoadOptionName)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmHotkey.obj)
+                              BdsEntry.obj (symbol from plugin) (EfiBootManagerHotkeyBoot)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmDriverHealth.obj)
+                              BmBoot.obj (symbol from plugin) (BmRepairAllControllers)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmMisc.obj)
+                              BmConsole.obj (symbol from plugin) (BmDelPartMatchInstance)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/VariablePolicyHelperLib/VariablePolicyHelperLib/OUTPUT/VariablePolicyHelperLib.lib(VariablePolicyHelperLib.obj)
+                              BdsEntry.obj (symbol from plugin) (RegisterBasicVariablePolicy)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/PlatformBootManagerLib/PlatformBootManagerLib/OUTPUT/PlatformBootManagerLib.lib(PlatformBm.obj)
+                              BdsEntry.obj (symbol from plugin) (PlatformBootManagerBeforeConsole)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              SafeString.obj (symbol from plugin) (ZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              BmBoot.obj (symbol from plugin) (CompareMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              BmBootDescription.obj (symbol from plugin) (InsertTailList)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib(SerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              BmBoot.obj (symbol from plugin) (EfiCreateEventLegacyBootEx)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib(UefiSortLib.obj)
+                              BmLoadOption.obj (symbol from plugin) (PerformQuickSort)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              BmDriverHealth.obj (symbol from plugin) (HiiGetHiiHandles)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              BmDriverHealth.obj (symbol from plugin) (HiiGetString)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesLib/DxeServicesLib/OUTPUT/DxeServicesLib.lib(DxeServicesLib.obj)
+                              BmBoot.obj (symbol from plugin) (GetSectionFromAnyFv)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxeCapsuleLibNull/DxeCapsuleLibNull/OUTPUT/DxeCapsuleLibNull.lib(DxeCapsuleLibNull.obj)
+                              PlatformBm.obj (symbol from plugin) (ProcessCapsuleImage)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/BootLogoLib/BootLogoLib/OUTPUT/BootLogoLib.lib(BootLogoLib.obj)
+                              PlatformBm.obj (symbol from plugin) (BootLogoEnableLogo)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib(UartLib.obj)
+                              SerialPortLib.obj (symbol from plugin) (UartInitializePort)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              UartLib.obj (symbol from plugin) (MmioRead32)
+/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              IoLibNoIo.obj (symbol from plugin) (FilterBeforeMmIoRead)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x0000000000000000       0x2e /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000000000       0x40 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.BdsDxeOnConnectConInCallBack.str1.1
+                0x0000000000000000       0x24 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.BdsDxeOnConnectConInCallBack
+                0x0000000000000000       0x50 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gDriverUnloadImageCount
+                0x0000000000000000        0x1 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x0000000000000000        0x1 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdEmuVariableNvModeEnable
+                0x0000000000000000        0x1 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+                0x0000000000000000        0x4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask
+                0x0000000000000000        0x1 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x0000000000000000        0x4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.IsNodeInList.str1.1
+                0x0000000000000000       0x44 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0xa0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.ReportStatusCode.constprop.0.isra.0
+                0x0000000000000000       0x18 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.__stack_chk_guard
+                0x0000000000000000        0x8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x5e /tmp/ccOTMth7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOTMth7.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccIHehHB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIHehHB.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cciPSPKk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciPSPKk.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccy37PZ3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccy37PZ3.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccVWWCvM.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVWWCvM.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccAbxwYC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAbxwYC.debug.temp.o
+ .debug_info    0x0000000000000000      0x77e /tmp/ccCALdCf.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x14c /tmp/ccCALdCf.debug.temp.o
+ .debug_line    0x0000000000000000      0x22d /tmp/ccCALdCf.debug.temp.o
+ .debug_str     0x0000000000000000      0x729 /tmp/ccCALdCf.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccCALdCf.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCALdCf.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccUnJ5d3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUnJ5d3.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc3L3Ipu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3L3Ipu.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccRz7lbh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRz7lbh.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cca6E9WG.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cca6E9WG.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc19vqAd.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc19vqAd.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc0POJY8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0POJY8.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccZ6jjo8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZ6jjo8.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccUOy1bQ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUOy1bQ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccbeYlEc.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbeYlEc.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccNTzvT7.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x66 /tmp/ccNTzvT7.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccNTzvT7.debug.temp.o
+ .debug_str     0x0000000000000000      0x29a /tmp/ccNTzvT7.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccNTzvT7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNTzvT7.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/ccDiumwN.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccDiumwN.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccDiumwN.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/ccDiumwN.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccDiumwN.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDiumwN.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc7MiHNk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7MiHNk.debug.temp.o
+ .debug_info    0x0000000000000000       0xad /tmp/ccl5ZZvf.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccl5ZZvf.debug.temp.o
+ .debug_line    0x0000000000000000       0xb0 /tmp/ccl5ZZvf.debug.temp.o
+ .debug_str     0x0000000000000000      0x28e /tmp/ccl5ZZvf.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccl5ZZvf.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccl5ZZvf.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc5IZUyx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5IZUyx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQ0uiO8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQ0uiO8.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cczW4qxk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczW4qxk.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccpZvGtu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpZvGtu.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc4dudlG.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4dudlG.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccoOJjn5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoOJjn5.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccDPgKK8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDPgKK8.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccLA276l.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLA276l.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc7WxwRX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7WxwRX.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccXKaMWX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXKaMWX.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cccvvDR1.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccvvDR1.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccggaNtw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccggaNtw.debug.temp.o
+ .debug_info    0x0000000000000000     0x2ef9 /tmp/ccltyf83.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x20d /tmp/ccltyf83.debug.temp.o
+ .debug_line    0x0000000000000000      0x2b7 /tmp/ccltyf83.debug.temp.o
+ .debug_str     0x0000000000000000     0x1cf4 /tmp/ccltyf83.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccltyf83.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccltyf83.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccNx1ZXy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNx1ZXy.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccriNIHl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccriNIHl.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cccEIE1M.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccEIE1M.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccIkcUuD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIkcUuD.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccnvDhCn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccnvDhCn.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccIyV2VF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIyV2VF.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccffhLCJ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccffhLCJ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc5oluCF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5oluCF.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc8FYMtX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8FYMtX.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccy1X79O.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccy1X79O.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccQ7GO9R.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQ7GO9R.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc3NhsV6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3NhsV6.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccpEUf7t.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpEUf7t.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccErTyHi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccErTyHi.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cckRQk2u.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckRQk2u.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cckPNt7h.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckPNt7h.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccDrNQEx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDrNQEx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccfqlwdD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfqlwdD.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccJ8UKHP.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJ8UKHP.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccsHSZJH.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsHSZJH.debug.temp.o
+ .debug_info    0x0000000000000000       0xbb /tmp/ccxY6vcJ.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x5e /tmp/ccxY6vcJ.debug.temp.o
+ .debug_line    0x0000000000000000       0xc2 /tmp/ccxY6vcJ.debug.temp.o
+ .debug_str     0x0000000000000000      0x2bd /tmp/ccxY6vcJ.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccxY6vcJ.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxY6vcJ.debug.temp.o
+ .debug_info    0x0000000000000000       0x89 /tmp/ccAHikIE.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x57 /tmp/ccAHikIE.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccAHikIE.debug.temp.o
+ .debug_str     0x0000000000000000      0x27c /tmp/ccAHikIE.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccAHikIE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAHikIE.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc8NjHMF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8NjHMF.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccPADetH.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPADetH.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccWbjtRb.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWbjtRb.debug.temp.o
+ .debug_info    0x0000000000000000       0xb6 /tmp/ccxPqEVx.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x86 /tmp/ccxPqEVx.debug.temp.o
+ .debug_line    0x0000000000000000      0x16c /tmp/ccxPqEVx.debug.temp.o
+ .debug_str     0x0000000000000000      0x324 /tmp/ccxPqEVx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccxPqEVx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxPqEVx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccXOMxPG.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXOMxPG.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccvBwMzO.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvBwMzO.debug.temp.o
+ .debug_info    0x0000000000000000     0x11bd /tmp/ccrL8Cjr.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1f3 /tmp/ccrL8Cjr.debug.temp.o
+ .debug_line    0x0000000000000000      0x2db /tmp/ccrL8Cjr.debug.temp.o
+ .debug_str     0x0000000000000000      0xf2a /tmp/ccrL8Cjr.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccrL8Cjr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrL8Cjr.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccxVBgjk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxVBgjk.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc85bCbS.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc85bCbS.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccp8Zhdd.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccp8Zhdd.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc9EHDYt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9EHDYt.debug.temp.o
+ .debug_info    0x0000000000000000      0x215 /tmp/ccg0AkHE.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xe9 /tmp/ccg0AkHE.debug.temp.o
+ .debug_line    0x0000000000000000      0x157 /tmp/ccg0AkHE.debug.temp.o
+ .debug_str     0x0000000000000000      0x3c1 /tmp/ccg0AkHE.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccg0AkHE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccg0AkHE.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc8rJbka.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8rJbka.debug.temp.o
+ .debug_info    0x0000000000000000      0x795 /tmp/cc8xGxDx.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x9f /tmp/cc8xGxDx.debug.temp.o
+ .debug_line    0x0000000000000000       0xaf /tmp/cc8xGxDx.debug.temp.o
+ .debug_str     0x0000000000000000      0x48b /tmp/cc8xGxDx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc8xGxDx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8xGxDx.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/cc7aRNmL.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7aRNmL.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccwI3vi0.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwI3vi0.debug.temp.o
+ .debug_info    0x0000000000000000      0x302 /tmp/ccbvOOtw.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xcd /tmp/ccbvOOtw.debug.temp.o
+ .debug_line    0x0000000000000000      0x119 /tmp/ccbvOOtw.debug.temp.o
+ .debug_str     0x0000000000000000      0x40b /tmp/ccbvOOtw.debug.temp.o
+ .comment       0x0000000000000000       0x5e /tmp/ccbvOOtw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbvOOtw.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000        0x8 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+LOAD /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+LOAD /tmp/ccOTMth7.debug.temp.o
+LOAD /tmp/ccIHehHB.debug.temp.o
+LOAD /tmp/cciPSPKk.debug.temp.o
+LOAD /tmp/ccy37PZ3.debug.temp.o
+LOAD /tmp/ccVWWCvM.debug.temp.o
+LOAD /tmp/ccAbxwYC.debug.temp.o
+LOAD /tmp/ccCALdCf.debug.temp.o
+LOAD /tmp/ccUnJ5d3.debug.temp.o
+LOAD /tmp/cc3L3Ipu.debug.temp.o
+LOAD /tmp/ccRz7lbh.debug.temp.o
+LOAD /tmp/cca6E9WG.debug.temp.o
+LOAD /tmp/cc19vqAd.debug.temp.o
+LOAD /tmp/cc0POJY8.debug.temp.o
+LOAD /tmp/ccZ6jjo8.debug.temp.o
+LOAD /tmp/ccUOy1bQ.debug.temp.o
+LOAD /tmp/ccbeYlEc.debug.temp.o
+LOAD /tmp/ccNTzvT7.debug.temp.o
+LOAD /tmp/ccDiumwN.debug.temp.o
+LOAD /tmp/cc7MiHNk.debug.temp.o
+LOAD /tmp/ccl5ZZvf.debug.temp.o
+LOAD /tmp/cc5IZUyx.debug.temp.o
+LOAD /tmp/ccQ0uiO8.debug.temp.o
+LOAD /tmp/cczW4qxk.debug.temp.o
+LOAD /tmp/ccpZvGtu.debug.temp.o
+LOAD /tmp/cc4dudlG.debug.temp.o
+LOAD /tmp/ccoOJjn5.debug.temp.o
+LOAD /tmp/ccDPgKK8.debug.temp.o
+LOAD /tmp/ccLA276l.debug.temp.o
+LOAD /tmp/cc7WxwRX.debug.temp.o
+LOAD /tmp/ccXKaMWX.debug.temp.o
+LOAD /tmp/cccvvDR1.debug.temp.o
+LOAD /tmp/ccggaNtw.debug.temp.o
+LOAD /tmp/ccltyf83.debug.temp.o
+LOAD /tmp/ccNx1ZXy.debug.temp.o
+LOAD /tmp/ccriNIHl.debug.temp.o
+LOAD /tmp/cccEIE1M.debug.temp.o
+LOAD /tmp/ccIkcUuD.debug.temp.o
+LOAD /tmp/ccnvDhCn.debug.temp.o
+LOAD /tmp/ccIyV2VF.debug.temp.o
+LOAD /tmp/ccffhLCJ.debug.temp.o
+LOAD /tmp/cc5oluCF.debug.temp.o
+LOAD /tmp/cc8FYMtX.debug.temp.o
+LOAD /tmp/ccy1X79O.debug.temp.o
+LOAD /tmp/ccQ7GO9R.debug.temp.o
+LOAD /tmp/cc3NhsV6.debug.temp.o
+LOAD /tmp/ccpEUf7t.debug.temp.o
+LOAD /tmp/ccErTyHi.debug.temp.o
+LOAD /tmp/cckRQk2u.debug.temp.o
+LOAD /tmp/cckPNt7h.debug.temp.o
+LOAD /tmp/ccDrNQEx.debug.temp.o
+LOAD /tmp/ccfqlwdD.debug.temp.o
+LOAD /tmp/ccJ8UKHP.debug.temp.o
+LOAD /tmp/ccsHSZJH.debug.temp.o
+LOAD /tmp/ccxY6vcJ.debug.temp.o
+LOAD /tmp/ccAHikIE.debug.temp.o
+LOAD /tmp/cc8NjHMF.debug.temp.o
+LOAD /tmp/ccPADetH.debug.temp.o
+LOAD /tmp/ccWbjtRb.debug.temp.o
+LOAD /tmp/ccxPqEVx.debug.temp.o
+LOAD /tmp/ccXOMxPG.debug.temp.o
+LOAD /tmp/ccvBwMzO.debug.temp.o
+LOAD /tmp/ccrL8Cjr.debug.temp.o
+LOAD /tmp/ccxVBgjk.debug.temp.o
+LOAD /tmp/cc85bCbS.debug.temp.o
+LOAD /tmp/ccp8Zhdd.debug.temp.o
+LOAD /tmp/cc9EHDYt.debug.temp.o
+LOAD /tmp/ccg0AkHE.debug.temp.o
+LOAD /tmp/cc8rJbka.debug.temp.o
+LOAD /tmp/cc8xGxDx.debug.temp.o
+LOAD /tmp/cc7aRNmL.debug.temp.o
+LOAD /tmp/ccwI3vi0.debug.temp.o
+LOAD /tmp/ccbvOOtw.debug.temp.o
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/OUTPUT/BdsDxe.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/UartLib/OUTPUT/UartLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Library/SerialPortLib/SerialPortLib/OUTPUT/SerialPortLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib/OUTPUT/DxePerformanceLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesLib/DxeServicesLib/OUTPUT/DxeServicesLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib/OUTPUT/DxeReportStatusCodeLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxeCapsuleLibNull/DxeCapsuleLibNull/OUTPUT/DxeCapsuleLibNull.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/BootLogoLib/BootLogoLib/OUTPUT/BootLogoLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/VariablePolicyHelperLib/VariablePolicyHelperLib/OUTPUT/VariablePolicyHelperLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/PlatformBootManagerLib/PlatformBootManagerLib/OUTPUT/PlatformBootManagerLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000001000    0x1690e
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.ProcessLibraryDestructorList
+                0x0000000000001000        0x4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000001000                EfiEventEmptyFunction
+                0x0000000000001000                ProcessLibraryDestructorList
+ .text.BdsReadKeys.part.0
+                0x0000000000001004       0x38 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.InternalAllocatePool
+                0x000000000000103c       0x30 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.BmEndOfBdsPerfCode
+                0x000000000000106c       0x30 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.CpuDeadLoop
+                0x000000000000109c       0x24 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x00000000000010c0       0xdc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.memcpy   0x000000000000119c       0x20 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000119c                memcpy
+ .text.DebugPrintLevelEnabled
+                0x00000000000011bc        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000011bc                DebugPrintLevelEnabled
+ .text.DebugAssertEnabled
+                0x00000000000011c4        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000011c4                DebugAssertEnabled
+ .text.AsciiStrnLenS
+                0x00000000000011cc       0x3c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000011cc                AsciiStrnLenS
+ .text.BasePrintLibFillBuffer
+                0x0000000000001208       0x34 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000001208                BasePrintLibFillBuffer
+ .text.DebugAssert
+                0x000000000000123c       0x4c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000123c                DebugAssert
+ .text.CompareGuid
+                0x0000000000001288       0x60 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000001288                CompareGuid
+ .text.CopyMem  0x00000000000012e8       0xa4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000012e8                CopyMem
+ .text.StrLen   0x000000000000138c       0xa4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000138c                StrLen
+ .text.StrSize  0x0000000000001430       0x1c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000001430                StrSize
+ .text.StrCmp   0x000000000000144c       0x88 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000144c                StrCmp
+ .text.StrnCmp  0x00000000000014d4       0xc8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000014d4                StrnCmp
+ .text.AsciiStrLen
+                0x000000000000159c       0x90 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.AsciiStrSize
+                0x000000000000162c       0x18 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000001644       0xd4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.IsLangInSupportedLangCodes
+                0x0000000000001718       0xd8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x00000000000017f0       0x70 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000017f0                StrnLenS
+ .text.UnicodeVSPrint
+                0x0000000000001860       0x74 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.UnicodeSPrint
+                0x00000000000018d4       0x50 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000018d4                UnicodeSPrint
+ .text.SPrintLength
+                0x0000000000001924       0x40 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.BasePrintLibValueToString
+                0x0000000000001964       0x2c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000001964                BasePrintLibValueToString
+ .text.DebugPrint
+                0x0000000000001990       0x98 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000001990                DebugPrint
+ .text.InternalAllocateCopyPool
+                0x0000000000001a28       0xa0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.EfiGetSystemConfigurationTable
+                0x0000000000001ac8       0x94 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.GetNextHob
+                0x0000000000001b5c       0x74 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x0000000000001bd0        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000001bd0                DebugPrintEnabled
+ .text.BdsWaitForSingleEvent
+                0x0000000000001bd8      0x180 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.GetPcdProtocol
+                0x0000000000001d58       0xc0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000001d58                GetPcdProtocol
+ .text.FreePages
+                0x0000000000001e18       0xc4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.GetHobList
+                0x0000000000001edc       0xb4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.DebugCodeEnabled
+                0x0000000000001f90        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000001f90                DebugCodeEnabled
+ .text._ModuleEntryPoint
+                0x0000000000001f98      0x4a0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000001f98                _ModuleEntryPoint
+ .text.AllocatePool
+                0x0000000000002438        0xc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002438                AllocatePool
+ .text.AllocateZeroPool
+                0x0000000000002444       0x3c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002444                AllocateZeroPool
+ .text.AllocateCopyPool
+                0x0000000000002480       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002480                AllocateCopyPool
+ .text.FreePool
+                0x0000000000002490       0x7c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002490                FreePool
+ .text.CheckDeferredLoadImageOnReadyToBoot
+                0x000000000000250c      0x118 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.ReallocatePool
+                0x0000000000002624       0x70 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002624                ReallocatePool
+ .text.EfiBootManagerConnectAll
+                0x0000000000002694       0x9c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.ProcessLoadOptions
+                0x0000000000002730      0x16c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.DevicePathType
+                0x000000000000289c       0x48 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000289c                DevicePathType
+ .text.DevicePathSubType
+                0x00000000000028e4       0x48 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000028e4                DevicePathSubType
+ .text.BmConnectUsbShortFormDevicePath
+                0x000000000000292c      0x170 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.DevicePathNodeLength
+                0x0000000000002a9c       0x50 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002a9c                DevicePathNodeLength
+ .text.NextDevicePathNode
+                0x0000000000002aec       0x50 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002aec                NextDevicePathNode
+ .text.IsDevicePathEndType
+                0x0000000000002b3c       0x58 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002b3c                IsDevicePathEndType
+ .text.IsDevicePathEnd
+                0x0000000000002b94       0x70 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002b94                IsDevicePathEnd
+ .text.IsDevicePathValid
+                0x0000000000002c04       0xe0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.SetDevicePathEndNode
+                0x0000000000002ce4       0x54 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002ce4                SetDevicePathEndNode
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x0000000000002d38       0x70 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002d38                UefiDevicePathLibGetDevicePathSize
+ .text.UefiDevicePathLibDuplicateDevicePath
+                0x0000000000002da8       0x34 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002da8                UefiDevicePathLibDuplicateDevicePath
+ .text.UefiDevicePathLibAppendDevicePath
+                0x0000000000002ddc       0xcc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002ddc                UefiDevicePathLibAppendDevicePath
+ .text.UefiDevicePathLibAppendDevicePathNode
+                0x0000000000002ea8       0x9c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.UefiDevicePathLibAppendDevicePathInstance
+                0x0000000000002f44       0xec /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000002f44                UefiDevicePathLibAppendDevicePathInstance
+ .text.BmCachePartitionDevicePath
+                0x0000000000003030       0xcc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.UefiDevicePathLibGetNextDevicePathInstance
+                0x00000000000030fc       0xd0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000030fc                UefiDevicePathLibGetNextDevicePathInstance
+ .text.DevicePathFromHandle
+                0x00000000000031cc       0x38 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000031cc                DevicePathFromHandle
+ .text.BmAdjustFvFilePath
+                0x0000000000003204      0x170 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.BmExpandMediaDevicePath
+                0x0000000000003374      0x2c0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.UefiDevicePathLibCatPrint
+                0x0000000000003634      0x150 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003634                UefiDevicePathLibCatPrint
+ .text.DevPathToTextPci
+                0x0000000000003784       0x14 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003784                DevPathToTextPci
+ .text.DevPathToTextPccard
+                0x0000000000003798       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003798                DevPathToTextPccard
+ .text.DevPathToTextMemMap
+                0x00000000000037a8       0x14 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000037a8                DevPathToTextMemMap
+ .text.DevPathToTextVendor
+                0x00000000000037bc      0x354 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000037bc                DevPathToTextVendor
+ .text.DevPathToTextController
+                0x0000000000003b10       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003b10                DevPathToTextController
+ .text.DevPathToTextBmc
+                0x0000000000003b20       0x3c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003b20                DevPathToTextBmc
+ .text.DevPathToTextAcpi
+                0x0000000000003b5c       0xc0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003b5c                DevPathToTextAcpi
+ .text.DevPathToTextAcpiEx
+                0x0000000000003c1c      0x298 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003c1c                DevPathToTextAcpiEx
+ .text.DevPathToTextAcpiAdr
+                0x0000000000003eb4       0x9c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003eb4                DevPathToTextAcpiAdr
+ .text.DevPathToTextAtapi
+                0x0000000000003f50       0x60 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003f50                DevPathToTextAtapi
+ .text.DevPathToTextScsi
+                0x0000000000003fb0       0x14 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003fb0                DevPathToTextScsi
+ .text.DevPathToTextFibre
+                0x0000000000003fc4       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003fc4                DevPathToTextFibre
+ .text.DevPathToTextFibreEx
+                0x0000000000003fd4       0xa8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000003fd4                DevPathToTextFibreEx
+ .text.DevPathToTextSasEx
+                0x000000000000407c      0x18c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000407c                DevPathToTextSasEx
+ .text.DevPathToTextNVMe
+                0x0000000000004208       0x54 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004208                DevPathToTextNVMe
+ .text.DevPathToTextUfs
+                0x000000000000425c       0x14 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000425c                DevPathToTextUfs
+ .text.DevPathToTextSd
+                0x0000000000004270       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004270                DevPathToTextSd
+ .text.DevPathToTextEmmc
+                0x0000000000004280       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004280                DevPathToTextEmmc
+ .text.DevPathToText1394
+                0x0000000000004290       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004290                DevPathToText1394
+ .text.DevPathToTextUsb
+                0x00000000000042a0       0x14 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000042a0                DevPathToTextUsb
+ .text.DevPathToTextUsbWWID
+                0x00000000000042b4       0xb4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000042b4                DevPathToTextUsbWWID
+ .text.DevPathToTextLogicalUnit
+                0x0000000000004368       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004368                DevPathToTextLogicalUnit
+ .text.DevPathToTextUsbClass
+                0x0000000000004378      0x194 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004378                DevPathToTextUsbClass
+ .text.DevPathToTextSata
+                0x000000000000450c       0x18 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000450c                DevPathToTextSata
+ .text.DevPathToTextI2O
+                0x0000000000004524       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004524                DevPathToTextI2O
+ .text.DevPathToTextMacAddr
+                0x0000000000004534       0x8c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004534                DevPathToTextMacAddr
+ .text.CatNetworkProtocol
+                0x00000000000045c0       0x38 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.CatIPv6Address
+                0x00000000000045f8       0x8c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.DevPathToTextIPv4
+                0x0000000000004684      0x120 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004684                DevPathToTextIPv4
+ .text.DevPathToTextIPv6
+                0x00000000000047a4       0xe8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000047a4                DevPathToTextIPv6
+ .text.DevPathToTextInfiniBand
+                0x000000000000488c       0x1c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000488c                DevPathToTextInfiniBand
+ .text.DevPathToTextUart
+                0x00000000000048a8      0x118 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000048a8                DevPathToTextUart
+ .text.DevPathToTextiSCSI
+                0x00000000000049c0      0x10c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000049c0                DevPathToTextiSCSI
+ .text.DevPathToTextVlan
+                0x0000000000004acc       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004acc                DevPathToTextVlan
+ .text.DevPathToTextBluetooth
+                0x0000000000004adc       0x24 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004adc                DevPathToTextBluetooth
+ .text.DevPathToTextWiFi
+                0x0000000000004b00       0x44 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004b00                DevPathToTextWiFi
+ .text.DevPathToTextBluetoothLE
+                0x0000000000004b44       0x44 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004b44                DevPathToTextBluetoothLE
+ .text.DevPathToTextDns
+                0x0000000000004b88       0xd0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004b88                DevPathToTextDns
+ .text.DevPathToTextUri
+                0x0000000000004c58       0x94 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004c58                DevPathToTextUri
+ .text.DevPathToTextHardDrive
+                0x0000000000004cec       0x8c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004cec                DevPathToTextHardDrive
+ .text.DevPathToTextCDROM
+                0x0000000000004d78       0x30 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004d78                DevPathToTextCDROM
+ .text.DevPathToTextFilePath
+                0x0000000000004da8       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004da8                DevPathToTextFilePath
+ .text.DevPathToTextMediaProtocol
+                0x0000000000004db8       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004db8                DevPathToTextMediaProtocol
+ .text.DevPathToTextFv
+                0x0000000000004dc8       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004dc8                DevPathToTextFv
+ .text.DevPathToTextFvFile
+                0x0000000000004dd8       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004dd8                DevPathToTextFvFile
+ .text.DevPathRelativeOffsetRange
+                0x0000000000004de8       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004de8                DevPathRelativeOffsetRange
+ .text.DevPathToTextRamDisk
+                0x0000000000004df8      0x1a8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004df8                DevPathToTextRamDisk
+ .text.DevPathToTextBBS
+                0x0000000000004fa0       0xa0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000004fa0                DevPathToTextBBS
+ .text.DevPathToTextEndInstance
+                0x0000000000005040        0xc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000005040                DevPathToTextEndInstance
+ .text.DevPathToTextNodeGeneric
+                0x000000000000504c       0xfc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000504c                DevPathToTextNodeGeneric
+ .text.Print    0x0000000000005148      0x140 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000005148                Print
+ .text.PrintXY  0x0000000000005288      0x4bc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000005288                PrintXY
+ .text.GetVariable2
+                0x0000000000005744      0x138 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000005744                GetVariable2
+ .text.GetEfiGlobalVariable2
+                0x000000000000587c       0x14 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000587c                GetEfiGlobalVariable2
+ .text.BdsFormalizeConsoleVariable
+                0x0000000000005890       0xcc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.GetBestLanguage
+                0x000000000000595c      0x1ac /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000000595c                GetBestLanguage
+ .text.GetPerformanceMeasurementProtocol
+                0x0000000000005b08       0x94 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000005b08                GetPerformanceMeasurementProtocol
+ .text.ReportErrorCodeEnabled
+                0x0000000000005b9c        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000005b9c                ReportErrorCodeEnabled
+ .text.ReportDebugCodeEnabled
+                0x0000000000005ba4        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000005ba4                ReportDebugCodeEnabled
+ .text.BdsDxeSetVariableAndReportStatusCodeOnError
+                0x0000000000005bac       0xf8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.InitializeLangVariable
+                0x0000000000005ca4       0xc8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.BmReportLoadFailure
+                0x0000000000005d6c       0x5c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.EfiBootManagerConnectDevicePath
+                0x0000000000005dc8      0x160 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000005dc8                EfiBootManagerConnectDevicePath
+ .text.BmUpdateSystemTableConsole
+                0x0000000000005f28      0x18c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000005f28                BmUpdateSystemTableConsole
+ .text.EfiBootManagerUpdateConsoleVariable
+                0x00000000000060b4      0x10c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000060b4                EfiBootManagerUpdateConsoleVariable
+ .text.EfiBootManagerConnectConsoleVariable.part.0
+                0x00000000000061c0      0x234 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000061c0                EfiBootManagerConnectConsoleVariable.part.0
+ .text.BmGetRamDiskDevicePath
+                0x00000000000063f4       0xc8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000063f4                BmGetRamDiskDevicePath
+ .text.BmDestroyRamDisk
+                0x00000000000064bc      0x238 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000064bc                BmDestroyRamDisk
+ .text.BmExpandLoadFile
+                0x00000000000066f4      0x30c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.BmGetNextLoadOptionDevicePath
+                0x0000000000006a00      0xd44 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000006a00                BmGetNextLoadOptionDevicePath
+ .text.BmIsBootManagerMenuFilePath
+                0x0000000000007744       0x5c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000007744                BmIsBootManagerMenuFilePath
+ .text.EfiBootManagerBoot
+                0x00000000000077a0      0x9ac /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.EfiBootManagerRefreshAllBootOption
+                0x000000000000814c      0x784 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.BdsEntry
+                0x00000000000088d0     0x1f90 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .text.BmEliminateExtraSpaces
+                0x000000000000a860       0x44 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmGenerateKeyShiftState
+                0x000000000000a8a4      0x10c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x000000000000a9b0       0xb0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.GetFirstNode
+                0x000000000000aa60       0x44 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.GetNextNode
+                0x000000000000aaa4       0x44 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.IsNull   0x000000000000aae8       0x4c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.RemoveEntryList
+                0x000000000000ab34       0x74 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.InsertTailList.constprop.0.isra.0
+                0x000000000000aba8       0x60 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.WriteUnaligned16.isra.0
+                0x000000000000ac08       0x4c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.WriteUnaligned32.isra.0
+                0x000000000000ac54       0x50 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.SetDevicePathNodeLength.isra.0
+                0x000000000000aca4       0x60 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.IsPciDisplay.lto_priv.0
+                0x000000000000ad04       0xb4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000ad04                IsPciDisplay.lto_priv.0
+ .text.Connect.lto_priv.0
+                0x000000000000adb8       0x9c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000adb8                Connect.lto_priv.0
+ .text.InternalImageHandleToFvHandle
+                0x000000000000ae54       0xc0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmRegisterHotkeyNotify.isra.0
+                0x000000000000af14       0xc4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.EfiBootManagerFreeDriverHealthInfo.isra.0
+                0x000000000000afd8       0x70 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmGetActiveConsoleIn
+                0x000000000000b048       0xa8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmGetLoadFileDescription
+                0x000000000000b0f0       0xb4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.IsUsbHost.lto_priv.0
+                0x000000000000b1a4       0x94 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000b1a4                IsUsbHost.lto_priv.0
+ .text.BmGetNetworkDescription
+                0x000000000000b238      0x324 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmGetMiscDescription
+                0x000000000000b55c      0x274 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmGetSingleControllerHealthStatus
+                0x000000000000b7d0      0x29c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.EfiBootManagerGetDriverHealthInfo
+                0x000000000000ba6c      0x268 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.InternalGetSectionFromFv.constprop.0
+                0x000000000000bcd4       0x98 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.EfiAcquireLock.constprop.0
+                0x000000000000bd6c       0x70 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.EfiReleaseLock.constprop.0
+                0x000000000000bddc       0x6c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmTxtInExCallback
+                0x000000000000be48      0x170 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000be48                BmTxtInExCallback
+ .text.BmStopHotkeyService
+                0x000000000000bfb8      0x238 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000bfb8                BmStopHotkeyService
+ .text.EfiBootManagerIsValidLoadOptionVariableName.part.0
+                0x000000000000c1f0      0x10c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmCollectKeyOptions
+                0x000000000000c2fc      0x224 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000c2fc                BmCollectKeyOptions
+ .text.BmRepairNotify
+                0x000000000000c520       0x6c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.AddOutput.lto_priv.0
+                0x000000000000c58c      0x148 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000c58c                AddOutput.lto_priv.0
+ .text.StrCpyS.constprop.0.isra.0
+                0x000000000000c6d4      0x1bc /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.StrCatS.isra.0
+                0x000000000000c890      0x258 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmGetUsbDescription
+                0x000000000000cae8      0x1d4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.IsZeroGuid.constprop.0
+                0x000000000000ccbc       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.AsciiStrToUnicodeStrS.isra.0
+                0x000000000000cccc      0x140 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmGetDescriptionFromDiskInfo
+                0x000000000000ce0c      0x2b0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.UnicodeValueToStringS.constprop.0.isra.0
+                0x000000000000d0bc       0xbc /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.SetMem.constprop.0.isra.0
+                0x000000000000d178       0x48 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.InternalReportStatusCode.constprop.0.isra.0
+                0x000000000000d1c0       0xe0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmGetBootDescription
+                0x000000000000d2a0      0x1b0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000d2a0                BmGetBootDescription
+ .text.BmForEachVariable
+                0x000000000000d450      0x184 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000d450                BmForEachVariable
+ .text.BmGetFreeOptionNumber
+                0x000000000000d5d4      0x178 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000d5d4                BmGetFreeOptionNumber
+ .text.EfiBootManagerLoadOptionToVariable
+                0x000000000000d74c      0x244 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000d74c                EfiBootManagerLoadOptionToVariable
+ .text.EfiBootManagerDeleteLoadOptionVariable
+                0x000000000000d990      0x15c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000d990                EfiBootManagerDeleteLoadOptionVariable
+ .text.BmProcessKeyOption
+                0x000000000000daec      0x238 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000daec                BmProcessKeyOption
+ .text.ZeroMem  0x000000000000dd24       0x74 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000dd24                ZeroMem
+ .text.EfiBootManagerInitializeLoadOption
+                0x000000000000dd98       0xe4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000dd98                EfiBootManagerInitializeLoadOption
+ .text.CompareMem
+                0x000000000000de7c       0xd0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000de7c                CompareMem
+ .text.BmMatchPartitionDevicePathNode.part.0
+                0x000000000000df4c       0xc4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000df4c                BmMatchPartitionDevicePathNode.part.0
+ .text.EfiBootManagerFindLoadOption
+                0x000000000000e010       0xc0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000e010                EfiBootManagerFindLoadOption
+ .text.BmDelPartMatchInstance
+                0x000000000000e0d0       0xe4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000e0d0                BmDelPartMatchInstance
+ .text.BmMatchDevicePaths
+                0x000000000000e1b4       0x7c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000e1b4                BmMatchDevicePaths
+ .text.ReadUnaligned16
+                0x000000000000e230       0x5c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000e230                ReadUnaligned16
+ .text.ReadUnaligned32
+                0x000000000000e28c       0x50 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.EfiGetNameGuidFromFwVolDevicePathNode
+                0x000000000000e2dc       0x78 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000e2dc                EfiGetNameGuidFromFwVolDevicePathNode
+ .text.MmioRead32
+                0x000000000000e354        0x8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000e354                MmioRead32
+ .text.EfiBootManagerRegisterContinueKeyOption.constprop.0
+                0x000000000000e35c      0x190 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000e35c                EfiBootManagerRegisterContinueKeyOption.constprop.0
+ .text.LowBitSet32.constprop.0
+                0x000000000000e4ec        0x8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000e4ec                LowBitSet32.constprop.0
+ .text.EfiBootManagerAddKeyOptionVariable.constprop.0
+                0x000000000000e4f4      0x2f0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000e4f4                EfiBootManagerAddKeyOptionVariable.constprop.0
+ .text.EfiBootManagerAddLoadOptionVariable.constprop.0
+                0x000000000000e7e4      0x1d8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000e7e4                EfiBootManagerAddLoadOptionVariable.constprop.0
+ .text.EfiCreateEventReadyToBootEx.constprop.0
+                0x000000000000e9bc       0xac /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000e9bc                EfiCreateEventReadyToBootEx.constprop.0
+ .text.FileDevicePath.constprop.0
+                0x000000000000ea68       0xa4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000ea68                FileDevicePath.constprop.0
+ .text.LogPerformanceMeasurementEnabled.constprop.0
+                0x000000000000eb0c        0x8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000eb0c                LogPerformanceMeasurementEnabled.constprop.0
+ .text.LShiftU64.constprop.0
+                0x000000000000eb14        0x8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000eb14                LShiftU64.constprop.0
+ .text.ReadUnaligned64
+                0x000000000000eb1c       0x38 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000eb1c                ReadUnaligned64
+ .text.MultU64x32.constprop.0
+                0x000000000000eb54       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000eb54                MultU64x32.constprop.0
+ .text.BmGetNvmeDescription
+                0x000000000000eb64      0x214 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.LibPcdGet16.constprop.0
+                0x000000000000ed78       0x20 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000ed78                LibPcdGet16.constprop.0
+ .text.PlatformBootManagerWaitCallback
+                0x000000000000ed98      0x244 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000ed98                PlatformBootManagerWaitCallback
+ .text.DivU64x32.constprop.0
+                0x000000000000efdc       0x40 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000efdc                DivU64x32.constprop.0
+ .text.UefiDevicePathLibConvertDevicePathToText.constprop.0
+                0x000000000000f01c      0x12c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000f01c                UefiDevicePathLibConvertDevicePathToText.constprop.0
+ .text.BmGetControllerName
+                0x000000000000f148      0x124 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmDisplayMessages
+                0x000000000000f26c      0x2ac /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmRepairAllControllers
+                0x000000000000f518      0x434 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000f518                BmRepairAllControllers
+ .text.BmPrintDp
+                0x000000000000f94c       0x64 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.BmGetNextLoadOptionBuffer
+                0x000000000000f9b0      0x594 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000f9b0                BmGetNextLoadOptionBuffer
+ .text.EfiBootManagerProcessLoadOption
+                0x000000000000ff44      0x298 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x000000000000ff44                EfiBootManagerProcessLoadOption
+ .text.FilterAndProcess.lto_priv.0
+                0x00000000000101dc      0x158 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x00000000000101dc                FilterAndProcess.lto_priv.0
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000010334      0xfc4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000010334                BasePrintLibSPrintMarker.constprop.0
+ .text.AsciiSPrint.constprop.0
+                0x00000000000112f8       0x68 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x00000000000112f8                AsciiSPrint.constprop.0
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000011360       0x54 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.EndPerformanceMeasurementEx.constprop.0.isra.0
+                0x00000000000113b4       0x94 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x00000000000113b4                EndPerformanceMeasurementEx.constprop.0.isra.0
+ .text.LogPerformanceMeasurement.constprop.0.isra.0
+                0x0000000000011448       0x94 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000011448                LogPerformanceMeasurement.constprop.0.isra.0
+ .text.MmioWrite32.isra.0
+                0x00000000000114dc        0x8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x00000000000114dc                MmioWrite32.isra.0
+ .text.UartWrite.constprop.0.isra.0
+                0x00000000000114e4       0x4c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x00000000000114e4                UartWrite.constprop.0.isra.0
+ .text.EfiBootManagerFreeLoadOption.isra.0
+                0x0000000000011530       0x50 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000011530                EfiBootManagerFreeLoadOption.isra.0
+ .text.EfiBootManagerFreeLoadOptions.isra.0
+                0x0000000000011580       0x54 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000011580                EfiBootManagerFreeLoadOptions.isra.0
+ .text.EfiBootManagerConnectAllDefaultConsoles.isra.0
+                0x00000000000115d4      0x130 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x00000000000115d4                EfiBootManagerConnectAllDefaultConsoles.isra.0
+ .text.CatIPv4Address.isra.0
+                0x0000000000011704       0x1c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000011704                CatIPv4Address.isra.0
+ .text.CopyGuid.isra.0
+                0x0000000000011720       0x64 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000011720                CopyGuid.isra.0
+ .text.EfiBootManagerVariableToLoadOptionEx.part.0
+                0x0000000000011784      0x234 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000011784                EfiBootManagerVariableToLoadOptionEx.part.0
+ .text.BmCollectLoadOptions
+                0x00000000000119b8      0x138 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.EfiBootManagerGetLoadOptions
+                0x0000000000011af0      0x228 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000011af0                EfiBootManagerGetLoadOptions
+ .text.BmHotkeyCallback
+                0x0000000000011d18      0x294 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .text.EfiInitializeFwVolDevicepathNode
+                0x0000000000011fac       0x64 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000011fac                EfiInitializeFwVolDevicepathNode
+ .text.EfiBootManagerGetBootManagerMenu
+                0x0000000000012010      0x504 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000012010                EfiBootManagerGetBootManagerMenu
+ .text.RegisterBasicVariablePolicy.constprop.0
+                0x0000000000012514      0x160 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000012514                RegisterBasicVariablePolicy.constprop.0
+ .text.ReportStatusCodeEx.constprop.0.isra.0
+                0x0000000000012674      0x198 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                0x0000000000012674                ReportStatusCodeEx.constprop.0.isra.0
+ *fill*         0x000000000001280c        0x4 
+ .text          0x0000000000012810      0x218 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000001297c                InternalMemCopyMem
+ *fill*         0x0000000000012a28       0x18 
+ .text          0x0000000000012a40       0x20 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x0000000000012a40                InternalMemCompareGuid
+ .text          0x0000000000012a60       0x30 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                0x0000000000012a60                InternalSwitchStackAsm
+                0x0000000000012a78                CpuPause
+ .text          0x0000000000012a90      0x200 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000012a90                InternalMemSetMem16
+                0x0000000000012a9c                InternalMemSetMem32
+                0x0000000000012aa8                InternalMemSetMem64
+                0x0000000000012ab4                InternalMemZeroMem
+                0x0000000000012abc                InternalMemSetMem
+ *fill*         0x0000000000012c90       0x30 
+ .text          0x0000000000012cc0       0xe0 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000012cc0                InternalMemCompareMem
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.BmEndOfBdsPerfCode.str1.1
+                0x0000000000012da0        0x4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DebugAssert.str1.1
+                0x0000000000012da4       0x1f /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.CompareGuid.str1.1
+                0x0000000000012dc3       0x81 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x0000000000012e44       0xd6 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.StrLen.str1.1
+                0x0000000000012f1a       0xb5 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.StrCmp.str1.1
+                0x0000000000012fcf       0x37 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.StrnCmp.str1.1
+                0x0000000000013006       0x3b /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000013041       0x38 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.AsciiStrnCmp.str1.1
+                0x0000000000013079       0x70 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x00000000000130e9       0x45 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.UnicodeVSPrint.str1.1
+                0x000000000001312e       0x70 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.InternalAllocateCopyPool.str1.1
+                0x000000000001319e       0x9d /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                         0xb4 (size before relaxing)
+ .rodata.GetNextHob.str1.1
+                0x000000000001323b       0x5c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.BdsWaitForSingleEvent.str1.1
+                0x0000000000013297       0xb1 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.GetPcdProtocol.str1.1
+                0x0000000000013348       0x5b /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.FreePages.str1.1
+                0x00000000000133a3        0xb /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.GetHobList.str1.1
+                0x00000000000133ae       0x19 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x00000000000133c7      0x29f /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.CheckDeferredLoadImageOnReadyToBoot.str1.1
+                0x0000000000013666       0x2e /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.ProcessLoadOptions.str1.1
+                0x0000000000013694       0x55 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevicePathType.str1.1
+                0x00000000000136e9       0x58 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                         0x6d (size before relaxing)
+ .rodata.BmExpandMediaDevicePath.str1.1
+                0x0000000000013741       0x73 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.UefiDevicePathLibCatPrint.str1.1
+                0x00000000000137b4       0x6e /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextPci.str2.2
+                0x0000000000013822       0x1e /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextPccard.str2.2
+                0x0000000000013840       0x1a /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextMemMap.str2.2
+                0x000000000001385a       0x3e /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextVendor.str2.2
+                0x0000000000013898      0x1c8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                        0x1f8 (size before relaxing)
+ .rodata.DevPathToTextController.str2.2
+                0x0000000000013a60       0x16 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextBmc.str2.2
+                0x0000000000013a76       0x20 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextAcpi.str2.2
+                0x0000000000013a96       0xfc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextAcpiEx.str2.2
+                0x0000000000013b92       0xf2 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                        0x10a (size before relaxing)
+ .rodata.DevPathToTextAcpiAdr.str2.2
+                0x0000000000013c84       0x26 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextAtapi.str2.2
+                0x0000000000013caa       0x72 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextScsi.str2.2
+                0x0000000000013d1c       0x20 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextFibre.str2.2
+                0x0000000000013d3c       0x26 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextFibreEx.str2.2
+                0x0000000000013d62       0x16 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                         0x1e (size before relaxing)
+ .rodata.DevPathToTextSasEx.str2.2
+                0x0000000000013d78       0x4a /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                         0x66 (size before relaxing)
+ .rodata.DevPathToTextNVMe.str2.2
+                0x0000000000013dc2       0x66 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextUfs.str2.2
+                0x0000000000013e28       0x1e /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextSd.str2.2
+                0x0000000000013e46       0x12 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextEmmc.str2.2
+                0x0000000000013e58       0x16 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToText1394.str2.2
+                0x0000000000013e6e       0x1c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsb.str2.2
+                0x0000000000013e8a       0x1e /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsbWWID.str1.1
+                0x0000000000013ea8       0x17 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ *fill*         0x0000000000013ebf        0x1 
+ .rodata.DevPathToTextUsbWWID.str2.2
+                0x0000000000013ec0       0x3a /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextLogicalUnit.str2.2
+                0x0000000000013efa       0x16 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsbClass.str2.2
+                0x0000000000013f10      0x250 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsbClass
+                0x0000000000014160        0xe /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextSata.str2.2
+                0x000000000001416e       0x2a /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextI2O.str2.2
+                0x0000000000014198       0x14 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextMacAddr.str2.2
+                0x00000000000141ac        0xa /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                         0x18 (size before relaxing)
+ .rodata.CatNetworkProtocol.str2.2
+                0x00000000000141b6       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.CatIPv6Address.str2.2
+                0x00000000000141c6       0x90 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextIPv4.str2.2
+                0x0000000000014256       0x24 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                         0x2e (size before relaxing)
+ .rodata.DevPathToTextIPv6.str2.2
+                0x000000000001427a       0x80 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextInfiniBand.str2.2
+                0x00000000000142fa       0x4c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextUart.str2.2
+                0x0000000000014346       0x5c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                         0x74 (size before relaxing)
+ *fill*         0x00000000000143a2        0x2 
+ .rodata.DevPathToTextUart
+                0x00000000000143a4        0x4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextiSCSI.str2.2
+                0x00000000000143a8       0x64 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                         0x6c (size before relaxing)
+ .rodata.DevPathToTextVlan.str2.2
+                0x000000000001440c       0x12 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextBluetooth.str2.2
+                0x000000000001441e       0x48 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextWiFi.str2.2
+                0x0000000000014466       0x14 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextBluetoothLE.str2.2
+                0x000000000001447a       0x5a /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextDns.str2.2
+                0x00000000000144d4        0xa /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextUri.str1.1
+                0x00000000000144de       0x17 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ *fill*         0x00000000000144f5        0x1 
+ .rodata.DevPathToTextUri.str2.2
+                0x00000000000144f6       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextHardDrive.str2.2
+                0x0000000000014506       0x64 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                         0x7e (size before relaxing)
+ .rodata.DevPathToTextCDROM.str2.2
+                0x000000000001456a       0x48 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextFilePath.str2.2
+                0x00000000000145b2       0x48 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                          0x6 (size before relaxing)
+ .rodata.DevPathToTextMediaProtocol.str2.2
+                0x00000000000145b2       0x14 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextFv.str2.2
+                0x00000000000145c6        0xe /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextFvFile.str2.2
+                0x00000000000145d4       0x16 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathRelativeOffsetRange.str2.2
+                0x00000000000145ea       0x28 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextRamDisk.str2.2
+                0x0000000000014612       0xca /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                        0x136 (size before relaxing)
+ .rodata.DevPathToTextBBS.str2.2
+                0x00000000000146dc       0x2c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.DevPathToTextNodeGeneric.str2.2
+                0x0000000000014708       0x22 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.Print.str1.1
+                0x000000000001472a       0x5f /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.PrintXY.str1.1
+                0x0000000000014789       0xd6 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.GetVariable2.str1.1
+                0x000000000001485f       0x9f /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.GetBestLanguage.str1.1
+                0x00000000000148fe       0x23 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.GetPerformanceMeasurementProtocol.str1.1
+                0x0000000000014921       0x83 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.InitializeLangVariable.str1.1
+                0x00000000000149a4       0x92 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.EfiBootManagerConnectDevicePath.str1.1
+                0x0000000000014a36       0xa4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.BmUpdateSystemTableConsole.str1.1
+                0x0000000000014ada       0x32 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.BmGetRamDiskDevicePath.str1.1
+                0x0000000000014b0c       0x22 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.BmDestroyRamDisk.str1.1
+                0x0000000000014b2e       0x60 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.BmExpandLoadFile.str1.1
+                0x0000000000014b8e       0x56 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.BmGetNextLoadOptionDevicePath.str1.1
+                0x0000000000014be4       0x19 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ *fill*         0x0000000000014bfd        0x1 
+ .rodata.BmGetNextLoadOptionDevicePath.str2.2
+                0x0000000000014bfe        0xa /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.EfiBootManagerBoot.str2.2
+                0x0000000000014c08       0x5c /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.EfiBootManagerBoot.str1.1
+                0x0000000000014c64      0x247 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.EfiBootManagerRefreshAllBootOption.str1.1
+                0x0000000000014eab       0x91 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.EfiBootManagerRefreshAllBootOption.str2.2
+                0x0000000000014f3c        0xc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.BdsEntry.str1.1
+                0x0000000000014f48      0x5c0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                        0x5db (size before relaxing)
+ .rodata.BdsEntry.str2.2
+                0x0000000000015508      0x2fc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                        0x31a (size before relaxing)
+ .rodata.BdsEntry
+                0x0000000000015804       0x12 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.str2.2
+                0x0000000000015816      0x102 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                        0x130 (size before relaxing)
+ .rodata.CSWTCH.42
+                0x0000000000015918        0x6 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ *fill*         0x000000000001591e        0x2 
+ .rodata.CSWTCH.58
+                0x0000000000015920       0x30 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.0.lto_priv.0
+                0x0000000000015950       0x11 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.1
+                0x0000000000015961        0xf /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2
+                0x0000000000015970       0x1b /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3
+                0x000000000001598b       0x13 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdBootManagerMenuFile
+                0x000000000001599e       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x000000000001599e                _gPcd_FixedAtBuild_PcdBootManagerMenuFile
+ .rodata._gPcd_FixedAtBuild_PcdFirmwareVendor
+                0x00000000000159ae        0xe /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFirmwareVersionString
+                0x00000000000159bc        0xc /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultLang
+                0x00000000000159c8        0x4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultLangCodes
+                0x00000000000159cc        0xd /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLang
+                0x00000000000159d9        0x6 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLangCodes
+                0x00000000000159df       0x12 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ *fill*         0x00000000000159f1        0x7 
+ .rodata.mBdsLoadOptionName
+                0x00000000000159f8       0x20 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000159f8                mBdsLoadOptionName
+                0x00000000000159f8                mBmLoadOptionName
+ .rodata.mConVarName
+                0x0000000000015a18       0x30 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x0000000000015a48       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.mReadOnlyVariables
+                0x0000000000015a58       0x28 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x0000000000015a80        0x4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ *fill*         0x0000000000015a84        0x4 
+ .rodata.mUefiDevicePathLibToTextTableGeneric
+                0x0000000000015a88       0x60 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .rodata.BmGenerateKeyShiftState
+                0x0000000000015ae8        0x5 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.InternalBaseLibIsListValid.str1.1
+                0x0000000000015aed       0x86 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x9b (size before relaxing)
+ .rodata.GetFirstNode.str1.1
+                0x0000000000015b73       0x22 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.RemoveEntryList.str1.1
+                0x0000000000015b95       0x3b /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.WriteUnaligned16.isra.0.str1.1
+                0x0000000000015bd0       0x48 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x5f (size before relaxing)
+ .rodata.SetDevicePathNodeLength.isra.0.str1.1
+                0x0000000000015c18       0x47 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x9f (size before relaxing)
+ .rodata.IsPciDisplay.lto_priv.0.str1.1
+                0x0000000000015c5f        0xc /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.InternalImageHandleToFvHandle.str1.1
+                0x0000000000015c6b       0x50 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0xa1 (size before relaxing)
+ .rodata.BmRegisterHotkeyNotify.isra.0.str1.1
+                0x0000000000015cbb       0x30 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x0000000000015ceb        0x1 
+ .rodata.BmGetNetworkDescription.str2.2
+                0x0000000000015cec       0xb4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmGetNetworkDescription.str1.1
+                0x0000000000015da0       0x30 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x79 (size before relaxing)
+ .rodata.BmGetMiscDescription.str2.2
+                0x0000000000015da0       0xba /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0xc8 (size before relaxing)
+ .rodata.BmGetMiscDescription.str1.1
+                0x0000000000015e5a       0x1b /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmGetSingleControllerHealthStatus.str1.1
+                0x0000000000015e5a       0x9f /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EfiBootManagerGetDriverHealthInfo.str1.1
+                0x0000000000015ef9       0x24 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EfiAcquireLock.constprop.0.str1.1
+                0x0000000000015f1d       0x1e /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x60 (size before relaxing)
+ .rodata.EfiReleaseLock.constprop.0.str1.1
+                0x0000000000015f3b       0x1e /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmTxtInExCallback.str1.1
+                0x0000000000015f59       0x15 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x69 (size before relaxing)
+ .rodata.BmStopHotkeyService.str1.1
+                0x0000000000015f6e       0x43 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x0000000000015fb1        0x1 
+ .rodata.BmCollectKeyOptions.str2.2
+                0x0000000000015fb2        0x8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x20 (size before relaxing)
+ .rodata.BmCollectKeyOptions.str1.1
+                0x0000000000015fba       0x22 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x3c (size before relaxing)
+ .rodata.BmRepairNotify.str1.1
+                0x0000000000015fdc       0x1a /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmRepairNotify.str2.2
+                0x0000000000015ff6       0x34 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.AddOutput.lto_priv.0.str1.1
+                0x000000000001602a       0x8a /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.StrCpyS.constprop.0.isra.0.str1.1
+                0x00000000000160b4      0x111 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                        0x156 (size before relaxing)
+ .rodata.StrCatS.isra.0.str1.1
+                0x00000000000161c5       0x59 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmGetUsbDescription.str2.2
+                0x000000000001621e       0x34 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                          0x4 (size before relaxing)
+ .rodata.AsciiStrToUnicodeStrS.isra.0.str1.1
+                0x000000000001621e       0x64 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmGetDescriptionFromDiskInfo.str2.2
+                0x0000000000016282       0x2c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.UnicodeValueToStringS.constprop.0.isra.0.str1.1
+                0x00000000000162ae       0x21 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x69 (size before relaxing)
+ .rodata.SetMem.constprop.0.isra.0.str1.1
+                0x00000000000162cf       0x8c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmGetBootDescription.str1.1
+                0x000000000001635b       0x38 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmForEachVariable.str1.1
+                0x0000000000016393       0x6d /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmGetFreeOptionNumber.str1.1
+                0x0000000000016400      0x101 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmGetFreeOptionNumber.str2.2
+                0x0000000000016501       0x12 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EfiBootManagerLoadOptionToVariable.str1.1
+                0x0000000000016501       0x19 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmProcessKeyOption.str1.1
+                0x000000000001651a       0x66 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x0000000000016580       0x8b /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.CompareMem.str1.1
+                0x000000000001660b       0x97 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                        0x118 (size before relaxing)
+ .rodata.EfiGetNameGuidFromFwVolDevicePathNode.str1.1
+                0x00000000000166a2       0x68 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EfiBootManagerRegisterContinueKeyOption.constprop.0.str1.1
+                0x000000000001670a       0x25 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x000000000001672f        0x1 
+ .rodata.EfiBootManagerAddKeyOptionVariable.constprop.0.str2.2
+                0x0000000000016730       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EfiBootManagerAddLoadOptionVariable.constprop.0.str1.1
+                0x0000000000016740       0x1f /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EfiCreateEventReadyToBootEx.constprop.0.str1.1
+                0x000000000001675f       0x27 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x39 (size before relaxing)
+ .rodata.FileDevicePath.constprop.0.str2.2
+                0x0000000000016786       0x2e /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.PlatformBootManagerWaitCallback.str2.2
+                0x00000000000167b4       0x40 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.DivU64x32.constprop.0.str1.1
+                0x00000000000167f4       0x51 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x0000000000016845        0x1 
+ .rodata.UefiDevicePathLibConvertDevicePathToText.constprop.0.str2.2
+                0x0000000000016846        0x4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmGetControllerName.str2.2
+                0x000000000001684a       0x24 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmGetControllerName.str1.1
+                0x000000000001684a        0xa /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                          0xb (size before relaxing)
+ .rodata.BmDisplayMessages.str1.1
+                0x0000000000016854       0x71 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x00000000000168c5        0x1 
+ .rodata.BmDisplayMessages.str2.2
+                0x00000000000168c6       0x2c /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmRepairAllControllers.str1.1
+                0x00000000000168f2       0x76 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmPrintDp.str1.1
+                0x0000000000016968        0x3 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmGetNextLoadOptionBuffer.str1.1
+                0x000000000001696b       0x13 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x15 (size before relaxing)
+ .rodata.EfiBootManagerProcessLoadOption.str1.1
+                0x000000000001697e       0x34 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.FilterAndProcess.lto_priv.0.str1.1
+                0x00000000000169b2       0x1a /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x6e (size before relaxing)
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x00000000000169cc      0x290 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000016c5c       0x5e /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.AsciiSPrint.constprop.0.str1.1
+                0x0000000000016cba       0x18 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EndPerformanceMeasurementEx.constprop.0.isra.0.str1.1
+                0x0000000000016cba       0x67 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EfiBootManagerConnectAllDefaultConsoles.isra.0.str1.1
+                0x0000000000016cba       0x23 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EfiBootManagerConnectAllDefaultConsoles.isra.0.str2.2
+                0x0000000000016cdd       0x28 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x0000000000016cdd        0x1 
+ .rodata.CatIPv4Address.isra.0.str2.2
+                0x0000000000016cde       0x18 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.CopyGuid.isra.0.str1.1
+                0x0000000000016cf6       0x3b /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x90 (size before relaxing)
+ .rodata.EfiBootManagerVariableToLoadOptionEx.part.0.str1.1
+                0x0000000000016d31       0x23 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.BmCollectLoadOptions.str1.1
+                0x0000000000016d31       0x1f /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EfiBootManagerGetLoadOptions.str1.1
+                0x0000000000016d50       0x7f /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0x97 (size before relaxing)
+ .rodata.BmHotkeyCallback.str1.1
+                0x0000000000016dcf       0xad /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EfiBootManagerGetBootManagerMenu.str2.2
+                0x0000000000016e7c       0x24 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.EfiBootManagerGetBootManagerMenu.str1.1
+                0x0000000000016ea0       0xa4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                         0xf6 (size before relaxing)
+ .rodata.RegisterBasicVariablePolicy.constprop.0.str1.1
+                0x0000000000016f44       0x86 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.ReportStatusCodeEx.constprop.0.isra.0.str1.1
+                0x0000000000016fca       0xdd /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x00000000000170a7        0x1 
+ .rodata.str2.2
+                0x00000000000170a8       0xf8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.0
+                0x00000000000171a0       0x17 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.25
+                0x00000000000171b7        0x8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.27
+                0x00000000000171bf        0x8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.5.lto_priv.0
+                0x00000000000171c7       0x16 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.5.lto_priv.1
+                0x00000000000171dd       0x11 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.6
+                0x00000000000171ee        0x8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.7
+                0x00000000000171f6        0xd /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.8
+                0x0000000000017203        0xa /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDriverHealthConfigureForm
+                0x000000000001720d       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x000000000001721d        0x3 
+ .rodata.mBmBootDescriptionHandlers
+                0x0000000000017220       0x30 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.mBmHealthStatusText
+                0x0000000000017250       0x30 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.mBmLoadOptionOrderName
+                0x0000000000017280       0x20 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.mErrorString
+                0x00000000000172a0      0x2b5 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x0000000000017555        0x3 
+ .rodata.mUefiDevicePathLibToTextTable
+                0x0000000000017558      0x320 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .rodata.mWarningString
+                0x0000000000017878       0x96 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *(.got .got.*)
+ *:AutoGen.obj(.data.g*Guid)
+
+.iplt           0x0000000000017910        0x0
+ .iplt          0x0000000000017910        0x0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+
+.data           0x0000000000018000      0x6d8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data._gPcd_BinaryPatch_PcdBootDiscoveryPolicy
+                0x0000000000018000        0x4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ *fill*         0x0000000000018004        0x4 
+ .data.gBds     0x0000000000018008        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gBootDiscoveryPolicyMgrFormsetGuid
+                0x0000000000018010       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEdkiiBootLogo2ProtocolGuid
+                0x0000000000018020       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEdkiiNonDiscoverableDeviceProtocolGuid
+                0x0000000000018030       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018030                gEdkiiNonDiscoverableDeviceProtocolGuid
+ .data.gEdkiiPerformanceMeasurementProtocolGuid
+                0x0000000000018040       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEdkiiPlatformBootManagerProtocolGuid
+                0x0000000000018050       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEdkiiPlatformLogoProtocolGuid
+                0x0000000000018060       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEdkiiStatusCodeDataTypeVariableGuid
+                0x0000000000018070       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEdkiiVariablePolicyProtocolGuid
+                0x0000000000018080       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiBdsArchProtocolGuid
+                0x0000000000018090       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiBlockIoProtocolGuid
+                0x00000000000180a0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000180a0                gEfiBlockIoProtocolGuid
+ .data.gEfiBootLogoProtocolGuid
+                0x00000000000180b0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiBootManagerPolicyConnectAllGuid
+                0x00000000000180c0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiBootManagerPolicyNetworkGuid
+                0x00000000000180d0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiBootManagerPolicyProtocolGuid
+                0x00000000000180e0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiCallerIdGuid
+                0x00000000000180f0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000180f0                gEfiCallerIdGuid
+ .data.gEfiDebugPortProtocolGuid
+                0x0000000000018100       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiDeferredImageLoadProtocolGuid
+                0x0000000000018110       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x0000000000018120       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018120                gEfiDevicePathProtocolGuid
+ .data.gEfiDxeServicesTableGuid
+                0x0000000000018130       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiEndOfDxeEventGroupGuid
+                0x0000000000018140       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiEventReadyToBootGuid
+                0x0000000000018150       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018150                gEfiEventReadyToBootGuid
+ .data.gEfiFirmwareVolume2ProtocolGuid
+                0x0000000000018160       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018160                gEfiFirmwareVolume2ProtocolGuid
+ .data.gEfiGlobalVariableGuid
+                0x0000000000018170       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018170                gEfiGlobalVariableGuid
+ .data.gEfiGraphicsOutputProtocolGuid
+                0x0000000000018180       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018180                gEfiGraphicsOutputProtocolGuid
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x0000000000018190       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x00000000000181a0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x00000000000181b0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x00000000000181c0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x00000000000181d0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiHobListGuid
+                0x00000000000181e0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiLoadFileProtocolGuid
+                0x00000000000181f0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000181f0                gEfiLoadFileProtocolGuid
+ .data.gEfiLoadedImageProtocolGuid
+                0x0000000000018200       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018200                gEfiLoadedImageProtocolGuid
+ .data.gEfiMemoryTypeInformationGuid
+                0x0000000000018210       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiPcAnsiGuid
+                0x0000000000018220       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiPciIoProtocolGuid
+                0x0000000000018230       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018230                gEfiPciIoProtocolGuid
+ .data.gEfiPciRootBridgeIoProtocolGuid
+                0x0000000000018240       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualCdGuid
+                0x0000000000018250       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualDiskGuid
+                0x0000000000018260       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiRamDiskProtocolGuid
+                0x0000000000018270       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiSasDevicePathGuid
+                0x0000000000018280       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiSimpleFileSystemProtocolGuid
+                0x0000000000018290       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018290                gEfiSimpleFileSystemProtocolGuid
+ .data.gEfiSimpleTextInputExProtocolGuid
+                0x00000000000182a0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000182a0                gEfiSimpleTextInputExProtocolGuid
+ .data.gEfiSimpleTextOutProtocolGuid
+                0x00000000000182b0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000182b0                gEfiSimpleTextOutProtocolGuid
+ .data.gEfiTtyTermGuid
+                0x00000000000182c0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiUartDevicePathGuid
+                0x00000000000182d0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiUgaDrawProtocolGuid
+                0x00000000000182e0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000182e0                gEfiUgaDrawProtocolGuid
+ .data.gEfiUsbIoProtocolGuid
+                0x00000000000182f0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000182f0                gEfiUsbIoProtocolGuid
+ .data.gEfiVT100Guid
+                0x0000000000018300       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiVT100PlusGuid
+                0x0000000000018310       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiVTUTF8Guid
+                0x0000000000018320       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiVirtualCdGuid
+                0x0000000000018330       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEfiVirtualDiskGuid
+                0x0000000000018340       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gEsrtManagementProtocolGuid
+                0x0000000000018350       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gPcdProtocolGuid
+                0x0000000000018360       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gPlatformBootManagerProtocolGuid
+                0x0000000000018370       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.gUefiShellFileGuid
+                0x0000000000018380       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.mBmAutoCreateBootOptionGuid
+                0x0000000000018390       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.mBmHardDriveBootVariableGuid
+                0x00000000000183a0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.mBmHotkeyBootOption
+                0x00000000000183b0       0x58 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000183b0                mBmHotkeyBootOption
+ .data.mEfiColors
+                0x0000000000018408       0x40 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.mSerialConsole
+                0x0000000000018448       0x3f /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.mUsbKeyboard
+                0x0000000000018487        0xf /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .data.Fallback.4
+                0x0000000000018496       0x34 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x00000000000184ca        0x2 
+ .data.gEdkiiNonDiscoverableEhciDeviceGuid
+                0x00000000000184cc       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEdkiiNonDiscoverableUhciDeviceGuid
+                0x00000000000184dc       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEdkiiNonDiscoverableXhciDeviceGuid
+                0x00000000000184ec       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEdkiiVariableLockProtocolGuid
+                0x00000000000184fc       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiComponentName2ProtocolGuid
+                0x000000000001850c       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x000000000001851c       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiDiskInfoAhciInterfaceGuid
+                0x000000000001852c       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiDiskInfoIdeInterfaceGuid
+                0x000000000001853c       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiDiskInfoProtocolGuid
+                0x000000000001854c       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiDiskInfoScsiInterfaceGuid
+                0x000000000001855c       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiDiskInfoSdMmcInterfaceGuid
+                0x000000000001856c       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiDriverHealthProtocolGuid
+                0x000000000001857c       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiFileInfoGuid
+                0x000000000001858c       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiFormBrowser2ProtocolGuid
+                0x000000000001859c       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiNvmExpressPassThruProtocolGuid
+                0x00000000000185ac       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiSimpleTextInProtocolGuid
+                0x00000000000185bc       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiStatusCodeRuntimeProtocolGuid
+                0x00000000000185cc       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.gEfiStatusCodeSpecificDataGuid
+                0x00000000000185dc       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x00000000000185ec        0x4 
+ .data.mBmHotkeyList
+                0x00000000000185f0       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.mBmHotkeyLock
+                0x0000000000018600       0x18 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .data.mBmUefiPrefix
+                0x0000000000018618        0xc /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *fill*         0x0000000000018624        0x4 
+ .data.mPlatformBootDescriptionHandlers
+                0x0000000000018628       0x10 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ *(.bss .bss.*)
+ .bss.gBS       0x0000000000018638        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018638                gBS
+ .bss.gDS       0x0000000000018640        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .bss.gHiiConfigRouting
+                0x0000000000018648        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .bss.gHiiDatabase
+                0x0000000000018650        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018650                gHiiDatabase
+ .bss.gHiiFont  0x0000000000018658        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .bss.gHiiImage
+                0x0000000000018660        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .bss.gHiiString
+                0x0000000000018668        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018668                gHiiString
+ .bss.gImageHandle
+                0x0000000000018670        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018670                gImageHandle
+ .bss.gRT       0x0000000000018678        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018678                gRT
+ .bss.gST       0x0000000000018680        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018680                gST
+ .bss.mBmContinueKeyOption
+                0x0000000000018688        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018688                mBmContinueKeyOption
+ .bss.mBmHotkeyServiceStarted
+                0x0000000000018690        0x1 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018690                mBmHotkeyServiceStarted
+ *fill*         0x0000000000018691        0x7 
+ .bss.mBmHotkeySupportCount
+                0x0000000000018698        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x0000000000018698                mBmHotkeySupportCount
+ .bss.mBmHotkeyTriggered
+                0x00000000000186a0        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000186a0                mBmHotkeyTriggered
+ .bss.mBmTxtInExRegistration
+                0x00000000000186a8        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000186a8                mBmTxtInExRegistration
+ .bss.mHobList  0x00000000000186b0        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .bss.mPcd      0x00000000000186b8        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .bss.mPerformanceMeasurement
+                0x00000000000186c0        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                0x00000000000186c0                mPerformanceMeasurement
+ .bss.mRamDisk  0x00000000000186c8        0x8 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .bss.mReportStatusCodeLibStatusCodeProtocol
+                0x00000000000186d0        0x8 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+
+.igot.plt       0x00000000000186d8        0x0
+ .igot.plt      0x00000000000186d8        0x0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x00000000000186d8        0x0
+ *(.rela .rela.*)
+ .rela.iplt     0x00000000000186d8        0x0 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+
+.hii
+ *(.hii)
+
+.build-id
+ *(.note.gnu.build-id)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/DEBUG/BdsDxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x5e922
+ .debug_info    0x0000000000000000     0xfcca /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .debug_info    0x000000000000fcca     0xaadb /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .debug_info    0x000000000001a7a5     0x191f /tmp/ccOTMth7.debug.temp.o
+                0x000000000001a7a5                DriverEntryPoint.c.6ad2c6b6
+ .debug_info    0x000000000001c0c4      0x100 /tmp/ccIHehHB.debug.temp.o
+                0x000000000001c0c4                memcpy.c.124218b3
+ .debug_info    0x000000000001c1c4       0xb1 /tmp/cciPSPKk.debug.temp.o
+                0x000000000001c1c4                memset.c.fe78e419
+ .debug_info    0x000000000001c275       0xb0 /tmp/ccy37PZ3.debug.temp.o
+                0x000000000001c275                BaseStackCheckGcc.c.4b3a57a0
+ .debug_info    0x000000000001c325     0x2495 /tmp/ccVWWCvM.debug.temp.o
+                0x000000000001c325                AutoGen.c.3986ef22
+ .debug_info    0x000000000001e7ba     0x21e4 /tmp/ccAbxwYC.debug.temp.o
+                0x000000000001e7ba                BdsEntry.c.4aaad260
+ .debug_info    0x000000000002099e      0x8d3 /tmp/ccUnJ5d3.debug.temp.o
+                0x000000000002099e                Language.c.3d299766
+ .debug_info    0x0000000000021271     0x21b8 /tmp/cc3L3Ipu.debug.temp.o
+                0x0000000000021271                DxePcdLib.c.4e6ca870
+ .debug_info    0x0000000000023429      0x1d0 /tmp/ccRz7lbh.debug.temp.o
+                0x0000000000023429                MemLibGuid.c.0abd8b36
+ .debug_info    0x00000000000235f9       0xc6 /tmp/cca6E9WG.debug.temp.o
+                0x00000000000235f9                CopyMemWrapper.c.5220106c
+ .debug_info    0x00000000000236bf       0xad /tmp/cc19vqAd.debug.temp.o
+                0x00000000000236bf                MultU64x32.c.35a86048
+ .debug_info    0x000000000002376c       0xad /tmp/cc0POJY8.debug.temp.o
+                0x000000000002376c                LowBitSet32.c.fba16873
+ .debug_info    0x0000000000023819       0x96 /tmp/ccZ6jjo8.debug.temp.o
+                0x0000000000023819                CpuDeadLoop.c.35be6def
+ .debug_info    0x00000000000238af      0x711 /tmp/ccUOy1bQ.debug.temp.o
+                0x00000000000238af                String.c.8e83c025
+ .debug_info    0x0000000000023fc0      0x30e /tmp/ccbeYlEc.debug.temp.o
+                0x0000000000023fc0                Math64.c.df2e98ae
+ .debug_info    0x00000000000242ce      0xf83 /tmp/cc7MiHNk.debug.temp.o
+                0x00000000000242ce                SafeString.c.1b674302
+ .debug_info    0x0000000000025251       0xad /tmp/cc5IZUyx.debug.temp.o
+                0x0000000000025251                LShiftU64.c.d5f1ff37
+ .debug_info    0x00000000000252fe       0xad /tmp/ccQ0uiO8.debug.temp.o
+                0x00000000000252fe                DivU64x32.c.e876f75d
+ .debug_info    0x00000000000253ab      0x5ad /tmp/cczW4qxk.debug.temp.o
+                0x00000000000253ab                PrintLib.c.b75a7535
+ .debug_info    0x0000000000025958      0x753 /tmp/ccpZvGtu.debug.temp.o
+                0x0000000000025958                PrintLibInternal.c.b254bcc3
+ .debug_info    0x00000000000260ab      0x32b /tmp/cc4dudlG.debug.temp.o
+                0x00000000000260ab                DebugLib.c.b228dbcd
+ .debug_info    0x00000000000263d6     0x17cd /tmp/ccoOJjn5.debug.temp.o
+                0x00000000000263d6                UefiBootServicesTableLib.c.40f3e47d
+ .debug_info    0x0000000000027ba3     0x13a8 /tmp/ccDPgKK8.debug.temp.o
+                0x0000000000027ba3                MemoryAllocationLib.c.3e4a7161
+ .debug_info    0x0000000000028f4b     0x179e /tmp/ccLA276l.debug.temp.o
+                0x0000000000028f4b                UefiRuntimeServicesTableLib.c.90bd0d28
+ .debug_info    0x000000000002a6e9      0x5bc /tmp/cc7WxwRX.debug.temp.o
+                0x000000000002a6e9                DevicePathUtilities.c.b90c247c
+ .debug_info    0x000000000002aca5      0xec3 /tmp/ccXKaMWX.debug.temp.o
+                0x000000000002aca5                DevicePathUtilitiesDxeSmm.c.1206e153
+ .debug_info    0x000000000002bb68      0x305 /tmp/cccvvDR1.debug.temp.o
+                0x000000000002bb68                UefiDevicePathLib.c.bbabffea
+ .debug_info    0x000000000002be6d     0x2675 /tmp/ccggaNtw.debug.temp.o
+                0x000000000002be6d                DevicePathToText.c.84f533a7
+ .debug_info    0x000000000002e4e2     0x2832 /tmp/ccNx1ZXy.debug.temp.o
+                0x000000000002e4e2                UefiHiiServicesLib.c.60c1a6cc
+ .debug_info    0x0000000000030d14     0x2509 /tmp/ccriNIHl.debug.temp.o
+                0x0000000000030d14                UefiLibPrint.c.728e56a7
+ .debug_info    0x000000000003321d     0x2543 /tmp/cccEIE1M.debug.temp.o
+                0x000000000003321d                UefiLib.c.33a327e5
+ .debug_info    0x0000000000035760     0x1d1f /tmp/ccIkcUuD.debug.temp.o
+                0x0000000000035760                DxeServicesTableLib.c.e0fa1909
+ .debug_info    0x000000000003747f     0x123b /tmp/ccnvDhCn.debug.temp.o
+                0x000000000003747f                DxePerformanceLib.c.75ee81bb
+ .debug_info    0x00000000000386ba     0x216f /tmp/ccIyV2VF.debug.temp.o
+                0x00000000000386ba                HobLib.c.0efe7e83
+ .debug_info    0x000000000003a829     0x1416 /tmp/ccffhLCJ.debug.temp.o
+                0x000000000003a829                ReportStatusCodeLib.c.98cc311d
+ .debug_info    0x000000000003bc3f     0x1a40 /tmp/cc5oluCF.debug.temp.o
+                0x000000000003bc3f                BmConnect.c.c40830e7
+ .debug_info    0x000000000003d67f     0x228e /tmp/cc8FYMtX.debug.temp.o
+                0x000000000003d67f                BmConsole.c.85902895
+ .debug_info    0x000000000003f90d     0x35ce /tmp/ccy1X79O.debug.temp.o
+                0x000000000003f90d                BmBoot.c.648849d1
+ .debug_info    0x0000000000042edb     0x421e /tmp/ccQ7GO9R.debug.temp.o
+                0x0000000000042edb                BmBootDescription.c.a5092186
+ .debug_info    0x00000000000470f9     0x2a8d /tmp/cc3NhsV6.debug.temp.o
+                0x00000000000470f9                BmLoadOption.c.eae0a1d9
+ .debug_info    0x0000000000049b86     0x25ab /tmp/ccpEUf7t.debug.temp.o
+                0x0000000000049b86                BmHotkey.c.bc93ee84
+ .debug_info    0x000000000004c131     0x1b3c /tmp/ccErTyHi.debug.temp.o
+                0x000000000004c131                BmDriverHealth.c.edb2196c
+ .debug_info    0x000000000004dc6d     0x1832 /tmp/cckRQk2u.debug.temp.o
+                0x000000000004dc6d                BmMisc.c.0713daab
+ .debug_info    0x000000000004f49f      0x691 /tmp/cckPNt7h.debug.temp.o
+                0x000000000004f49f                VariablePolicyHelperLib.c.94b0b77e
+ .debug_info    0x000000000004fb30     0x35fa /tmp/ccDrNQEx.debug.temp.o
+                0x000000000004fb30                PlatformBm.c.69564b15
+ .debug_info    0x000000000005312a       0xaf /tmp/ccfqlwdD.debug.temp.o
+                0x000000000005312a                ZeroMemWrapper.c.0fd9aaec
+ .debug_info    0x00000000000531d9       0xdc /tmp/ccJ8UKHP.debug.temp.o
+                0x00000000000531d9                CompareMemWrapper.c.32802e29
+ .debug_info    0x00000000000532b5      0x108 /tmp/ccsHSZJH.debug.temp.o
+                0x00000000000532b5                SetMemWrapper.c.78af0a5b
+ .debug_info    0x00000000000533bd       0xc3 /tmp/cc8NjHMF.debug.temp.o
+                0x00000000000533bd                DivU64x32Remainder.c.99a75392
+ .debug_info    0x0000000000053480      0x328 /tmp/ccPADetH.debug.temp.o
+                0x0000000000053480                LinkedList.c.b8b68687
+ .debug_info    0x00000000000537a8      0x238 /tmp/ccWbjtRb.debug.temp.o
+                0x00000000000537a8                Unaligned.c.a40271e9
+ .debug_info    0x00000000000539e0      0x277 /tmp/ccXOMxPG.debug.temp.o
+                0x00000000000539e0                SerialPortLib.c.bf19079b
+ .debug_info    0x0000000000053c57     0x1973 /tmp/ccvBwMzO.debug.temp.o
+                0x0000000000053c57                UefiNotTiano.c.c7615668
+ .debug_info    0x00000000000555ca     0x3bd7 /tmp/ccxVBgjk.debug.temp.o
+                0x00000000000555ca                HiiLib.c.b28fbabb
+ .debug_info    0x00000000000591a1      0x562 /tmp/cc85bCbS.debug.temp.o
+                0x00000000000591a1                HiiString.c.bee056df
+ .debug_info    0x0000000000059703      0x390 /tmp/ccp8Zhdd.debug.temp.o
+                0x0000000000059703                HiiLanguage.c.4036365e
+ .debug_info    0x0000000000059a93     0x25d5 /tmp/cc9EHDYt.debug.temp.o
+                0x0000000000059a93                DxeServicesLib.c.8edf43f1
+ .debug_info    0x000000000005c068     0x20fc /tmp/cc8rJbka.debug.temp.o
+                0x000000000005c068                BootLogoLib.c.4b64c70f
+ .debug_info    0x000000000005e164      0x2d3 /tmp/cc7aRNmL.debug.temp.o
+                0x000000000005e164                UartLib.c.db43ab4c
+ .debug_info    0x000000000005e437      0x4eb /tmp/ccwI3vi0.debug.temp.o
+                0x000000000005e437                IoLibNoIo.c.373e17b9
+
+.debug_abbrev   0x0000000000000000     0x5e67
+ .debug_abbrev  0x0000000000000000      0x2a4 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000002a4      0x323 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .debug_abbrev  0x00000000000005c7      0x1d1 /tmp/ccOTMth7.debug.temp.o
+ .debug_abbrev  0x0000000000000798       0xa4 /tmp/ccIHehHB.debug.temp.o
+ .debug_abbrev  0x000000000000083c       0x76 /tmp/cciPSPKk.debug.temp.o
+ .debug_abbrev  0x00000000000008b2       0x87 /tmp/ccy37PZ3.debug.temp.o
+ .debug_abbrev  0x0000000000000939      0x257 /tmp/ccVWWCvM.debug.temp.o
+ .debug_abbrev  0x0000000000000b90      0x270 /tmp/ccAbxwYC.debug.temp.o
+ .debug_abbrev  0x0000000000000e00      0x170 /tmp/ccUnJ5d3.debug.temp.o
+ .debug_abbrev  0x0000000000000f70      0x233 /tmp/cc3L3Ipu.debug.temp.o
+ .debug_abbrev  0x00000000000011a3       0xb6 /tmp/ccRz7lbh.debug.temp.o
+ .debug_abbrev  0x0000000000001259       0x6e /tmp/cca6E9WG.debug.temp.o
+ .debug_abbrev  0x00000000000012c7       0x66 /tmp/cc19vqAd.debug.temp.o
+ .debug_abbrev  0x000000000000132d       0x66 /tmp/cc0POJY8.debug.temp.o
+ .debug_abbrev  0x0000000000001393       0x5c /tmp/ccZ6jjo8.debug.temp.o
+ .debug_abbrev  0x00000000000013ef      0x101 /tmp/ccUOy1bQ.debug.temp.o
+ .debug_abbrev  0x00000000000014f0       0xa8 /tmp/ccbeYlEc.debug.temp.o
+ .debug_abbrev  0x0000000000001598      0x133 /tmp/cc7MiHNk.debug.temp.o
+ .debug_abbrev  0x00000000000016cb       0x57 /tmp/cc5IZUyx.debug.temp.o
+ .debug_abbrev  0x0000000000001722       0x57 /tmp/ccQ0uiO8.debug.temp.o
+ .debug_abbrev  0x0000000000001779      0x106 /tmp/cczW4qxk.debug.temp.o
+ .debug_abbrev  0x000000000000187f      0x15c /tmp/ccpZvGtu.debug.temp.o
+ .debug_abbrev  0x00000000000019db      0x12d /tmp/cc4dudlG.debug.temp.o
+ .debug_abbrev  0x0000000000001b08      0x1c5 /tmp/ccoOJjn5.debug.temp.o
+ .debug_abbrev  0x0000000000001ccd      0x1e4 /tmp/ccDPgKK8.debug.temp.o
+ .debug_abbrev  0x0000000000001eb1      0x198 /tmp/ccLA276l.debug.temp.o
+ .debug_abbrev  0x0000000000002049      0x162 /tmp/cc7WxwRX.debug.temp.o
+ .debug_abbrev  0x00000000000021ab      0x189 /tmp/ccXKaMWX.debug.temp.o
+ .debug_abbrev  0x0000000000002334       0xd2 /tmp/cccvvDR1.debug.temp.o
+ .debug_abbrev  0x0000000000002406      0x231 /tmp/ccggaNtw.debug.temp.o
+ .debug_abbrev  0x0000000000002637      0x1fe /tmp/ccNx1ZXy.debug.temp.o
+ .debug_abbrev  0x0000000000002835      0x27e /tmp/ccriNIHl.debug.temp.o
+ .debug_abbrev  0x0000000000002ab3      0x24f /tmp/cccEIE1M.debug.temp.o
+ .debug_abbrev  0x0000000000002d02      0x1d2 /tmp/ccIkcUuD.debug.temp.o
+ .debug_abbrev  0x0000000000002ed4      0x206 /tmp/ccnvDhCn.debug.temp.o
+ .debug_abbrev  0x00000000000030da      0x242 /tmp/ccIyV2VF.debug.temp.o
+ .debug_abbrev  0x000000000000331c      0x240 /tmp/ccffhLCJ.debug.temp.o
+ .debug_abbrev  0x000000000000355c      0x1ed /tmp/cc5oluCF.debug.temp.o
+ .debug_abbrev  0x0000000000003749      0x24a /tmp/cc8FYMtX.debug.temp.o
+ .debug_abbrev  0x0000000000003993      0x265 /tmp/ccy1X79O.debug.temp.o
+ .debug_abbrev  0x0000000000003bf8      0x374 /tmp/ccQ7GO9R.debug.temp.o
+ .debug_abbrev  0x0000000000003f6c      0x29d /tmp/cc3NhsV6.debug.temp.o
+ .debug_abbrev  0x0000000000004209      0x2dc /tmp/ccpEUf7t.debug.temp.o
+ .debug_abbrev  0x00000000000044e5      0x23f /tmp/ccErTyHi.debug.temp.o
+ .debug_abbrev  0x0000000000004724      0x228 /tmp/cckRQk2u.debug.temp.o
+ .debug_abbrev  0x000000000000494c      0x116 /tmp/cckPNt7h.debug.temp.o
+ .debug_abbrev  0x0000000000004a62      0x302 /tmp/ccDrNQEx.debug.temp.o
+ .debug_abbrev  0x0000000000004d64       0x5e /tmp/ccfqlwdD.debug.temp.o
+ .debug_abbrev  0x0000000000004dc2       0x67 /tmp/ccJ8UKHP.debug.temp.o
+ .debug_abbrev  0x0000000000004e29       0x73 /tmp/ccsHSZJH.debug.temp.o
+ .debug_abbrev  0x0000000000004e9c       0x62 /tmp/cc8NjHMF.debug.temp.o
+ .debug_abbrev  0x0000000000004efe      0x102 /tmp/ccPADetH.debug.temp.o
+ .debug_abbrev  0x0000000000005000       0x7f /tmp/ccWbjtRb.debug.temp.o
+ .debug_abbrev  0x000000000000507f       0xc2 /tmp/ccXOMxPG.debug.temp.o
+ .debug_abbrev  0x0000000000005141      0x21b /tmp/ccvBwMzO.debug.temp.o
+ .debug_abbrev  0x000000000000535c      0x2e1 /tmp/ccxVBgjk.debug.temp.o
+ .debug_abbrev  0x000000000000563d      0x134 /tmp/cc85bCbS.debug.temp.o
+ .debug_abbrev  0x0000000000005771       0xf4 /tmp/ccp8Zhdd.debug.temp.o
+ .debug_abbrev  0x0000000000005865      0x220 /tmp/cc9EHDYt.debug.temp.o
+ .debug_abbrev  0x0000000000005a85      0x202 /tmp/cc8rJbka.debug.temp.o
+ .debug_abbrev  0x0000000000005c87       0xf8 /tmp/cc7aRNmL.debug.temp.o
+ .debug_abbrev  0x0000000000005d7f       0xe8 /tmp/ccwI3vi0.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x22715
+ .debug_loc     0x0000000000000000    0x12f0d /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .debug_loc     0x0000000000012f0d     0xf808 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xfa0
+ .debug_aranges
+                0x0000000000000000      0x920 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000920      0x680 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x3040
+ .debug_ranges  0x0000000000000000     0x1c60 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000001c60     0x13e0 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+
+.debug_line     0x0000000000000000    0x16404
+ .debug_line    0x0000000000000000     0x8567 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .debug_line    0x0000000000008567     0x5fc4 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+ .debug_line    0x000000000000e52b      0x2de /tmp/ccOTMth7.debug.temp.o
+ .debug_line    0x000000000000e809       0x70 /tmp/ccIHehHB.debug.temp.o
+ .debug_line    0x000000000000e879       0x70 /tmp/cciPSPKk.debug.temp.o
+ .debug_line    0x000000000000e8e9      0x144 /tmp/ccy37PZ3.debug.temp.o
+ .debug_line    0x000000000000ea2d      0x2c0 /tmp/ccVWWCvM.debug.temp.o
+ .debug_line    0x000000000000eced      0x3d6 /tmp/ccAbxwYC.debug.temp.o
+ .debug_line    0x000000000000f0c3      0x226 /tmp/ccUnJ5d3.debug.temp.o
+ .debug_line    0x000000000000f2e9      0x2e7 /tmp/cc3L3Ipu.debug.temp.o
+ .debug_line    0x000000000000f5d0       0xfb /tmp/ccRz7lbh.debug.temp.o
+ .debug_line    0x000000000000f6cb       0xc1 /tmp/cca6E9WG.debug.temp.o
+ .debug_line    0x000000000000f78c       0xb1 /tmp/cc19vqAd.debug.temp.o
+ .debug_line    0x000000000000f83d       0xb2 /tmp/cc0POJY8.debug.temp.o
+ .debug_line    0x000000000000f8ef       0xb2 /tmp/ccZ6jjo8.debug.temp.o
+ .debug_line    0x000000000000f9a1      0x155 /tmp/ccUOy1bQ.debug.temp.o
+ .debug_line    0x000000000000faf6       0xad /tmp/ccbeYlEc.debug.temp.o
+ .debug_line    0x000000000000fba3      0x159 /tmp/cc7MiHNk.debug.temp.o
+ .debug_line    0x000000000000fcfc       0xb0 /tmp/cc5IZUyx.debug.temp.o
+ .debug_line    0x000000000000fdac       0xb0 /tmp/ccQ0uiO8.debug.temp.o
+ .debug_line    0x000000000000fe5c       0xfc /tmp/cczW4qxk.debug.temp.o
+ .debug_line    0x000000000000ff58      0x192 /tmp/ccpZvGtu.debug.temp.o
+ .debug_line    0x00000000000100ea      0x192 /tmp/cc4dudlG.debug.temp.o
+ .debug_line    0x000000000001027c      0x237 /tmp/ccoOJjn5.debug.temp.o
+ .debug_line    0x00000000000104b3      0x20c /tmp/ccDPgKK8.debug.temp.o
+ .debug_line    0x00000000000106bf      0x1e7 /tmp/ccLA276l.debug.temp.o
+ .debug_line    0x00000000000108a6      0x1d6 /tmp/cc7WxwRX.debug.temp.o
+ .debug_line    0x0000000000010a7c      0x20c /tmp/ccXKaMWX.debug.temp.o
+ .debug_line    0x0000000000010c88      0x10b /tmp/cccvvDR1.debug.temp.o
+ .debug_line    0x0000000000010d93      0x2c3 /tmp/ccggaNtw.debug.temp.o
+ .debug_line    0x0000000000011056      0x39a /tmp/ccNx1ZXy.debug.temp.o
+ .debug_line    0x00000000000113f0      0x2f6 /tmp/ccriNIHl.debug.temp.o
+ .debug_line    0x00000000000116e6      0x2d5 /tmp/cccEIE1M.debug.temp.o
+ .debug_line    0x00000000000119bb      0x2ef /tmp/ccIkcUuD.debug.temp.o
+ .debug_line    0x0000000000011caa      0x2e9 /tmp/ccnvDhCn.debug.temp.o
+ .debug_line    0x0000000000011f93      0x280 /tmp/ccIyV2VF.debug.temp.o
+ .debug_line    0x0000000000012213      0x3c3 /tmp/ccffhLCJ.debug.temp.o
+ .debug_line    0x00000000000125d6      0x2f2 /tmp/cc5oluCF.debug.temp.o
+ .debug_line    0x00000000000128c8      0x380 /tmp/cc8FYMtX.debug.temp.o
+ .debug_line    0x0000000000012c48      0x4d2 /tmp/ccy1X79O.debug.temp.o
+ .debug_line    0x000000000001311a      0x3ec /tmp/ccQ7GO9R.debug.temp.o
+ .debug_line    0x0000000000013506      0x3f9 /tmp/cc3NhsV6.debug.temp.o
+ .debug_line    0x00000000000138ff      0x367 /tmp/ccpEUf7t.debug.temp.o
+ .debug_line    0x0000000000013c66      0x378 /tmp/ccErTyHi.debug.temp.o
+ .debug_line    0x0000000000013fde      0x386 /tmp/cckRQk2u.debug.temp.o
+ .debug_line    0x0000000000014364      0x1a8 /tmp/cckPNt7h.debug.temp.o
+ .debug_line    0x000000000001450c      0x52a /tmp/ccDrNQEx.debug.temp.o
+ .debug_line    0x0000000000014a36       0xc1 /tmp/ccfqlwdD.debug.temp.o
+ .debug_line    0x0000000000014af7       0xc4 /tmp/ccJ8UKHP.debug.temp.o
+ .debug_line    0x0000000000014bbb       0xc0 /tmp/ccsHSZJH.debug.temp.o
+ .debug_line    0x0000000000014c7b       0xb9 /tmp/cc8NjHMF.debug.temp.o
+ .debug_line    0x0000000000014d34      0x159 /tmp/ccPADetH.debug.temp.o
+ .debug_line    0x0000000000014e8d       0xb4 /tmp/ccWbjtRb.debug.temp.o
+ .debug_line    0x0000000000014f41      0x14f /tmp/ccXOMxPG.debug.temp.o
+ .debug_line    0x0000000000015090      0x288 /tmp/ccvBwMzO.debug.temp.o
+ .debug_line    0x0000000000015318      0x333 /tmp/ccxVBgjk.debug.temp.o
+ .debug_line    0x000000000001564b      0x209 /tmp/cc85bCbS.debug.temp.o
+ .debug_line    0x0000000000015854      0x20b /tmp/ccp8Zhdd.debug.temp.o
+ .debug_line    0x0000000000015a5f      0x398 /tmp/cc9EHDYt.debug.temp.o
+ .debug_line    0x0000000000015df7      0x33c /tmp/cc8rJbka.debug.temp.o
+ .debug_line    0x0000000000016133      0x1c7 /tmp/cc7aRNmL.debug.temp.o
+ .debug_line    0x00000000000162fa      0x10a /tmp/ccwI3vi0.debug.temp.o
+
+.debug_str      0x0000000000000000     0xfc06
+ .debug_str     0x0000000000000000      0x806 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+                                        0x81f (size before relaxing)
+ .debug_str     0x0000000000000806       0xcc /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o
+                                        0x606 (size before relaxing)
+ .debug_str     0x00000000000008d2     0x129a /tmp/ccOTMth7.debug.temp.o
+                                       0x1464 (size before relaxing)
+ .debug_str     0x0000000000001b6c      0x21d /tmp/ccIHehHB.debug.temp.o
+                                        0x2a4 (size before relaxing)
+ .debug_str     0x0000000000001d89       0x58 /tmp/cciPSPKk.debug.temp.o
+                                        0x298 (size before relaxing)
+ .debug_str     0x0000000000001de1      0x110 /tmp/ccy37PZ3.debug.temp.o
+                                        0x2f2 (size before relaxing)
+ .debug_str     0x0000000000001ef1     0x15d4 /tmp/ccVWWCvM.debug.temp.o
+                                       0x2929 (size before relaxing)
+ .debug_str     0x00000000000034c5      0x64d /tmp/ccAbxwYC.debug.temp.o
+                                       0x1ca4 (size before relaxing)
+ .debug_str     0x0000000000003b12       0xeb /tmp/ccUnJ5d3.debug.temp.o
+                                        0x8a3 (size before relaxing)
+ .debug_str     0x0000000000003bfd      0x997 /tmp/cc3L3Ipu.debug.temp.o
+                                       0x189c (size before relaxing)
+ .debug_str     0x0000000000004594      0x114 /tmp/ccRz7lbh.debug.temp.o
+                                        0x33b (size before relaxing)
+ .debug_str     0x00000000000046a8       0x74 /tmp/cca6E9WG.debug.temp.o
+                                        0x2cd (size before relaxing)
+ .debug_str     0x000000000000471c       0xbf /tmp/cc19vqAd.debug.temp.o
+                                        0x29a (size before relaxing)
+ .debug_str     0x00000000000047db       0x63 /tmp/cc0POJY8.debug.temp.o
+                                        0x292 (size before relaxing)
+ .debug_str     0x000000000000483e       0x52 /tmp/ccZ6jjo8.debug.temp.o
+                                        0x282 (size before relaxing)
+ .debug_str     0x0000000000004890      0x2eb /tmp/ccUOy1bQ.debug.temp.o
+                                        0x67e (size before relaxing)
+ .debug_str     0x0000000000004b7b      0x19b /tmp/ccbeYlEc.debug.temp.o
+                                        0x407 (size before relaxing)
+ .debug_str     0x0000000000004d16      0x2c6 /tmp/cc7MiHNk.debug.temp.o
+                                        0x6ed (size before relaxing)
+ .debug_str     0x0000000000004fdc       0x44 /tmp/cc5IZUyx.debug.temp.o
+                                        0x28e (size before relaxing)
+ .debug_str     0x0000000000005020       0x44 /tmp/ccQ0uiO8.debug.temp.o
+                                        0x292 (size before relaxing)
+ .debug_str     0x0000000000005064      0x269 /tmp/cczW4qxk.debug.temp.o
+                                        0x48c (size before relaxing)
+ .debug_str     0x00000000000052cd      0x246 /tmp/ccpZvGtu.debug.temp.o
+                                        0x687 (size before relaxing)
+ .debug_str     0x0000000000005513      0x1a9 /tmp/cc4dudlG.debug.temp.o
+                                        0x4eb (size before relaxing)
+ .debug_str     0x00000000000056bc      0x105 /tmp/ccoOJjn5.debug.temp.o
+                                       0x1382 (size before relaxing)
+ .debug_str     0x00000000000057c1      0x308 /tmp/ccDPgKK8.debug.temp.o
+                                        0xf74 (size before relaxing)
+ .debug_str     0x0000000000005ac9      0x114 /tmp/ccLA276l.debug.temp.o
+                                       0x1384 (size before relaxing)
+ .debug_str     0x0000000000005bdd      0x330 /tmp/cc7WxwRX.debug.temp.o
+                                        0x660 (size before relaxing)
+ .debug_str     0x0000000000005f0d       0x73 /tmp/ccXKaMWX.debug.temp.o
+                                        0xd0c (size before relaxing)
+ .debug_str     0x0000000000005f80       0xbf /tmp/cccvvDR1.debug.temp.o
+                                        0x47b (size before relaxing)
+ .debug_str     0x000000000000603f      0xdde /tmp/ccggaNtw.debug.temp.o
+                                       0x13cf (size before relaxing)
+ .debug_str     0x0000000000006e1d      0xb60 /tmp/ccNx1ZXy.debug.temp.o
+                                       0x1fb9 (size before relaxing)
+ .debug_str     0x000000000000797d      0x2dd /tmp/ccriNIHl.debug.temp.o
+                                       0x1c5a (size before relaxing)
+ .debug_str     0x0000000000007c5a      0x5f0 /tmp/cccEIE1M.debug.temp.o
+                                       0x1b28 (size before relaxing)
+ .debug_str     0x000000000000824a      0x635 /tmp/ccIkcUuD.debug.temp.o
+                                       0x1903 (size before relaxing)
+ .debug_str     0x000000000000887f      0x2ca /tmp/ccnvDhCn.debug.temp.o
+                                        0xfc4 (size before relaxing)
+ .debug_str     0x0000000000008b49      0x5c9 /tmp/ccIyV2VF.debug.temp.o
+                                       0x18e2 (size before relaxing)
+ .debug_str     0x0000000000009112      0x3c5 /tmp/ccffhLCJ.debug.temp.o
+                                       0x116d (size before relaxing)
+ .debug_str     0x00000000000094d7      0x6dc /tmp/cc5oluCF.debug.temp.o
+                                       0x1901 (size before relaxing)
+ .debug_str     0x0000000000009bb3      0x3d3 /tmp/cc8FYMtX.debug.temp.o
+                                       0x1e0b (size before relaxing)
+ .debug_str     0x0000000000009f86      0xeca /tmp/ccy1X79O.debug.temp.o
+                                       0x29df (size before relaxing)
+ .debug_str     0x000000000000ae50      0xd9c /tmp/ccQ7GO9R.debug.temp.o
+                                       0x2fba (size before relaxing)
+ .debug_str     0x000000000000bbec      0x89c /tmp/cc3NhsV6.debug.temp.o
+                                       0x1f71 (size before relaxing)
+ .debug_str     0x000000000000c488      0x5eb /tmp/ccpEUf7t.debug.temp.o
+                                       0x1c4c (size before relaxing)
+ .debug_str     0x000000000000ca73      0x4d8 /tmp/ccErTyHi.debug.temp.o
+                                       0x1719 (size before relaxing)
+ .debug_str     0x000000000000cf4b      0x1de /tmp/cckRQk2u.debug.temp.o
+                                       0x1469 (size before relaxing)
+ .debug_str     0x000000000000d129      0x1fc /tmp/cckPNt7h.debug.temp.o
+                                        0x612 (size before relaxing)
+ .debug_str     0x000000000000d325      0x739 /tmp/ccDrNQEx.debug.temp.o
+                                       0x2e90 (size before relaxing)
+ .debug_str     0x000000000000da5e       0x55 /tmp/ccfqlwdD.debug.temp.o
+                                        0x2b5 (size before relaxing)
+ .debug_str     0x000000000000dab3       0x58 /tmp/ccJ8UKHP.debug.temp.o
+                                        0x2de (size before relaxing)
+ .debug_str     0x000000000000db0b       0x5c /tmp/ccsHSZJH.debug.temp.o
+                                        0x2ce (size before relaxing)
+ .debug_str     0x000000000000db67       0x60 /tmp/cc8NjHMF.debug.temp.o
+                                        0x2ae (size before relaxing)
+ .debug_str     0x000000000000dbc7      0x11d /tmp/ccPADetH.debug.temp.o
+                                        0x3f6 (size before relaxing)
+ .debug_str     0x000000000000dce4       0xe1 /tmp/ccWbjtRb.debug.temp.o
+                                        0x345 (size before relaxing)
+ .debug_str     0x000000000000ddc5      0x1e8 /tmp/ccXOMxPG.debug.temp.o
+                                        0x43f (size before relaxing)
+ .debug_str     0x000000000000dfad      0x162 /tmp/ccvBwMzO.debug.temp.o
+                                       0x14cc (size before relaxing)
+ .debug_str     0x000000000000e10f      0xe0e /tmp/ccxVBgjk.debug.temp.o
+                                       0x244c (size before relaxing)
+ .debug_str     0x000000000000ef1d       0xd4 /tmp/cc85bCbS.debug.temp.o
+                                        0x51f (size before relaxing)
+ .debug_str     0x000000000000eff1       0x8c /tmp/ccp8Zhdd.debug.temp.o
+                                        0x455 (size before relaxing)
+ .debug_str     0x000000000000f07d      0x468 /tmp/cc9EHDYt.debug.temp.o
+                                       0x1c09 (size before relaxing)
+ .debug_str     0x000000000000f4e5      0x414 /tmp/cc8rJbka.debug.temp.o
+                                       0x1c87 (size before relaxing)
+ .debug_str     0x000000000000f8f9      0x123 /tmp/cc7aRNmL.debug.temp.o
+                                        0x438 (size before relaxing)
+ .debug_str     0x000000000000fa1c      0x1ea /tmp/ccwI3vi0.debug.temp.o
+                                        0x3fa (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x3070
+ .debug_frame   0x0000000000000000     0x1a50 /tmp/BdsDxe.dll.fer19g.ltrans0.ltrans.o
+ .debug_frame   0x0000000000001a50     0x1620 /tmp/BdsDxe.dll.fer19g.ltrans1.ltrans.o

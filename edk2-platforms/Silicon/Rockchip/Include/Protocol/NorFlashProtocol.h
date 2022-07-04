@@ -16,12 +16,19 @@
 typedef struct _UNI_NOR_FLASH_PROTOCOL UNI_NOR_FLASH_PROTOCOL;
 
 typedef
+UINT32
+(EFIAPI *UNI_FLASH_GET_SIZE_INTERFACE) (
+    IN UNI_NOR_FLASH_PROTOCOL   *This
+    );
+
+typedef
 EFI_STATUS
 (EFIAPI *UNI_FLASH_ERASE_INTERFACE) (
     IN UNI_NOR_FLASH_PROTOCOL   *This,
     IN UINT32                  Offset,
     IN UINT32                  Length
     );
+
 typedef
 EFI_STATUS
 (EFIAPI *UNI_FLASH_WRITE_INTERFACE) (
@@ -50,6 +57,7 @@ EFI_STATUS
     );
 
 struct _UNI_NOR_FLASH_PROTOCOL {
+    UNI_FLASH_GET_SIZE_INTERFACE          GetSize;
     UNI_FLASH_ERASE_INTERFACE             Erase;
     UNI_FLASH_WRITE_INTERFACE             Write;
     UNI_FLASH_READ_INTERFACE              Read;
