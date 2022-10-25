@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_RAW -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/FC097B3C-2EBD-4A75-A3DA-121DCAB365CCDtPlatformDxe/DtPlatformDxeOffset.raw /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/FC097B3C-2EBD-4A75-A3DA-121DCAB365CCDtPlatformDxe/DtPlatformDxe.offset

@@ -1,6 +1,0 @@
-/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseCpuLib/BaseCpuLib.inf
-/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/DEBUG/AutoGen.h
-/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.S
-/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.asm
-/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.asm
-/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.S

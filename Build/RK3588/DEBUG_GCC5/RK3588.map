@@ -1,6 +1,0 @@
-ArmPlatformPrePiUniCore (Fixed Flash Address, BaseAddress=0x0000201160, EntryPoint=0x0000207d90, Type=TE)
-(GUID=3E401783-CC94-4FCD-97BC-BD35AC369D2F .textbaseaddress=0x0000201240 .databaseaddress=0x0000209a80)
-(IMAGE=/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.efi)
-
-
-

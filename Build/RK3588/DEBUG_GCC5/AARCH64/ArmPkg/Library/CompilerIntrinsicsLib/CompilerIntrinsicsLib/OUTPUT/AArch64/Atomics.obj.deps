@@ -1,6 +1,0 @@
-/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/AArch64/Atomics.obj:  /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/CompilerIntrinsicsLib/AArch64/Atomics.S \
- /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/DEBUG/AutoGen.h \
- /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Base.h \
- /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-
-# Updated 

@@ -1,1 +1,0 @@
-/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Drivers/ASIX/Bus/Usb/UsbNetworking/Ax88772c/Ax88772c/GNUmakefile

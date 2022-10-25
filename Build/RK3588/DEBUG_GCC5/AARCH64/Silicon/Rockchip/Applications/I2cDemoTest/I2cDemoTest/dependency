@@ -1,7 +1,0 @@
-
-
--include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Applications/I2cDemoTest/I2cDemoTest/OUTPUT/AutoGen.obj.deps
-
--include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Silicon/Rockchip/Applications/I2cDemoTest/I2cDemoTest/OUTPUT/I2cDemoTest.obj.deps
-
-               

@@ -79,7 +79,7 @@ NorFspiIomux(void)
   /* io mux */
   MmioWrite32(NS_CRU_BASE + CRU_CLKSEL_CON78,
              (((0x3 << 12) | (0x3f << 6)) << 16) | (0x0 << 12) | (0x3f << 6));
-#define FSPI_M1
+#define FSPI_M0
 #if defined(FSPI_M0)
    /*FSPI M0*/
   BUS_IOC->GPIO2A_IOMUX_SEL_L = ((0xF << 0) << 16) | (2 << 0); //FSPI_CLK_M0
@@ -142,14 +142,20 @@ I2cGetBase (
 
 #define GPIO4_BASE         0xFEC50000
 #define GPIO_SWPORT_DR_L   0x0000
+#define GPIO_SWPORT_DR_H   0x0004
 #define GPIO_SWPORT_DDR_L  0x0008
+#define GPIO_SWPORT_DDR_H  0x000C
 
 void
 EFIAPI
 UsbPortPowerEnable (void)
 {
+  /* enable usb host vbus supply */
   MmioWrite32(GPIO4_BASE + GPIO_SWPORT_DR_L, (0x0100UL << 16) | 0x0100);
   MmioWrite32(GPIO4_BASE + GPIO_SWPORT_DDR_L, (0x0100UL << 16) | 0x0100);
+  /* enable usb otg0 vbus supply */
+  MmioWrite32(GPIO4_BASE + GPIO_SWPORT_DR_H, (0x0100UL << 16) | 0x0100);
+  MmioWrite32(GPIO4_BASE + GPIO_SWPORT_DDR_H, (0x0100UL << 16) | 0x0100);
 }
 
 void
@@ -172,6 +178,17 @@ Usb2PhyResume (void)
   MmioWrite32(0xfd7f0a10, 0x07000000);
 }
 
+void
+EFIAPI
+UdPhyU3PortDisable (void)
+{
+  /* disable U3 port */
+  MmioWrite32 (0xfd5ac01c, 0xf08d0089);
+  MmioWrite32 (0xfd5ac034, 0xf08d0089);
+  /* remove rx-termination */
+  MmioWrite32 (0xfd5c800c, 0x00030001);
+  MmioWrite32 (0xfd5cc00c, 0x00030001);
+}
 
 void
 EFIAPI

@@ -1,1 +1,0 @@
-/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/I2c/I2cDxe/I2cDxe/GNUmakefile

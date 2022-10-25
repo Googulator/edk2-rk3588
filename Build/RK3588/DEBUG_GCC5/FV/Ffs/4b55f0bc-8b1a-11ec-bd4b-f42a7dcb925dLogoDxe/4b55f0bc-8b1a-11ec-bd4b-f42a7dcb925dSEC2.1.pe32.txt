@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/4b55f0bc-8b1a-11ec-bd4b-f42a7dcb925dLogoDxe/4b55f0bc-8b1a-11ec-bd4b-f42a7dcb925dSEC2.1.pe32 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Platform/Rockchip/RK3588/LogoDxe/LogoDxe/OUTPUT/LogoDxe.efi

@@ -597,7 +597,7 @@ RETURN_STATUS HAL_SNOR_Erase(struct SPI_NOR *nor, UINT32 addr, NOR_ERASE_TYPE er
 {
     RETURN_STATUS ret;
     INT32 timeout[] = { 400, 2000, 40000 };
-    return 0;
+
     /* DEBUG ((DEBUG_SNOR, "%s addr %lx\n", __func__, addr)); */
     if (addr >= nor->size) {
         return RETURN_DEVICE_ERROR;
@@ -650,7 +650,6 @@ RETURN_STATUS HAL_SNOR_Read(struct SPI_NOR *nor, UINT32 sec, UINT32 nSec, void *
 RETURN_STATUS HAL_SNOR_Write(struct SPI_NOR *nor, UINT32 sec, UINT32 nSec, void *pData)
 {
     RETURN_STATUS ret = RETURN_SUCCESS;
-    return 0;
 
     /* DEBUG ((DEBUG_SNOR, "%s sec 0x%08lx, nSec %lx\n", __func__, sec, nSec)); */
     ret = HAL_SNOR_ProgData(nor, sec * nor->sectorSize, pData, nSec * nor->sectorSize);
@@ -674,7 +673,6 @@ RETURN_STATUS HAL_SNOR_OverWrite(struct SPI_NOR *nor, UINT32 sec, UINT32 nSec, v
     RETURN_STATUS ret = RETURN_SUCCESS;
     UINT8 *pBuf = (UINT8 *)pData;
     UINT32 remaining = nSec;
-    return 0;
 
     /* DEBUG ((DEBUG_SNOR, "%s sec 0x%08lx, nSec %lx\n", __func__, sec, nSec)); */
     while (remaining) {
@@ -896,36 +894,32 @@ RETURN_STATUS HAL_SNOR_ReadUUID(struct SPI_NOR *nor, void *buf)
     return HAL_FSPI_SpiXfer(nor->spi, &op);
 }
 
-
-
 EFI_STATUS Erase(
    IN UNI_NOR_FLASH_PROTOCOL   *This,
    IN  UINT32                   Offset,
-   IN  UINT32                   Length
+   IN  UINT32                   ulLen
   )
 {
-#if 1
   EFI_STATUS Status;
   UINTN EraseSize;
 
   EraseSize = g_nor->sectorSize;
 
   // Check input parameters
-  if (Offset % EraseSize || Length % EraseSize) {
+  if (Offset % EraseSize || ulLen % EraseSize) {
     DEBUG((DEBUG_ERROR, "SpiFlash: Either erase offset or length is not multiple of erase size\n"));
     return EFI_DEVICE_ERROR;
   }
 
-  while (Length) {
+  while (ulLen) {
     Status = HAL_SNOR_Erase(g_nor, Offset, ERASE_SECTOR);
     if (EFI_ERROR (Status)) {
       DEBUG((DEBUG_ERROR, "SpiFlash: Error while erase target address\n"));
       return Status;
     }
     Offset += EraseSize;
-    Length -= EraseSize;
+    ulLen -= EraseSize;
   }
-#endif
   return EFI_SUCCESS;
 }
 
@@ -940,12 +934,12 @@ EFI_STATUS  Write(
   IN UNI_NOR_FLASH_PROTOCOL   *This,
   IN  UINT32                  Offset,
   IN  UINT8                  *Buffer,
-  UINT32                     ulLength
+  UINT32                     ulLen
   )
 {
   EFI_STATUS Status = EFI_SUCCESS;
   //DEBUG ((EFI_D_ERROR, "[%a]:[%dL]: %x!......................\n", __FUNCTION__,__LINE__,Offset));
-  Status = HAL_SNOR_ProgData(g_nor, Offset, Buffer, ulLength);
+  Status = HAL_SNOR_ProgData(g_nor, Offset, Buffer, ulLen);
   if (EFI_ERROR (Status)) {
     DEBUG((DEBUG_ERROR, "SpiFlash: Error while programming target address\n"));
   }
@@ -1085,8 +1079,8 @@ static RETURN_STATUS SNOR_STRESS_RANDOM_TEST(UINT32 testEndLBA)
     UINT32 testCount, testLBA = 0;
     UINT32 testSecCount = 1;
 
-    DEBUG ((EFI_D_ERROR, "---------%s %lx---------\n", __func__, testEndLBA));
-    DEBUG ((EFI_D_ERROR, "---------%s---------\n", __func__));
+    DEBUG ((EFI_D_ERROR, "---------%a %lx---------\n", __func__, testEndLBA));
+    DEBUG ((EFI_D_ERROR, "---------%a---------\n", __func__));
     for (j = 0; j < testSecCount * (UINT32)g_nor->sectorSize / 4; j++)
       pwrite32[j] = j + (0xFFFF0000 - j);
 
@@ -1160,9 +1154,6 @@ EFIAPI InitializeFlash (
     DEBUG ((DEBUG_ERROR, "%a: Cannot allocate memory\n", __FUNCTION__));
     return EFI_OUT_OF_RESOURCES;
   }
-
-  memset(g_spi, 0, sizeof(struct HAL_FSPI_HOST));
-  memset(g_nor, 0, sizeof(struct SPI_NOR));
 
   g_spi->instance = (struct FSPI_REG *)FixedPcdGet32(FspiBaseAddr);
 

@@ -1,7 +1,0 @@
-
-
--include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib/OUTPUT/ConsistMapping.obj.deps
-
--include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib/OUTPUT/UefiShellCommandLib.obj.deps
-
-               

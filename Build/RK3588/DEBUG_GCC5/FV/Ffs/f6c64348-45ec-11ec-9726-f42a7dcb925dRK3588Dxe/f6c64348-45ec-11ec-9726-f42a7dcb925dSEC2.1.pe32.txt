@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/f6c64348-45ec-11ec-9726-f42a7dcb925dRK3588Dxe/f6c64348-45ec-11ec-9726-f42a7dcb925dSEC2.1.pe32 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/Platform/Rockchip/RK3588/RK3588Dxe/RK3588Dxe/OUTPUT/RK3588Dxe.efi

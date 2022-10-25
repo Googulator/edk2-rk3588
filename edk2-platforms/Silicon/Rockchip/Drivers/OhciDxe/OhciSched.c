@@ -509,6 +509,8 @@ OhciHouseKeeper (
           OhciSetEDField (Ed, ED_HALTED | ED_DTTOGGLE, 0);
           Ed->Word0.Skip = 0;
         }
+      } else {
+        return;
       }
     } else {
       if (PreEntry == NULL) {

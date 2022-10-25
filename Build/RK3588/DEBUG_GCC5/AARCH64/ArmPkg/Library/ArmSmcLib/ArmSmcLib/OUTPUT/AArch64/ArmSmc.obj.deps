@@ -1,7 +1,0 @@
-/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmSmcLib/ArmSmcLib/OUTPUT/AArch64/ArmSmc.obj:  /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Library/ArmSmcLib/AArch64/ArmSmc.S \
- /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmSmcLib/ArmSmcLib/DEBUG/AutoGen.h \
- /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/Base.h \
- /home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
- /home/daijh/sdk/rk3588/uefi/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
-
-# Updated 

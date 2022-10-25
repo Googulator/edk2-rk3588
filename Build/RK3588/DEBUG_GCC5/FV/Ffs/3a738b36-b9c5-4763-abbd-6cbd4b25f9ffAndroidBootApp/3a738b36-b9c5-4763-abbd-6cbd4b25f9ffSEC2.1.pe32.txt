@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/3a738b36-b9c5-4763-abbd-6cbd4b25f9ffAndroidBootApp/3a738b36-b9c5-4763-abbd-6cbd4b25f9ffSEC2.1.pe32 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Application/AndroidBoot/AndroidBootApp/OUTPUT/AndroidBootApp.efi

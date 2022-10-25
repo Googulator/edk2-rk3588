@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/6d6963ab-906d-4a65-a7ca-bd40e5d6af2bUdp4Dxe/6d6963ab-906d-4a65-a7ca-bd40e5d6af2bSEC2.1.pe32 /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/NetworkPkg/Udp4Dxe/Udp4Dxe/OUTPUT/Udp4Dxe.efi

@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_RAW -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/UiAppOffset.raw /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/UiApp.offset

@@ -48,15 +48,15 @@ gArmTokenSpaceGuid.PcdFvBaseAddress|gArmTokenSpaceGuid.PcdFvSize
 FV = BL33_AP_UEFI
 
 # NV_VARIABLE_STORE
-0x007C0000|0x0000F000
+0x007C0000|0x00010000
 gRockchipTokenSpaceGuid.PcdNvStorageVariableBase|gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageVariableSize
 
 # NV_FTW_WORKING header
-0x007CF000|0x00001000
+0x007D0000|0x00010000
 gRockchipTokenSpaceGuid.PcdNvStorageFtwWorkingBase|gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwWorkingSize
 
 # NV_FTW_WORKING data
-0x007D0000|0x00010000
+0x007E0000|0x00010000
 gRockchipTokenSpaceGuid.PcdNvStorageFtwSpareBase|gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwSpareSize
 
 ################################################################################
@@ -184,6 +184,16 @@ READ_LOCK_STATUS   = TRUE
   INF Silicon/Rockchip/Drivers/OhciDxe/OhciDxe.inf
 
   #
+  # USB Dwc3 Controller
+  #
+  INF Silicon/Rockchip/Drivers/UsbDwc3InitDxe/UsbDwc3.inf
+
+  #
+  # USB Xhci Controller
+  #
+  INF Silicon/Rockchip/Drivers/XhciDxe/XhciDxe.inf
+
+  #
   # USB Host Support
   #
   INF MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe.inf
@@ -268,7 +278,7 @@ READ_LOCK_STATUS   = TRUE
   #INF Silicon/Synopsys/DesignWare/Drivers/DwEmmcDxe/DwEmmcDxe.inf
   INF Silicon/Rockchip/Drivers/MmcDxe/MmcDxe.inf
   #INF Silicon/Rockchip/Drivers/DwEmmcDxe/DwEmmcDxe.inf
-  INF Silicon/Rockchip/Drivers/SdhciHostDxe/SdhciHostDxe.inf
+  #INF Silicon/Rockchip/Drivers/SdhciHostDxe/SdhciHostDxe.inf
 
   #
   # SPI NOR FLASH

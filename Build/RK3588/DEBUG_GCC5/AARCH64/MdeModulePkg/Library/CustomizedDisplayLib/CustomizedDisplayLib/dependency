@@ -1,9 +1,0 @@
-
-
--include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/AutoGen.obj.deps
-
--include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.obj.deps
-
--include /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLibInternal.obj.deps
-
-               

@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_DXE_DEPEX -o /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/FV/Ffs/88079b18-b42b-44aa-a6f2-b83911075e89VirtualKeyboardDxe/88079b18-b42b-44aa-a6f2-b83911075e89SEC1.1.dpx /home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/EmbeddedPkg/Drivers/VirtualKeyboardDxe/VirtualKeyboardDxe/OUTPUT/VirtualKeyboardDxe.depex

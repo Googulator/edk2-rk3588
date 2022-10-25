@@ -1,6 +1,0 @@
-/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseSynchronizationLib/Synchronization.c
-/home/daijh/sdk/rk3588/uefi/Build/RK3588/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/DEBUG/AutoGen.h
-/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib.inf
-/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLibInternals.h
-/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseSynchronizationLib/AArch64/Synchronization.S
-/home/daijh/sdk/rk3588/uefi/edk2/MdePkg/Library/BaseSynchronizationLib/AArch64/Synchronization.asm
