@@ -6,9 +6,10 @@ case "$1" in
         rk3568 | RK3568 | 3568)
                 CHIP=3568;
                 ;;
-        ACPI)
+        SBBR)
                 CHIP=3588;
-                FLAGS="-D ROCKCHIP_ACPIEN"
+                FLAGS="-D ROCKCHIP_ACPIEN -D ROCKCHIP_VOPEN"
+                echo Building an SBBR image
                 ;;
         *)
                 CHIP=3588
@@ -25,6 +26,8 @@ echo $TOP_DIR
 export GCC5_AARCH64_PREFIX=$TOP_DIR/prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-
 export WORKSPACE=$COMMON_DIR
 export PACKAGES_PATH=$WORKSPACE/edk2:$WORKSPACE/edk2-platforms:$WORKSPACE/edk2-non-osi
+export EDK_TOOLS_PATH=$WORKSPACE/edk2/BaseTools
+mkdir -p edk2/Conf &&
 . edk2/edksetup.sh BaseTools &&
 make -C edk2/BaseTools &&
 build -a AARCH64 -t GCC5 -p edk2-platforms/Platform/Rockchip/RK$CHIP/RK$CHIP.dsc $FLAGS &&
