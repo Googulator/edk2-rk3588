@@ -1,0 +1,7 @@
+
+Build/
+NV_DATA.img
+RK3588_NOR_FLASH.img
+uboot_uefi.img
+edk2/Conf/
+edk2/EmulatorPkg/Unix/Host/X11IncludeHack
