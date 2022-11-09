@@ -78,9 +78,9 @@
 
   AndroidBootImgLib|edk2/EmbeddedPkg/Library/AndroidBootImgLib/AndroidBootImgLib.inf
 
-  RockchipDisplayLib|Silicon/Rockchip/Library/DisplayLib/RockchipDisplayLib.inf
+  #RockchipDisplayLib|Silicon/Rockchip/Library/DisplayLib/RockchipDisplayLib.inf
   # to delete
-  AnalogixDpLib|Silicon/Rockchip/Library/DisplayLib/AnalogixDpLib.inf
+  #AnalogixDpLib|Silicon/Rockchip/Library/DisplayLib/AnalogixDpLib.inf
 
 [LibraryClasses.common.SEC]
   PrePiLib|EmbeddedPkg/Library/PrePiLib/PrePiLib.inf
@@ -261,8 +261,8 @@
   #
   # Display
   #
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|0x600
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|0x800
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|0x780
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|0x438
   gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|0
   gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|0
 
@@ -338,8 +338,9 @@
 
   MdeModulePkg/Universal/PCD/Dxe/Pcd.inf
 
-  Silicon/Rockchip/Drivers/Vop2Dxe/Vop2Dxe.inf
-  Silicon/Rockchip/Drivers/LcdGraphicsOutputDxe/LcdGraphicsOutputDxe.inf
+  #Silicon/Rockchip/Drivers/Vop2Dxe/Vop2Dxe.inf
+  #Silicon/Rockchip/Drivers/LcdGraphicsOutputDxe/LcdGraphicsOutputDxe.inf
+  Silicon/Rockchip/Drivers/DisplayDxe/DisplayDxe.inf
 
   Platform/Rockchip/RK3588/LogoDxe/LogoDxe.inf
   Platform/Rockchip/RK3588/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf

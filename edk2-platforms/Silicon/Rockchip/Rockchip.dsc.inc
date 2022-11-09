@@ -130,6 +130,7 @@
 
   # Add I2CLib
   I2CLib|Silicon/Rockchip/Library/I2CLib/I2CLib.inf
+  GpioLib|Silicon/Rockchip/Library/GpioLib/GpioLib.inf
 
 [LibraryClasses.common.SEC]
   ArmGicArchLib|ArmPkg/Library/ArmGicArchSecLib/ArmGicArchSecLib.inf

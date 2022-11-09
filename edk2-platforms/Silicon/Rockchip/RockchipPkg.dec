@@ -48,6 +48,7 @@
   OemAddressMapLib|Include/Library/OemAddressMapLib.h
   OemMiscLib|Include/Library/OemMiscLib.h
   I2CLib|Include/Library/I2CLib.h
+  GpioLib|Include/Library/GpioLib.h
   PlatformPciLib|Include/Library/PlatformPciLib.h
   FdtUpdateLib|Include/Library/FdtUpdateLib.h
   LpcLib|Include/Library/LpcLib.h

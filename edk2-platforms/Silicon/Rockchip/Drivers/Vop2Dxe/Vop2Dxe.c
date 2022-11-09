@@ -972,6 +972,20 @@ Vop2IfConfig (
                   RK3588_GRF_EDP0_ENABLE_SHIFT, 1);
   }
 
+  if (OutputIf & VOP_OUTPUT_IF_HDMI0) {
+    Vop2MaskWrite (Vop2->BaseAddress, RK3568_DSP_IF_EN, EN_MASK,
+                   RK3588_HDMI0_EN_SHIFT, 1, FALSE);
+    /* temp HDMI0 fixed vp2 */
+    Vop2MaskWrite (Vop2->BaseAddress, RK3568_DSP_IF_EN, IF_MUX_MASK,
+                   RK3588_HDMI_EDP0_MUX_SHIFT, CrtcState->CrtcID, FALSE);
+    Vop2MaskWrite (Vop2->BaseAddress, RK3568_DSP_IF_CTRL, 0x3,
+                   HDMI_EDP0_DCLK_DIV_SHIFT, IfDclkDiv, FALSE);
+    Vop2MaskWrite (Vop2->BaseAddress, RK3568_DSP_IF_CTRL, 0x3,
+                   HDMI_EDP0_PIXCLK_DIV_SHIFT, IfPixclkDiv, FALSE);
+    Vop2GrfWrite (RK3588_VOP_GRF_BASE, RK3588_GRF_VOP_CON2, EN_MASK,
+                  RK3588_GRF_HDMITX0_ENABLE_SHIFT, 1);
+  }
+
   if (OutputIf & VOP_OUTPUT_IF_eDP1) {
     Vop2MaskWrite (Vop2->BaseAddress, RK3568_DSP_IF_EN, EN_MASK,
                    RK3588_EDP1_EN_SHIFT, 1, FALSE);
@@ -996,13 +1010,13 @@ Vop2IfConfig (
   return DclkRate;
 }
 
-STATIC
+/*STATIC
 BOOLEAN
 IsUVSwap (
   IN UINT32                                BusFormat,
   IN UINT32                                OutputMode
   )
-{
+{*/
   /*
    * FIXME:
    *
@@ -1012,14 +1026,14 @@ IsUVSwap (
    *
    * From H/W testing, YUV444 mode need a rb swap.
    */
-  if ((BusFormat == MEDIA_BUS_FMT_YUV8_1X24 ||
+/*  if ((BusFormat == MEDIA_BUS_FMT_YUV8_1X24 ||
        BusFormat == MEDIA_BUS_FMT_YUV10_1X30) &&
       (OutputMode == ROCKCHIP_OUT_MODE_AAAA ||
        OutputMode == ROCKCHIP_OUT_MODE_P888))
     return TRUE;
   else
     return FALSE;
-}
+}*/
 
 STATIC
 BOOLEAN
@@ -1383,7 +1397,7 @@ Vop2PostColorSwap (
   UINT32 OutputIf = ConnectorState->OutputInterface;
   UINT32 DateSwap = 0;
 
-  if (IsUVSwap(ConnectorState->BusFormat, ConnectorState->OutputMode))
+  //if (IsUVSwap(ConnectorState->BusFormat, ConnectorState->OutputMode))
     DateSwap = DSP_RB_SWAP;
 
   if (Vop2->Version == VOP_VERSION_RK3588 &&

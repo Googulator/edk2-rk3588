@@ -102,30 +102,48 @@ BOOLEAN mDisplayInitialized = FALSE;
 
 STATIC CONST UINT32 mMaxMode = ARRAY_SIZE (mDisplayModes);
 
+EFI_GRAPHICS_OUTPUT_MODE_INFORMATION mGopModeInfo = {
+    0, // Version
+    1920, // HorizontalResolution
+    1080, // VerticalResolution
+    PixelBlueGreenRedReserved8BitPerColor, // PixelFormat
+    { 0 }, // PixelInformation
+    1080, // PixelsPerScanLine
+  };
+
+EFI_GRAPHICS_OUTPUT_PROTOCOL_MODE mGopMode =   {
+    1, // MaxMode;
+    0, // Mode;
+    &mGopModeInfo, // Info;
+    0, // SizeOfInfo;
+    0, // FrameBufferBase;
+    1920*1080*4 // FrameBufferSize;
+  };
+
 LCD_INSTANCE mLcdTemplate = {
   LCD_INSTANCE_SIGNATURE,
   NULL, // Handle
-  { // ModeInfo
-    0, // Version
-    0, // HorizontalResolution
-    0, // VerticalResolution
-    PixelBltOnly, // PixelFormat
-    { 0 }, // PixelInformation
-    0, // PixelsPerScanLine
-  },
   {
-    0, // MaxMode;
+    0, // Version
+    1920, // HorizontalResolution
+    1080, // VerticalResolution
+    PixelBlueGreenRedReserved8BitPerColor, // PixelFormat
+    { 0 }, // PixelInformation
+    1080, // PixelsPerScanLine
+  }, // ModeInfo
+  {
+    1, // MaxMode;
     0, // Mode;
-    NULL, // Info;
+    0, // Info;
     0, // SizeOfInfo;
     0, // FrameBufferBase;
-    0 // FrameBufferSize;
+    1920*1080*4 // FrameBufferSize;
   },
   { // Gop
     LcdGraphicsQueryMode,  // QueryMode
     LcdGraphicsSetMode,    // SetMode
     LcdGraphicsBlt,        // Blt
-    NULL                     // *Mode
+    0                      // *Mode
   },
   { // DevicePath
     {
@@ -254,7 +272,7 @@ InitializeDisplay (
   EFI_STATUS                  Status;
   EFI_PHYSICAL_ADDRESS        VramBaseAddress;
   UINTN                       VramSize;
-  DISPLAY_STATE               *StateInterate;
+  DISPLAY_STATE               *StateIterate;
   CRTC_STATE                  *CrtcState;
   CONNECTOR_STATE             *ConnectorState;
   DRM_DISPLAY_MODE            *Mode;
@@ -271,21 +289,21 @@ InitializeDisplay (
   Instance->Gop.Mode->SizeOfInfo      = sizeof (EFI_GRAPHICS_OUTPUT_MODE_INFORMATION);
   Instance->Gop.Mode->FrameBufferBase = VramBaseAddress;
 
-  LIST_FOR_EACH_ENTRY(StateInterate, &mDisplayStateList, ListHead) {
-    if (StateInterate->IsEnable) {
-      Crtc = (ROCKCHIP_CRTC_PROTOCOL *)StateInterate->CrtcState.Crtc;
-      Connector = (ROCKCHIP_CONNECTOR_PROTOCOL *)StateInterate->ConnectorState.Connector;
-      CrtcState = &StateInterate->CrtcState;
-      ConnectorState = &StateInterate->ConnectorState;
-      Mode = &StateInterate->ConnectorState.DisplayMode;
+  LIST_FOR_EACH_ENTRY(StateIterate, &mDisplayStateList, ListHead) {
+    if (StateIterate->IsEnable) {
+      Crtc = (ROCKCHIP_CRTC_PROTOCOL *)StateIterate->CrtcState.Crtc;
+      Connector = (ROCKCHIP_CONNECTOR_PROTOCOL *)StateIterate->ConnectorState.Connector;
+      CrtcState = &StateIterate->CrtcState;
+      ConnectorState = &StateIterate->ConnectorState;
+      Mode = &StateIterate->ConnectorState.DisplayMode;
 
       //to delete
-      AnalogixDpConnectorInit (StateInterate);
+      //AnalogixDpConnectorInit (StateIterate);
       if (Connector && Connector->Init)
-        Status = Connector->Init(Connector, StateInterate);
+        Status = Connector->Init(Connector, StateIterate);
 
       /* move to panel protocol --- todo */
-      DisplayGetTiming (StateInterate);
+      DisplayGetTiming (StateIterate);
 
       DEBUG ((DEBUG_INIT, "[INIT]detailed mode clock %u kHz, flags[%x]\n"
                           "          H: %04d %04d %04d %04d\n"
@@ -304,7 +322,7 @@ InitializeDisplay (
       }
 
       if (Crtc && Crtc->Init) {
-        Status = Crtc->Init (Crtc, StateInterate);
+        Status = Crtc->Init (Crtc, StateIterate);
         if (EFI_ERROR (Status)) {
           goto EXIT;
         }
@@ -323,7 +341,7 @@ InitializeDisplay (
       CrtcState->YMirror = 0;
       CrtcState->RBSwap = 0;
 
-      LcdGraphicsGetBpp (StateInterate->ModeNumber, &LcdBpp);
+      LcdGraphicsGetBpp (StateIterate->ModeNumber, &LcdBpp);
       CrtcState->XVirtual = ALIGN(CrtcState->SrcW * DisplayBppConvert (LcdBpp), 32) >> 5;
       CrtcState->DMAAddress = (UINT32)VramBaseAddress;
     }
@@ -346,27 +364,27 @@ DisplayPreInit (
   )
 {
   EFI_STATUS                  Status;
-  DISPLAY_STATE               *StateInterate;
+  DISPLAY_STATE               *StateIterate;
   ROCKCHIP_CRTC_PROTOCOL      *Crtc;
   ROCKCHIP_CONNECTOR_PROTOCOL *Connector;
 
-  LIST_FOR_EACH_ENTRY(StateInterate, &mDisplayStateList, ListHead) {
-    if (StateInterate->IsEnable) {
-      CRTC_STATE *CrtcState = &StateInterate->CrtcState;
-      CONNECTOR_STATE *ConnectorState = &StateInterate->ConnectorState;
-      Crtc = (ROCKCHIP_CRTC_PROTOCOL*)StateInterate->CrtcState.Crtc;
-      Connector = (ROCKCHIP_CONNECTOR_PROTOCOL *)StateInterate->ConnectorState.Connector;
+  LIST_FOR_EACH_ENTRY(StateIterate, &mDisplayStateList, ListHead) {
+    if (StateIterate->IsEnable) {
+      CRTC_STATE *CrtcState = &StateIterate->CrtcState;
+      CONNECTOR_STATE *ConnectorState = &StateIterate->ConnectorState;
+      Crtc = (ROCKCHIP_CRTC_PROTOCOL*)StateIterate->CrtcState.Crtc;
+      Connector = (ROCKCHIP_CONNECTOR_PROTOCOL *)StateIterate->ConnectorState.Connector;
 
       //to delete
-      AnalogixDpConnectorPreInit(StateInterate);
+      //AnalogixDpConnectorPreInit(StateIterate);
 
       if (Connector && Connector->Preinit)
-        Status = Connector->Preinit(Connector, StateInterate);
+        Status = Connector->Preinit(Connector, StateIterate);
 
       Crtc->Vps[CrtcState->CrtcID].OutputType = ConnectorState->Type;
 
       if (Crtc && Crtc->Preinit) {
-        Status = Crtc->Preinit(Crtc, StateInterate);
+        Status = Crtc->Preinit(Crtc, StateIterate);
         if (EFI_ERROR (Status)) {
           goto EXIT;
         }
@@ -597,11 +615,11 @@ LcdGraphicsSetMode (
   EFI_GRAPHICS_OUTPUT_BLT_PIXEL   FillColour;
   LCD_INSTANCE*                   Instance;
   LCD_BPP                         Bpp;
-  DISPLAY_STATE                   *StateInterate;
+  DISPLAY_STATE                   *StateIterate;
   ROCKCHIP_CRTC_PROTOCOL          *Crtc;
   ROCKCHIP_CONNECTOR_PROTOCOL     *Connector;
   //to delete
-  struct AnalogixDpDevice *Dp;
+  //struct AnalogixDpDevice *Dp;
 
   Instance = LCD_INSTANCE_FROM_GOP_THIS (This);
 
@@ -638,23 +656,23 @@ LcdGraphicsSetMode (
                                  *Instance->ModeInfo.PixelsPerScanLine
                                  *GetBytesPerPixel (Bpp);
 
-  LIST_FOR_EACH_ENTRY(StateInterate, &mDisplayStateList, ListHead) {
-    if (StateInterate->ModeNumber == ModeNumber && StateInterate->IsEnable) {
-      Crtc = (ROCKCHIP_CRTC_PROTOCOL*)StateInterate->CrtcState.Crtc;
-      Connector = (ROCKCHIP_CONNECTOR_PROTOCOL *)StateInterate->ConnectorState.Connector;
+  LIST_FOR_EACH_ENTRY(StateIterate, &mDisplayStateList, ListHead) {
+    if (StateIterate->ModeNumber == ModeNumber && StateIterate->IsEnable) {
+      Crtc = (ROCKCHIP_CRTC_PROTOCOL*)StateIterate->CrtcState.Crtc;
+      Connector = (ROCKCHIP_CONNECTOR_PROTOCOL *)StateIterate->ConnectorState.Connector;
 
       if (Crtc && Crtc->SetPlane)
-        Crtc->SetPlane (Crtc, StateInterate);
+        Crtc->SetPlane (Crtc, StateIterate);
 
       if (Crtc && Crtc->Enable)
-        Crtc->Enable (Crtc, StateInterate);
+        Crtc->Enable (Crtc, StateIterate);
 
       if (Connector && Connector->Enable)
-        Connector->Enable (Connector, StateInterate);
+        Connector->Enable (Connector, StateIterate);
 
       //to delete
-      Dp = AllocatePool(sizeof(*Dp));
-      AnalogixDpConnectorEnable(StateInterate, Dp);
+      //Dp = AllocatePool(sizeof(*Dp));
+      //AnalogixDpConnectorEnable(StateIterate, Dp);
     }
   }
 
